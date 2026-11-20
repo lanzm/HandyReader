@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">随手读本 · HandyReader | 纯粹 · 开源 · 离线的极简英文名著物理翻卡精读微信小程序</title>
+  <meta name="description" id="page-desc" content="随手读本 (HandyReader) 是一款回归原著阅读本质的极简英文分段精读微信小程序。像刷短视频一样上下滑动翻卡，零商业广告、免登录注册、纯离线运行，内置多部公版世界传世经典。" />
+  <meta name="keywords" content="随手读本,HandyReader,英文阅读,双语阅读,分段精读,世界名著,公版文学,微信小程序,纯离线,零广告,开源阅读器" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" id="og-title" content="随手读本 · HandyReader - 极简开源英文名著物理翻卡精读小程序" />
+  <meta property="og:description" id="og-desc" content="像刷卡片一样读英文名著。开源 · 零广告 · 免登录 · 纯离线 · 打开即读。" />
+  <meta property="og:image" content="images/share-cover.jpg" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/logo-blue-white.svg" />
+  <link rel="alternate icon" type="image/png" href="images/logo-blue-white.png" />
+
+  <!-- 100% 免费商用字体 (OFL 协议): 思源宋体 (Noto Serif SC) + 思源黑体 (Noto Sans SC) + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Theme Init Script (Prevent Dark Mode Flash) -->
+  <script>
+    if (localStorage.getItem('handyreader_theme') === 'dark' || (!localStorage.getItem('handyreader_theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            paper: {
+              50: '#FDFDFC',
+              100: '#FAF9F5',
+              200: '#F4F2EC',
+              300: '#E9E6DE',
+              400: '#D6D2C6',
+              border: '#E7E4DC',
+            },
+            darkbg: {
+              DEFAULT: '#0E1015',
+              card: '#16181F',
+              surface: '#1E212A',
+              border: '#2A2E3B',
+              hover: '#242834',
+            },
+            ink: {
+              DEFAULT: '#18181A',
+              pure: '#0F0F10',
+              secondary: '#4A4A4F',
+              muted: '#71717A',
+              light: '#A1A1AA',
+            },
+            terracotta: {
+              500: '#C84B31',
+              600: '#B03A22',
+            },
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              500: '#2563EB',
+              600: '#1D4ED8',
+              900: '#1e3a8a',
+            }
+          },
+          fontFamily: {
+            serif: ['"Noto Serif SC"', 'Newsreader', '"Songti SC"', 'STSong', 'serif'],
+            sans: ['"Plus Jakarta Sans"', '"Noto Sans SC"', '-apple-system', 'BlinkMacSystemFont', '"PingFang SC"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+          },
+          boxShadow: {
+            'paper': '0 1px 3px rgba(30, 27, 24, 0.04), 0 8px 24px -4px rgba(30, 27, 24, 0.06)',
+            'paper-hover': '0 2px 6px rgba(30, 27, 24, 0.06), 0 16px 36px -6px rgba(30, 27, 24, 0.1)',
+            'card-lift': '0 1px 2px rgba(0,0,0,0.05), 0 20px 40px -15px rgba(28,25,23,0.12)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* 浅色日间纸感底纹（Warm Paper Atmosphere） */
+    body {
+      background-color: #FAF9F6;
+      background-image: radial-gradient(#E8E5DD 0.75px, transparent 0.75px);
+      background-size: 20px 20px;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    /* 深色暗夜黑曜石底纹（Dark Obsidian Atmosphere） */
+    html.dark body {
+      background-color: #0E1015;
+      background-image: radial-gradient(#1E222D 0.75px, transparent 0.75px);
+      background-size: 20px 20px;
+    }
+
+    /* 手工索引分割线 */
+    .index-rule {
+      background-image: linear-gradient(to right, transparent, rgba(113, 113, 122, 0.25) 20%, rgba(113, 113, 122, 0.25) 80%, transparent);
+    }
+    html.dark .index-rule {
+      background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.12) 20%, rgba(255, 255, 255, 0.12) 80%, transparent);
+    }
+  </style>
+</head>
+<body class="text-ink dark:text-slate-200 font-sans antialiased selection:bg-stone-200 dark:selection:bg-stone-700 selection:text-ink-pure min-h-screen flex flex-col">
+
+  <!-- Header / Minimalist Masthead -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#FAF9F6]/90 dark:bg-[#0E1015]/90 border-b border-paper-border dark:border-darkbg-border transition-colors">
+    <div class="max-w-5xl mx-auto px-4 sm:px-8 h-16 flex items-center justify-between">
+      
+      <!-- Logo + Brand Title (品牌名称固定，不随多语言改变) -->
+      <a href="#" class="flex items-center gap-2.5 sm:gap-3 group shrink-0">
+        <img src="images/logo-blue-white.svg" alt="HandyReader Logo" class="w-8 h-8 group-hover:scale-105 transition-transform" />
+        <div class="flex items-center gap-2">
+          <span class="font-serif font-bold text-base sm:text-lg tracking-tight text-ink-pure dark:text-white">
+            随手读本
+          </span>
+          <span class="font-sans text-[11px] text-ink-muted dark:text-stone-400 bg-paper-200 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border px-2 py-0.5 rounded-full font-medium hidden sm:inline">
+            HandyReader
+          </span>
+        </div>
+      </a>
+
+      <!-- Center Navigation (Desktop, 4 大模块导航) -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-ink-secondary dark:text-stone-400">
+        <a href="#philosophy" class="hover:text-ink-pure dark:hover:text-white transition" data-i18n="nav_philosophy">克制设计</a>
+        <a href="#classics" class="hover:text-ink-pure dark:hover:text-white transition" data-i18n="nav_classics">精选名著</a>
+        <a href="#contrast" class="hover:text-ink-pure dark:hover:text-white transition" data-i18n="nav_contrast">喧闹与纯粹</a>
+        <a href="BRAND.md" class="hover:text-ink-pure dark:hover:text-white transition" data-i18n="nav_brand">视觉规范</a>
+      </nav>
+
+      <!-- Right Action Controls (中英切换 + 黑白模式 + GitHub + 微信扫码) -->
+      <div class="flex items-center gap-1.5 sm:gap-2">
+        
+        <!-- 1. 中英切换按钮 (Language Toggle) -->
+        <button id="lang-btn" onclick="toggleLanguage()" title="切换语言 / Switch Language" aria-label="切换语言" 
+                class="h-9 px-2.5 flex items-center justify-center rounded-full bg-white dark:bg-darkbg-card hover:bg-paper-100 dark:hover:bg-darkbg-hover text-ink-pure dark:text-stone-200 border border-paper-border dark:border-darkbg-border shadow-sm text-xs font-mono font-semibold transition cursor-pointer">
+          <span id="lang-text">EN</span>
+        </button>
+
+        <!-- 2. 黑白模式切换按钮 (Dark / Light Theme Toggle) -->
+        <button id="theme-btn" onclick="toggleTheme()" title="切换深浅色 / Switch Theme" aria-label="切换黑白模式" 
+                class="w-9 h-9 flex items-center justify-center rounded-full bg-white dark:bg-darkbg-card hover:bg-paper-100 dark:hover:bg-darkbg-hover text-ink-pure dark:text-stone-200 border border-paper-border dark:border-darkbg-border shadow-sm transition cursor-pointer">
+          <!-- 太阳图标 (深色时显示) -->
+          <svg id="sun-icon" class="w-4 h-4 fill-current hidden dark:block" viewBox="0 0 24 24"><path d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z"/></svg>
+          <!-- 月亮图标 (浅色时显示) -->
+          <svg id="moon-icon" class="w-4 h-4 fill-current block dark:hidden" viewBox="0 0 24 24"><path d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 22 11.8995C21.4407 17.5759 16.669 22 10.8304 22C4.84886 22 0 17.1511 0 11.1696C0 5.33099 4.4241 0.559318 10.1005 0C8.80429 1.27101 8 3.04159 8 5C8 5.70014 8.10266 6.37632 8.29398 7.0142C8.83547 7.00475 9.40776 7 10 7Z"/></svg>
+        </button>
+
+        <!-- 3. GitHub 仓库按钮 -->
+        <a href="https://github.com/lanzm/HandyReader" target="_blank" rel="noopener noreferrer" 
+           title="在 GitHub 查看源码与点赞 (Star on GitHub)" aria-label="GitHub 仓库" 
+           class="w-9 h-9 flex items-center justify-center rounded-full bg-white dark:bg-darkbg-card hover:bg-paper-100 dark:hover:bg-darkbg-hover text-ink-secondary dark:text-stone-300 hover:text-ink-pure dark:hover:text-white border border-paper-border dark:border-darkbg-border shadow-sm transition">
+          <svg class="w-[18px] h-[18px] fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        
+        <!-- 4. 微信小程序跳转按钮 (平滑滚动到二维码) -->
+        <a href="#qrcode" title="微信扫码体验小程序" aria-label="微信扫码体验小程序"
+           class="w-9 h-9 flex items-center justify-center rounded-full bg-white dark:bg-darkbg-card hover:bg-paper-100 dark:hover:bg-darkbg-hover text-[#07C160] hover:text-[#06AD56] border border-paper-border dark:border-darkbg-border shadow-sm transition">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M8.691 2.188C3.891 2.188 0 5.478 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-5.522 2.658-6.983 1.378-.804 2.96-1.144 4.508-1.037-.803-3.79-4.22-6.608-7.967-6.608zm-2.42 4.195a1.206 1.206 0 1 1 0 2.412 1.206 1.206 0 0 1 0-2.412zm5.405 0a1.206 1.206 0 1 1 0 2.412 1.206 1.206 0 0 1 0-2.412zm4.185 3.864c-3.954 0-7.16 2.71-7.16 6.052 0 3.344 3.206 6.054 7.16 6.054.764 0 1.503-.105 2.197-.294a.715.715 0 0 1 .593.082l1.574.921a.27.27 0 0 0 .138.045c.133 0 .24-.11.24-.245 0-.06-.024-.118-.04-.176l-.323-1.224a.488.488 0 0 1 .176-.55c1.514-1.113 2.48-2.76 2.48-4.61 0-3.343-3.206-6.053-7.16-6.053zm-2.074 3.473a.998.998 0 1 1 0 1.996.998.998 0 0 1 0-1.996zm4.47 0a.998.998 0 1 1 0 1.996.998.998 0 0 1 0-1.996z"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1">
+
+    <!-- 1. Hero Section / 双机平铺真机展示 + 黄金转化区二维码卡片 -->
+    <section class="pt-12 pb-16 md:pt-20 md:pb-24">
+      <div class="max-w-5xl mx-auto px-4 sm:px-8">
+        
+        <!-- Top Editorial Category Pill -->
+        <div class="flex justify-center mb-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-stone-100 dark:bg-darkbg-card border border-stone-200/90 dark:border-darkbg-border text-xs font-sans text-ink-secondary dark:text-stone-300 tracking-wide">
+            <span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
+            <span data-i18n="hero_pill">开源 · 纯离线 · 零商业广告 · 开屏即读</span>
+          </div>
+        </div>
+
+        <!-- Big Editorial Headline -->
+        <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-14">
+          <h1 id="hero-title" class="text-3xl sm:text-5xl font-serif font-semibold tracking-tight text-ink-pure dark:text-white leading-[1.25] mb-5" data-i18n="hero_title">
+            回归原著阅读本质，<br />
+            <span class="font-serif font-normal text-stone-600 dark:text-stone-400">像刷卡片一样读英文名著。</span>
+          </h1>
+          <p id="hero-sub" class="text-sm sm:text-base text-ink-secondary dark:text-stone-400 max-w-2xl mx-auto leading-relaxed font-sans" data-i18n="hero_sub">
+            告别冗长排版与打断心流的生词弹窗。<br class="hidden sm:block"/>
+            段落级物理堆叠翻页，多部传世经典全部本地内置，随时随地开启沉浸式精读心流。
+          </p>
+        </div>
+
+        <!-- Side-by-Side Dual Titanium Devices (双机平铺实录展示) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-14 items-center justify-center max-w-3xl mx-auto mb-12">
+          
+          <!-- Device 1: 物理翻卡精读 -->
+          <div class="flex flex-col items-center">
+            <div class="relative w-full max-w-[280px]">
+              
+              <!-- Ambient Shadow -->
+              <div class="absolute -inset-2 bg-stone-300/40 dark:bg-black/60 rounded-[2.8rem] blur-xl -z-10"></div>
+
+              <!-- Refined Titanium Device Frame -->
+              <div class="bg-[#F3F2ED] dark:bg-darkbg-card p-3 rounded-[2.8rem] border border-stone-300/80 dark:border-darkbg-border shadow-card-lift">
+                <!-- Inner Screen Container -->
+                <div class="overflow-hidden rounded-[2.1rem] bg-black shadow-inner aspect-[280/603]">
+                  <img src="images/demo-read.gif" alt="随手读本 真实物理翻卡精读与查词实录" class="w-full h-full object-cover block" />
+                </div>
+              </div>
+
+              <!-- Caption -->
+              <div class="text-center mt-3 text-xs text-ink-muted dark:text-stone-400 font-sans flex items-center justify-center gap-1.5">
+                <span class="text-stone-400 dark:text-stone-600">❖</span>
+                <span data-i18n="hero_dev1_caption">物理翻卡 · 即时查词与折叠双语</span>
+                <span class="text-stone-400 dark:text-stone-600">❖</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Device 2: 3D 立体书架 -->
+          <div class="flex flex-col items-center">
+            <div class="relative w-full max-w-[280px]">
+              
+              <!-- Ambient Shadow -->
+              <div class="absolute -inset-2 bg-stone-300/40 dark:bg-black/60 rounded-[2.8rem] blur-xl -z-10"></div>
+
+              <!-- Refined Titanium Device Frame -->
+              <div class="bg-[#F3F2ED] dark:bg-darkbg-card p-3 rounded-[2.8rem] border border-stone-300/80 dark:border-darkbg-border shadow-card-lift">
+                <!-- Inner Screen Container -->
+                <div class="overflow-hidden rounded-[2.1rem] bg-black shadow-inner aspect-[280/603]">
+                  <img src="images/demo-bookshelf.gif" alt="随手读本 3D立体书架与护眼主题实录" class="w-full h-full object-cover block" />
+                </div>
+              </div>
+
+              <!-- Caption -->
+              <div class="text-center mt-3 text-xs text-ink-muted dark:text-stone-400 font-sans flex items-center justify-center gap-1.5">
+                <span class="text-stone-400 dark:text-stone-600">❖</span>
+                <span data-i18n="hero_dev2_caption">3D 立体书架 · 纸感护眼主题</span>
+                <span class="text-stone-400 dark:text-stone-600">❖</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- QR Code Card / 黄金接入区（紧跟在双机正下方，不在最底部） -->
+        <div id="qrcode" class="max-w-2xl mx-auto">
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-3xl p-6 sm:p-7 shadow-paper dark:shadow-none flex flex-col sm:flex-row items-center gap-6 group hover:shadow-paper-hover transition-all">
+            
+            <!-- High-res QR Code Stamp -->
+            <div class="p-3 bg-paper-100 dark:bg-white rounded-2xl border border-paper-border dark:border-stone-200 shrink-0 shadow-sm group-hover:scale-[1.02] transition-transform">
+              <img src="images/wechat-mp-qrcode.jpg" alt="随手读本 微信小程序码" class="w-32 h-32 sm:w-36 sm:h-36 rounded-xl object-contain block mix-blend-multiply" />
+            </div>
+
+            <!-- Content & Actions -->
+            <div class="flex-1 text-center sm:text-left">
+              <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 text-[11px] font-sans font-medium mb-2 border border-emerald-200 dark:border-emerald-900">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span data-i18n="card_pill">微信扫码 · 即开即读</span>
+              </div>
+              <h3 class="text-lg sm:text-xl font-serif font-semibold text-ink-pure dark:text-white mb-1.5" data-i18n="card_title">随手读本 · 微信小程序</h3>
+              <p class="text-xs sm:text-sm text-ink-secondary dark:text-stone-400 leading-relaxed font-sans mb-3.5" data-i18n="card_desc">
+                微信扫一扫，随时随地开启名著精读心流。<br/>
+                零商业广告 · 免登录注册 · 纯离线多部传世名著支持
+              </p>
+
+              <!-- Badges -->
+              <div class="flex flex-wrap items-center justify-center sm:justify-start gap-3 text-xs text-ink-muted dark:text-stone-400 font-mono">
+                <span data-i18n="badge_size">0.62MB 主包</span>
+                <span>•</span>
+                <span data-i18n="badge_classics">多部文学经典</span>
+                <span>•</span>
+                <span data-i18n="badge_offline">纯离线运行</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Index Divider -->
+    <div class="max-w-4xl mx-auto h-px index-rule my-6"></div>
+
+    <!-- 2. Philosophy Section / 为专注心流而生的 6 项克制设计 (#philosophy) -->
+    <section id="philosophy" class="py-16 md:py-20">
+      <div class="max-w-5xl mx-auto px-4 sm:px-8">
+        
+        <!-- Section Header -->
+        <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
+          <span class="text-xs font-mono uppercase tracking-widest text-brand-600 dark:text-blue-400 font-semibold mb-2 block" data-i18n="philo_kicker">Designed with Restraint</span>
+          <h2 class="text-2xl sm:text-3xl font-serif font-semibold text-ink-pure dark:text-white tracking-tight" data-i18n="philo_title">为专注心流而生的 6 项克制设计</h2>
+          <p class="text-sm text-ink-secondary dark:text-stone-400 mt-2.5 font-sans" data-i18n="philo_sub">除去一切喧闹与功利，还给你原本沉静的阅读环境。</p>
+        </div>
+
+        <!-- 6 Refined Editorial Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+          
+          <!-- Card 1 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border p-6 rounded-2xl shadow-paper dark:shadow-none hover:shadow-paper-hover transition-all">
+            <div class="text-xs font-mono text-brand-600 dark:text-blue-400 font-bold mb-3" data-i18n="f1_tag">01 / 指尖翻卡流</div>
+            <h3 class="text-base sm:text-lg font-serif font-semibold text-ink-pure dark:text-white mb-2" data-i18n="f1_title">段落堆叠，极度顺滑</h3>
+            <p class="text-xs sm:text-sm text-ink-secondary dark:text-stone-400 leading-relaxed font-sans" data-i18n="f1_desc">
+              段落级卡片物理堆叠翻页，向上滑动顺滑切入下一段，向下滑动翻回上一段，像刷短视频一样无压力读完大部头。
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border p-6 rounded-2xl shadow-paper dark:shadow-none hover:shadow-paper-hover transition-all">
+            <div class="text-xs font-mono text-brand-600 dark:text-blue-400 font-bold mb-3" data-i18n="f2_tag">02 / 即时生词查词</div>
+            <h3 class="text-base sm:text-lg font-serif font-semibold text-ink-pure dark:text-white mb-2" data-i18n="f2_title">原位气泡，绝不打扰</h3>
+            <p class="text-xs sm:text-sm text-ink-secondary dark:text-stone-400 leading-relaxed font-sans" data-i18n="f2_desc">
+              轻点正文任意生词瞬间弹出轻量气泡，包含当前语境释义与真人原声音频发音，告别打断沉浸感的大弹窗。
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border p-6 rounded-2xl shadow-paper dark:shadow-none hover:shadow-paper-hover transition-all">
+            <div class="text-xs font-mono text-brand-600 dark:text-blue-400 font-bold mb-3" data-i18n="f3_tag">03 / 地道双语折叠</div>
+            <h3 class="text-base sm:text-lg font-serif font-semibold text-ink-pure dark:text-white mb-2" data-i18n="f3_title">段落级中英精准对照</h3>
+            <p class="text-xs sm:text-sm text-ink-secondary dark:text-stone-400 leading-relaxed font-sans" data-i18n="f3_desc">
+              段落级精准双语对照，一键平滑展开/收起精校地道人工译文，扫除阅读理解死角，不破坏英语思维。
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border p-6 rounded-2xl shadow-paper dark:shadow-none hover:shadow-paper-hover transition-all">
+            <div class="text-xs font-mono text-brand-600 dark:text-blue-400 font-bold mb-3" data-i18n="f4_tag">04 / 纸感护眼</div>
+            <h3 class="text-base sm:text-lg font-serif font-semibold text-ink-pure dark:text-white mb-2" data-i18n="f4_title">四款经典纸质主题</h3>
+            <p class="text-xs sm:text-sm text-ink-secondary dark:text-stone-400 leading-relaxed font-sans" data-i18n="f4_desc">
+              纯净暖白、温润羊皮纸、沉浸墨黑、柔和米青，搭配多档字号与行距缩放，长时间阅读温和不刺眼。
+            </p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border p-6 rounded-2xl shadow-paper dark:shadow-none hover:shadow-paper-hover transition-all">
+            <div class="text-xs font-mono text-brand-600 dark:text-blue-400 font-bold mb-3" data-i18n="f5_tag">05 / 完读仪式感</div>
+            <h3 class="text-base sm:text-lg font-serif font-semibold text-ink-pure dark:text-white mb-2" data-i18n="f5_title">完读成就卡（第 N+1 张）</h3>
+            <p class="text-xs sm:text-sm text-ink-secondary dark:text-stone-400 leading-relaxed font-sans" data-i18n="f5_desc">
+              全篇读完时，实体完读卡片伴随震动与立体翻卡动效飞入中央，展示 3D 书封与阅读指标，可一键分享好友。
+            </p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border p-6 rounded-2xl shadow-paper dark:shadow-none hover:shadow-paper-hover transition-all">
+            <div class="text-xs font-mono text-brand-600 dark:text-blue-400 font-bold mb-3" data-i18n="f6_tag">06 / 极致性能</div>
+            <h3 class="text-base sm:text-lg font-serif font-semibold text-ink-pure dark:text-white mb-2" data-i18n="f6_title">0.62MB 纯离线秒开</h3>
+            <p class="text-xs sm:text-sm text-ink-secondary dark:text-stone-400 leading-relaxed font-sans" data-i18n="f6_desc">
+              多部名著打包后总体积仅 0.62 MB（远低于微信 2MB 限制），首屏毫秒级冷启动，飞行模式断网照常畅读。
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. Classics Section / 典藏世界公版名著 (#vocab) -->
+    <section id="classics" class="py-16 md:py-20 bg-paper-100 dark:bg-darkbg-surface/50 border-y border-paper-border dark:border-darkbg-border transition-colors">
+      <div class="max-w-5xl mx-auto px-4 sm:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-14">
+          <span class="text-xs font-mono uppercase tracking-widest text-ink-muted dark:text-stone-400 font-semibold mb-2 block" data-i18n="book_kicker">Public Domain Editions</span>
+          <h2 class="text-2xl sm:text-3xl font-serif font-semibold text-ink-pure dark:text-white tracking-tight" data-i18n="book_title">精选多部世界文学经典 · 本地直装</h2>
+          <p class="text-sm text-ink-secondary dark:text-stone-400 mt-2.5 font-sans" data-i18n="book_sub">全部打包内置在小程序中，无需联网下载，开箱即读。</p>
+        </div>
+
+        <div class="space-y-6">
+          
+          <!-- Tier 1: 入门级 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl p-6 shadow-paper dark:shadow-none">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4 pb-3 border-b border-paper-border dark:border-darkbg-border">
+              <div class="flex items-center gap-2.5">
+                <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+                <h3 class="font-serif font-bold text-base text-ink-pure dark:text-white" data-i18n="tier1_title">🟢 入门级 · 简易童话与短篇寓言</h3>
+              </div>
+              <span class="text-xs font-mono text-ink-muted dark:text-stone-400" data-i18n="tier1_sub">1,100 ~ 2,400 词 · 初高中/四级基础</span>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 text-xs">
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_match_girl">卖火柴的小女孩</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_andersen">安徒生</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_happy_prince">快乐王子</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_wilde">王尔德</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_selfish_giant">自私的巨人</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_wilde">王尔德</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_nightingale">夜莺与玫瑰</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_wilde">王尔德</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_tin_soldier">小锡兵</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_andersen">安徒生</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_new_clothes">皇帝的新装</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_andersen">安徒生</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tier 2: 进阶级 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl p-6 shadow-paper dark:shadow-none">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4 pb-3 border-b border-paper-border dark:border-darkbg-border">
+              <div class="flex items-center gap-2.5">
+                <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+                <h3 class="font-serif font-bold text-base text-ink-pure dark:text-white" data-i18n="tier2_title">🟡 进阶级 · 讽刺反转与心理惊悚</h3>
+              </div>
+              <span class="text-xs font-mono text-ink-muted dark:text-stone-400" data-i18n="tier2_sub">1,300 ~ 4,800 词 · 四六级/考研</span>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 text-xs">
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_magi">麦琪的礼物</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_ohenry">欧·亨利</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_last_leaf">最后一片叶子</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_ohenry">欧·亨利</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_cop_anthem">警察与赞美诗</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_ohenry">欧·亨利</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_after_20_years">二十年后</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_ohenry">欧·亨利</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_red_headed">红发会</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_doyle">柯南·道尔</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_telltale_heart">泄密的心</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_poe">爱伦·坡</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_black_cat">黑猫</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_poe">爱伦·坡</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_necklace">项链</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_maupassant">莫泊桑</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_blind_man">盲阿达姆</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_maupassant">莫泊桑</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_clerk_death">一个小公务员之死</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_chekhov">契诃夫</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tier 3: 挑战级 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl p-6 shadow-paper dark:shadow-none">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4 pb-3 border-b border-paper-border dark:border-darkbg-border">
+              <div class="flex items-center gap-2.5">
+                <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+                <h3 class="font-serif font-bold text-base text-ink-pure dark:text-white" data-i18n="tier3_title">🔴 挑战级 · 中篇名著与心理哲学</h3>
+              </div>
+              <span class="text-xs font-mono text-ink-muted dark:text-stone-400" data-i18n="tier3_sub">7,200 ~ 25,500 词 · 六级+/托福雅思</span>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 text-xs">
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_scandal">波希米亚丑闻</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_doyle">柯南·道尔</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_metamorphosis">变形记</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_kafka">卡夫卡</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_jekyll">化身博士</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_stevenson">斯蒂文森</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_banknote">百万英镑</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_twain">马克·吐温</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_benjamin">返老还童</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_fitzgerald">菲茨杰拉德</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_bartleby">抄写员巴特比</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_melville">麦尔维尔</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_wallpaper">黄色壁纸</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_gilman">吉尔曼</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_red_death">红死病的假面</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_poe">爱伦·坡</p>
+              </div>
+              <div class="p-3 rounded-xl bg-paper-100 dark:bg-darkbg-surface border border-paper-border dark:border-darkbg-border text-center">
+                <p class="font-serif font-semibold text-ink-pure dark:text-white truncate" data-i18n="book_hop_frog">跳蛙</p>
+                <p class="text-[11px] text-ink-muted dark:text-stone-400 mt-0.5 truncate" data-i18n="author_poe">爱伦·坡</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. Contrast Section / 喧闹与沉静的对比 (#contrast) -->
+    <section id="contrast" class="py-16 md:py-20">
+      <div class="max-w-4xl mx-auto px-4 sm:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-14">
+          <span class="text-xs font-mono uppercase tracking-widest text-ink-muted dark:text-stone-400 font-semibold mb-2 block" data-i18n="contrast_kicker">A Quiet Choice</span>
+          <h2 class="text-2xl sm:text-3xl font-serif font-semibold text-ink-pure dark:text-white tracking-tight" data-i18n="contrast_title">为什么选择「随手读本」？</h2>
+          <p class="text-sm text-ink-muted dark:text-stone-400 mt-2.5 font-sans" data-i18n="contrast_sub">少一点商业干扰，多一点真正读进心里的名著。</p>
+        </div>
+
+        <!-- 3 列表格 (极简风格) -->
+        <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl shadow-paper dark:shadow-none overflow-hidden text-xs sm:text-sm">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="border-b border-paper-border dark:border-darkbg-border bg-paper-100 dark:bg-darkbg-surface text-xs font-mono text-ink-muted dark:text-stone-400 uppercase tracking-wider">
+                <th class="py-4 px-6 font-semibold" data-i18n="th_dimension">体验维度</th>
+                <th class="py-4 px-6 text-brand-600 dark:text-blue-400 font-serif font-bold text-sm sm:text-base" data-i18n="th_handyreader">随手读本 (HandyReader)</th>
+                <th class="py-4 px-6 text-stone-400 dark:text-stone-500 font-normal" data-i18n="th_traditional">传统商业阅读 App</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-paper-border dark:divide-darkbg-border text-ink-secondary dark:text-stone-300 font-sans">
+              <tr class="hover:bg-paper-50 dark:hover:bg-darkbg-hover transition-colors">
+                <td class="py-4 px-6 font-medium text-ink-pure dark:text-white" data-i18n="c1_name">开屏体验</td>
+                <td class="py-4 px-6 text-emerald-700 dark:text-emerald-400 font-semibold flex items-center gap-1.5">
+                  <span class="text-emerald-600 font-bold">✓</span> <span data-i18n="c1_good">0秒开屏即读，纯粹沉浸</span>
+                </td>
+                <td class="py-4 px-6 text-stone-400 dark:text-stone-400" data-i18n="c1_bad">5 秒开屏商业广告、弹窗引流不断</td>
+              </tr>
+              <tr class="hover:bg-paper-50 dark:hover:bg-darkbg-hover transition-colors">
+                <td class="py-4 px-6 font-medium text-ink-pure dark:text-white" data-i18n="c2_name">隐私授权</td>
+                <td class="py-4 px-6 text-emerald-700 dark:text-emerald-400 font-semibold">
+                  <span class="text-emerald-600 font-bold">✓</span> <span data-i18n="c2_good">免登录、免注册，开箱即用</span>
+                </td>
+                <td class="py-4 px-6 text-stone-400 dark:text-stone-400" data-i18n="c2_bad">强制手机号验证码、读取设备信息</td>
+              </tr>
+              <tr class="hover:bg-paper-50 dark:hover:bg-darkbg-hover transition-colors">
+                <td class="py-4 px-6 font-medium text-ink-pure dark:text-white" data-i18n="c3_name">离线能力</td>
+                <td class="py-4 px-6 text-emerald-700 dark:text-emerald-400 font-semibold">
+                  <span class="text-emerald-600 font-bold">✓</span> <span data-i18n="c3_good">多部名著全打包，飞行模式畅读</span>
+                </td>
+                <td class="py-4 px-6 text-stone-400 dark:text-stone-400" data-i18n="c3_bad">强依赖服务器章节加载，断网报错</td>
+              </tr>
+              <tr class="hover:bg-paper-50 dark:hover:bg-darkbg-hover transition-colors">
+                <td class="py-4 px-6 font-medium text-ink-pure dark:text-white" data-i18n="c4_name">查词体验</td>
+                <td class="py-4 px-6 text-emerald-700 dark:text-emerald-400 font-semibold">
+                  <span class="text-emerald-600 font-bold">✓</span> <span data-i18n="c4_good">原位轻气泡 + 真人原声发音</span>
+                </td>
+                <td class="py-4 px-6 text-stone-400 dark:text-stone-400" data-i18n="c4_bad">跳转巨型弹窗，严重打断阅读心流</td>
+              </tr>
+              <tr class="hover:bg-paper-50 dark:hover:bg-darkbg-hover transition-colors">
+                <td class="py-4 px-6 font-medium text-ink-pure dark:text-white" data-i18n="c5_name">应用体积</td>
+                <td class="py-4 px-6 text-emerald-700 dark:text-emerald-400 font-semibold">
+                  <span class="text-emerald-600 font-bold">✓</span> <span data-i18n="c5_good">主包仅 0.62MB，即开即读</span>
+                </td>
+                <td class="py-4 px-6 text-stone-400 dark:text-stone-400" data-i18n="c5_bad">按章付费 / 会员连续订阅收费</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. Bottom Call-out / 实体行动卡 (行动卡) -->
+    <section class="py-16 bg-paper-100 dark:bg-darkbg-surface/50 border-t border-paper-border dark:border-darkbg-border text-center transition-colors">
+      <div class="max-w-2xl mx-auto px-4 sm:px-8">
+        <h3 class="text-2xl sm:text-3xl font-serif font-semibold text-ink-pure dark:text-white mb-3" data-i18n="cta_title">开启你的沉浸名著精读之旅</h3>
+        <p class="text-sm text-ink-secondary dark:text-stone-400 mb-8 font-sans" data-i18n="cta_sub">像翻阅一本精美的口袋典籍，在碎片时间里读完传世经典。</p>
+        
+        <div class="inline-flex flex-col sm:flex-row items-center justify-center gap-3 w-full">
+          <a href="#qrcode" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#07C160] hover:bg-[#06AD56] text-white font-medium px-6 py-2.5 rounded-xl shadow-paper hover:shadow-paper-hover transition-all text-sm">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8.691 2.188C3.891 2.188 0 5.478 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-5.522 2.658-6.983 1.378-.804 2.96-1.144 4.508-1.037-.803-3.79-4.22-6.608-7.967-6.608zm-2.42 4.195a1.206 1.206 0 1 1 0 2.412 1.206 1.206 0 0 1 0-2.412zm5.405 0a1.206 1.206 0 1 1 0 2.412 1.206 1.206 0 0 1 0-2.412zm4.185 3.864c-3.954 0-7.16 2.71-7.16 6.052 0 3.344 3.206 6.054 7.16 6.054.764 0 1.503-.105 2.197-.294a.715.715 0 0 1 .593.082l1.574.921a.27.27 0 0 0 .138.045c.133 0 .24-.11.24-.245 0-.06-.024-.118-.04-.176l-.323-1.224a.488.488 0 0 1 .176-.55c1.514-1.113 2.48-2.76 2.48-4.61 0-3.343-3.206-6.053-7.16-6.053zm-2.074 3.473a.998.998 0 1 1 0 1.996.998.998 0 0 1 0-1.996zm4.47 0a.998.998 0 1 1 0 1.996.998.998 0 0 1 0-1.996z"/></svg>
+            <span data-i18n="cta_scan">前往微信扫码直达</span>
+          </a>
+          <a href="https://github.com/lanzm/HandyReader" target="_blank" rel="noopener noreferrer" 
+             class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white dark:bg-darkbg-card hover:bg-paper-50 dark:hover:bg-darkbg-hover text-ink-pure dark:text-stone-200 font-medium px-6 py-2.5 rounded-xl border border-paper-border dark:border-darkbg-border shadow-sm transition text-sm">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>Star on GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 6. Colophon / Footer -->
+  <footer class="border-t border-paper-border dark:border-darkbg-border py-8 bg-[#F4F2EC] dark:bg-[#0A0C0F] text-xs text-ink-muted dark:text-stone-500 transition-colors">
+    <div class="max-w-5xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2 font-serif text-center sm:text-left">
+        <img src="images/logo-blue-white.svg" alt="Logo" class="w-5 h-5 shrink-0" />
+        <span>随手读本 · HandyReader © 2026 lanzm. <span data-i18n="footer_license">遵循</span> <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh" target="_blank" rel="noopener noreferrer" class="hover:underline text-ink-pure dark:text-stone-300">CC BY-NC 4.0</a> <span data-i18n="footer_open">协议开源 · 公版文学文本.</span></span>
+      </div>
+      <div class="flex items-center gap-6 font-sans font-medium text-ink-secondary dark:text-stone-400">
+        <a href="BRAND.md" class="hover:text-ink-pure dark:hover:text-white transition" data-i18n="footer_brand">品牌设计资产</a>
+        <a href="https://github.com/lanzm/HandyReader" target="_blank" rel="noopener noreferrer" class="hover:text-ink-pure dark:hover:text-white transition" data-i18n="footer_repo">GitHub 仓库</a>
+        <a href="#qrcode" class="hover:text-ink-pure dark:hover:text-white transition" data-i18n="footer_app">小程序体验</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Theme & Language Switch Script -->
+  <script>
+    // 1. Theme Toggle Logic
+    function toggleTheme() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('handyreader_theme', isDark ? 'dark' : 'light');
+    }
+
+    // 2. Complete i18n Dictionary
+    let currentLang = 'zh';
+    const translations = {
+      zh: {
+        page_title: "随手读本 · HandyReader | 纯粹 · 开源 · 离线的极简英文名著物理翻卡精读微信小程序",
+        nav_philosophy: "克制设计",
+        nav_classics: "精选名著",
+        nav_contrast: "喧闹与纯粹",
+        nav_brand: "视觉规范",
+
+        hero_pill: "开源 · 纯离线 · 零商业广告 · 开屏即读",
+        hero_title: "回归原著阅读本质，<br /><span class=\"font-serif font-normal text-stone-600 dark:text-stone-400\">像刷卡片一样读英文名著。</span>",
+        hero_sub: "告别冗长排版与打断心流的生词弹窗。<br class=\"hidden sm:block\"/>段落级物理堆叠翻页，多部传世经典全部本地内置，随时随地开启沉浸式精读心流。",
+        hero_dev1_caption: "物理翻卡 · 即时查词与折叠双语",
+        hero_dev2_caption: "3D 立体书架 · 纸感护眼主题",
+
+        card_pill: "微信扫码 · 即开即读",
+        card_title: "随手读本 · 微信小程序",
+        card_desc: "微信扫一扫，随时随地开启名著精读心流。<br/>零商业广告 · 免登录注册 · 纯离线多部传世名著支持",
+        badge_size: "0.62MB 主包",
+        badge_classics: "多部文学经典",
+        badge_offline: "纯离线运行",
+
+        philo_kicker: "Designed with Restraint",
+        philo_title: "为专注心流而生的 6 项克制设计",
+        philo_sub: "除去一切喧闹与功利，还给你原本沉静的阅读环境。",
+        f1_tag: "01 / 指尖翻卡流",
+        f1_title: "段落堆叠，极度顺滑",
+        f1_desc: "段落级卡片物理堆叠翻页，向上滑动顺滑切入下一段，向下滑动翻回上一段，像刷短视频一样无压力读完大部头。",
+        f2_tag: "02 / 即时生词查词",
+        f2_title: "原位气泡，绝不打扰",
+        f2_desc: "轻点正文任意生词瞬间弹出轻量气泡，包含当前语境释义与真人原声音频发音，告别打断沉浸感的大弹窗。",
+        f3_tag: "03 / 地道双语折叠",
+        f3_title: "段落级中英精准对照",
+        f3_desc: "段落级精准双语对照，一键平滑展开/收起精校地道人工译文，扫除阅读理解死角，不破坏英语思维。",
+        f4_tag: "04 / 纸感护眼",
+        f4_title: "四款经典纸质主题",
+        f4_desc: "纯净暖白、温润羊皮纸、沉浸墨黑、柔和米青，搭配多档字号与行距缩放，长时间阅读温和不刺眼。",
+        f5_tag: "05 / 完读仪式感",
+        f5_title: "完读成就卡（第 N+1 张）",
+        f5_desc: "全篇读完时，实体完读卡片伴随震动与立体翻卡动效飞入中央，展示 3D 书封与阅读指标，可一键分享好友。",
+        f6_tag: "06 / 极致性能",
+        f6_title: "0.62MB 纯离线秒开",
+        f6_desc: "多部名著打包后总体积仅 0.62 MB（远低于微信 2MB 限制），首屏毫秒级冷启动，飞行模式断网照常畅读。",
+
+        book_kicker: "Public Domain Editions",
+        book_title: "精选多部世界文学经典 · 本地直装",
+        book_sub: "全部打包内置在小程序中，无需联网下载，开箱即读。",
+        tier1_title: "🟢 入门级 · 简易童话与短篇寓言",
+        tier1_sub: "1,100 ~ 2,400 词 · 初高中/四级基础",
+        tier2_title: "🟡 进阶级 · 讽刺反转与心理惊悚",
+        tier2_sub: "1,300 ~ 4,800 词 · 四六级/考研",
+        tier3_title: "🔴 挑战级 · 中篇名著与心理哲学",
+        tier3_sub: "7,200 ~ 25,500 词 · 六级+/托福雅思",
+
+        book_match_girl: "卖火柴的小女孩",
+        book_happy_prince: "快乐王子",
+        book_selfish_giant: "自私的巨人",
+        book_nightingale: "夜莺与玫瑰",
+        book_tin_soldier: "小锡兵",
+        book_new_clothes: "皇帝的新装",
+        book_magi: "麦琪的礼物",
+        book_last_leaf: "最后一片叶子",
+        book_cop_anthem: "警察与赞美诗",
+        book_after_20_years: "二十年后",
+        book_red_headed: "红发会",
+        book_telltale_heart: "泄密的心",
+        book_black_cat: "黑猫",
+        book_necklace: "项链",
+        book_blind_man: "盲阿达姆",
+        book_clerk_death: "一个小公务员之死",
+        book_scandal: "波希米亚丑闻",
+        book_metamorphosis: "变形记",
+        book_jekyll: "化身博士",
+        book_banknote: "百万英镑",
+        book_benjamin: "返老还童",
+        book_bartleby: "抄写员巴特比",
+        book_wallpaper: "黄色壁纸",
+        book_red_death: "红死病的假面",
+        book_hop_frog: "跳蛙",
+
+        author_andersen: "安徒生",
+        author_wilde: "王尔德",
+        author_ohenry: "欧·亨利",
+        author_doyle: "柯南·道尔",
+        author_poe: "爱伦·坡",
+        author_maupassant: "莫泊桑",
+        author_chekhov: "契诃夫",
+        author_kafka: "卡夫卡",
+        author_stevenson: "斯蒂文森",
+        author_twain: "马克·吐温",
+        author_fitzgerald: "菲茨杰拉德",
+        author_melville: "麦尔维尔",
+        author_gilman: "吉尔曼",
+
+        contrast_kicker: "A Quiet Choice",
+        contrast_title: "为什么选择「随手读本」？",
+        contrast_sub: "少一点商业干扰，多一点真正读进心里的名著。",
+        th_dimension: "体验维度",
+        th_handyreader: "随手读本 (HandyReader)",
+        th_traditional: "传统商业阅读 App",
+        c1_name: "开屏体验",
+        c1_good: "0秒开屏即读，纯粹沉浸",
+        c1_bad: "5 秒开屏商业广告、弹窗引流不断",
+        c2_name: "隐私授权",
+        c2_good: "免登录、免注册，开箱即用",
+        c2_bad: "强制手机号验证码、读取设备信息",
+        c3_name: "离线能力",
+        c3_good: "多部名著全打包，飞行模式畅读",
+        c3_bad: "强依赖服务器章节加载，断网报错",
+        c4_name: "查词体验",
+        c4_good: "原位轻气泡 + 真人原声发音",
+        c4_bad: "跳转巨型弹窗，严重打断阅读心流",
+        c5_name: "应用体积",
+        c5_good: "主包仅 0.62MB，即开即读",
+        c5_bad: "按章付费 / 会员连续订阅收费",
+
+        cta_title: "开启你的沉浸名著精读之旅",
+        cta_sub: "像翻阅一本精美的口袋典籍，在碎片时间里读完传世经典。",
+        cta_scan: "前往微信扫码直达",
+
+        footer_license: "遵循",
+        footer_open: "协议开源 · 公版文学文本.",
+        footer_brand: "品牌设计资产",
+        footer_repo: "GitHub 仓库",
+        footer_app: "小程序体验"
+      },
+      en: {
+        page_title: "HandyReader | Pure, Open-Source, Offline Physical Card-Stacking Reader",
+        nav_philosophy: "Philosophy",
+        nav_classics: "Classics",
+        nav_contrast: "Contrast",
+        nav_brand: "Brand",
+
+        hero_pill: "Open Source · 100% Offline · Zero Ads · Instant Reading",
+        hero_title: "Rediscover Literary Reading,<br /><span class=\"font-serif font-normal text-stone-600 dark:text-stone-400\">Swiping Classic Novels Like Cards.</span>",
+        hero_sub: "Say goodbye to overwhelming paragraphs and intrusive dictionary popups.<br class=\"hidden sm:block\"/>Physical paragraph card-stacking with curated public-domain classics built in.",
+        hero_dev1_caption: "Physical Deck & Vocab Popover",
+        hero_dev2_caption: "3D Bookshelf & Paper Themes",
+
+        card_pill: "WeChat Scan · Instant Access",
+        card_title: "HandyReader · WeChat Mini-Program",
+        card_desc: "Scan with WeChat to read timeless classics on the go.<br/>Zero Commercial Ads · No Sign-up · 100% Pure Offline",
+        badge_size: "0.62MB Package",
+        badge_classics: "Curated Classics",
+        badge_offline: "100% Offline",
+
+        philo_kicker: "Designed with Restraint",
+        philo_title: "6 Design Principles for Reading Flow",
+        philo_sub: "Stripping away noise and commercial clutter to restore your tranquil reading space.",
+        f1_tag: "01 / Physical Deck",
+        f1_title: "Tactile Paragraph Swiping",
+        f1_desc: "Paragraph-level card stacking. Swipe up for the next paragraph, swipe down to return. Read monumental classics as effortlessly as short videos.",
+        f2_tag: "02 / Instant Vocab",
+        f2_title: "Unobtrusive Word Popover",
+        f2_desc: "Tap any word to instantly reveal a sleek bubble with context definitions and natural audio, never interrupting your reading flow.",
+        f3_tag: "03 / Bilingual Folding",
+        f3_title: "Paragraph Bilingual Alignment",
+        f3_desc: "Accurate paragraph-level bilingual alignment. Seamlessly expand/collapse authentic human translations without hindering English immersion.",
+        f4_tag: "04 / Paper Aesthetics",
+        f4_title: "4 Eye-Care Paper Themes",
+        f4_desc: "Clean Light, Parchment, Midnight Dark, and Soft Celadon. Paired with dynamic font sizing for gentle, eye-friendly prolonged reading.",
+        f5_tag: "05 / Tactile Finish",
+        f5_title: "Achievement Card (Card N+1)",
+        f5_desc: "Upon finishing a novel, a tactile achievement card swoops in with haptic feedback, presenting 3D cover art and reading stats.",
+        f6_tag: "06 / Peak Performance",
+        f6_title: "0.62MB Instant Offline Start",
+        f6_desc: "All classics bundled in just 0.62 MB (far below WeChat's 2MB limit). Millisecond cold start, fully accessible even in airplane mode.",
+
+        book_kicker: "Public Domain Editions",
+        book_title: "Curated World Literary Classics · Bundled Locally",
+        book_sub: "Fully packed inside the mini-program, zero downloads required, ready to read.",
+        tier1_title: "🟢 Beginner Tier · Fables & Fairy Tales",
+        tier1_sub: "1,100 ~ 2,400 words · Foundation",
+        tier2_title: "🟡 Intermediate Tier · Irony & Suspense",
+        tier2_sub: "1,300 ~ 4,800 words · Intermediate",
+        tier3_title: "🔴 Advanced Tier · Novellas & Philosophy",
+        tier3_sub: "7,200 ~ 25,500 words · Advanced / TOEFL / IELTS",
+
+        book_match_girl: "The Little Match Girl",
+        book_happy_prince: "The Happy Prince",
+        book_selfish_giant: "The Selfish Giant",
+        book_nightingale: "The Nightingale and the Rose",
+        book_tin_soldier: "The Steadfast Tin Soldier",
+        book_new_clothes: "The Emperor's New Clothes",
+        book_magi: "The Gift of the Magi",
+        book_last_leaf: "The Last Leaf",
+        book_cop_anthem: "The Cop and the Anthem",
+        book_after_20_years: "After Twenty Years",
+        book_red_headed: "The Red-Headed League",
+        book_telltale_heart: "The Tell-Tale Heart",
+        book_black_cat: "The Black Cat",
+        book_necklace: "The Necklace",
+        book_blind_man: "Blind Man",
+        book_clerk_death: "The Death of a Clerk",
+        book_scandal: "A Scandal in Bohemia",
+        book_metamorphosis: "The Metamorphosis",
+        book_jekyll: "Dr. Jekyll and Mr. Hyde",
+        book_banknote: "The £1,000,000 Bank Note",
+        book_benjamin: "Benjamin Button",
+        book_bartleby: "Bartleby, the Scrivener",
+        book_wallpaper: "The Yellow Wallpaper",
+        book_red_death: "The Masque of the Red Death",
+        book_hop_frog: "Hop-Frog",
+
+        author_andersen: "H.C. Andersen",
+        author_wilde: "Oscar Wilde",
+        author_ohenry: "O. Henry",
+        author_doyle: "A. Conan Doyle",
+        author_poe: "Edgar Allan Poe",
+        author_maupassant: "Guy de Maupassant",
+        author_chekhov: "Anton Chekhov",
+        author_kafka: "Franz Kafka",
+        author_stevenson: "R.L. Stevenson",
+        author_twain: "Mark Twain",
+        author_fitzgerald: "F. Scott Fitzgerald",
+        author_melville: "Herman Melville",
+        author_gilman: "Charlotte P. Gilman",
+
+        contrast_kicker: "A Quiet Choice",
+        contrast_title: "Why Choose HandyReader?",
+        contrast_sub: "Less commercial clutter, more authentic immersion into classic literature.",
+        th_dimension: "Dimension",
+        th_handyreader: "HandyReader",
+        th_traditional: "Standard Commercial Apps",
+        c1_name: "Splash Screen",
+        c1_good: "0s instant start, pure immersion",
+        c1_bad: "5s splash ad + popup banners",
+        c2_name: "Privacy & Auth",
+        c2_good: "Zero login or registration required",
+        c2_bad: "Mandatory phone verification & device tracking",
+        c3_name: "Offline Capability",
+        c3_good: "All classics bundled, works in airplane mode",
+        c3_bad: "Server-dependent chapter loads, fails offline",
+        c4_name: "Vocab Lookup",
+        c4_good: "Inline subtle popover + natural audio",
+        c4_bad: "Intrusive full-screen popups breaking flow",
+        c5_name: "Package & Pricing",
+        c5_good: "Only 0.62MB, 100% Free & Open Source",
+        c5_bad: "Pay-per-chapter or continuous subscriptions",
+
+        cta_title: "Begin Your Literary Immersion",
+        cta_sub: "Like holding an elegant pocket classic, read timeless works in your spare moments.",
+        cta_scan: "Scan WeChat Code",
+
+        footer_license: "under",
+        footer_open: "CC BY-NC 4.0 · Public Domain Texts.",
+        footer_brand: "Brand Assets",
+        footer_repo: "GitHub Repo",
+        footer_app: "Experience Mini-Program"
+      }
+    };
+
+    function toggleLanguage() {
+      currentLang = currentLang === 'zh' ? 'en' : 'zh';
+      document.getElementById('lang-text').innerText = currentLang === 'zh' ? 'EN' : '中';
+      
+      const t = translations[currentLang];
+      document.title = t.page_title;
+
+      // Batch update all data-i18n elements
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key] !== undefined) {
+          el.innerHTML = t[key];
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>

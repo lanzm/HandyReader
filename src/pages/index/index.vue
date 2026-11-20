@@ -150,7 +150,7 @@ const bubbleStyle = computed(() => {
   return style;
 });
 
-// 音频播放控制 (参考 EnglishJoy 原版)
+// 音频播放控制 (极简原生音频控制)
 const isAudioPlaying = ref(false);
 let activeAudio: UniApp.InnerAudioContext | null = null;
 
@@ -418,7 +418,7 @@ onShow(() => {
 
 <template>
   <movable-area class="page-container" :class="[currentTheme]">
-    <!-- 底层堆叠卡片 (Background Stack Card · 100% 对齐 EnglishJoy 堆叠视觉) -->
+    <!-- 底层堆叠卡片 (Background Stack Card · 对齐极简规范 堆叠视觉) -->
     <view
       v-if="bgParagraph || isBgFinished"
       class="app-card-bg"
@@ -513,7 +513,7 @@ onShow(() => {
       </template>
     </view>
 
-    <!-- 顶层主活动卡片 (Active Card · 100% 对齐 EnglishJoy 物理卡片交互) -->
+    <!-- 顶层主活动卡片 (Active Card · 对齐极简规范 物理卡片交互) -->
     <view
       class="app-card"
       :class="[cardTransitionClass]"
@@ -560,7 +560,7 @@ onShow(() => {
 
       <!-- 正常段落卡片内容 -->
       <template v-else-if="currentParagraph">
-        <!-- 卡片可滚动正文内容区 (参考 EnglishJoy card-scroll-view) -->
+        <!-- 卡片可滚动正文内容区 (card-scroll-view) -->
         <scroll-view
           scroll-y
           class="card-scroll-view px-6 flex-1 w-full box-border"
@@ -641,7 +641,7 @@ onShow(() => {
             </view>
           </view>
 
-          <!-- 操作按钮 (单主按钮全宽，100% 对齐 EnglishJoy 的下一个按钮) -->
+          <!-- 操作按钮 (单主按钮全宽，对齐极简规范 的下一个按钮) -->
           <view class="w-full">
             <view
               class="card-btn btn-primary w-full text-base"
@@ -656,7 +656,7 @@ onShow(() => {
       </template>
     </view>
 
-    <!-- 贴边悬浮设置齿轮 (与 EnglishJoy 体验一致，设置抽屉入口) -->
+    <!-- 贴边悬浮设置齿轮 (贴边悬浮，设置抽屉入口) -->
     <movable-view
       v-if="gearReady"
       class="floating-gear"
@@ -697,7 +697,7 @@ onShow(() => {
       <view class="bubble-arrow" :style="{ left: bubbleArrowLeft + 'px' }" />
 
       <view class="bubble-content">
-        <!-- 单词头部行：单词 + EnglishJoy 动效喇叭 (统一纯净结构，不展示音标) -->
+        <!-- 单词头部行：单词 + 动效喇叭 (统一纯净结构，不展示音标) -->
         <view class="bubble-header">
           <view class="bubble-word-group">
             <text class="bubble-word">{{ selectedWordData.word }}</text>
@@ -742,7 +742,7 @@ view, text, button, image, scroll-view, movable-area, movable-view {
   -webkit-tap-highlight-color: transparent !important;
 }
 
-/* 全屏页面容器 (100% 对齐 EnglishJoy) */
+/* 全屏页面容器 (对齐极简规范 ) */
 .page-container {
   position: fixed;
   top: 0;
@@ -961,7 +961,7 @@ view, text, button, image, scroll-view, movable-area, movable-view {
   color: var(--ej-color-brand);
 }
 
-/* 方案 A：阅读进度条与元数据 (100% 对齐 EnglishJoy 质感) */
+/* 方案 A：阅读进度条与元数据 (对齐极简规范 质感) */
 .reading-progress-block {
   width: 100%;
   margin-bottom: 12px;
@@ -1012,7 +1012,7 @@ view, text, button, image, scroll-view, movable-area, movable-view {
   letter-spacing: 0.5px;
 }
 
-/* 卡片按钮 (100% 对齐 EnglishJoy card-btn) */
+/* 卡片按钮 (对齐极简规范 card-btn) */
 .card-btn {
   border-radius: 12px;
   padding: 13px 20px;
@@ -1290,7 +1290,7 @@ button.card-btn-half::after {
   color: #F4F4F5;
 }
 
-/* EnglishJoy 原版动态声波喇叭 */
+/* 动态声波喇叭 */
 .phonetic-speaker-box {
   position: relative;
   width: 18px;
@@ -1338,7 +1338,7 @@ button.card-btn-half::after {
   opacity: 0.85;
 }
 
-/* 播放态：原生弧形音波层层扩散动效 (100% 对齐 EnglishJoy) */
+/* 播放态：原生弧形音波层层扩散动效 (对齐极简规范 ) */
 .phonetic-speaker-box.playing .speaker-horn {
   opacity: 1;
   animation: horn-vibrate 0.9s ease-in-out infinite;

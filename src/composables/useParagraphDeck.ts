@@ -68,7 +68,7 @@ export function useParagraphDeck(storyRef: { value: Story }) {
     bgParagraph.value = getParagraphAt(currentIndex.value + 1);
   };
 
-  // 动态内联变换样式 (100% 对齐 EnglishJoy useCardSwipe 物理交互)
+  // 动态内联变换样式 (对齐极简规范 useCardSwipe 物理交互)
   const cardStyle = computed(() => {
     if (isSwiping.value) {
       if (cardY.value < 0) {
@@ -130,7 +130,7 @@ export function useParagraphDeck(storyRef: { value: Story }) {
     });
   };
 
-  // 方向性切段状态机 (100% 对齐 EnglishJoy useWordDeck)
+  // 方向性切段状态机 (对齐极简规范 useWordDeck)
   function nextParagraphDirectional(dir: "up" | "down") {
     if (isTransitioning.value) return;
 

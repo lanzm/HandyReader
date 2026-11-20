@@ -13,7 +13,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-red?style=flat-square" /></a>
   <a href="docs/BRAND.md"><img src="https://img.shields.io/badge/Brand-Design%20Assets-8250df?style=flat-square" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Features-无广告%20%7C%20免登录%20%7C%20纯离线-orange?style=flat-square" /></a>
-  <a href="#-快速开始与自主部署"><img src="https://img.shields.io/badge/Architecture-25部名著全内置%20%7C%20主包600KB-success?style=flat-square" /></a>
+  <a href="#-快速开始与自主部署"><img src="https://img.shields.io/badge/Architecture-多部名著全内置%20%7C%20主包600KB-success?style=flat-square" /></a>
 </p>
 
 </div>
@@ -23,30 +23,31 @@
 ## ✨ 核心亮点
 
 - ⚡ **开屏即读**：零商业广告插播、免登录注册、无强制社交绑定，打开就是纯粹沉浸的名著精读。
-- 📦 **真 · 纯离线**：全部 25 部世界公版文学经典全部本地内置打包，断网飞行模式、地铁通勤阅读零阻碍。
+- 📦 **真 · 纯离线**：多部精选世界公版文学名著全部本地内置打包，断网飞行模式、地铁通勤阅读零阻碍。
 - 🃏 **指尖翻卡流（Physical Deck）**：段落级卡片物理堆叠翻页，向上滑动顺滑切入下一段，向下滑动翻回上一段，像刷短视频一样无压力读完大部头。
 - 💡 **轻触自然即时查词**：轻点正文任意生词瞬间弹出轻量气泡，包含当前语境释义与真人原声音频发音，告别打断沉浸感的全屏弹窗。
 - 🌐 **段落中英折叠译文**：段落级精准双语对照，一键平滑展开/收起精校地道人工译文，扫除阅读理解死角。
 - 🎨 **四款经典纸感护眼主题**：纯净暖白（Clean Light）、温润羊皮纸（Parchment）、沉浸墨黑（Midnight Dark）、柔和米青（Soft Celadon），四档字号自适应缩放。
-- 📚 **25 部传世文学名篇**：科学划分为【入门级】、【进阶级】、【挑战级】三大阶梯，从安徒生、王尔德童话，到欧·亨利、柯南·道尔、爱伦·坡、卡夫卡传世名著。
+- 📚 **多部传世文学名篇**：科学划分为【入门级】、【进阶级】、【挑战级】三大阶梯，从安徒生、王尔德童话，到欧·亨利、柯南·道尔、爱伦·坡、卡夫卡传世名著。
 - 🎉 **物理完读成就卡（第 N+1 张卡片）**：全篇精读完成时，作为第 N+1 张实体卡片伴随震动与立体翻卡动效飞入中央，3D 实体书封 + 单行成就指标 + 一键微信分享。
-- 🍃 **极致轻量架构**：25 部完整名著打包后总体积仅 **0.62 MB**（远低于微信 2MB 限制），首屏毫秒级极速冷启动。
+- 🍃 **极致轻量架构**：多部完整名著打包后总体积仅 **0.62 MB**（远低于微信 2MB 限制），首屏毫秒级极速冷启动。
 
 ---
 
-## 📱 视觉与分享展示
+## 📱 界面与操作演示
 
 <div align="center">
-  <img src="docs/images/share-cover.jpg" width="560" alt="随手读本 官方精装分享卡片" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); margin: 8px; border: 1px solid #e2e8f0;" />
+  <img src="docs/images/demo-read.gif" width="280" alt="随手读本 物理翻卡与顺畅切词演示" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); margin: 8px;" />
+  <img src="docs/images/demo-bookshelf.gif" width="280" alt="随手读本 多部名著立体书架与个性化设置演示" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); margin: 8px;" />
   <br/>
-  <sub><b>随手读本 · HandyReader 官方 5:4 黄金比例微信分享卡片（存储于 <code>src/static/share-cover.jpg</code>）</b></sub>
+  <sub><b>左：段落级物理堆叠翻卡、轻触即时生词查词与折叠双语对照 &nbsp;&nbsp;|&nbsp;&nbsp; 右：多部公版名著立体书架、四款经典纸感护眼主题与个性化设置</b></sub>
 </div>
 
 ---
 
 ## 📖 精选世界名著读本库
 
-全部 25 部读本均精选自国际公共版权领域（Public Domain），按难度严谨科学分级内置于 `src/data/` 目录中：
+内置读本均精选自国际公共版权领域（Public Domain），按难度严谨科学分级内置于 `src/data/` 目录中：
 
 | 难度阶梯 | 收录数量 | 代表名作 | 词数区间 | 核心题材与适读人群 |
 | :--- | :---: | :--- | :---: | :--- |
@@ -54,7 +55,7 @@
 | 🟡 **进阶级** | 10 部 | 《麦琪的礼物》《最后一片叶子》《警察与赞美诗》《二十年后》等 | 1,300 ~ 4,800 词 | 欧·亨利反转、爱伦·坡心理惊悚、莫泊桑讽刺 · 四六级/考研 |
 | 🔴 **挑战级** | 9 部 | 《波希米亚丑闻》《变形记》《化身博士》《百万英镑》《返老还童》等 | 7,200 ~ 25,500 词 | 福尔摩斯推理、卡夫卡存在主义、人性双重分裂 · 六级+/托福雅思 |
 
-> 💡 **全量书单与离线数据**：全部 25 部小说的分段双语对照与生词数据均内置打包于 [`src/data/catalog.json`](src/data/catalog.json)，无需额外联网下载。
+> 💡 **全量书单与离线数据**：全部内置小说的分段双语对照与生词数据均打包于 [`src/data/catalog.json`](src/data/catalog.json)，无需额外联网下载。
 
 ---
 

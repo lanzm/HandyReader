@@ -157,7 +157,7 @@ export function getReadingRoundInfo(prog?: StoryProgressData, totalParagraphs = 
 }
 
 /**
- * 25 部传世经典全篇段落统计字典（轻量静态元数据，仅 500 字节）
+ * 传世经典全篇段落统计字典（轻量静态元数据）
  * 解耦书架列表与全书正文，实现书架秒开
  */
 export const storyTotalParagraphsMap: Record<string, number> = {

@@ -89,7 +89,7 @@ function handleCopyGithub() {
 
 <template>
   <view class="settings-drawer-wrapper" :class="[currentTheme]">
-    <!-- Settings Drawer Overlay (对齐 EnglishJoy) -->
+    <!-- Settings Drawer Overlay (对齐极简规范 ) -->
     <view
       class="drawer-overlay"
       :class="{ show: show }"
@@ -97,7 +97,7 @@ function handleCopyGithub() {
       @touchmove.stop.prevent
     />
 
-    <!-- Settings Drawer Panel (100% 对齐 EnglishJoy 70vh 与安全区底边距) -->
+    <!-- Settings Drawer Panel (对齐极简规范 70vh 与安全区底边距) -->
     <view class="drawer-panel" :class="{ show: show }">
       <view class="flex flex-col w-full h-full overflow-hidden">
         <!-- 头部标题栏 -->
@@ -116,7 +116,7 @@ function handleCopyGithub() {
         <!-- 滚动内容区 -->
         <scroll-view scroll-y class="drawer-scroll-view flex-1 min-h-0 h-full" :show-scrollbar="false">
           <view class="pr-1 box-border w-full">
-            <!-- 模块 1：当前在读书籍单卡 (方案 A：整卡可点，纯净极简单箭头，100% 对齐 EnglishJoy) -->
+            <!-- 模块 1：当前在读书籍单卡 (方案 A：整卡可点，纯净极简单箭头，对齐极简规范 ) -->
             <view class="mb-4">
               <text class="section-label-style">当前在读篇目</text>
 
@@ -174,7 +174,7 @@ function handleCopyGithub() {
               </view>
             </view>
 
-            <!-- 模块 3：色彩主题 (100% 对齐 EnglishJoy 分段滑动药丸) -->
+            <!-- 模块 3：色彩主题 (对齐极简规范 分段滑动药丸) -->
             <view class="mb-4">
               <text class="section-label-style">色彩主题</text>
               <view class="segmented-control">
@@ -241,7 +241,7 @@ function handleCopyGithub() {
               </view>
             </view>
 
-            <!-- 模块 5：阅读辅助 (对齐 EnglishJoy 独立卡片与缩放 Switch) -->
+            <!-- 模块 5：阅读辅助 (对齐极简规范 独立卡片与缩放 Switch) -->
             <view class="mb-4">
               <text class="section-label-style">阅读辅助</text>
               <view class="flex flex-col gap-2.5">
@@ -261,7 +261,7 @@ function handleCopyGithub() {
               </view>
             </view>
 
-            <!-- 模块 6：支持与反馈 (对齐 EnglishJoy 官方反馈通道与开源仓库卡片) -->
+            <!-- 模块 6：支持与反馈 (对齐极简规范 官方反馈通道与开源仓库卡片) -->
             <view class="mb-4">
               <text class="section-label-style">支持与反馈</text>
               <view class="flex flex-col gap-2.5">
@@ -301,7 +301,7 @@ function handleCopyGithub() {
               </view>
             </view>
 
-            <!-- 底部安全缓冲 (对齐 EnglishJoy h-8) -->
+            <!-- 底部安全缓冲 (对齐极简规范 h-8) -->
             <view class="h-8 w-full shrink-0" />
           </view>
         </scroll-view>
@@ -311,7 +311,7 @@ function handleCopyGithub() {
 </template>
 
 <style scoped>
-/* 遮罩背景 (100% 对齐 EnglishJoy) */
+/* 遮罩背景 (对齐极简规范 ) */
 .drawer-overlay {
   position: fixed;
   top: 0;
@@ -330,7 +330,7 @@ function handleCopyGithub() {
   pointer-events: auto;
 }
 
-/* 抽屉面板 (100% 对齐 EnglishJoy 70vh, 20px 圆角与安全区底边距) */
+/* 抽屉面板 (对齐极简规范 70vh, 20px 圆角与安全区底边距) */
 .drawer-panel {
   position: fixed;
   left: 0;
@@ -355,7 +355,7 @@ function handleCopyGithub() {
   transform: translateY(0);
 }
 
-/* 头部导航栏 (对齐 EnglishJoy 17px 紧凑标题与关闭按钮) */
+/* 头部导航栏 (对齐极简规范 17px 紧凑标题与关闭按钮) */
 .drawer-header {
   display: flex;
   justify-content: space-between;
@@ -394,7 +394,7 @@ function handleCopyGithub() {
   line-height: 1;
 }
 
-/* 内容滚动区 (对齐 EnglishJoy 上下渐变淡化遮罩) */
+/* 内容滚动区 (对齐极简规范 上下渐变淡化遮罩) */
 .drawer-scroll-view {
   -webkit-mask-image: linear-gradient(to bottom, #000000 0%, #000000 calc(100% - 36px), rgba(0, 0, 0, 0.4) calc(100% - 14px), transparent 100%);
   mask-image: linear-gradient(to bottom, #000000 0%, #000000 calc(100% - 36px), rgba(0, 0, 0, 0.4) calc(100% - 14px), transparent 100%);
@@ -403,7 +403,7 @@ function handleCopyGithub() {
   -ms-overflow-style: none;
 }
 
-/* 分组标题标签 (100% 对齐 EnglishJoy section-label-style: text-xs font-semibold tracking-wide mb-2 block) */
+/* 分组标题标签 (对齐极简规范 section-label-style: text-xs font-semibold tracking-wide mb-2 block) */
 .section-label-style {
   font-size: 12px;
   font-weight: 600;
@@ -532,7 +532,7 @@ function handleCopyGithub() {
   font-size: 14px;
 }
 
-/* 独立开关卡片 (100% 对齐 EnglishJoy settings-row-card 与 settings-switch) */
+/* 独立开关卡片 (对齐极简规范 settings-row-card 与 settings-switch) */
 .settings-row-card {
   display: flex;
   align-items: center;
@@ -551,7 +551,7 @@ function handleCopyGithub() {
   margin-right: -4px;
 }
 
-/* 操作项卡片按钮 (100% 对齐 EnglishJoy drawer-action-btn) */
+/* 操作项卡片按钮 (对齐极简规范 drawer-action-btn) */
 .drawer-action-btn {
   display: flex;
   align-items: center;

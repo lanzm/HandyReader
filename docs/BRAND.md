@@ -44,7 +44,7 @@ Logo 将**世界经典名著排版美学**与**物理卡片流（Physical Deck C
 
 ## 4. 微信分享卡片 (5:4 WeChat Share Cover)
 
-针对微信小程序分享给好友、群聊以及朋友圈场景进行黄金比例（5:4 / 1000×800）专属定制。对标 EnglishJoy 的瑞士国际主义极简美学，纯粹大字排版与大面积自然留白，直击“轻松读完世界名著”的核心心智。
+针对微信小程序分享给好友、群聊以及朋友圈场景进行黄金比例（5:4 / 1000×800）专属定制。秉承瑞士国际主义极简美学，纯粹大字排版与大面积自然留白，直击“轻松读完世界名著”的核心心智。
 
 <div align="center">
   <img src="images/share-cover.jpg" width="480" alt="HandyReader WeChat Share Cover" style="border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;" />
