@@ -1,0 +1,124 @@
+{
+  "id": "after_twenty_years",
+  "title": "After Twenty Years",
+  "titleZh": "二十年后",
+  "author": "O. Henry",
+  "difficulty": "intermediate",
+  "difficultyLabel": "进阶级 · 四级/5000词",
+  "wordCount": 1250,
+  "estimatedMinutes": 7,
+  "summary": "深夜的纽约街头，阔别二十年的发小如期赴约。火柴点燃雪茄的一瞬，友情与职责发生震撼人心的激烈碰撞。欧·亨利式反转名篇。",
+  "hasFullText": true,
+  "paragraphs": [
+    {
+      "index": 1,
+      "en": "The policeman on the beat moved up the avenue impressively. The impressiveness was habitual and not for show, for spectators were few. The time was barely 10 o'clock at night, but chilly gusts of wind with a taste of rain in them had well nigh depeopled the streets.",
+      "zh": "值班巡警神气十足地沿着大道踱步。这种神气是出于习惯，并非故意卖弄，因为街上几乎没有旁观者。时间刚过晚上十点钟，但阵阵夹着雨意的凉风几乎把街上的行人扫荡一空。"
+    },
+    {
+      "index": 2,
+      "en": "Trying doors as he went, twirling his club with many intricate and artful movements, turning now and then to cast his watchful eye adown the pacific thoroughfare, the officer, with his stalwart form and slight swagger, made a fine picture of a guardian of the peace.",
+      "zh": "巡警一路走一路查验沿街门窗，巧妙熟练地转动着警棍，不时转过身来警惕地巡视平静的街巷。他那魁梧健硕的身材和微微晃动的步伐，俨然构成了一幅守护安宁的动人画面。"
+    },
+    {
+      "index": 3,
+      "en": "When about midway of a certain block the policeman suddenly slowed his walk. In the doorway of a darkened hardware store a man leaned, with an unlighted cigar in his mouth. As the policeman walked up to him the man spoke up quickly.",
+      "zh": "当走到某条街区的中段时，巡警突然放慢了脚步。在一间黑灯瞎火的五金店门洞里，依门倚立着一个男人，嘴里叼着一根未点燃的雪茄。巡警一朝他走过去，那人便迅速开口了。"
+    },
+    {
+      "index": 4,
+      "en": "'It's all right, officer,' he said, reassuringly. 'I'm just waiting for a friend. It's an appointment made twenty years ago. Sounds a little funny to you, doesn't it? Well, I'll explain if you'd like to make certain it's all straight.'",
+      "zh": "“没事，警官，”他安慰般地说道，“我只是在等一个朋友。这是二十年前定下的约会。听起来有点滑稽，是吧？如果您想确认一下底细，我很乐意向您解释清楚。”"
+    },
+    {
+      "index": 5,
+      "en": "'About that long ago there used to be a restaurant where this store stands—'Big Joe' Brady's restaurant.' 'Until five years ago,' said the policeman. 'It was torn down then.'",
+      "zh": "“大约在二十年前，这家店的原址是一座餐馆——‘大乔’·布拉迪餐馆。”“五年前还在，”巡警说，“后来被拆除了。”"
+    },
+    {
+      "index": 6,
+      "en": "The man in the doorway struck a match and lit his cigar. The light showed a pale, square-jawed face with keen eyes, and a little white scar near his right eyebrow. His scarfpin was a large diamond, oddly set.",
+      "zh": "门洞里的男人擦了根火柴，点燃了雪茄。火光照亮了他苍白方阔的脸庞，一双目光锐利的眼睛，以及右眉旁一道淡淡的白色伤疤。他的领带别针是一颗硕大的钻石，镶嵌造型奇特。"
+    },
+    {
+      "index": 7,
+      "en": "'Twenty years ago to-night,' said the man, 'I dined here at 'Big Joe' Brady's with Jimmy Wells, my best chum, and the finest chap in the world. He and I were raised here in New York, just like two brothers, together.'",
+      "zh": "“整整二十年前的今晚，”那人说，“我和吉米·威尔斯在这家‘大乔’·布拉迪餐馆共进晚餐。他是我最要好的挚友，世上最棒的小伙子。我和他在纽约一起长大，就像两兄弟一样。”"
+    },
+    {
+      "index": 8,
+      "en": "'I was eighteen and Jimmy was twenty. The next morning I was to start for the West to make my fortune. You couldn't have dragged Jimmy out of New York; he thought it was the only place on earth.'",
+      "zh": "“那时我十八岁，吉米二十岁。第二天一早我就要动身去西部闯荡发财了。你就算用牛拉也休想把吉米拉出纽约，他觉得纽约就是世上唯一值得待的地方。”"
+    },
+    {
+      "index": 9,
+      "en": "'Well, we agreed that night that we would meet here again exactly twenty years from that date and time, no matter what our conditions might be or from what distance we might have to come.'",
+      "zh": "“那天晚上我们约定，不论境遇如何、不论相隔多远，二十年后的同一个日子、同一个时刻，我们一定要在这里再次碰头聚会。”"
+    },
+    {
+      "index": 10,
+      "en": "'It sounds pretty interesting,' said the policeman. 'Rather a long time between meets, though, it seems to me. Haven't you heard from your friend since you left?'",
+      "zh": "“听起来真有意思，”巡警说，“不过在我看来，这个约会间隔未免太漫长了些。离开后您难道就没收到过您朋友的音信吗？”"
+    },
+    {
+      "index": 11,
+      "en": "'Well, yes, for a time we corresponded,' said the other. 'But after a year or two we lost track of each other. You see, the West is a pretty big proposition, and I kept hustling around over it pretty lively.'",
+      "zh": "“嗯，通信过一阵子，”对方回答，“但一两年后我们断了联系。您知道，西部是个辽阔无垠的天地，我为了生计东奔西跑，马不停蹄。”"
+    },
+    {
+      "index": 12,
+      "en": "'But I know Jimmy will meet me here if he's alive, for he always was the truest, stanchest old chap in the world. He'll never forget. I came a thousand miles to stand in this door to-night, and it's worth it if my old partner turns up.'",
+      "zh": "“但我深信只要吉米还活着，他就一定会来这里赴约，因为他向来是世上最忠诚、最可靠的厚道汉子。他绝不会忘。我今晚赶了一千英里的路伫立在这个门廊下，只要老搭档能现身，这一切就千值万值！”"
+    },
+    {
+      "index": 13,
+      "en": "The waiting man pulled out a handsome watch, the lids of it set with small diamonds. 'Three minutes to ten,' he announced. 'It was exactly ten o'clock when we parted here at the restaurant door.'",
+      "zh": "等候的男人掏出一块精美华丽的金表，表盖上镶嵌着几颗碎钻。“差三分钟十点，”他通报道，“当年我们在餐馆门口分手时，正好就是十点整。”"
+    },
+    {
+      "index": 14,
+      "en": "'Did pretty well out West, didn't you?' asked the policeman. 'You bet! I hope Jimmy has done half as well. He was a kind of plodder, though, good fellow as he was.'",
+      "zh": "“在西部发了大财吧，不是吗？”巡警问。“那当然！我但愿吉米混得有我一半好。他人很好，但生性多少有点墨守成规、慢条斯理。”"
+    },
+    {
+      "index": 15,
+      "en": "'I'll be on my way. Hope your friend comes around all right. Going to call time on him sharp?' 'I should say not!' said the other. 'I'll give him half an hour at least. If Jimmy is alive on earth he'll be here by that time. So long, officer.'",
+      "zh": "“那我先去巡逻了。希望您的朋友能如约到来。要是他没准时到，您这就撤吗？”“绝不会！”那人说，“我至少要多等他半个钟头。只要吉米还活着，他那时必定能到。再见，警官。”"
+    },
+    {
+      "index": 16,
+      "en": "The policeman passed on along his beat. There was now a fine, cold drizzle falling, and the wind had risen from its uncertain puffs into a steady blow. The few pedestrians hurried along with coat collars turned high and pocketed hands.",
+      "zh": "巡警顺着巡线继续往前走了。此时细碎冰冷的雨丝飘落下来，微风已化为持续的凛冽劲风。仅有的几个行人大都高竖衣领，双手插兜，行色匆匆。"
+    },
+    {
+      "index": 17,
+      "en": "About twenty minutes later a tall man in a long overcoat, with collar turned up to his ears, hurried across the street and came directly to the waiting man. 'Is that you, Bob?' he asked, doubtfully.",
+      "zh": "大约二十分钟后，一个身穿长风衣、衣领翻到耳朵上的高个子男人急匆匆穿过马路，径直朝等候的男人走来。“是你吗，鲍勃？”他有些疑虑地问。"
+    },
+    {
+      "index": 18,
+      "en": "'Is that you, Jimmy Wells?' cried the man in the door. 'Bless my heart!' exclaimed the new arrival, grasping both the other's hands with his own. 'It's Bob, sure as fate. I was certain I'd find you here if you were still in existence.'",
+      "zh": "“是你吗，吉米·威尔斯？”门洞里的男人惊呼。“谢天谢地！”新来的人握住对方的双手感叹道，“果然是鲍勃！只要你还在人世，我就断定能在这儿找到你。”"
+    },
+    {
+      "index": 19,
+      "en": "The two men started up the street, arm in arm. At the corner stood a drug store, brilliant with electric lights. When they came into this glare each of them turned simultaneously to gaze upon the other's face. The man from the West stopped suddenly and released his arm.",
+      "zh": "两人挽着胳膊顺着街道走去。拐角处伫立着一家药店，电灯光芒璀璨夺目。当他们走入强光之下时，两人不约而同地转过头凝视彼此的脸庞。来自西部的男人猛地停住脚步，甩开了对方的手臂。"
+    },
+    {
+      "index": 20,
+      "en": "'You're not Jimmy Wells,' he snapped. 'Twenty years is a long time, but not long enough to change a man's nose from a Roman to a pug.' 'It sometimes changes a good man into a bad one,' said the tall man. 'You've been under arrest for ten minutes, 'Silky' Bob. Chicago thinks you may have dropped over our way. Here's a note I was asked to hand you.'",
+      "zh": "“你不是吉米·威尔斯，”他厉声喝道，“二十年固然漫长，但还不至于把一个人的鹰钩鼻变成朝天鼻！”“二十年有时却能把一个好人变成罪犯，”高个子男人说，“你已经被捕十分钟了，‘滑头’鲍勃。芝加哥警方怀疑你潜逃到了我们辖区。这是有人托我转交给你的一张便条。”"
+    },
+    {
+      "index": 21,
+      "en": "The man from the West unfolded the little piece of paper handed him. His hand was steady when he began to read, but it trembled a little by the time he had finished. The note was rather short:",
+      "zh": "来自西部的男人展开了递给他的一小张纸片。他刚开始阅读时手还很平稳，但读完时手却止不住地微微颤抖。便条很短："
+    },
+    {
+      "index": 22,
+      "en": "'Bob: I was at the appointed place on time. When you struck the match to light your cigar I saw it was the face of the man wanted in Chicago. Somehow I couldn't do it myself, so I went around and got a plain clothes man to do the job. — Jimmy.'",
+      "zh": "“鲍勃：我准时赶到了约定的地点。当你擦亮火柴点燃雪茄时，我借着火光看清了你的脸，正是芝加哥通缉的逃犯。不知怎的，我实在无法亲手抓你，于是我走开去找了一位便衣警察来办这件事。——吉米。”"
+    }
+  ]
+}

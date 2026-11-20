@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "随手读本"
+      }
+    },
+    {
+      "path": "pages/bookshelf/index",
+      "style": {
+        "navigationBarTitleText": "精选读本"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "随手读本",
+    "navigationBarBackgroundColor": "#E9EEF4",
+    "backgroundColor": "#E9EEF4"
+  }
+}

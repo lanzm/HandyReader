@@ -1,0 +1,313 @@
+{
+  "id": "the_gift_of_the_magi",
+  "title": "The Gift of the Magi",
+  "titleZh": "麦琪的礼物",
+  "author": "O. Henry",
+  "coverEmoji": "🎁",
+  "difficulty": "intermediate",
+  "difficultyLabel": "进阶级 · 四级/5000词",
+  "wordCount": 2150,
+  "estimatedMinutes": 10,
+  "summary": "圣诞前夕，一对年轻贫困的夫妇德拉和吉姆为了给对方准备最珍贵的圣诞礼物，各自悄悄舍弃了自己身上最引以为傲的宝物……欧·亨利最负盛名的温情反转神作。",
+  "paragraphs": [
+    {
+      "index": 1,
+      "en": "One dollar and eighty-seven cents. That was all. And sixty cents of it was in pennies. Pennies saved one and two at a time by bulldozing the grocer and the vegetable man and the butcher until one's cheeks burned with the silent imputation of parsimony that such close dealing implied.",
+      "zh": "一块八毛七分钱。全都在这儿了。其中六毛钱还是硬币。这些硬币是每次买杂货、蔬菜和肉时，一个子儿一个子儿硬生生扣下来的，直扣得人脸颊发烫——因为这种斤斤计较的讲价无声地暗示着小气与吝啬。",
+      "keyWords": [
+        { "word": "bulldozing", "phonetic": "ˈbʊldəʊzɪŋ", "meaning": "强行压价；施压" },
+        { "word": "imputation", "phonetic": "ˌɪmpjuˈteɪʃn", "meaning": "归咎；非难；指责" },
+        { "word": "parsimony", "phonetic": "ˈpɑːsɪməni", "meaning": "吝啬；极度节俭" }
+      ]
+    },
+    {
+      "index": 2,
+      "en": "Three times Della counted it. One dollar and eighty-seven cents. And the next day would be Christmas.",
+      "zh": "德拉数了三遍。还是一块八毛七分钱。而第二天就是圣诞节了。",
+      "keyWords": [
+        { "word": "counted", "phonetic": "ˈkaʊntɪd", "meaning": "数，点数" }
+      ]
+    },
+    {
+      "index": 3,
+      "en": "There was clearly nothing to do but flop down on the shabby little couch and howl. So Della did it. Which instigates the moral reflection that life is made up of sobs, sniffles, and smiles, with sniffles predominating.",
+      "zh": "显然别无他法，只能一头栽倒在那张破旧的小沙发上号啕大哭。德拉正是这么做的。这也引发了一番人生哲理的感悟：生活就是由抽泣、抽抽搭搭和微笑组成的，其中抽抽搭搭占了大半。",
+      "keyWords": [
+        { "word": "shabby", "phonetic": "ˈʃæbi", "meaning": "破旧的；寒酸的" },
+        { "word": "instigates", "phonetic": "ˈɪnstɪɡeɪts", "meaning": "激起；引起" },
+        { "word": "predominating", "phonetic": "prɪˈdɒmɪneɪtɪŋ", "meaning": "占优势；占绝大多数" }
+      ]
+    },
+    {
+      "index": 4,
+      "en": "While the mistress of the home is gradually subsiding from the first stage to the second, take a look at the home. A furnished flat at $8 per week. It did not exactly beggar description, but it certainly had that word on the lookout for the mendicancy squad.",
+      "zh": "趁着女主人从第一阶段的嚎哭渐渐缓和到第二阶段的抽泣，不妨来看看这个家吧。这是一套每周租金八美元的带家具公寓。倒也不能说破烂得难以形容，但确实已经到了随时可能引起救济队注意的地步了。",
+      "keyWords": [
+        { "word": "subsiding", "phonetic": "səbˈsaɪdɪŋ", "meaning": "平息；趋于平静" },
+        { "word": "beggar", "phonetic": "ˈbeɡə(r)", "meaning": "使...显得贫乏/不足" },
+        { "word": "mendicancy", "phonetic": "ˈmendɪkənsi", "meaning": "行乞；乞讨状态" }
+      ]
+    },
+    {
+      "index": 5,
+      "en": "In the vestibule below was a letter-box into which no letter would go, and an electric button from which no mortal finger could coax a ring. Also appertaining thereunto was a card bearing the name 'Mr. James Dillingham Young.'",
+      "zh": "楼下的门厅里有一个从未塞进过信件的信箱，还有一个任何凡人的手指都按不出声响的电门铃。与此相连的，是一张印着'詹姆斯·迪林厄姆·杨先生'名字的门牌卡片。",
+      "keyWords": [
+        { "word": "vestibule", "phonetic": "ˈvestɪbjuːl", "meaning": "门厅；门廊" },
+        { "word": "coax", "phonetic": "kəʊks", "meaning": "哄诱；设法弄出" },
+        { "word": "appertaining", "phonetic": "ˌæpəˈteɪnɪŋ", "meaning": "属于；附属" }
+      ]
+    },
+    {
+      "index": 6,
+      "en": "The 'Dillingham' had been flung to the breeze during a former period of prosperity when its possessor was being paid $30 per week. Now, when the income was shrunk to $20, though, they were thinking seriously of contracting to a modest and unassuming D.",
+      "zh": "早先在拥有者每周能赚三十美元的兴旺时期，'迪林厄姆'这几个字曾神气十足地迎风招展。如今收入缩水到了二十美元，他们正严肃地考虑缩减成一个朴实不起眼的字母'D'。",
+      "keyWords": [
+        { "word": "prosperity", "phonetic": "prɒˈsperəti", "meaning": "繁荣；富足" },
+        { "word": "shrunk", "phonetic": "ʃrʌŋk", "meaning": "缩减；萎缩" },
+        { "word": "unassuming", "phonetic": "ˌʌnəˈsjuːmɪŋ", "meaning": "谦逊的；不起眼的" }
+      ]
+    },
+    {
+      "index": 7,
+      "en": "Now, there were two possessions of the James Dillingham Youngs in which both took a mighty pride. One was Jim's gold watch that had been his father's and his grandfather's. The other was Della's hair.",
+      "zh": "詹姆斯·迪林厄姆·杨夫妇有两样深以为傲的宝物。一件是吉姆的金表，那是他父亲和祖父传下来的传家宝。另一件则是德拉的秀发。",
+      "keyWords": [
+        { "word": "possessions", "phonetic": "pəˈzeʃnz", "meaning": "所有物；财产" },
+        { "word": "mighty", "phonetic": "ˈmaɪti", "meaning": "极大的；强烈的" }
+      ]
+    },
+    {
+      "index": 8,
+      "en": "Had the queen of Sheba lived in the flat across the airshaft, Della would have let her hair hang out the window some day to dry just to depreciate Her Majesty's jewels and gifts. Had King Solomon been the janitor, with all his treasures piled up in the basement, Jim would have pulled out his watch every time he passed, just to see him pluck at his beard from envy.",
+      "zh": "要是示巴女王住在天井对面的公寓里，德拉总有一天会把长发垂出窗外晾晒，只为让女王的珠宝玉石黯然失色。要是所罗门王是这里的看门人，把所有珍宝都堆在地下室，吉姆每次经过也会掏出金表，只为看他嫉妒得直扯胡子。",
+      "keyWords": [
+        { "word": "depreciate", "phonetic": "dɪˈpriːʃieɪt", "meaning": "贬低；使贬值" },
+        { "word": "janitor", "phonetic": "ˈdʒænɪtə(r)", "meaning": "看门人；门房" },
+        { "word": "envy", "phonetic": "ˈenvi", "meaning": "羡慕；嫉妒" }
+      ]
+    },
+    {
+      "index": 9,
+      "en": "So now Della's beautiful hair fell about her, rippling and shining like a cascade of brown waters. It reached below her knee and made itself almost a garment for her. And then she did it up again nervously and quickly. Once she faltered for a minute and stood still while a tear or two splashed on the worn red carpet.",
+      "zh": "此时德拉美丽的秀发披散在肩头，宛如褐色瀑布般泛着粼粼波光。长发垂过她的膝盖，几乎能当做一件华美的长袍。随后她又神经质地快速将头发挽起。有那么一刻她犹豫了，呆立不动，一两滴眼泪溅落在破旧的红地毯上。",
+      "keyWords": [
+        { "word": "cascade", "phonetic": "kæˈskeɪd", "meaning": "小瀑布；如瀑布般下垂物" },
+        { "word": "garment", "phonetic": "ˈɡɑːmənt", "meaning": "衣服；外衣" },
+        { "word": "faltered", "phonetic": "ˈfɔːltəd", "meaning": "动摇；犹豫；踌躇" }
+      ]
+    },
+    {
+      "index": 10,
+      "en": "On went her old brown jacket; on went her old brown hat. With a whirl of skirts and with the brilliant sparkle still in her eyes, she fluttered out the door and down the stairs to the street.",
+      "zh": "穿上那件褪色的旧褐色外衣，戴上那顶旧褐色帽子。裙裾一转，眼中犹带着璀璨的光芒，她轻盈地闪出门外，飘然走下楼梯来到街上。",
+      "keyWords": [
+        { "word": "whirl", "phonetic": "wɜːl", "meaning": "旋转；飞旋" },
+        { "word": "fluttered", "phonetic": "ˈflʌtəd", "meaning": "轻快地移动；飘动" }
+      ]
+    },
+    {
+      "index": 11,
+      "en": "Where she stopped the sign read: 'Mme. Sofronie. Hair Goods of All Kinds.' One flight up Della ran, and collected herself, panting. Madame, large, too white, chilly, hardly looked the 'Sofronie.' 'Will you buy my hair?' asked Della. 'I buy hair,' said Madame. 'Take yer hat off and let's have a sight at the looks of it.'",
+      "zh": "她停下的地方，招牌上写着：'索弗罗妮夫人：各式毛发制品'。德拉一口气跑上一层楼，气喘吁吁地定下神来。夫人身材魁梧、过于苍白、神色冷淡，怎么看都不像风情万种的'索弗罗妮'。'你买我的头发吗？'德拉问。'我买头发，'夫人答道，'把帽子摘下来，让我瞧瞧货色。'",
+      "keyWords": [
+        { "word": "panting", "phonetic": "ˈpæntɪŋ", "meaning": "气喘吁吁的" },
+        { "word": "chilly", "phonetic": "ˈtʃɪli", "meaning": "冷淡的；冷冰冰的" }
+      ]
+    },
+    {
+      "index": 12,
+      "en": "Down rippled the brown cascade. 'Twenty dollars,' said Madame, lifting the mass with a practised hand. 'Give it to me quick,' said Della.",
+      "zh": "褐色的秀发如瀑布般倾泻而下。'二十美元。'夫人用熟练的手托起那头沉甸甸的长发说道。'快给我钱吧。'德拉说。",
+      "keyWords": [
+        { "word": "practised", "phonetic": "ˈpræktɪst", "meaning": "老练的；熟练的" }
+      ]
+    },
+    {
+      "index": 13,
+      "en": "Oh, and the next two hours tripped by on rosy wings. Forget the hashed metaphor. She was ransacking the stores for Jim's present.",
+      "zh": "哦，接下来的两个小时就像插上了玫瑰色的翅膀飞快逝去。别管这蹩脚的比喻了——她正在一家接一家地搜寻送给吉姆的礼物呢。",
+      "keyWords": [
+        { "word": "metaphor", "phonetic": "ˈmetəfə(r)", "meaning": "暗喻；比喻" },
+        { "word": "ransacking", "phonetic": "ˈrænsækɪŋ", "meaning": "洗劫；彻底翻找" }
+      ]
+    },
+    {
+      "index": 14,
+      "en": "She found it at last. It surely had been made for Jim and no one else. It was a platinum fob chain simple and chaste in design, properly proclaiming its value by substance alone and not by meretricious ornamentation—as all good things should do. It was even worthy of The Watch. As soon as she saw it she knew that it must be Jim's.",
+      "zh": "她终于找到了。这绝对是专门为吉姆打造的，绝无第二人配得上它。那是一条白金表链，设计简约典雅，纯粹以其质地而非浮华喧闹的装饰彰显价值——世间所有美好的事物本该如此。它甚至配得上那块珍贵的金表。一看到它，德拉便认定它非吉姆莫属。",
+      "keyWords": [
+        { "word": "platinum", "phonetic": "ˈplætɪnəm", "meaning": "白金，铂" },
+        { "word": "chaste", "phonetic": "tʃeɪst", "meaning": "朴素的；高雅典雅的" },
+        { "word": "meretricious", "phonetic": "ˌmerəˈtrɪʃəs", "meaning": "华而不实的；俗气的" },
+        { "word": "ornamentation", "phonetic": "ˌɔːnəmenˈteɪʃn", "meaning": "装饰；点缀" }
+      ]
+    },
+    {
+      "index": 15,
+      "en": "Twenty-one dollars they took from her for it, and she hurried home with the 87 cents. With that chain on his watch Jim might be properly anxious about the time in any company. Grand as the watch was, he sometimes looked at it on the sly on account of the old leather strap that he used in place of a chain.",
+      "zh": "他们收了她二十一美元，她带着剩下的八毛七分钱匆匆赶回家。有了这条表链，吉姆无论在什么场合都可以光明正大地看时间了。以往金表虽华贵，但他总因为配着一根寒酸的旧皮带而只敢偷偷摸摸地拿出来看。",
+      "keyWords": [
+        { "word": "anxious", "phonetic": "ˈæŋkʃəs", "meaning": "渴望的；急切的" },
+        { "word": "on the sly", "phonetic": "ɒn ðə slaɪ", "meaning": "暗地里；偷偷地" }
+      ]
+    },
+    {
+      "index": 16,
+      "en": "When Della arrived home her intoxication gave way a little to prudence and reason. She got out her curling irons and lighted the gas and went to work repairing the ravages made by generosity added to love. Which is always a tremendous task, dear friends—a mammoth task.",
+      "zh": "德拉到家后，兴奋之情稍稍退去，理智与谨慎重新占了上风。她拿出卷发铁钳，点上煤气，开始收拾由于慷慨和爱心而对自己造成的'破坏'。亲爱的朋友们，这向来是一项极其艰巨的任务——一项庞大繁浩的工程。",
+      "keyWords": [
+        { "word": "intoxication", "phonetic": "ɪnˌtɒksɪˈkeɪʃn", "meaning": "陶醉；极度兴奋" },
+        { "word": "prudence", "phonetic": "ˈpruːdns", "meaning": "谨慎；精明" },
+        { "word": "ravages", "phonetic": "ˈrævɪdʒɪz", "meaning": "摧残；破坏痕迹" },
+        { "word": "mammoth", "phonetic": "ˈmæməθ", "meaning": "庞大的；极其巨大的" }
+      ]
+    },
+    {
+      "index": 17,
+      "en": "Within forty minutes her head was covered with tiny, close-lying curls that made her look wonderfully like a truant schoolboy. She looked at her reflection in the mirror long, carefully, and critically.",
+      "zh": "四十分钟之内，她的头上布满了一圈圈紧贴头皮的细密小卷发，使她看起来活像一个逃学的小男孩。她久久地、仔细地、挑剔地审视着镜子里的倒影。",
+      "keyWords": [
+        { "word": "truant", "phonetic": "ˈtruːənt", "meaning": "旷课的；逃学的" },
+        { "word": "critically", "phonetic": "ˈkrɪtɪkli", "meaning": "批判性地；挑剔地" }
+      ]
+    },
+    {
+      "index": 18,
+      "en": "'If Jim doesn't kill me,' she said to herself, 'before he takes a second look at me, he'll say I look like a Coney Island chorus girl. But what could I do—oh! what could I do with a dollar and eighty-seven cents?'",
+      "zh": "'吉姆要是没一气之下杀了我，'她自言自语道，'等他再仔细瞧我一眼，一定会说我看起来像康尼岛合唱团的歌舞女郎。可我能怎么办呢——天哪，拿着一块八毛七分钱，我还能怎么办？'",
+      "keyWords": [
+        { "word": "chorus", "phonetic": "ˈkɔːrəs", "meaning": "合唱团；歌舞团" }
+      ]
+    },
+    {
+      "index": 19,
+      "en": "At 7 o'clock the coffee was made and the frying-pan was on the back of the stove hot and ready to cook the chops. Jim was never late. Della doubled the fob chain in her hand and sat on the corner of the table near the door that he always entered.",
+      "zh": "七点钟，咖啡煮好了，平底锅在炉灶后方烧得热气腾腾，随时准备煎肉排。吉姆从不迟到。德拉把表链在手心里折成两道，坐在靠近房门的一张桌角上——那是他每次进门的必经之处。",
+      "keyWords": [
+        { "word": "chops", "phonetic": "tʃɒps", "meaning": "排骨；带骨肉排" }
+      ]
+    },
+    {
+      "index": 20,
+      "en": "The door opened and Jim stepped in and closed it. He looked thin and very serious. Poor fellow, he was only twenty-two—and to be burdened with a family! He needed a new overcoat and he was without gloves.",
+      "zh": "门开了，吉姆迈进屋来顺手关上门。他显得清瘦而神情严肃。可怜的小伙子，年仅二十二岁，就要挑起养家糊口的重担！他缺一件新大衣，连双手也冻得没有手套可戴。",
+      "keyWords": [
+        { "word": "burdened", "phonetic": "ˈbɜːdnd", "meaning": "挑重担的；负担沉重的" }
+      ]
+    },
+    {
+      "index": 21,
+      "en": "Jim stopped inside the door, as immovable as a setter at the scent of quail. His eyes were fixed upon Della, and there was an expression in them that she could not read, and it terrified her. It was not anger, nor surprise, nor disapproval, nor horror, nor any of the sentiments that she had been prepared for. He simply stared at her fixedly with that peculiar expression on his face.",
+      "zh": "吉姆一步迈进门里便停住了脚，像一只嗅到鹌鹑气味的猎犬般纹丝不动。他的目光死死定格在德拉身上，眼中流露出一种她读不懂的神情，令她不寒而栗。那不是愤怒，不是惊讶，不是不满，不是惊恐，也不是她预料中的任何一种情绪。他只是带着那种奇特的神色，目不转睛地凝视着她。",
+      "keyWords": [
+        { "word": "immovable", "phonetic": "ɪˈmuːvəbl", "meaning": "纹丝不动的；坚定不移的" },
+        { "word": "quail", "phonetic": "kweɪl", "meaning": "鹌鹑" },
+        { "word": "disapproval", "phonetic": "ˌdɪsəˈpruːvl", "meaning": "不赞成；反对" },
+        { "word": "peculiar", "phonetic": "pɪˈkjuːliə(r)", "meaning": "奇特的；古怪的" }
+      ]
+    },
+    {
+      "index": 22,
+      "en": "Della wriggled off the table and went for him. 'Jim, darling,' she cried, 'don't look at me that way. I had my hair cut off and sold because I couldn't have lived through Christmas without giving you a present. It'll grow out again—you won't mind, will you? I just had to do it. My hair grows awfully fast. Say \"Merry Christmas!\" Jim, and let's be happy. You don't know what a nice—what a beautiful, nice gift I've got for you.'",
+      "zh": "德拉从桌子上跳下来，快步迎上前去。'吉姆，亲爱的，'她哭喊道，'别用那种眼神看着我。我把头发剪掉卖了，因为要是圣诞节不送你一件像样的礼物，我根本活不下去。头发还会长出来的——你不会介意的，对吧？我真的没办法才这么做的。我的头发长得可快了。对我说声\"圣诞快乐！\"吧，吉姆，我们开心一点。你根本想象不到我给你准备了多么棒、多么漂亮的礼物。'",
+      "keyWords": [
+        { "word": "wriggled", "phonetic": "ˈrɪɡld", "meaning": "扭动；挣脱" },
+        { "word": "awfully", "phonetic": "ˈɔːfli", "meaning": "非常，极其" }
+      ]
+    },
+    {
+      "index": 23,
+      "en": "'You've cut off your hair?' asked Jim, laboriously, as if he had not arrived at that patent fact yet even after the hardest mental labor.",
+      "zh": "'你把头发剪掉了？'吉姆艰难地开口问道，仿佛经过了极其费力的思索，却依然无法接受这个显而易见的事实。",
+      "keyWords": [
+        { "word": "laboriously", "phonetic": "ləˈbɔːriəsli", "meaning": "吃力地；艰难地" },
+        { "word": "patent", "phonetic": "ˈpeɪtnt", "meaning": "明显的；显而易见的" }
+      ]
+    },
+    {
+      "index": 24,
+      "en": "'Cut it off and sold it,' said Della. 'Don't you like me just as well, anyhow? I'm me without my hair, ain't I?'",
+      "zh": "'剪掉卖了，'德拉说，'无论如何，你难道就不一样喜欢我了吗？没了长发，我依然还是我呀，不是吗？'",
+      "keyWords": [
+        { "word": "anyhow", "phonetic": "ˈenihaʊ", "meaning": "无论如何；不管怎样" }
+      ]
+    },
+    {
+      "index": 25,
+      "en": "Jim drew a package from his overcoat pocket and threw it upon the table. 'Don't make any mistake, Dell,' he said, 'about me. I don't think there's any sort of haircut or shave or shampoo that could make me like my girl any less. But if you'll unwrap that package you may see why you had me going a while at first.'",
+      "zh": "吉姆从大衣口袋里掏出一个包裹扔在桌上。'德尔，'他说，'别误会我。我不认为世上有任何理发、修剪或者洗头能让我对我的姑娘少一丝爱意。但只要你打开那个包裹，就会明白刚才我为什么一下子愣住了。'",
+      "keyWords": [
+        { "word": "unwrap", "phonetic": "ʌnˈræp", "meaning": "解开；打开包裹" }
+      ]
+    },
+    {
+      "index": 26,
+      "en": "White fingers and nimble tore at the string and paper. And then an ecstatic scream of joy; and then, alas! a quick feminine change to hysterical tears and wails, necessitating the immediate employment of all the comforting powers of the lord of the flat.",
+      "zh": "纤细灵活的手指敏捷地撕开绳子和包装纸。紧接着传来一声狂喜的尖叫；随后，哎呀！迅速变成了女性特有的歇斯底里的抽泣与悲号，迫使公寓的主人不得不立刻使出浑身解数来安慰她。",
+      "keyWords": [
+        { "word": "nimble", "phonetic": "ˈnɪmbl", "meaning": "灵活的；敏捷的" },
+        { "word": "ecstatic", "phonetic": "ɪkˈstætɪk", "meaning": "狂喜的；极度激动的" },
+        { "word": "hysterical", "phonetic": "hɪˈsterɪkl", "meaning": "歇斯底里的；情绪失控的" }
+      ]
+    },
+    {
+      "index": 27,
+      "en": "For there lay The Combs—the set of combs, side and back, that Della had worshipped long in a Broadway window. Beautiful combs, pure tortoise shell, with jewelled rims—just the shade to wear in the beautiful vanished hair. And now, they were hers, but the tresses that should have adorned the coveted adornments were gone.",
+      "zh": "因为那里面静静躺着的，正是全套梳子——一把插在脑后、两把插在鬓角，德拉曾在百老汇橱窗前久久驻足艳羡的全套发梳。那是多么纯正的玳瑁壳梳子啊，边缘还镶嵌着宝石——色泽恰好配得上她那头美丽却已逝去的秀发。如今发梳终归她所有，可原本该配戴这梦寐以求饰物的如瀑青丝，却已不复存在了。",
+      "keyWords": [
+        { "word": "worshipped", "phonetic": "ˈwɜːʃɪpt", "meaning": "崇拜；极度仰慕" },
+        { "word": "tortoise shell", "phonetic": "ˈtɔːtəs ʃel", "meaning": "玳瑁甲" },
+        { "word": "tresses", "phonetic": "ˈtresɪz", "meaning": "一绺绺头发；长发" },
+        { "word": "adorned", "phonetic": "əˈdɔːnd", "meaning": "装饰；佩戴" },
+        { "word": "coveted", "phonetic": "ˈkʌvɪtɪd", "meaning": "梦寐以求的；令人垂涎的" }
+      ]
+    },
+    {
+      "index": 28,
+      "en": "But she hugged them to her bosom, and at length she was able to look up with dim eyes and a smile, and say: 'My hair grows so fast, Jim!' And then Della leaped up like a little singed cat and cried, 'Oh, oh!'",
+      "zh": "但她依然把发梳紧紧搂在胸前，过了好久终于能噙着泪花微笑抬头说：'我的头发长得可快了，吉姆！'接着，德拉像一只被烫了脚的小猫一样猛地跳了起来，叫道：'哎呀，哎呀！'",
+      "keyWords": [
+        { "word": "bosom", "phonetic": "ˈbʊzəm", "meaning": "胸口；胸怀" },
+        { "word": "singed", "phonetic": "sɪndʒd", "meaning": "烧焦的；烤伤的" }
+      ]
+    },
+    {
+      "index": 29,
+      "en": "Jim had not yet seen his beautiful present. She held it out to him eagerly upon her open palm. The dull precious metal seemed to flash with a reflection of her bright and ardent spirit. 'Isn't it a dandy, Jim? I hunted all over town to find it. You'll have to look at the time a hundred times a day now. Give me your watch. I want to see how it looks on it.'",
+      "zh": "吉姆还没见过他那件漂亮的礼物呢。她急切地摊开手掌，将表链递到他眼前。那暗哑沉稳的贵金属仿佛正映照着她那炽热明亮的心灵闪闪发光。'帅气吧，吉姆？我翻遍了全城的铺子才找到它。以后你每天得看上一百遍时间了。把你的金表给我，我想瞧瞧它配上去的样子。'",
+      "keyWords": [
+        { "word": "ardent", "phonetic": "ˈɑːdnt", "meaning": "热烈的；激情的" },
+        { "word": "dandy", "phonetic": "ˈdændi", "meaning": "极好的东西；极品" }
+      ]
+    },
+    {
+      "index": 30,
+      "en": "Instead of obeying, Jim tumbled down on the couch and put his hands under the back of his head and smiled. 'Dell,' said he, 'let's put our Christmas presents away and keep 'em a while. They're too nice to use just at present. I sold the watch to get the money to buy your combs. And now suppose you put the chops on.'",
+      "zh": "吉姆没有照做，而是一头仰倒在沙发上，双手枕在脑后，微笑着说：'德尔，咱们把圣诞礼物收起来放一阵子吧。它们实在太珍贵了，眼下用还嫌太奢侈。我把金表卖了，换了钱给你买这套梳子。现在，你是不是该去煎肉排了？'",
+      "keyWords": [
+        { "word": "tumbled", "phonetic": "ˈtʌmbld", "meaning": "倒下；跌落" },
+        { "word": "obeying", "phonetic": "əˈbeɪɪŋ", "meaning": "遵从；顺从" }
+      ]
+    },
+    {
+      "index": 31,
+      "en": "The magi, as you know, were wise men—wonderfully wise men—who brought gifts to the Babe in the manger. They invented the art of giving Christmas presents. Being wise, their gifts were no doubt wise ones. And here I have lamely related to you the uneventful chronicle of two foolish children in a flat who most unwisely sacrificed for each other the greatest treasures of their house.",
+      "zh": "诸位皆知，麦琪是极有智慧的人——绝顶智慧的人——他们曾把礼物带给马槽里的圣婴。他们发明了赠送圣诞礼物的风俗。因为富有智慧，他们的礼物毫无疑问也是明智之举。而在这里，我拙劣地向你们叙述了一栋廉价公寓里两个傻孩子平淡无奇的故事，他们极其不明智地为了彼此，各自牺牲了家中最为珍贵的宝物。",
+      "keyWords": [
+        { "word": "magi", "phonetic": "ˈmeɪdʒaɪ", "meaning": "东方三博士；贤者" },
+        { "word": "manger", "phonetic": "ˈmeɪndʒə(r)", "meaning": "马槽" },
+        { "word": "chronicle", "phonetic": "ˈkrɒnɪkl", "meaning": "编年史；记事" },
+        { "word": "uneventful", "phonetic": "ˌʌnɪˈventfl", "meaning": "平静无事的；平淡的" }
+      ]
+    },
+    {
+      "index": 32,
+      "en": "But in a last word to the wise of these days let it be said that of all who give gifts these two were the wisest. Of all who give and receive gifts, such as they are wisest. Everywhere they are wisest. They are the magi.",
+      "zh": "但是在对当今聪明人的最后告诫中，请允许我说一句：在所有赠送礼物的人当中，这两个人才是最明智的。在所有赠送和接受礼物的人当中，像他们这样的人才是最明智的。无论何时何地，他们都是最明智的人。他们，就是真正的麦琪。",
+      "keyWords": [
+        { "word": "wisest", "phonetic": "ˈwaɪzɪst", "meaning": "最聪慧的；最明智的" }
+      ]
+    }
+  ]
+}

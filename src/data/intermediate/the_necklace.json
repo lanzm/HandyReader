@@ -1,0 +1,194 @@
+{
+  "id": "the_necklace",
+  "title": "The Necklace",
+  "titleZh": "项链",
+  "author": "Guy de Maupassant (莫泊桑)",
+  "difficulty": "intermediate",
+  "difficultyLabel": "进阶级 · 四级/5000词",
+  "wordCount": 2800,
+  "estimatedMinutes": 13,
+  "summary": "世界短篇小说三大巨匠莫泊桑之传世绝唱。美丽虚荣的小公务员妻子玛蒂尔德为在名流舞会上艳惊四座，向贵妇好友借得一条钻石项链，却在狂欢后的寒夜不幸遗失。为了偿还高额债务，夫妇俩含辛茹苦劳碌十年，容颜尽毁，却在十年后偶遇好友，得知了残酷的真相……",
+  "hasFullText": true,
+  "paragraphs": [
+    {
+      "index": 1,
+      "en": "She was one of those pretty and charming girls, born by a blunder of destiny in a family of clerks. She had no dowry, no expectations, no means of being known, understood, loved, wedded by any rich and distinguished man; and she let herself be married to a little clerk at the Ministry of Public Instruction.",
+      "zh": "她是那种美丽动人的年轻女子，却仿佛由于造化的阴差阳错，偏偏降生在一个寒酸的小职员家庭。她没有陪嫁的嫁妆，没有指望，没有任何结识豪门巨贾以博得其垂青爱慕并结为连理的门径；无可奈何之下，她只得听凭命运摆布，嫁给了教育部的一位低级小文员。"
+    },
+    {
+      "index": 2,
+      "en": "She dressed plainly because she could not dress well, but she was as unhappy as if she had really fallen from a higher station. Women have neither caste nor class, their beauty, grace, and charm serving them for birth or family. Their natural delicacy, their instinctive elegance, their quickness of mind are their only rank of distinction.",
+      "zh": "由于无力购置华服，她平日只能穿着朴素平庸的衣衫，可她内心深处的痛苦失落，却仿佛是一位跌落尘埃的名门贵妇。在女人的世界里，本无所谓严苛的门第与阶级，她们的美貌、优雅与风姿便是天生的门第出身；天然的温婉、与生俱来的仪态和敏锐的灵性，才是她们在世间无上的爵位与身价。"
+    },
+    {
+      "index": 3,
+      "en": "She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries. She suffered from the poverty of her dwelling, from the wretched look of the walls, from the worn-out chairs, from the ugliness of the curtains. All these things, of which another woman of her rank would never even have been conscious, tortured her and made her indignant.",
+      "zh": "她终日沉沦在无边无际的痛苦煎熬之中，深信自己生来理应享尽人世间的一切锦衣玉食与奢华排场。她为住所的寒酸破败而痛苦，为剥落的灰墙、破旧的座椅、褪色难看的窗帘而备受折磨。这一切对于同等阶层的其他妇人而言或许习以为常，可对于她，却无时无刻不在狠狠撕扯着她的自尊，激起满腔的不甘与怨愤。"
+    },
+    {
+      "index": 4,
+      "en": "When she sat down to dinner, before the round table covered with a tablecloth three days old, opposite her husband, who lifted the cover of the tureen, declaring with an enchanted air, 'Ah, the good pot-au-feu! I don't know anything better than that,' she thought of dainties dinners, of shining silverware, of tapestries peopling the walls with ancient personages and strange birds.",
+      "zh": "每当她坐在铺着三天未换台布的圆桌前吃晚饭，对面那个乐天知命的丈夫掀起汤盆盖子、喜形于色地惊呼“啊！热气腾腾的炖牛肉汤！世上再没有比这更下饭的美味了！”之时，她脑海里浮现的却是珍馐美馔、闪耀夺目的银制餐具，以及绣着古代贵族与异兽仙禽的富丽织锦挂毯。"
+    },
+    {
+      "index": 5,
+      "en": "She had no evening gowns, no jewels, nothing. And she loved nothing but that; she felt made for that. She would have given so much to please, to be envied, to be charming and sought after. She had a rich friend, a former schoolmate at the convent, whom she would no longer go to see, she suffered so much when she returned to her home. And she would weep for whole days, with grief, regret, despair, and distress.",
+      "zh": "她没有像样的晚礼服，没有璀璨的珠宝首饰，一无所有。可她偏偏唯独狂热痴恋着这些；她觉得自己天生就是为这纸醉金迷而活的。为了能博得旁人的艳羡喝彩、颠倒众生而受万人追捧，她甘愿付出一切。她本有一位阔绰的教会女校同窗闺蜜，可她如今甚至不愿登门探望；因为每次从好友豪宅归来，她都要躲在阴暗的角落里痛哭整整几天几夜，满腹尽是悔恨、嫉妒与绝望。"
+    },
+    {
+      "index": 6,
+      "en": "One evening her husband returned home with a triumphant air, holding a large envelope in his hand. 'Look,' said he, 'here is something for you.' She tore open the paper quickly and drew out a printed card which bore these words: 'The Minister of Public Instruction and Mme. Georges Ramponneau request the honour of the company of M. and Mme. Loisel at the palace of the Ministry, on Monday, January 18th.'",
+      "zh": "一天傍晚，丈夫神采飞扬、满脸自豪地推门回家，手里扬着一只大信封。“快瞧瞧，”他兴奋地喊道，“这是专门带给你的！”她急不可耐地撕开封套，抽出一张烫金请柬，上面赫然印着：“公共教育部长乔治·朗博诺阁下暨夫人，谨订于一月十八日星期一，敬请骆塞尔先生与夫人莅临教育部官邸共赴晚宴。”"
+    },
+    {
+      "index": 7,
+      "en": "Instead of being delighted, as her husband had hoped, she threw the invitation on the table with disdain, murmuring: 'What do you expect me to do with that?' 'Why, my dear, I thought you would be glad. You never go out, and this is such a fine occasion! I had tremendous trouble to get it. Every one wants one; it is very select.'",
+      "zh": "出乎丈夫意料的是，她不仅没有欣喜若狂，反倒满眼嫌恶地将请柬狠狠扔在桌上，冷冷地嗤笑道：“你让我拿这废纸去干什么？！”“怎么了亲爱的，我原以为你会乐坏的！你成天待在家里从不出门，这可是难得的大场面啊！我托了天大的面子才弄到手的，满部上下人人都争破了头，请的尽是显赫名流啊！”"
+    },
+    {
+      "index": 8,
+      "en": "She looked at him with an irritated eye, and she said, impatiently: 'And what do you suppose I have to wear on my back to go there?' He had not thought of that; he stammered: 'Why, the dress you go to the theatre in. It looks very well, to me.' He stopped, stupefied, distracted, on seeing that his wife was crying. Two great tears fell slowly from the corners of her eyes toward the corners of her mouth.",
+      "zh": "她怒目圆睁地逼视着丈夫，烦躁不安地呵斥道：“那你指望我穿什么破烂去抛头露面？！”丈夫压根没料到这层，结结巴巴地嘟囔：“穿……穿你平时陪我去看戏的那套裙子嘛，依我看就体面得很……”见妻子眼角两行大颗的泪珠无声地滚落，他吓得呆立原地，手足无措。"
+    },
+    {
+      "index": 9,
+      "en": "'Nothing,' she said, drying her wet cheeks. 'Only I have no dress and consequently I cannot go to this ball. Give your card to some colleague whose wife is better equipped than I.' He was in despair. He resumed: 'Come, let us see, Mathilde. How much would it cost, a suitable dress, which you could use on other occasions of the sort, something very simple?'",
+      "zh": "“没什么，”她擦干湿漉漉的脸颊，“只怪我一件礼服都没有，所以这舞会我根本去不成。把你那宝贝请柬拿去送给部里行头阔绰的同僚吧！”丈夫心疼万分，温存地商量道：“好啦玛蒂尔德，咱们算算看：置办一套像样合身、日后出席其他体面场合也能穿的得体礼服，哪怕素雅一点的，究竟得花多少钱？”"
+    },
+    {
+      "index": 10,
+      "en": "She reflected a few seconds, considering an amount she could request without provoking an immediate refusal and a horrified cry from the economical clerk. At last she answered, hesitatingly: 'I don't know exactly, but I think that with four hundred francs I might manage it.' He turned a little pale, for he had kept exactly that amount to buy a gun for next summer to hunt larks with some friends. But he said: 'Very well. I will give you four hundred francs. But try to have a pretty dress.'",
+      "zh": "她暗自盘算了片刻，仔细斟酌着一个既能满足需求、又不至于当场把这位节俭小职员吓得惊声拒绝的数目。终于，她迟疑着开口：“具体我也说不准，不过我想有四百法郎大概就能办齐一套。”丈夫的脸色微微有些泛白，因为他省吃俭用刚存下整整四百法郎，原打算来年夏天添置一把猎枪，同几个好友去南泰尔平原打百灵鸟。然而他咬咬牙：“好吧，我给你四百法郎。务必挑一套最漂亮的礼服。”"
+    },
+    {
+      "index": 11,
+      "en": "The day of the ball drew near, and Mme. Loisel seemed sad, uneasy, anxious. Her dress was ready, however. Her husband said to her one evening: 'What is the matter? You have been looking queer these last three days.' And she answered: 'It annoys me not to have a single jewel, not a single stone, nothing to put on. I shall look like distress. I would almost rather not go to this ball.'",
+      "zh": "舞会的日子一天天临近，然而骆塞尔夫人却依旧愁眉不展、心神不定。尽管礼服早已缝制停当，丈夫见状忍不住关切道：“究竟怎么了？这三天你脸色怎么老是这么古怪？”她悻悻地答道：“一想到浑身上下连一件像样的首饰、一块值钱的宝石都没有，我就心烦意乱！光秃秃的像个穷要饭的，与其这样丢人现眼，我宁可不去受这份罪！”"
+    },
+    {
+      "index": 12,
+      "en": "'You could put on natural flowers,' he said; 'they are very stylish at this season. For ten francs you can get two or three magnificent roses.' She was not convinced. 'No, there's nothing more humiliating than to have an air of poverty among a lot of rich women.' But her husband cried suddenly: 'How stupid you are! Go look up your friend Mme. Forestier and ask her to lend you some jewels!'",
+      "zh": "“你可以佩戴鲜花嘛，”丈夫出主意道，“眼下这个时节戴鲜花正是时髦，十个法郎就能买上两三朵娇艳欲滴的大玫瑰。”她断然摇头：“不，在一群浑身珠宝珠光宝气的阔太太堆里露出寒酸相，天底下再没有比这更奇耻大辱的事了！”丈夫猛然一拍大腿惊呼：“你瞧咱们多糊涂！你去找你那位富孀好友伏来士洁夫人借几件首饰不就行了吗！”"
+    },
+    {
+      "index": 13,
+      "en": "She uttered a cry of joy. 'It's true! I had not thought of that.' The next day she went to her friend and told her story of distress. Mme. Forestier went to her carved wardrobe, took out a large jewel-box, opened it, and said to Mme. Loisel: 'Choose, my dear.'",
+      "zh": "她发出一声惊喜的欢呼：“对啊！我怎么把她给忘了！”第二天她便直奔好友府邸，倾诉了自己苦无首饰的烦恼。伏来士洁夫人二话不说，从雕花衣柜深处捧出一只精美硕大的首饰匣推到她面前，亲切地说：“挑吧，亲爱的，看中哪件就戴哪件。”"
+    },
+    {
+      "index": 14,
+      "en": "She saw at first some bracelets, then a pearl necklace, then a Venetian cross of gold and stones of admirable workmanship. Suddenly she discovered, in a black satin box, a superb necklace of diamonds; her heart began to beat with an immoderate desire. Her hands trembled as she took it. She fastened it around her throat, over her high-necked dress, and remained in ecstasy before her reflection.",
+      "zh": "玛蒂尔德先是过目了几副手镯，接着是一串圆润的珍珠项链，然后是一枚巧夺天工、镶嵌着彩宝的威尼斯金十字架。蓦地，在一只黑色丝缎锦盒里，她赫然发现了一条美轮美奂、璀璨夺目的绝世钻石项链！她的一颗心狂跳不已，双手战栗着将它捧起，环扣在自己的粉颈上，对着穿衣镜里的倩影如醉如痴、沉浸在无上的狂喜之中。"
+    },
+    {
+      "index": 15,
+      "en": "Then she asked, hesitating, filled with anxiety: 'Could you lend me this, only this?' 'Why, yes, certainly.' She jumped upon her friend's neck, embraced her with frenzy, then fled with her treasure.",
+      "zh": "随后她屏住呼吸，满怀忐忑不安地颤声试探道：“你能……你能把这一条借给我戴戴吗？只要这一条！”“那还用问，当然可以啦！”玛蒂尔德喜极而泣，猛地搂住好友的脖颈疯狂亲吻，随即带着无价瑰宝飞奔而去。"
+    },
+    {
+      "index": 16,
+      "en": "The day of the party arrived. Mme. Loisel was a success. She was prettier than any other woman present, elegant, graceful, smiling, and wild with joy. All the men looked at her, asked her name, sought to be introduced. All the attaches of the Cabinet wished to waltz with her. She danced with intoxication, in a triumph of her beauty, in the glory of her success.",
+      "zh": "盛大的舞会终于降临了。骆塞尔夫人艳惊全场！她是全场最千娇百媚、最光彩照人的尤物——高雅端庄、仪态万千，脸上荡漾着如花笑靥，幸福得如痴如狂。所有的达官显贵都在凝视她、打听她的芳名、争先恐后乞求引荐。部里所有的侍从官都渴望同她共舞一曲华尔兹。她在美的凯旋与成功的荣耀中纵情狂舞，彻底陶醉在无与伦比的梦幻之中。"
+    },
+    {
+      "index": 17,
+      "en": "She left about four o'clock in the morning. Her husband had been sleeping since midnight in a little deserted anteroom. He threw over her shoulders the modest garments of everyday life, whose poverty clashed shockingly with the elegance of the ball costume. She felt this and wished to hasten away, in order not to be seen by the other women who were wrapping themselves in rich furs.",
+      "zh": "直到拂晓清晨四点钟，她才恋恋不舍地准备离去。丈夫自午夜起便在一间空无一人的小休息室里打盹。见她出来，丈夫连忙将那件寒酸的旧外套披在她肩头——这贫贱的破衣同身上那袭华贵的天仙舞服形成了刺眼的悬殊反差。她深感羞耻，迫不及待想要落荒而逃，生怕被那些正裹着昂贵皮草的名媛贵妇们窥见这难堪的穷相。"
+    },
+    {
+      "index": 18,
+      "en": "They found a carriage on the quay, one of those ancient night cabs that are only seen in Paris after dark. It brought them to their door in the Rue des Martyrs, and they went up mournfully to their room. For her, it was all over. And the man was thinking that he had to be at the Ministry by ten o'clock.",
+      "zh": "好不容易在河沿旁，他们才拦下一辆残破破旧、只有在入夜后才敢在巴黎街头出没的老式双轮旧马车。马车将他们载回了殉道者街的廉租陋室，两人迈着沉重的步子凄凄惨惨走上楼。对她而言，这璀璨的美梦彻底碎了；而丈夫心里盘算着，早上十点前还得准时赶到教育部点卯当差。"
+    },
+    {
+      "index": 19,
+      "en": "She took off the garments that covered her shoulders, in front of the mirror, in order to see herself once more in all her glory. But suddenly she uttered a cry. The necklace was no longer round her throat!",
+      "zh": "她在穿衣镜前脱下了裹在肩上的外套，想最后再深情凝望一眼这集万千宠爱于一身的绝代风姿。然而刹那间，她爆发出一声惊天动地的凄厉尖叫——那条价值连城的钻石项链，竟从她的脖颈上彻底消失了！"
+    },
+    {
+      "index": 20,
+      "en": "Her husband, already half undressed, cried: 'What is the matter?' She turned toward him, distracted: 'I have—I have—I've lost Mme. Forestier's necklace!' He arose, terrified: 'What? How? Impossible!' And they searched in the folds of the dress, in the folds of the coat, in the pockets, everywhere. They did not find it.",
+      "zh": "早已脱去半身衣衫的丈夫吓得魂飞魄散：“怎么了？！”她惊恐万状地转过身，语无伦次地哭喊：“我……我把伏来士洁夫人的钻石项链弄丢了！”丈夫如遭五雷轰顶：“什么？！怎么可能？！这绝不可能！”他们发了疯似地翻找礼服的裙褶、外套的衬里、衣兜夹层……每一个角落都翻遍了，却一无所获！"
+    },
+    {
+      "index": 21,
+      "en": "He went out. He walked on foot over the whole route, to see if he could find it. He returned about seven o'clock. He had found nothing. He went to the police headquarters, to the newspapers to offer a reward, to the cab companies, everywhere. He spent the whole day in a state of bewilderment before this frightful disaster.",
+      "zh": "丈夫重新穿上衣服冲入夜幕。他冒着风雪沿原路徒步搜寻了一整夜，直到清晨七点才失魂落魄地拖着灌铅的双腿归来——空手而回。随后他奔赴警察署报案、在报社登报悬赏、跑遍马车车行悬重金查问……他在极度的惊恐绝望中奔波了整整一天，面对这场突如其来的灭顶之灾，整个人彻底瘫痪崩溃。"
+    },
+    {
+      "index": 22,
+      "en": "'You must write to your friend,' said he, 'that you have broken the clasp of her necklace and that you are having it mended. That will give us time to turn round.' She wrote at his dictation. At the end of a week they had lost all hope. And Loisel, who had aged five years, declared: 'We must consider how to replace that ornament.'",
+      "zh": "“你必须立刻给你朋友去信，”丈夫绝望地出谋划策道，“就说项链的搭扣被不小心扯断了，你正送去银匠铺修理。这样能为咱们争取点腾挪周转的喘息时间。”她依照丈夫的口授写了信。可一周过去，奇迹终究未曾降临。仿佛一下子苍老了十岁的骆塞尔悲鸣道：“咱们……必须咬牙想办法买一条一模一样的赔还人家了。”"
+    },
+    {
+      "index": 23,
+      "en": "The next day they took the box that had contained it, and went to the jeweller whose name was inside. He looked at his books. 'It was not I, Madame, who sold the necklace; I only furnished the case.' Then they went from jeweller to jeweller, searching for a necklace like the other, consulting their memories, both sick with grief and anguish.",
+      "zh": "第二天，他们揣着刻有银楼名号的丝绒锦盒跑遍各大商号。掌柜翻阅了账簿答复道：“夫人，这串项链并非鄙号售出，在下当年仅仅供应了这只锦盒。”于是夫妇俩怀揣着记忆残存的模样，失魂落魄地挨家挨户寻访全巴黎的大小珠宝铺，整个人因悲苦煎熬几乎要呕出血来。"
+    },
+    {
+      "index": 24,
+      "en": "In a shop at the Palais-Royal they found a string of diamonds that seemed to them exactly like the one they were looking for. It was worth forty thousand francs. They could have it for thirty-six thousand. They begged the jeweller not to sell it for three days.",
+      "zh": "在巴黎皇宫区的一家顶级珠宝行里，他们终于在玻璃展柜深处寻觅到了一条一模一样的钻石项链！掌柜开价四万法郎，最低三十六万法郎方肯出手。夫妇俩苦苦哀求掌柜务必给他们留存三天。"
+    },
+    {
+      "index": 25,
+      "en": "Loisel possessed eighteen thousand francs which his father had left him. He would borrow the rest. He borrowed, asking a thousand francs of one, five hundred of another, five louis here, three louis there. He gave notes, made ruinous promises, dealt with usurers and every race of money lenders. He compromised his whole existence, risked his signature without even knowing if he could meet it.",
+      "zh": "骆塞尔手里只有父亲生前留下的整整一万八千法郎遗产，其余的窟窿必须全数举债！他东拼西凑，找这个借一千法郎，向那个借五百，求亲靠友、甚至签下一笔又一笔饮鸩止渴的毁天灭地的高利贷契约。他将自己整整一生的前途与声誉全押了上去，哪怕不知日后能否兑现，也在借据上颤抖着签下了自己的名字。"
+    },
+    {
+      "index": 26,
+      "en": "When Mme. Loisel took back the necklace to Mme. Forestier, the latter said to her with a chilled manner: 'You should have returned it to me sooner, for I might have needed it.' She did not open the case, as her friend feared she might. If she had detected the substitution, what would she have thought? What would she have said? Would she not have taken her for a thief?",
+      "zh": "当骆塞尔夫人战战兢兢将锦盒送回伏来士洁夫人手中时，好友面色微有不悦，冷淡地责备道：“你早该送还给我的，万一我这几天要佩戴呢。”所幸好友并未像玛蒂尔德心惊胆战所设想的那样掀开盒盖验看。倘若她当场察觉出异样，她会怎么想？她会怎么说？难道不会将玛蒂尔德当成监守自盗的下贱贼骨头吗？！"
+    },
+    {
+      "index": 27,
+      "en": "Mme. Loisel now knew the horrible existence of the needy. She took her part, moreover, all on a sudden, with heroism. That dreadful debt must be paid. She would pay it. They dismissed their servant; they changed their lodgings; they rented a garret under the roof.",
+      "zh": "从此，骆塞尔夫人领略到了赤贫底层最恐怖残酷的非人折磨。然而在这灭顶之灾面前，她竟陡然迸发出一股惊人的英勇决绝——这笔天杀的血债必须彻底还清，她发誓一定要还清！他们辞退了唯一的帮佣，退掉了体面的寓所，搬进了阁楼顶层一间寒风呼啸的逼仄顶楼。"
+    },
+    {
+      "index": 28,
+      "en": "She came to know the heavy work of the house, the hateful duties of the kitchen. She washed the dishes, wearing her rosy nails out on the greasy pots and bottoms of the saucepans. She washed the dirty linen, the shirts and the dishcloths, which she dried on a line. She carried the slops down to the street every morning, and carried up the water, stopping at each landing to catch her breath.",
+      "zh": "她开始挑起全天下最沉重下贱的繁重家务，整日同油腻恶臭的厨房为伴。那一双双曾经娇嫩粉红的指甲，在油垢斑斑的锅底与大铁盆上磨得皮开肉绽。她亲自淘洗油腻肮脏的床单、衬衫与抹布，晾在绳索上；每天清晨她咬着牙把污浊的泔水桶抬下楼，再一步一步将沉重的水桶扛上七楼，每上一层楼都要扶着栏杆痛苦地剧烈喘息。"
+    },
+    {
+      "index": 29,
+      "en": "And dressed like a woman of the people, she went to the fruiterer, the grocer, the butcher, her basket on her arm, bargaining, insulted, defending her miserable money sou by sou. The husband worked evenings, making up the books of a tradesman, and frequently, at night, he had copying to do at five sous a page. And this life lasted for ten years. At the end of ten years they had paid back everything, everything, with the interest, and all.",
+      "zh": "她穿着市井粗妇的破衣烂衫，挎着竹篮流连于菜摊、肉铺与杂货铺，为了区区几个铜板同小贩据理力争、忍受辱骂白眼，一个子儿一个子儿地死命抠省。丈夫每晚下班后去给商铺核算账本，深夜再熬红双眼以一页五个铜板的报酬抄写文稿。这样暗无天日的人间炼狱，整整熬了十年！整整十年之后，他们终于本息全清，将所有的债务连本带利彻底偿还干净！"
+    },
+    {
+      "index": 30,
+      "en": "Mme. Loisel looked old now. She had become the robust, and hard, and rough woman of poor households. With untended hair, skirts askew, and red hands, she talked in a loud voice, and washed the floors with large pails of water. But sometimes, when her husband was at the office, she sat down by the window, and she thought of that ball, where she had been so beautiful and so much admired.",
+      "zh": "如今的骆塞尔夫人早已容颜衰败、老态龙钟。她俨然成了一个粗壮干瘪、嗓门洪亮、满手粗茧的市井贫家恶妇。她头发蓬乱，裙摆歪斜，双手通红粗糙，扯着粗哑的破锣嗓门大声说话，提着大桶大桶的凉水冲刷地板。然而有时趁丈夫在衙门当差的片刻喘息，她也会依着窗棂出神发呆，怀念起多年前那场盛大舞会——那场她曾颠倒众生、艳冠群芳的短暂荣光。"
+    },
+    {
+      "index": 31,
+      "en": "What would have happened if she had not lost that necklace? Who knows? Who knows? How singular life is, how fickle! How little is needed to ruin or to save us!",
+      "zh": "设想当年要是没有弄丢那条项链，自己的命运又会是怎样一番光景呢？谁能料得准？谁能猜得透？！人世间的造化弄人是何等诡谲莫测，祸福无常！区区一点微不足道的小事，便足以将一个人彻底毁灭，亦或是让人峰回路转得以拯救！"
+    },
+    {
+      "index": 32,
+      "en": "One Sunday, as she had gone for a walk on the Champs-Elysees to refresh herself after the labours of the week, she suddenly perceived a woman who was leading a child. It was Mme. Forestier, still young, still beautiful, still charming. Mme. Loisel felt deeply moved. Should she speak to her? Yes, certainly. And now that she had paid, she would tell her all. Why not?",
+      "zh": "一个风和日丽的星期天，玛蒂尔德在劳作了一周之后，信步来到香榭丽舍大街散步透气。蓦地，她看见一位牵着孩童款款漫步的妇人——那正是伏来士洁夫人，她依然那般年轻貌美、风姿绰约。玛蒂尔德心潮澎湃：要不要上前同她相认搭话？当然！既然如今债务已全数清偿，她何不坦然将所有的真相和盘托出？"
+    },
+    {
+      "index": 33,
+      "en": "She went up. 'Good-day, Jeanne.' The other, astonished to be addressed so familiarly by this common woman, did not recognize her. She stammered: 'But—Madame—I do not know. You must be mistaken.' 'No. I am Mathilde Loisel.'",
+      "zh": "她快步迎了上去。“你好啊，让娜。”对方愕然驻足，见眼前这个粗鲁鄙俗的贫苦妇人竟然直呼自己的闺名，满脸疑惑与警惕。贵妇迟疑道：“可是……这位夫人……我并不认识您啊，您八成是认错人了吧？”“不，我是玛蒂尔德·骆塞尔。”"
+    },
+    {
+      "index": 34,
+      "en": "Her friend uttered a cry. 'Oh, my poor Mathilde! How you have changed!' 'Yes, I have had a pretty hard life, since I saw you last, and much trouble—and all on your account.' 'On my account? How so?' 'You remember that diamond necklace you lent me to go to the ball at the Ministry?' 'Yes. Well?' 'Well, I lost it.'",
+      "zh": "好友失声痛呼起来：“天哪！我可怜的玛蒂尔德！你……你怎么变得这副模样了？！”“是啊，自打当年和你分别之后，我熬过了多少难以想象的苦日子，受尽了磨难——而这一切，全拜你所赐！”“拜我所赐？！怎么会呢？！”“你还记得当年借我参加教育部舞会的那条钻石项链吗？”“记得啊，怎么了？”“告诉你吧，当年我把它弄丢了。”"
+    },
+    {
+      "index": 35,
+      "en": "'How so? You brought it back to me.' 'I brought you back another exactly like it. And for ten years we have been paying for it. You will understand that it was not easy for us who had nothing. At last it is ended, and I am very glad.'",
+      "zh": "“怎么会弄丢呢？你当年分明原封不动还给我了呀！”“我赔还给你的是另一条一模一样的新项链！为了买它，我们夫妇俩含辛茹苦整整还了十年血债！你想想，对于我们这种身无分文的苦命人来说有多艰难！如今大债终于彻底还清了，我心里真是说不出的快慰从容。”"
+    },
+    {
+      "index": 36,
+      "en": "Mme. Forestier had stopped. 'You say that you bought a diamond necklace to replace mine?' 'Yes. You had not noticed it, then? They were very much alike.' And she smiled with a proud and naive joy. Mme. Forestier, strongly moved, took both her hands: 'Oh, my poor Mathilde! Why, my necklace was paste! It was worth at most five hundred francs!'",
+      "zh": "伏来士洁夫人如遭雷击般僵立原地：“你说……你当年花重金买了一条真钻石项链来赔我？！”“是啊。你当年竟然一点都没察觉出来吗？两条项链当真是一模一样呢。”玛蒂尔德脸上浮现出一抹自豪而天真的欣慰笑容。伏来士洁夫人心酸难抑，动情地死死握住玛蒂尔德粗糙结茧的双手，颤声惊呼：“噢，我可怜的玛蒂尔德啊！当年我那条项链……不过是廉价的人造假刚石啊！满打满算，充其量最多也就值五百个法郎啊！”"
+    }
+  ]
+}

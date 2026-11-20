@@ -1,0 +1,134 @@
+{
+  "id": "the_tell_tale_heart",
+  "title": "The Tell-Tale Heart",
+  "titleZh": "泄密的心",
+  "author": "Edgar Allan Poe (爱伦·坡)",
+  "difficulty": "intermediate",
+  "difficultyLabel": "进阶级 · 四级/5000词",
+  "wordCount": 2150,
+  "estimatedMinutes": 10,
+  "summary": "心理惊悚与犯罪悬疑的开山殿堂之作。自称神智健全的主人公因无法忍受老房东如秃鹰般的冷酷眼睛而精心策划了一场完美谋杀，并将尸体严丝合缝藏于地板之下。然而在面对警官的谈笑自若中，地板下传来的心跳声却越来越响……",
+  "hasFullText": true,
+  "paragraphs": [
+    {
+      "index": 1,
+      "en": "True!—nervous—very, very dreadfully nervous I had been and am; but why will you say that I am mad? The disease had sharpened my senses—not destroyed—not dulled them. Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell. How, then, am I mad? Hearken! and observe how healthily—how calmly I can tell you the whole story.",
+      "zh": "千真万确！神经质——我过去以及现在确实都非常、极其可怕地神经过敏；可你们凭什么咬定我疯了？疾病不过是磨砺敏锐了我的感官，既未摧毁也未钝化它们。尤其是我的听觉，异常灵敏锐利。我听得见天地间的一切声响，甚至听得到地狱深处的诸多动静。既是如此，我又何疯之有？静下心来听着吧！且看我是多么健全、多么冷静从容地将整桩事情的始末向你们娓娓道来。"
+    },
+    {
+      "index": 2,
+      "en": "It is impossible to say how first the idea entered my brain; but once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! yes, it was this! He had the eye of a vulture—a pale blue eye, with a film over it. Whenever it fell upon me, my blood ran cold.",
+      "zh": "我也说不清那个可怕的念头最初究竟是如何钻进我脑海的；然而一旦萌生，它便日日夜夜如梦魇般缠绕着我。动机一无所有，仇怨毫无立足之地。我其实很爱那位老人。他从未亏待过我，也从未给过我半点屈辱冒犯。对他家资巨万的黄金我也毫无觊觎之心。我想，全是由于他那只该死的眼睛！没错，就是它！他长着一只秃鹰般可怖的眼睛——惨白泛青的虹膜上覆着一层浑浊灰翳，每当那只眼睛落在我身上，我的全身血液便顷刻冻结。"
+    },
+    {
+      "index": 3,
+      "en": "And so by degrees—very gradually—I made up my mind to take the life of the old man, and thus rid myself of the eye forever. Now this is the point. You fancy me mad. Madmen know nothing. But you should have seen me. You should have seen how wisely I proceeded—with what caution—with what foresight—with what dissimulation I went to work!",
+      "zh": "就这样一步步地——极其隐秘且渐进地——我下定决心要彻底夺走老人的性命，借此永远摆脱那只令我窒息的鹰眼。这正是关键所在！你们自以为我疯癫无状，可疯子懂得什么？你们真该亲眼见识一下我的作为！你们真该看看我行事何等明智周详——以何等的谨小慎微、何等的高瞻远瞩、何等天衣无缝的伪装去部署一切！"
+    },
+    {
+      "index": 4,
+      "en": "I was never kinder to the old man than during the whole week before I killed him. And every night, about midnight, I turned the latch of his door and opened it—oh so gently! And then, when I had made an opening sufficient for my head, I put in a dark lantern, all closed, closed, that no light shone out, and then I thrust in my head.",
+      "zh": "在下手前的那整整一周里，我对老人的体贴温柔堪称前所未有。每天深夜大约子夜时分，我都会轻轻旋开他的房门锁舌推门而入——噢，那动作轻柔得连微风都自愧不如！当门缝大到刚好能容下我的脑袋时，我便探入一盏严严实实遮蔽住所有光线的暗灯，然后把脑袋缓缓探进房间。"
+    },
+    {
+      "index": 5,
+      "en": "Oh, you would have laughed to see how cunningly I thrust it in! I moved it slowly—very, very slowly, so that I might not disturb the old man's sleep. It took me an hour to place my whole head within the opening so far that I could see him as he lay upon his bed. Ha!—would a madman have been so wise as this?",
+      "zh": "噢，若是你们目睹我探头时狡黠熟练的神态，定会忍俊不禁！我的动作极其缓慢——慢得不可思议，生怕惊扰了老人的清梦。单是为了把整个头颅探进门缝、窥见他安卧在床榻上的模样，我就足足耗费了一个钟头。哈！天底下会有哪一个疯子能像我这般深思熟虑、精明老练吗？"
+    },
+    {
+      "index": 6,
+      "en": "And then, when my head was well in the room, I undid the lantern cautiously—oh, so cautiously—cautiously (for the hinges creaked)—I undid it just so much that a single thin ray fell upon the vulture eye. And this I did for seven long nights—every night just at midnight—but I found the eye always closed; and so it was impossible to do the work; for it was not the old man who vexed me, but his Evil Eye.",
+      "zh": "接着，当我的头颅完全置于室内后，我便小心翼翼地开启灯罩——噢，那是何等谨小慎微（生怕合叶发出哪怕一丝吱呀声）——我仅仅将灯罩掀开一条微不可查的缝隙，让一缕细如发丝的光线精准投射在老人的秃鹰眼上。我整整一连七个漫长深夜都如法炮制——夜夜恰逢子夜十二点——可我发现那只眼睛始终紧闭着；如此一来我便无法下手，因为折磨得我发狂的并非老人本身，而是他那只恶毒邪祟的眼睛！"
+    },
+    {
+      "index": 7,
+      "en": "And every morning, when the day broke, I went boldly into the chamber, and spoke courageously to him, calling him by name in a hearty tone, and inquiring how he has passed the night. So you see he would have been a very profound old man, indeed, to suspect that every night, just at twelve, I looked in upon him while he slept.",
+      "zh": "每当破晓天明，我便大摇大摆踱进他的卧室，毫无惧色地同他热情攀谈，用最亲切响亮的嗓音唤他的名字，关切询问他昨夜安歇得如何。由此可见，除非他有通天的深沉洞察力，否则断然不会疑心每天夜里十二点整，我都曾在暗中窥视着熟睡中的他。"
+    },
+    {
+      "index": 8,
+      "en": "Upon the eighth night I was more than usually cautious in opening the door. A watch's minute hand moves more quickly than did mine. Never before that night had I felt the extent of my own powers—of my sagacity. I could scarcely contain my feelings of triumph. To think that there I was, opening the door, little by little, and he not even to dream of my secret deeds or thoughts.",
+      "zh": "到了第八个夜晚，我推开房门时比以往任何时候都要更加小心谨慎。怀表的分钟指针走动得都比我的手腕敏捷。在那一刻之前，我从未如此真切地感受到自己掌控一切的磅礴伟力与过人智慧。我几乎难以按捺内心狂喜的胜利感：一想到我正在这儿一点一点蚕食门缝，而他对我暗中的行动与图谋甚至连一丝噩梦都不曾做过！"
+    },
+    {
+      "index": 9,
+      "en": "I fairly chuckled at the idea; and perhaps he heard me; for he moved on the bed suddenly, as if startled. Now you may think that I drew back—but no. His room was as black as pitch with the thick darkness, and so I knew that he could not see the opening of the door, and I kept pushing it on steadily, steadily.",
+      "zh": "想到这里，我忍不住在心底轻声冷笑起来；也许他当真听见了细微的声响，因为他在床上突然动弹了一下，仿佛受了惊吓。或许你们以为我会慌忙缩手后退——不，绝不！他的房间被浓稠如墨的黑暗紧紧笼罩，伸手不见五指，因此我笃定他根本看不清门扉开启的裂缝，我依旧坚定不移、稳如泰山地继续一点一点向前推门。"
+    },
+    {
+      "index": 10,
+      "en": "I had my head in, and was about to open the lantern, when my thumb slipped upon the tin fastening, and the old man sprang up in bed, crying out—'Who's there?' I kept quite still and said nothing. For a whole hour I did not move a muscle, and in the meantime I did not hear him lie down. He was still sitting up in the bed listening;—just as I have done, night after night, hearkening to the death watches in the wall.",
+      "zh": "我的头已探进室内，正准备开启暗灯，不料大拇指在铁皮卡扣上滑了一下，发出了一声轻响，老人猛然在床上弹坐而起，惊恐万状地尖声大喊：“谁在那儿？！”我屏住呼吸，宛如雕塑般僵立原地，一言不发。在整整一个小时里，我全身连半块肌肉都不曾挪动分毫，与此同时，我也并未听到他重新躺下的动静。他依然僵坐在床上凝神谛听——正如我夜复一夜在墙壁前倾听报死甲虫的叩击声一模一样。"
+    },
+    {
+      "index": 11,
+      "en": "Presently I heard a slight groan, and I knew it was the groan of mortal terror. It was not a groan of pain or of grief—oh, no!—it was the low stifled sound that arises from the bottom of the soul when overcharged with awe. I knew the sound well. Many a night, just at midnight, when all the world slept, it has welled up from my own bosom.",
+      "zh": "片刻之后，我听见了一声微弱的呻吟，我心知肚明那正是濒临死亡的绝望恐惧所发出的哀鸣。那绝非肉体痛苦或世俗悲伤的呻吟——噢，绝非如此！那是灵魂被无尽恐惧压垮濒临瓦解时，从心坎深处挤压出的低沉窒息声。我对这种声音实在太熟悉了：多少个万籁俱寂的子夜深更，当世人皆已沉沉睡去，这声音也曾无数次自我胸口不可遏制地汹涌翻腾。"
+    },
+    {
+      "index": 12,
+      "en": "When I had waited a long time, very patiently, without hearing him lie down, I resolved to open a little—a very, very little crevice in the lantern. So I opened it—you cannot imagine how stealthily, stealthily—until, at length a single dim ray, like the thread of the spider, shot from out the crevice and fell full upon the vulture eye.",
+      "zh": "在无比耐心地漫长等待之后，依旧未曾听闻他躺下的响动，我决意将暗灯开启一条极其微小、微乎其微的细缝。于是我掀开了它——你们根本无法想象那手法是何等诡谲潜行——直到最后，一束宛如蛛丝般幽微暗淡的光线破隙而出，严丝合缝、不偏不倚地全数倾泻在了那只秃鹰眼上！"
+    },
+    {
+      "index": 13,
+      "en": "It was open—wide, wide open—and I grew furious as I gazed upon it. I saw it with perfect distinctness—all a dull blue, with a hideous veil over it that chilled the very marrow in my bones; but I could see nothing else of the old man's face or person: for I had directed the ray as if by instinct, precisely upon the damned spot.",
+      "zh": "那只眼睛正睁得滚圆——圆睁着！一凝视着它，滔天的狂怒顿时在我胸中激荡燃烧。我无比清晰地看清了它——通体灰败惨蓝，蒙着一层可憎刺骨的白翳，冻僵了我骨髓深处所有的血液；然而除了这只眼睛，老人的面孔或身躯我全然看不真切：因为冥冥中仿佛凭借本能一般，我将全部光束精准无误地锁定在了那该死的位置。"
+    },
+    {
+      "index": 14,
+      "en": "And have I not told you that what you mistake for madness is but over-acuteness of the sense?—now, I say, there came to my ears a low, dull, quick sound, such as a watch makes when enveloped in cotton. I knew that sound well, too. It was the beating of the old man's heart. It increased my fury, as the beating of a drum stimulates the soldier into courage.",
+      "zh": "难道我不曾告诫过你们，被你们误判为疯癫的，实则不过是感官超乎常人的极致敏锐吗？——就在此刻，一阵低沉、沉闷却又急促的声响传入我的耳畔，恰似棉絮层层包裹之下的怀表滴答声。我对这声音也熟稔至极：那正是老人狂乱的心跳！这心跳声进一步助长了我的暴怒狂潮，恰似战鼓咚咚催促士兵舍生忘死冲锋陷阵一般！"
+    },
+    {
+      "index": 15,
+      "en": "But even yet I refrained and kept still. I scarcely breathed. I held the lantern motionless. I tried how steadily I could maintain the ray upon the eye. Meantime the hellish tattoo of the heart increased. It grew quicker and quicker, and louder and louder every instant. The old man's terror must have been extreme! It grew louder, I say, louder every moment!—do you mark me well?",
+      "zh": "即便如此，我依然竭力克制自己纹丝不动。我几乎摒住了呼吸，手中的暗灯没有哪怕一毫米的颤抖。与此同时，那催命地狱般的心脏鼓点越来越密集，每分每秒都在愈发急促、愈发响亮！老人的恐惧必定已飙升到了无以复加的极限！我说过，那心跳声一刻比一刻更震耳欲聋！——你们有在仔细听我讲吗？！"
+    },
+    {
+      "index": 16,
+      "en": "The old man's hour had come! With a loud yell, I threw open the lantern and leaped into the room. He shrieked once—once only. In an instant I dragged him to the floor, and pulled the heavy bed over him. I then smiled gaily, to find the deed so far done. But, for many minutes, the heart beat on with a muffled sound. This, however, did not vex me; it would not be heard through the wall. At length it ceased. The old man was dead.",
+      "zh": "老人的死期到了！伴随着一声狂暴的厉声咆哮，我猛然掀开暗灯纵身扑进卧房。他凄厉地尖叫了一声——仅此一声！刹那间我将他掀翻在地，把沉重的床板死死压在他身上。眼见大功告成，我嘴角浮现出轻松快慰的笑容。然而在好几分钟里，那颗心脏依旧发出微弱沉闷的搏动。不过这丝毫不令我烦躁，隔着厚墙这微声绝无人能听见。终于，心跳平息了。老人彻底咽了气。"
+    },
+    {
+      "index": 17,
+      "en": "If still you think me mad, you will think so no longer when I describe the wise precautions I took for the concealment of the body. The night waned, and I worked hastily, but in silence. First of all I dismembered the corpse. I cut off the head and the arms and the legs. I then took up three planks from the flooring of the chamber, and deposited all between the scantlings. I then replaced the boards so cleverly, so cunningly, that no human eye—not even his—could have detected any thing wrong.",
+      "zh": "若你们此刻仍固执地认为我是个疯子，待我向你们详细阐述我为藏匿尸体所采取的一系列精妙审慎防范后，你们便绝不敢再做此妄想。夜色渐褪，我争分夺秒却悄无声息地忙碌着。首先我将尸体肢解，斩下了头颅、双臂与双腿；接着我撬开卧室地面的三块厚实地板，将残骸悉数妥帖掩埋在龙骨之间。随后我巧妙绝伦、天衣无缝地将地板严密复位，哪怕凡间最锐利的肉眼——哪怕是他本人的眼睛重现——也绝休想勘破半分破绽！"
+    },
+    {
+      "index": 18,
+      "en": "When I had made an end of these labours, it was four o'clock—still dark as midnight. As the bell sounded the hour, there came a knocking at the street door. I went down to open it with a light heart,—for what had I now to fear? There entered three men, who introduced themselves, with perfect urbanity, as officers of the police. A shriek had been heard by a neighbour during the night; suspicion of foul play had been aroused; information had been lodged at the police office, and they had been deputed to search the premises.",
+      "zh": "当我料理完这浩大工程时，时钟已敲响了清晨四点的钟声——天色依旧如子夜般漆黑。随着钟声袅袅散去，街门处传来了阵阵急促的敲门声。我步履轻快地走下楼去开门——因为如今的我还有何惧哉？门外走入三名男子，彬彬有礼、温文尔雅地表明自己是巡警。原来深夜有邻居听到了一声骇人惨叫，怀疑有不测之虞，遂向警署报案，他们特奉命前来搜查现场。"
+    },
+    {
+      "index": 19,
+      "en": "I smiled,—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. I bade them search—search well. I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself placed my own seat upon the very spot largely concealing the corpse.",
+      "zh": "我莞尔一笑——我心中何惧之有？我热情地将三位警官迎入屋内。我从容解释道那声惨叫是我噩梦中的惊呼，并谎称老人近日动身去了乡下。我领着这几位贵客踏遍整座宅邸，请他们掘地三尺仔细搜查。最后，我将他们引到了老人的卧房，展示着原封未动、完好如初的财物。出于胜券在握的狂妄自信，我甚至搬来几把椅子请他们歇息解乏，而我自己更是大马金刀地将座椅直接安放在埋藏尸体的地板正上方！"
+    },
+    {
+      "index": 20,
+      "en": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears: but still they sat and still chatted. The ringing became more distinct:—it continued and became more distinct: I talked more freely to get rid of the feeling: but it continued and gained definiteness—until, at length, I found that the noise was not within my ears.",
+      "zh": "警官们显然心满意足，我坦荡坦率的举止彻底打消了他们的疑虑。我泰然自若、谈笑风生。他们围坐闲聊着家常琐事，我则对答如流、谈吐欢快。然而未过多久，我突然感到面色惨白，恨不得他们即刻消失。我一阵头痛欲裂，隐约觉得耳中鸣响不断；可他们依旧围坐攀谈。那鸣响愈发真切清晰——持续回荡，声声入耳：我愈发滔滔不绝地大声说话企图压制这怪异感觉，可那声响越来越清晰分明——直到最后，我惊骇地发现，那声音根本不是来自我的耳鸣！"
+    },
+    {
+      "index": 21,
+      "en": "No doubt I now grew very pale;—but I talked more fluently, and with a heightened voice. Yet the sound increased—and what could I do? It was a low, dull, quick sound—much such a sound as a watch makes when enveloped in cotton. I gasped for breath—and yet the officers heard it not. I talked more quickly—more vehemently; but the noise steadily increased. I arose and argued about trifles, in a high key and with violent gesticulations; but the noise steadily increased.",
+      "zh": "毫无疑问此刻我面如死灰；但我语速飞快，嗓门也越来越高亢。然而那声音却愈发宏大——天哪，我该怎么办？！那是一阵低沉、沉闷却急促狂乱的声响——分明正如棉花包裹下的怀表走动声！我大口喘着粗气——可警官们竟浑然不觉！我语无伦次、面目狰狞地高谈阔论，挥舞着手臂大声咆哮；然而那可怕的声响却顽固不化、节节攀升！"
+    },
+    {
+      "index": 22,
+      "en": "Why would they not be gone? I paced the floor to and fro with heavy strides, as if excited to fury by the observations of the men—but the noise steadily increased. Oh God! what could I do? I foamed—I raved—I swore! I swung the chair upon which I had been sitting, and grated it upon the boards, but the noise arose over all and continually increased. It grew louder—louder—louder!",
+      "zh": "他们为什么还不滚？！为什么还不走？！我在地板上迈着沉重的步伐来回狂奔，仿佛被同僚的闲谈激怒了一般——可那催命的声响却持续暴涨！我的上帝啊！我究竟该如何是好？！我嘴角泛白沫——我嘶吼——我狂怒诅咒！我疯狂抡起刚才坐着的那把椅子狠狠刮擦着地板，企图用刺耳的摩擦声掩盖一切，然而那搏动声却凌驾于万籁之上，声势浩大、持续不绝！它越来越响——越来越响——越来越响！"
+    },
+    {
+      "index": 23,
+      "en": "And still the men chatted pleasantly, and smiled. Was it possible they heard not? Almighty God!—no, no! They heard!—they suspected!—they knew!—they were making a mockery of my horror!—this I thought, and this I think. But anything was better than this agony! Anything was more tolerable than this derision! I could bear those hypocritical smiles no longer! I felt that I must scream or die!—and now—again!—hark! louder! louder! louder! louder!—",
+      "zh": "然而那几位警官依旧神情自若地微笑着谈天说地。难道他们当真听不见吗？！全能的上帝啊！——不，绝不可能！他们分明听见了！——他们已经起疑了！——他们早已洞若观火！——他们分明是在居心叵测地戏谑嘲弄我的恐惧与煎熬！——我当时这般笃定，如今依旧深信不疑！然而世间任何惩罚都胜过此刻撕心裂肺的酷刑！任何摧残都好过这般猫戏老鼠的讥讽嘲笑！我再也无法忍受他们虚伪透顶的假笑了！我觉得自己要么尖叫要么暴毙身亡！——瞧啊——又来了！——听着！越来越响！越来越大！催人欲狂！——"
+    },
+    {
+      "index": 24,
+      "en": "'Villains!' I shrieked, 'dissemble no more! I admit the deed!—tear up the planks! here, here!—it is the beating of his hideous heart!'",
+      "zh": "“你们这帮恶棍！”我彻底歇斯底里地抱头尖叫起来，“别再装模作样了！我招认！我全交代了！——快把地板撬开！就在这里，就在这下面！——这正是我亲手杀死的老人那颗可憎心脏在疯狂跳动啊！”"
+    }
+  ]
+}

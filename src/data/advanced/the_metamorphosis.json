@@ -1,0 +1,84 @@
+{
+  "id": "the_metamorphosis",
+  "title": "The Metamorphosis",
+  "titleZh": "变形记",
+  "author": "Franz Kafka (卡夫卡)",
+  "difficulty": "advanced",
+  "difficultyLabel": "挑战级 · 六级/8000词",
+  "wordCount": 21000,
+  "estimatedMinutes": 80,
+  "summary": "20世纪荒诞派与存在主义文学无可逾越的不朽绝唱。勤勉忠厚的旅行推销员格里高尔·萨姆沙，在一夜不安的梦魇醒来后，发觉自己躺在床上变成了一只巨大的甲虫。往昔全凭他一人供养的家庭，在惊骇中逐渐显露出疏离、冷漠与厌弃，最终将他逼向了孤独死去的冰冷宿命。",
+  "hasFullText": true,
+  "paragraphs": [
+    {
+      "index": 1,
+      "en": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked.",
+      "zh": "一天清晨，当格里高尔·萨姆沙从纷乱不安的梦魇中醒来时，他惊愕地发觉自己在床上变成了一只巨大可怖的甲虫。他坚硬如甲胄般的硬壳背部贴着床榻，只要稍稍抬起头，便能瞧见自己褐色隆起、被一道道拱形硬骨勒出僵硬分节的庞大腹部。被子几乎无法遮盖住这庞然大物，眼看随时都要滑落下去。比起他庞硕臃肿的身躯，无数条细小可怜的节肢在眼前绝望无助地胡乱扑腾晃动着。"
+    },
+    {
+      "index": 2,
+      "en": "'What's happened to me?' he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table—Samsa was a travelling salesman—and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.",
+      "zh": "“我这是怎么了？”他暗自琢磨。这绝非做梦。他的卧房——一间虽嫌逼仄却地道的人间居室——静静伫立在四堵熟悉的墙壁之间。书桌上整齐散落着一批纺织布料样品——萨姆沙是一名奔波劳碌的旅行推销员——书桌上方悬挂着他不久前从画报上剪下、装进精致镀金画框的一幅画像：画中一位披戴皮草帽与华丽水貂围巾的贵妇端坐其中，向着观者高高举起一只将整条小臂深深裹住的厚重皮毛暖手筒。"
+    },
+    {
+      "index": 3,
+      "en": "Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad. 'How about if I sleep a little bit longer and forget all this nonsense?' he thought, but that was something he was unable to do because he was used to sleeping on his right, and in his present state he couldn't get into that position. However hard he threw himself onto his right, he always rolled back to where he was.",
+      "zh": "格里高尔转过头望向窗外阴郁萧瑟的鬼天气。雨滴敲打着窗玻璃，发出沉闷冰冷的嗒嗒声，让他心头泛起阵阵莫名的悲凉与厌烦。“如果我再多睡一会儿，把这一切荒唐无稽的鬼梦全抛到脑后，又会怎样呢？”他心想；然而这纯属痴心妄想，因为他多年来习惯了右侧卧入眠，而在眼下这副甲壳躯体之下，他根本无法翻转成那个姿势。任凭他如何拼死发力向右倾倒，沉重的圆弧甲背总会无情地将他弹回仰卧的原始位置。"
+    },
+    {
+      "index": 4,
+      "en": "'Oh, God,' he thought, 'what a strenuous career it is that I've chosen! Travelling day in and day out. Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone or become friendly with them. It can all go to Hell!'",
+      "zh": "“哎呀上帝啊，”他暗自苦叹，“我究竟选了一门何等劳碌折寿的苦差事啊！年复一年日复一日奔波在旅途之上。干这行奔波揽客，比起在本地安安稳稳做买卖不知要耗费多少倍的辛劳心力；更不用提赶火车的提心吊胆、有一顿没一顿的粗劣伙食，以及永远在同各色面孔浮皮潦草打交道、永无可能结下半个知心交心朋友的孤独煎熬。这一切统统见鬼去吧！”"
+    },
+    {
+      "index": 5,
+      "en": "He felt a slight itch up on his belly; pushed himself slowly up on his back towards the headboard so that he could lift his head better; found where the itch was, and saw that it was covered with lots of little white spots which he didn't know what to make of; and when he tried to feel the place with one of his legs he drew it quickly back because as soon as he touched it he was overcome by a cold shudder.",
+      "zh": "他感到肚皮顶端泛起一阵隐隐的奇痒；他靠着坚硬的背脊一点一点向床头板蠕动磨蹭，以便能稍稍抬起脑袋；他终于找到了发痒之处，只见那片灰暗的肚皮上布满了无数密密麻麻、令他不解其意的白色小斑点；而当他试探着抬起一条细肢企图抓挠时，刚一碰触，一股刺骨的冰凉战栗便席卷全身，吓得他慌忙将腿缩了回来。"
+    },
+    {
+      "index": 6,
+      "en": "He slid back into his former position. 'Getting up early all the time', he thought, 'it makes you stupid. You've got to get enough sleep. Other travelling salesmen live a life of luxury. For instance, whenever I go back to the guest house during the morning to copy out the contract, these gentlemen are always still sitting there eating their breakfasts. I ought to just try that with my boss; I'd get kicked out on the spot. But who knows, maybe that would be the best thing for me.'",
+      "zh": "他又滑落回原先的仰卧姿态。“整天早起赶车，”他嘀咕道，“真会把人熬成白痴笨蛋。人必须保证充足的睡眠才行。瞧瞧其他商行的那些同行推销员，活得何等逍遥养尊处优！每逢我大清早跑回旅馆整理抄写订单时，那帮大爷还正悠哉游哉围坐享用早餐呢。我要是敢在老板面前耍这套做派，当场就得被一脚踹出门滚蛋。不过谁料得准，保不齐被开除对我反倒是天大的解脱呢。”"
+    },
+    {
+      "index": 7,
+      "en": "'If I didn't have my parents to think about I'd have given in my notice a long time ago, I'd have gone up to the boss and told him just what I think, he'd thought of that! But I must pay off my parents' debt to him—that will probably take another five or six years—and then I'll make the big break. In the meantime, I've got to get up, my train leaves at five.' He looked over at the alarm clock ticking on the chest of drawers. 'God in Heaven!' It was half-past six and the hands were quietly moving on.",
+      "zh": "“要不是为了替父母还债，我早在八百年前就递交辞呈拂袖而去了！我非指着老板的鼻子把他骂个狗血喷头不可！然而为了替老爹还清欠那恶霸老板的巨额陈债——少说还得熬上个五六年——到那时我便能同他彻底一刀两断。眼下嘛，无论如何我得爬起来，五点的早班火车早就开走了。”他扭头望向五斗橱上滴答作响的闹钟——“老天爷啊！”指针已然静悄悄滑过了六点半！"
+    },
+    {
+      "index": 8,
+      "en": "There was a knock on the door: 'Gregor,' said a voice—it was his mother—'it's a quarter to seven. Didn't you want to go somewhere?' That gentle voice! Gregor was shocked when he heard his own voice answering; it could hardly be recognized as the voice he had had before. There was a painful and uncontrollable squeaking that blended in with it, leaving the words audible only at the first moment and then drowning them in a strange whistling.",
+      "zh": "房门上传来一阵轻柔的叩门声：“格里高尔，”一个温柔的呼唤——那是母亲的声音——“快差一刻七点了，你不是赶着出门出差吗？”多么柔和慈爱的母亲嗓音啊！然而当格里高尔张口回应时，从喉头迸出的声音把自己吓得魂飞魄散：那根本不辨人声，夹杂着一股撕心裂肺、难以遏制的刺耳吱吱怪鸣，字词仅仅在最初半秒依稀可辨，随即被一股古怪尖锐的呼啸声彻底淹没瓦解！"
+    },
+    {
+      "index": 9,
+      "en": "Soon the Chief Clerk from his firm arrived to investigate why Gregor had missed the five o'clock train. The family begged him from outside the locked door. Gregor, using his jaws and toothless mandibles, finally managed to turn the key in the lock. The door swung open. The Chief Clerk covered his mouth and backed away in horror, the mother collapsed in a heap, and the father clenched his fists with a hostile expression.",
+      "zh": "不多时，洋行的大管事主任甚至亲自登门兴师问罪，质问格里高尔为何胆敢旷误五点的早班列车。隔着厚重的反锁房门，全家人焦急惶恐地苦苦哀求。格里高尔拼尽浑身解数，用他那毫无牙齿的坚硬大颚死命咬住锁孔钥匙，伴随着“咔哒”一声，房门终于轰然开启！大管事吓得一把捂住嘴巴连滚带爬后退逃窜，母亲双腿一软瘫倒在地，而老父亲则满脸铁青、双拳紧握，流露出极其敌视凶恶的神情。"
+    },
+    {
+      "index": 10,
+      "en": "His father seized a cane and a newspaper, and shouting 'Shoo!' like one driving a beast, pursued Gregor back into his room. Gregor's broad body could not fit easily through the doorway; he became wedged, bleeding from one flank, until his father gave him a heavy blow from behind that shoved him deep into the room. The door was slammed shut and locked.",
+      "zh": "父亲抄起一把大拐杖和报纸，嘴里发出驱赶牲畜般的“嘘！嘘！”怒吼，挥舞着手杖将格里高尔一步步向房内驱赶逼退。格里高尔庞硕宽阔的甲虫之躯根本无法轻松穿过狭窄的门缝；他被死死卡在门框处，一侧侧腹被粗糙木框刮蹭得鲜血淋漓，直到父亲在背后狠命飞起一脚，将他粗暴地踹进了卧房深处！房门被“砰”地一声狠狠甩上并死死反锁。"
+    },
+    {
+      "index": 11,
+      "en": "From that day on, Gregor's life was one of profound isolation. Only his sister, Grete, dared to enter, bringing him scraps of rotten food, which he found, to his shame, far more delicious than fresh milk and bread. She cleaned his room while holding a cloth over her nose. But as the months passed, the family took in lodgers to pay the bills, and Grete, weary of the burden, began to hate the creature.",
+      "zh": "自那日起，格里高尔彻底坠入了无边无际的绝望孤岛。唯有同胞妹妹格蕾特尚敢壮着胆子踏进房门，为他送来残羹冷炙与发馊腐烂的烂菜叶——令格里高尔深感自卑羞愧的是，比起昔日爱吃的新鲜面包牛奶，如今这副肮脏的虫躯竟然对腐食甘之如饴。妹妹捂着口鼻匆匆打扫房间。然而随着数月过去，全家不得不靠招揽房客勉强维生，不堪重负的妹妹心底，也渐渐滋生出对这只怪物的刻骨厌恶与憎恨。"
+    },
+    {
+      "index": 12,
+      "en": "One evening, the father threw apples at Gregor when he wandered into the dining room. One apple struck him hard in the back and lodged itself in his flesh, creating an agonizing, festering wound that never healed. Weak, crippled, and covered with dust and rubbish, Gregor retreated under the couch.",
+      "zh": "某个傍晚，当格里高尔不慎爬出房门溜进餐厅时，暴怒的父亲抓起果盘里的大红苹果疯狂向他猛砸！一只坚硬的苹果狠狠砸中了他的甲背，深陷在皮肉骨骼之中无法拔除，化作了一处溃烂流脓、痛彻心扉的致命重创，再也无法愈合。衰竭残废、浑身落满尘埃与垃圾碎屑的格里高尔，绝望地蜷缩在沙发阴影最深处。"
+    },
+    {
+      "index": 13,
+      "en": "One night, listening to Grete play the violin for the lodgers, Gregor crept out, drawn by the beautiful music. The lodgers saw him and gave notice in disgust. 'We must get rid of it!' cried Grete in tears to her parents. 'It will kill you both, I see it coming! If it were Gregor, he would have realized that humans cannot live with such a beast, and he would have gone away of his own free will!'",
+      "zh": "一天深夜，听闻妹妹在客厅为房客们拉响心爱的小提琴，格里高尔在美妙琴声的牵引下不由自主地悄悄探出头来。房客们一眼瞥见这尊庞然大怪，恶心作呕之下当场宣布退房拒付房租！“我们必须把它弄走！”妹妹在父母怀中痛哭流涕尖叫起来，“它迟早要把你们二老活活折磨死的！如果它当真是格里高尔，他就该早就明白人类绝不可能同一只爬虫生活在同一个屋檐下，他就该自觉早早滚出这个家门了！”"
+    },
+    {
+      "index": 14,
+      "en": "Gregor turned and crawled back to his room with the last remnants of his strength. He thought of his family with tenderness and love. His conviction that he must disappear was even firmer than his sister's. At three o'clock in the morning, his head sank to the floor of its own accord, and from his nostrils issued his last, faint breath. The charwoman found his dry, flat corpse in the morning. Relieved of their burden, the family set out on a journey into the warm country sunshine, looking forward to a bright new future.",
+      "zh": "格里高尔缓缓转过身去，耗尽体内最后残存的一丝残力，一步步艰难爬回了属于自己的漆黑牢房。在弥留之际，他心中对父母与妹妹涌起的依然是无尽的温柔与深情眷恋。他深信自己必须从人世间彻底消失的决绝信念，甚至比妹妹方才的斥责还要坚定千百倍。凌晨三点钟，他的脑袋不由自主地垂落在冰冷的地板上，自鼻孔中吐出了游丝般的最后一缕微弱气息。清晨女佣发现了这具干瘪干枯的甲壳空壳。如释重负的萨姆沙一家，终于在明媚温暖的明媚阳光下载歌载舞奔赴郊外踏青，满怀憧憬地迎接着崭新璀璨的明天。"
+    }
+  ]
+}

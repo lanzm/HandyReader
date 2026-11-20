@@ -1,0 +1,234 @@
+{
+  "id": "scandal_in_bohemia",
+  "title": "A Scandal in Bohemia",
+  "titleZh": "波希米亚丑闻",
+  "author": "Arthur Conan Doyle (柯南·道尔)",
+  "difficulty": "advanced",
+  "difficultyLabel": "挑战级 · 六级/8000词",
+  "wordCount": 8600,
+  "estimatedMinutes": 35,
+  "summary": "福尔摩斯探案集中最负盛名的中篇首作。波希米亚国王即将迎娶北欧公主，却面临旧照片可能被公开的危机。福尔摩斯接受委托，精心布下假火警的妙计寻觅密件，却遇到了那位让他毕生敬重的女性——艾琳·艾德勒。",
+  "hasFullText": true,
+  "paragraphs": [
+    {
+      "index": 1,
+      "en": "To Sherlock Holmes she is always THE woman. I have seldom heard him mention her under any other name. In his eyes she eclipses and predominates the whole of her sex. It was not that he felt any emotion akin to love for Irene Adler. All emotions, and that one particularly, were abhorrent to his cold, precise but admirably balanced mind.",
+      "zh": "对歇洛克·福尔摩斯而言，她永远是“那位独一无二的女人”。我极少听他用别的名字称呼过她。在他眼中，她让全天下的其他女性皆黯然失色。这倒并非说明他对艾琳·艾德勒产生了任何类似于爱情的情愫；一切情感——尤其是男女情爱——对于他那冷静、严谨而又高度自持的超凡头脑而言，向来是格格不入且深恶痛绝的。"
+    },
+    {
+      "index": 2,
+      "en": "He was, I take it, the most perfect reasoning and observing machine that the world has seen, but as a lover he would have placed himself in a false position. He never spoke of the softer passions, save with a gibe and a sneer. They were admirable things for the observer—excellent for drawing the veil from men's motives and actions. But for the trained reasoner to admit such intrusions into his own delicate temperament was to introduce a distracting factor which might throw a doubt upon all his mental results.",
+      "zh": "在我看来，他是世间所见最完美的推理与观察机器；但若扮演起恋人的角色，他必将陷入极其尴尬的境地。他对柔情蜜意向来绝口不提，即便偶有提及也充斥着嘲讽与嗤笑。对于旁观者而言，情感固然是观察世人动机与行径的上佳窗口；但对于一个训练有素的理性智者来说，容许这类情绪侵入自己精密的思维体系，无异于在精密的仪器中引入扰乱心智的杂音，甚至会令所有的逻辑推演蒙上阴影。"
+    },
+    {
+      "index": 3,
+      "en": "I had seen little of Holmes lately. My marriage had drifted us away from each other. My own complete happiness, and the home-centred interests which rise up around the man who first finds himself master of his own establishment, were sufficient to absorb all my attention; while Holmes, who loathed every form of society with his whole Bohemian soul, remained in our lodgings in Baker Street, buried among his old books, and alternating from week to week between cocaine and ambition.",
+      "zh": "那阵子我与福尔摩斯走动并不频繁。我的新婚生活让我们彼此渐渐疏远。初为人夫、自立门户的满心幸福与琐碎家事，足以占据我的全部心力；而福尔摩斯骨子里流淌着波希米亚式的放荡不羁，对一切繁文缛节的世俗社交深恶痛绝，依旧蛰居在贝克街的公寓里，埋首于泛黄古籍之间，在对功业的雄心与低沉的颓靡之间周而复始地徘徊。"
+    },
+    {
+      "index": 4,
+      "en": "One night—it was on the twentieth of March, 1888—I was returning from a journey to a patient, when my way led me through Baker Street. As I passed the well-remembered door, I was seized with a keen desire to see Holmes again, and to know how he was employing his extraordinary powers. His rooms were brilliantly lit, and, even as I looked up, I saw his tall, spare figure pass twice in dark silhouette against the blind. He was pacing the room swiftly, eagerly, with his head sunk upon his chest and his hands clasped behind him.",
+      "zh": "1888年3月20日深夜，我出诊探视完病人步行归家，恰好途径贝克街。路过那扇无比熟悉的门扉时，一股强烈探望福尔摩斯的渴望涌上心头，想看看他近来又在如何施展他那鬼斧神工的侦探才干。他的窗户透出通明的灯火，我抬头望去，只见他那高大削瘦的剪影两次在深色窗帘后一闪而过。他正埋着头、双手倒背身后，在房间里敏捷焦急地来回踱步。"
+    },
+    {
+      "index": 5,
+      "en": "To me, who knew his every mood and habit, his attitude and manner told their own story. He was at work again. He had risen out of his drug-created dreams and was hot upon the scent of some new problem. I rang the bell and was shown up to the chamber which had formerly been in part my own. His manner was not effusive. It seldom was; but he was glad, I think, to see me.",
+      "zh": "对于熟稔他每一丝心绪与秉性的我而言，这副神态已道尽了一切：他又重出江湖办案了！他已从百无聊赖的沉睡中霍然惊醒，正全神贯注地紧咬着某个新谜题的气息。我拉响了门铃，被引上楼步入那间曾经属于我们二人的寓所。他的态度并不热情外露——他向来如此；但我能真切感受到，见到我他满心欢喜。"
+    },
+    {
+      "index": 6,
+      "en": "'Wedlock suits you,' he remarked. 'I think, Watson, that you have put on seven and a half pounds since I saw you.' 'Seven!' I answered. 'Indeed, I should have thought a little more. Just a trifle more, I fancy, Watson. And in practice again, I observe. You did not tell me that you intended to go into harness.' 'Then, how do you know?' 'I see it, I deduce it.'",
+      "zh": "“婚姻生活看来很滋润你嘛，”他打量着我道，“华生，自打上次一别，我看你足足发福了七磅半。”“刚巧七磅！”我惊叹道。“果然，我原以为还要略多一点点呢。而且你又重操旧业行医开诊了，我看得分明。你先前可没向我透露过你打算披挂上阵呀。”“那你究竟是如何洞悉的？”“我亲眼目睹，而后合乎逻辑地推导而出的。”"
+    },
+    {
+      "index": 7,
+      "en": "'How do I know that you have been getting yourself very wet lately, and that you have a most clumsy and careless servant girl?' 'My dear Holmes,' said I, 'this is too much. You would certainly have been burned, had you lived a few centuries ago. It is true that I had a country walk on Thursday and came home in a dreadful mess, but as I have changed my clothes I can't imagine how you deduce it. As to Mary Jane, she is incorrigible, and my wife has given her notice, but there, again, I fail to see how you work it out.'",
+      "zh": "“我不仅知道你重操旧业，我还知道你近来在雨天浑身湿透，而且你家雇了个笨手笨脚、粗心大意的女佣女仆。”“我亲爱的福尔摩斯，”我苦笑道，“这实在太不可思议了！若是倒退几百年，你非被当成妖僧绑在火刑柱上烧死不可！星期四我确实踩着泥泞走了一趟乡间小道，回家时狼狈不堪，可我早就换下脏衣服了，真想不通你是怎么看出来的；至于玛丽·简，她确实冥顽不灵，我内人已经把她辞退了，可我依旧纳闷你是如何摸得一清二楚的。”"
+    },
+    {
+      "index": 8,
+      "en": "He chuckled to himself and rubbed his long, nervous hands together. 'It is simplicity itself,' said he; 'my eyes tell me that on the inside of your left shoe, just where the firelight strikes it, the leather is scored by six almost parallel cuts. Obviously they have been caused by someone who has very carelessly scraped round the edges of the sole in order to remove crusted mud from it.'",
+      "zh": "他低声轻笑起来，神经质般搓着修长的十指：“这简直易如反掌，”他说道，“我的双眼告诉我，在炉火映照下的你左脚皮鞋内侧，皮革上赫然留有六道平行的刮痕。显然，这是某个粗枝大叶的人在清理鞋底干结的泥垢时，用小刀胡乱刮削留下的拙劣痕迹。”"
+    },
+    {
+      "index": 9,
+      "en": "'Hence, you see, my double deduction that you had been out in vile weather, and that you had a particularly malignant boot-slitting specimen of the London slavey. As to your practice, if a gentleman walks into my rooms smelling of iodoform, with a black mark of nitrate of silver upon his right forefinger, and a bulge on the right side of his top-hat to show where he has secreted his stethoscope, I must be dull indeed, if I do not pronounce him to be an active member of the medical profession.'",
+      "zh": "“因此你瞧，我自然双管齐下得出推断：你不仅在恶劣风雨天出过门，而且家里还供着一个毁鞋不倦的伦敦蠢笨女佣。至于你的行医迹象——倘若一位绅士踱进我的书房，通体散发着碘仿的气味，右手食指上留着硝酸银灼烧的黑斑，而高顶礼帽右侧明显鼓出一块塞着听诊器的痕迹，那我若是还断定不出他是一位正在积极接诊的执业医师，未免也太愚钝不堪了吧！”"
+    },
+    {
+      "index": 10,
+      "en": "I could not help laughing at the ease with which he explained his process of deduction. 'When I hear you give your reasons,' I remarked, 'the thing always appears to me to be so ridiculously simple that I could easily do it myself, though at each successive instance of your reasoning I am baffled, until you explain your process. And yet I believe that my eyes are as good as yours.'",
+      "zh": "听完他化腐朽为神奇的精妙剖析，我忍不住哑然失笑。“每次听你道破天机，”我感叹道，“事情看起来总是这般荒谬简单，仿佛我自己也能轻而易举办到；然而在每次你揭开谜底之前，我却始终如堕五里雾中，一筹莫展。可我相信自己的眼力并不比你逊色分毫啊。”"
+    },
+    {
+      "index": 11,
+      "en": "'Quite so,' he answered, lighting a cigarette, and throwing himself down into an armchair. 'You see, but you do not observe. The distinction is clear. For example, you have frequently seen the steps which lead up from the hall to this room.' 'Frequently.' 'How often?' 'Well, some hundreds of times.' 'Then how many are there?' 'How many? I don't know.' 'Quite so! You have not observed. And yet you have seen. That is just my point. Now, I know that there are seventeen steps, because I have both seen and observed.'",
+      "zh": "“一点没错，”他点燃一支香烟，仰身陷进扶手椅里答道，“你看是看了，但你从未用心观察。两者的区别天差地别。譬如说，你曾无数次踏上从门厅通往这间书房的台阶吧？”“那当然是无数次了。”“多少次？”“少说也有数百次之多。”“那么，到底有多少级台阶？”“多少级？……我还真不知道。”“这就对了！你只是视而不见，未曾观察。这正是我要阐明的关键。而我清清楚楚知道一共有十七级台阶，因为我不仅看到了，而且用心观察了。”"
+    },
+    {
+      "index": 12,
+      "en": "He tossed a sheet of thick, pink-tinted notepaper across the table. 'It came by the last post,' said he. 'Read it aloud.' The note was undated, and had neither signature nor address: 'There will call upon you to-night, at a quarter to eight o'clock, a gentleman who desires to consult you upon a matter of the very deepest moment. Your recent services to one of the royal houses of Europe have shown that you may safely be trusted. Be in your chamber then at that hour, and do not take it amiss if your visitor wear a mask.'",
+      "zh": "他随手将一张厚实泛粉的精致信纸扔过桌面：“刚才末班邮差刚送来的，”他说，“大声读出来吧。”信纸上既未署日期，也无落款地址：“今晚七点三刻，将有一位贵客登门拜访，就一桩攸关重大的绝密要事向阁下垂询。阁下近期效力于欧洲某皇室的赫赫功勋已然昭示，阁下乃是万分值得托付之俊杰。届时务请留在寓所静候；倘若来客面戴面具，亦请勿以为忤怪罪。”"
+    },
+    {
+      "index": 13,
+      "en": "'This is indeed a mystery,' I remarked. 'What do you imagine that it means?' 'I have no data yet. It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts. But the paper itself. What do you deduce from it?'",
+      "zh": "“这委实有些扑朔迷离，”我端详着信纸说，“你觉得这意味着什么？”“手头尚未掌握确凿数据。在获取充分证据之前便妄下结论建立理论，乃是兵家大忌。人们会不知不觉开始扭曲事实去迁就主观理论，而非调整理论以契合客观事实。不过单凭这张纸本身，你能推导出什么端倪？”"
+    },
+    {
+      "index": 14,
+      "en": "I carefully examined the writing, and the paper upon which it was written. 'The man who wrote it was presumably well to do,' I remarked, endeavouring to imitate my companion's processes. 'Such paper could not be bought under half a crown a packet. It is peculiarly strong and stiff.' 'Peculiar—that is the very word,' said Holmes. 'It is not an English paper at all. Hold it up to the light.'",
+      "zh": "我极力模仿同伴的探案手法，仔细勘验着笔迹与质地：“执笔者想必身家颇丰，”我分析道，“这等用纸哪怕一包半个克朗也绝买不下来，质地异乎寻常的厚韧硬挺。”“异乎寻常——你这个词用得极妙，”福尔摩斯颔首赞许，“这根本不是英国出产的纸张。对着灯光照照看。”"
+    },
+    {
+      "index": 15,
+      "en": "I did so, and saw a large 'E' with a small 'g', a 'P', and a large 'G' with a small 't' woven into the texture of the paper. 'What do you make of that?' asked Holmes. 'The name of the maker, no doubt; or his monogram, rather.' 'Not at all. The 'G' with the small 't' stands for 'Gesellschaft,' which is the German for 'Company.' It is a customary contraction like our 'Co.' 'P,' of course, stands for 'Papier.' Now for the 'Eg.'",
+      "zh": "我迎光举起信纸，只见纸质纹理深处透出一组精巧的水印：一个大写的‘E’伴着小写‘g’，一个‘P’，以及一个大写‘G’伴着小写‘t’。“你看出什么门道了吗？”福尔摩斯问道。“想必是造纸工坊的大号，或者是其花体字专用水印吧。”“非也！大写‘G’带小写‘t’代表德语中的‘Gesellschaft’，即‘公司’之意，正如英文里的‘Co.’缩写一样；‘P’显然代表德语的‘Papier’（纸张）。现在我们再来看这个‘Eg’。”"
+    },
+    {
+      "index": 16,
+      "en": "He glanced over a heavy brown volume from his shelves. 'Eglow, Eglinitz—here we are, Egria. It is in a German-speaking country—in Bohemia, not far from Carlsbad. 'Remarkable as being the scene of the death of Wallenstein, and for its numerous glass-factories and paper-mills.' Ha, ha, my boy, what do you make of that?' His eyes sparkled, and he sent up a great blue triumphant cloud from his cigarette.",
+      "zh": "他从书架上抽出一部厚重的褐色大词典飞快翻阅：“埃格洛、埃格利尼茨——找到了，埃格里亚！这是德语区的一个地方——位于波希米亚境内，距离卡尔斯巴德不远。‘因名将华伦斯坦战殁于此，以及遍布玻璃工坊与造纸作坊而名扬天下。’哈哈，我的老弟，你现在看出眉目来了吧？”他的双眸精芒暴射，惬意地自烟斗中吐出一大股胜利者的湛蓝烟云。"
+    },
+    {
+      "index": 17,
+      "en": "'The paper was made in Bohemia,' I said. 'Precisely. And the man who wrote the note is a German. Do you note the peculiar construction of the sentence—'This account of you we have from all quarters received.' A Frenchman or a Russian could not have written that. It is the German who is so uncourteous to his verbs. It only remains, therefore, to discover what is wanted by this German who writes upon Bohemian paper and prefers wearing a mask to showing his face.'",
+      "zh": "“信纸产自波希米亚，”我说。“丝毫不爽！而且写信之人必定是个德国人。你注意到这句奇特别扭的句式构造了吗——‘关于阁下之斐然美誉，我们自各方皆有收悉’。法国人或俄国人绝写不出这种语法结构，唯有德国人才对动词如此霸道无礼、倒置摆放。因此眼下唯一的谜题，便是查清这位用着波希米亚信纸、宁可戴面具也不愿以真面目示人的德国贵客，究竟所图为何！”"
+    },
+    {
+      "index": 18,
+      "en": "A slow and heavy step, which had been heard upon the stairs and in the passage, paused immediately outside the door. Then there was a loud and authoritative tap. 'Come in!' said Holmes. A man entered who could not have been less than six feet six inches in height, with the chest and limbs of a Hercules. His dress was rich with a richness which would, in England, be regarded as akin to bad taste.",
+      "zh": "一阵沉稳迟缓的厚重脚步声穿过过道走上楼梯，在门外骤然停驻。接着传来了两声高傲而富有威严的沉重叩门声。“请进！”福尔摩斯朗声应道。门扉推开，走入一位身高绝不低于六英尺六英寸的昂藏巨汉，胸膛与四肢雄健壮硕宛如大力神赫拉克勒斯。他的衣着极尽奢华考究，但在英国绅士看来，却隐隐流露出一种近乎暴发户般的浮夸品味。"
+    },
+    {
+      "index": 19,
+      "en": "He held a broad-brimmed hat in his hand, while he wore across the upper part of his face, extending down past the cheekbones, a black vizard mask, which he had apparently adjusted that very moment, for his hand was still raised to it as he entered. 'You had my note?' he asked with a deep harsh voice, strongly marked with a German accent. 'I told you that I would call.'",
+      "zh": "他手中握着一顶宽檐软帽，而脸部上半截则遮掩着一张垂过颧骨的黑色眼罩面具。他进门时手还扶在面具边沿，显然是方才匆忙戴正的。“二位收到我的便条了吧？”他用一口带有浓重德语口音、低沉而略显沙哑的威严嗓音问道，“我先前在信中知会过我会登门造访。”"
+    },
+    {
+      "index": 20,
+      "en": "Holmes looked lazily at him. 'Pray take a seat,' said he. 'This is my friend and colleague, Dr. Watson, who is occasionally good enough to help me in my cases. Whom have I the honour to address?' 'You may address me as the Count Von Kramm, a Bohemian nobleman. I understand that this gentleman, your friend, is a man of honour and discretion, whom I may trust with a matter of the most extreme importance.'",
+      "zh": "福尔摩斯懒洋洋地打量着他：“请坐吧，”他说，“这位是我的挚友兼得力助手华生医生，时常在我的案子中给予鼎力相助。敢问我有幸如何尊称阁下？”“阁下不妨称呼我为冯·克拉姆伯爵，一位波希米亚贵族。我想这位绅士既是阁下的挚友，必定也是一位恪守信义、守口如瓶的君子，我大可放心地将这桩惊天要事托付二位。”"
+    },
+    {
+      "index": 21,
+      "en": "Holmes laughed softly. 'If your Majesty would condescend to state your case,' he remarked, 'I should be better able to advise you.' The visitor sprang from his chair and paced up and down the room in uncontrollable agitation. Then, with a gesture of desperation, he tore the mask from his face and hurled it upon the ground.",
+      "zh": "福尔摩斯发出一声若有似无的轻笑：“陛下倘若能屈尊移驾，坦率陈词案情，”他慢条斯理地说道，“我也好更为得体地为陛下出谋划策。”来客闻言霍然自座椅上弹跳而起，满脸难以自抑的惊骇与激动，在房中急促徘徊。随后伴随着一声绝望的叹息，他一把扯下脸上的黑面具，狠狠摔在了地上！"
+    },
+    {
+      "index": 22,
+      "en": "'You are right,' he cried; 'I am the King. Why should I attempt to conceal it?' 'Why, indeed?' murmured Holmes. 'Your Majesty had not spoken before I was aware that I was addressing Wilhelm Gottsreich Sigismond von Ormstein, Grand Duke of Cassel-Felstein, and hereditary King of Bohemia.'",
+      "zh": "“你说得一点没错！”他失声喊道，“我就是国王！我又何必遮遮掩掩呢？！”“这倒确实何苦呢，”福尔摩斯淡淡呢喃道，“陛下刚一踏进房门尚未开金口前，我便已知晓眼前站着的正是威廉·戈特赖希·齐吉斯蒙德·冯·奥姆斯坦陛下，卡塞尔-费尔施泰因大公，兼波希米亚世袭国王陛下。”"
+    },
+    {
+      "index": 23,
+      "en": "'You can understand,' said our strange visitor, sitting down once more and passing his hand over his high white forehead, 'you can understand that I am not accustomed to doing such business in my own person. Yet the matter was so delicate that I could not venture it into the hands of an agent without putting myself in his power. I have come incognito from Prague for the purpose of consulting you.'",
+      "zh": "“二位能够体谅，”这位身份尊贵的奇客重新坐下，用颤抖的手抚平高耸白皙的额头，“二位应当明白，我向来极不习惯由自己御驾亲临料理此类私密勾当。然而事关体大、极其微妙，我若贸然差遣使节暗中经办，无异于将自己的身家性命全盘交于外人之手受制于人。因此我才特意自布拉格微服私访潜入伦敦，专程向阁下垂询。”"
+    },
+    {
+      "index": 24,
+      "en": "'Then, pray consult,' said Holmes, shutting his eyes once more. 'The facts are briefly these: Some five years ago, during a lengthy visit to Warsaw, I made the acquaintance of the well-known adventuress, Irene Adler. The name is no doubt familiar to you.' 'Hum! Looking her up in my index,' murmured Holmes, opening his eyes and glancing down an alphabetized ledger.",
+      "zh": "“那么，请陛下赐教吧，”福尔摩斯重新合上双目。“案情简述如下：大约五年之前，我在华沙作冗长逗留期间，结识了一位名噪一时的风云女子——艾琳·艾德勒。想必这个名字阁下断不会陌生吧？”“唔！容我查阅一下我的档案索引，”福尔摩斯睁开眼，从容翻阅起一本按字母排序的私家大卷宗。"
+    },
+    {
+      "index": 25,
+      "en": "'Born in New Jersey in the year 1858. Contralto—hum! La Scala, Milan—hum! Prima donna Imperial Opera of Warsaw—yes! Retired from operatic stage—ha! Living in London—quite so! Your Majesty, as I understand, became entangled with this young person, wrote her some compromising letters, and is now desirous of getting those letters back.'",
+      "zh": "“1858年生于美国新泽西州。女低音——唔！曾效力于米兰斯卡拉歌剧院——嗯！华沙帝国歌剧院领衔女主角首席女高音——没错！退出歌剧舞台——哈！现居伦敦——正是！陛下当年，依我推断，想必是同这位妙龄女郎坠入情网有所纠葛，曾修书予她写过若干有失体统的亲笔私函，而今急于想将那些书信悉数收回销毁吧？”"
+    },
+    {
+      "index": 26,
+      "en": "'Precisely so. But how—' 'Was there a secret marriage?' 'None.' 'No legal papers or certificates?' 'None.' 'Then how can she prove anything? Her word against yours.' 'There is a photograph.' 'A photograph of you both?' 'Yes, indeed.' 'Oh, that is quite bad! Did you not try to buy it?' 'I have tried, but she refuses to sell.'",
+      "zh": "“千真万确！然而究竟该如何——”“陛下当年与她可曾私定终身秘密成婚？”“绝无此事。”“可有立下任何具法律效力的婚约字据契约？”“一概皆无。”“既是如此，她单凭空口无凭又如何坐实？不过是各执一词罢了。”“可……还有一张照片！”“一张陛下与她的合影？”“正是如此！”“噢，这可就棘手得很了！陛下未曾尝试重金赎买吗？”“我早已开过天价，可她矢口拒绝出售！”"
+    },
+    {
+      "index": 27,
+      "en": "'Then stolen?' 'Five attempts have been made. Twice burglars in my pay ransacked her house. Once we diverted her luggage when she travelled. Twice she has been waylaid. There has not been a result.' 'No sign of it?' 'Absolutely none.' Holmes laughed. 'It is quite a pretty little problem,' said he.",
+      "zh": "“那么可曾派人行窃暗取？”“前后足足密谋过五次！我雇佣的飞贼曾两次潜入她的宅邸掘地三尺洗劫搜查；一次趁她出游时暗中调包了她的行李箱笼；甚至两次在半路设伏暗算搜身，可全数空手而归！”“连半点蛛丝马迹都未曾搜获？”“杳无踪影！”福尔摩斯不禁朗声大笑：“这当真是一个颇有嚼头、令人心旷神怡的绝妙小案子啊！”"
+    },
+    {
+      "index": 28,
+      "en": "'Rope-walk, Briony Lodge, Serpentine Avenue, St. John's Wood,' Holmes noted the address. 'I shall drop into the neighbourhood tomorrow morning and take a look around. We have three days before the marriage is announced.' 'And now I wish you a very good night,' said the King, 'and I trust that you will soon have some good news for me.'",
+      "zh": "“圣约翰伍德区，九曲花街，布里奥妮别庄，”福尔摩斯在便签上刷刷记下地址，“明早我将亲赴那一带踩点勘查。距离陛下大婚官宣尚有三天周旋余地。”“那么二位，今晚先祝二位好梦，”国王躬身致意道，“我坚信阁下不久便能为我带来捷报佳音。”"
+    },
+    {
+      "index": 29,
+      "en": "At four o'clock next afternoon Holmes walked into our room. He was dressed as an elderly, bibulous groom, with inflamed face and disreputable clothes. 'Well, Watson,' said he, 'I have had a most interesting day. Irene Adler is the daintiest thing under a bonnet on this planet. The men of the neighbourhood are all madly in love with her. But there is a lawyer named Godfrey Norton who calls daily.'",
+      "zh": "次日下午四点钟，福尔摩斯踱进了贝克街公寓。他乔装成一名嗜酒如命的老马夫，满脸醉汉特有的酡红，衣衫邋遢不堪。“嗨，华生，”他乐不可支地说，“我今天过得可真算得上精彩绝伦！那位艾琳·艾德勒小姐，堪称这颗星球上佩戴女帽的最倾国倾城的俏佳人！附近街巷的男人们无不对她神魂颠倒。然而有一个名叫戈弗雷·诺顿的年轻英俊律师，日日准时登门拜访。”"
+    },
+    {
+      "index": 30,
+      "en": "'And what do you think happened this morning?' continued Holmes, grinning. 'They rushed to the Church of St. Monica in the Edgware Road, and I followed in a cab. And there, by Jove, I was dragged in to be a witness to their secret wedding! The bride gave me this sovereign, and I mean to wear it on my watch chain in memory of the occasion.'",
+      "zh": "“你猜今早发生了何等荒诞离奇的奇遇？”福尔摩斯眉飞色舞地大笑，“他们两人乘着马车火急火燎奔赴埃奇韦尔路的圣莫尼卡大教堂，我随即雇车一路暗中尾随。到了教堂里，老天爷啊，我竟然被新娘一把拽过去充当了他们秘密婚礼的法定见证人！新娘临走前特意赏赐了我这枚主权金币，我打算日后把它挂在表链上当作永恒的纪念信物！”"
+    },
+    {
+      "index": 31,
+      "en": "'Now, Watson,' said Holmes, 'this marriage rather simplifies matters. The photograph is more likely to be in her own house than with her husband. And tonight, Watson, you and I must find out where it is.' 'What are your plans?' 'You are to remain neutral, but when I raise my hand, you will throw this smoke rocket through the open window, and cry 'Fire!' Can I depend upon you?' 'Completely,' I replied.",
+      "zh": "“如今，华生，”福尔摩斯收敛起笑容沉声道，“这场突如其来的婚礼反倒极大地简化了案情。那张致命合影更有可能依然藏匿在她自己的闺阁里，而非交由新婚丈夫保管。今夜，华生，你我必须联手查明它的确凿藏匿之所！”“你有何妙计？”“你须静观其变，待我举手示意之际，将这枚特制烟雾弹自敞开的窗户掷进客厅，并高声呼喊‘起火啦！’。我能全盘倚重你的配合吗？”“万死不辞！”我斩钉截铁地应道。"
+    },
+    {
+      "index": 32,
+      "en": "At dusk Holmes disguised himself as an amiable and simple-minded Nonconformist clergyman. We stationed ourselves outside Briony Lodge. As Irene Adler's brougham rolled up, a group of loafers stepped forward offering to open the carriage door. A scuffle broke out, and Holmes, as the kindly parson, rushed in to protect the lady, but fell to the ground with blood flowing freely from his forehead.",
+      "zh": "夜幕降临之际，福尔摩斯已摇身一变化身为一位慈眉善目、和蔼可亲的清教老牧师。我们在布里奥妮别庄外暗中设伏。当艾琳·艾德勒的四轮马车缓缓驶近府门时，一群流氓混混围拢上前争抢着为贵妇开车门，瞬间爆发了激烈的撕扯斗殴。福尔摩斯扮作仁慈的牧师急忙冲入人群保护女士，却在一声惨叫中重重栽倒在地，鲜血自前额汩汩狂流。"
+    },
+    {
+      "index": 33,
+      "en": "'He is dead!' cried several voices. 'No, he is alive, but hurt,' cried the lady. 'Bring him in!' In an instant Holmes was carried into her sitting room and laid upon a couch. He signaled for fresh air, and the maid threw open the large window. It was the signal.",
+      "zh": "“他被打死了！”人群中爆发出一阵惊呼。“不，还有气，只是负了重伤，”艾琳小姐怜悯地吩咐道，“快把他抬进屋里来！”转瞬间，负伤的福尔摩斯被小心翼翼抬进了她的客厅，安放在了长沙发上。他虚弱地示意需要新鲜空气，女佣连忙推开了客厅面街的大窗——这正是行动的信号！"
+    },
+    {
+      "index": 34,
+      "en": "I saw Holmes raise his hand. At the gesture I tossed my rocket through the window and yelled 'Fire!' The cry was taken up by the whole street. A thick cloud of smoke curled through the room. Through the haze I saw Irene Adler rush like a flash to a secret panel in the wall above the bell-pull, slide it open, and thrust her hand in.",
+      "zh": "我看到福尔摩斯的手臂赫然举起！我当机立断将烟雾弹顺着敞开的窗户狠狠掷入室内，扯开嗓门狂吼：“着火啦！”整条街道顿时响起了此起彼伏的呼救大喊。滚滚浓烟席卷了整个客厅。透过漫天弥漫的烟雾，我一眼瞥见艾琳·艾德勒如闪电般飞扑向拉铃绳上方的一处墙壁暗格，一把拉开滑门，将手急切地探了进去！"
+    },
+    {
+      "index": 35,
+      "en": "A moment later she realized it was a false alarm. Holmes slipped out of the house in the confusion, washed off the paint, and met me at the corner of the street. 'It was an admirable coup, Watson!' he laughed. 'Now I know exactly where the photograph is: in a recess behind a sliding panel just above the right bell-pull. Tomorrow morning we shall call with the King and recover it.'",
+      "zh": "片刻之后，她发觉这不过是一场虚惊一场的假火警。福尔摩斯趁乱悄无声息地溜出了大宅，洗净了额头的红颜料，在街角同我碰头。“这场妙计堪称天衣无缝，华生！”他兴奋地放声大笑，“如今我已彻底摸清了照片的藏匿命门：就在右侧拉铃绳上方滑门暗格深处！明早我们将陪同国王亲临，当场将它起获完璧归赵！”"
+    },
+    {
+      "index": 36,
+      "en": "As we walked back to Baker Street, a slim young man in an ulster passed us and said in a clear voice: 'Good-night, Mister Sherlock Holmes.' Holmes looked around, bewildered. 'I've heard that voice before,' said he, staring down the dimly lit street. 'Now, I wonder who the deuce that could have been.'",
+      "zh": "正当我们意气风发地踱步走回贝克街时，一个身穿长风衣、身材苗条的年轻小伙子从我们身旁擦肩而过，用清脆悦耳的嗓音清晰地道了一声：“晚安，歇洛克·福尔摩斯先生。”福尔摩斯愕然止步，满脸狐疑地环顾四周：“这嗓音我分明在何处听过，”他凝视着昏暗街灯下远去的背影喃喃自语，“这究竟会是哪路神仙呢？”"
+    },
+    {
+      "index": 37,
+      "en": "The next morning, at eight o'clock, the King of Bohemia, Holmes, and I drove to Briony Lodge to secure the photograph. An elderly woman stood upon the steps. 'Mr. Sherlock Holmes, I believe?' said she with a knowing smile. 'Yes, I am Mr. Holmes.' 'My mistress told me that you would call. She left this morning with her husband by the 5:15 train from Charing Cross for the Continent.'",
+      "zh": "次日清晨八点整，波希米亚国王、福尔摩斯与我一同乘车抵达布里奥妮别庄取回密件。一位年长女仆正站在台阶上。“请问是歇洛克·福尔摩斯先生吗？”女仆脸上挂着意味深长的从容微笑。“正是鄙人。”“我家女主人特意嘱咐过您今日会来。她今晨五点一刻已随同丈夫由查令十字火车站搭乘早班列车，远赴欧洲大陆去了。”"
+    },
+    {
+      "index": 38,
+      "en": "'What!' cried Holmes, staggering back, white with chagrin. 'You do not mean that she has left England?' 'Never to return,' said the woman. Holmes rushed into the sitting-room, followed by the King and myself. He tore open the sliding panel in the wall. The photograph of the King was gone! In its place was a photograph of Irene Adler alone, and a letter addressed to Sherlock Holmes.",
+      "zh": "“什么？！”福尔摩斯如遭当头棒喝，身形踉跄后退，脸色因极度的懊恼瞬间惨白，“你的意思该不会是说她已经离开英国了吧？！”“再也不会回来了，”女仆平静地答道。福尔摩斯狂暴地冲进客厅，国王与我紧随其后。他一把扯开墙壁上的滑门暗格——国王的合影早已不翼而飞！取而代之的，是一张艾琳·艾德勒本人的单人肖像照，以及一封题名给“歇洛克·福尔摩斯先生亲启”的信件！"
+    },
+    {
+      "index": 39,
+      "en": "Holmes tore open the envelope, and the three of us read it together. It was dated at midnight, and ran thus: 'My dear Mr. Sherlock Holmes: You really did it very well. You took me in completely. Until after the fire I had not a suspicion. But then, when I realized how I had betrayed my secret, I began to think. I had been warned against you months ago.'",
+      "zh": "福尔摩斯撕开信封，我们三人围拢一同拜读。信件落款于昨日午夜，字迹娟秀洒脱：“我亲爱的歇洛克·福尔摩斯先生：您的计策演得当真惟妙惟肖，令我叹为观止。直到那场虚惊火警之前，我未曾起过半分疑心。然而当我在火警中发觉自己竟亲手泄露了暗格秘密时，我才猛然惊醒警觉。早在数月前，便有人警告过我务必提防您的神通手段。”"
+    },
+    {
+      "index": 40,
+      "en": "'I made up my mind to see for myself. I followed you to your door in male costume, and said good-night to you. As to the photograph, your client may rest in peace. I love and am loved by a better man than he. The King may do what he will without hindrance from one whom he has cruelly wronged. I keep the photograph only to safeguard myself. I leave a photograph which he might care to possess; and I remain, dear Mr. Sherlock Holmes, very truly yours, Irene Norton, née Adler.'",
+      "zh": "“我决意亲自去验证虚实。于是我换上一身男装一路尾随您直至贝克街寓所门前，并向您道了一声晚安。至于那张合影，您的雇主尽可高枕无忧安枕无虑。如今我深爱着、且同样深爱着我的，是一位比国王品行高尚千百倍的正人君子。国王陛下大可去操办他的盛大婚典，我绝不会去阻挠半分。保留那张照片仅仅是为了护佑我自身的长久安宁。我在此留下一张肖像赠予二位纪念；谨启，敬爱的歇洛克·福尔摩斯先生，艾琳·诺顿，原姓艾德勒。”"
+    },
+    {
+      "index": 41,
+      "en": "'What a woman—oh, what a woman!' cried the King of Bohemia. 'Did I not tell you how quick and resolute she was? Would she not have made an admirable queen?' 'From what I have seen of the lady,' said Holmes coldly, 'she seems, indeed, to be on a very different level to your Majesty.'",
+      "zh": "“多么了不起的奇女子啊——噢，多么绝妙的女子！”波希米亚国王如释重负却又满怀怅惘地感叹道，“我难道不曾告知过阁下她究竟是何等冰雪聪明、杀伐决断吗？倘若由她来母仪天下做我的王后，岂非一位举世无双的贤后吗？！”“单凭我对此番过招的所见所闻，”福尔摩斯冷冷地回应道，“这位女士的境界，确实同陛下不可同日而语。”"
+    },
+    {
+      "index": 42,
+      "en": "'I am sorry that I have not been able to bring your Majesty's business to a more successful conclusion.' 'On the contrary, my dear sir,' cried the King; 'nothing could be more successful. I know that her word is inviolate. The photograph is now as safe as if it were in the fire.' 'I am glad to hear your Majesty say so.'",
+      "zh": "“很遗憾，鄙人未能将陛下的委托办得更加圆满周全。”“恰恰相反，我亲爱的先生！”国王由衷感叹道，“天底下再没有比这更圆满的结局了！我深知她一诺千金绝不食言。照片如今留存在她手里，同付之一炬已然毫无二致！”“陛下能这般释怀，鄙人深感欣慰。”"
+    },
+    {
+      "index": 43,
+      "en": "'And how can I reward you? This ring—' 'Your Majesty has something which I should value even more highly.' 'You have but to name it.' 'This photograph.' The King stared at him in amazement. 'Irene's photograph!' he cried. 'Certainly, if you wish it.' 'I thank your Majesty. Then there is no more to be done in the matter.' He bowed, and turned away without observing the hand which the King had stretched out to him.",
+      "zh": "“我该如何重重酬谢阁下的大恩？这枚珍宝戒指——”“陛下手里有一件微臣视若无价之宝的赏赐。”“阁下但讲无妨，任你索取！”“这幅艾琳小姐留下的照片。”国王惊愕得合不拢嘴：“艾琳的单人照片？！既然阁下心仪，自然双手奉上！”“微臣多谢陛下隆恩。既然如此，此案便算彻彻底底结案了。”福尔摩斯微微躬身致意，假装未曾看见国王伸出的握手之臂，决然转身大步离去。"
+    },
+    {
+      "index": 44,
+      "en": "And that was how a great scandal threatened to affect the kingdom of Bohemia, and how the best plans of Mr. Sherlock Holmes were beaten by a woman's wit. He used to make merry over the cleverness of women, but I have not heard him do so of late. And when he speaks of Irene Adler, or when he refers to her photograph, it is always under the honourable title of THE woman.",
+      "zh": "这便是当年那场险些动摇波希米亚王室根基的轩然大波的完整始末，亦是歇洛克·福尔摩斯先生最周密的绝妙算计惨遭一位女子的无上才智彻底击溃的传奇一战。往昔他常对女性的所谓机巧冷嘲热讽，可自那以后，我再也未曾听他做过哪怕半句这般轻蔑之词。每当他提及艾琳·艾德勒，亦或是凝视她的那张照片时，口中永远伴随着那句饱含崇敬的无上尊称——“那位独一无二的女人”。"
+    }
+  ]
+}

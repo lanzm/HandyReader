@@ -1,0 +1,24 @@
+{
+  "name": "HandyReader",
+  "appid": "__UNI__HANDYREADER",
+  "description": "一个完全离线、发布即用的原版英文分级阅读微信小程序。",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "h5": {
+    "title": "HandyReader 随手读本",
+    "router": {
+      "mode": "hash"
+    }
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true
+  }
+}
