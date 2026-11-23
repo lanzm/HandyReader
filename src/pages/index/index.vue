@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from "vue";
+import { ref, computed, nextTick, onMounted, onUnmounted } from "vue";
 import { onShow, onLoad, onHide, onShareAppMessage, onShareTimeline } from "@dcloudio/uni-app";
 import type { Story } from "@/types/reader";
 import { storiesMap } from "@/data/stories";
@@ -9,6 +9,8 @@ import { currentTheme, currentFontSize, setTheme, setFontSize, setNavigationBarT
 import { useFloatingGear } from "@/composables/useFloatingGear";
 import { useParagraphDeck } from "@/composables/useParagraphDeck";
 import { fetchWordMeaning, getCachedMeaning } from "@/utils/dictionary";
+import { detectContextPhrase, type DetectedPhrase, type TokenItem } from "@/utils/phraseDetector";
+import { playPronunciation, stopAudio } from "@/utils/audioPlayer";
 
 const CURRENT_STORY_STORAGE_KEY = "handy_reader_current_story_id";
 
@@ -134,7 +136,41 @@ interface WordBubbleData {
 }
 
 const activeWord = ref("");
+const activeTokenIndex = ref<number>(-1);
+const activePhrase = ref<DetectedPhrase | null>(null);
 const selectedWordData = ref<WordBubbleData | null>(null);
+
+// 气泡底部高斯模糊与滚动探针
+const hasScrollableContent = ref(false);
+
+function checkBubbleScrollOverflow() {
+  hasScrollableContent.value = false;
+  nextTick(() => {
+    setTimeout(() => {
+      // #ifdef MP-WEIXIN || MP
+      const query = uni.createSelectorQuery();
+      const selector = activePhrase.value ? ".flow-word-section" : ".bubble-meaning";
+      query
+        .select(selector)
+        .fields({ size: true, scrollOffset: true }, (res: any) => {
+          if (res && typeof res.scrollHeight === "number" && typeof res.height === "number") {
+            hasScrollableContent.value = res.scrollHeight > res.height + 4;
+          }
+        })
+        .exec();
+      // #endif
+      // #ifndef MP-WEIXIN || MP
+      try {
+        const el = document.querySelector(activePhrase.value ? ".flow-word-section" : ".bubble-meaning");
+        if (el) {
+          hasScrollableContent.value = el.scrollHeight > el.clientHeight + 4;
+        }
+      } catch {}
+      // #endif
+    }, 60);
+  });
+}
+
 
 const bubbleStyle = computed(() => {
   const style: Record<string, string> = {
@@ -150,56 +186,59 @@ const bubbleStyle = computed(() => {
   return style;
 });
 
-// 音频播放控制 (极简原生音频控制)
+// 音频播放控制 (基于方案一 Web Audio 动态响度均衡 + 原生双引擎保底，支持单字与词组)
 const isAudioPlaying = ref(false);
-let activeAudio: UniApp.InnerAudioContext | null = null;
+const currentPlayingWord = ref<string>("");
 
 function closeBubble() {
   bubbleVisible.value = false;
   activeWord.value = "";
-  if (activeAudio) {
-    try {
-      activeAudio.stop();
-      activeAudio.destroy();
-    } catch {}
-    activeAudio = null;
-  }
+  activeTokenIndex.value = -1;
+  activePhrase.value = null;
+  currentPlayingWord.value = "";
+  hasScrollableContent.value = false;
+  stopAudio();
   isAudioPlaying.value = false;
 }
 
-function handlePlayBubbleAudio() {
-  if (!selectedWordData.value?.word) return;
-  if (activeAudio) {
-    try {
-      activeAudio.stop();
-      activeAudio.destroy();
-    } catch {}
-    activeAudio = null;
+function handlePlayBubbleAudio(targetWord?: string) {
+  const wordToPlay = (typeof targetWord === "string" && targetWord ? targetWord : (selectedWordData.value?.word || "")).trim();
+  if (!wordToPlay) return;
+
+  // 若当前正在播放此词，再次点击可立即停止
+  if (isAudioPlaying.value && currentPlayingWord.value === wordToPlay) {
+    stopAudio();
+    isAudioPlaying.value = false;
+    currentPlayingWord.value = "";
+    return;
   }
+
   isAudioPlaying.value = true;
-  const word = encodeURIComponent(selectedWordData.value.word.trim());
-  const audioUrl = `https://dict.youdao.com/dictvoice?type=2&audio=${word}`;
-  const innerAudio = uni.createInnerAudioContext();
-  activeAudio = innerAudio;
-  innerAudio.src = audioUrl;
-  innerAudio.autoplay = true;
-  innerAudio.onPlay(() => {
-    isAudioPlaying.value = true;
-  });
-  innerAudio.onEnded(() => {
-    isAudioPlaying.value = false;
-    innerAudio.destroy();
-    if (activeAudio === innerAudio) activeAudio = null;
-  });
-  innerAudio.onError(() => {
-    isAudioPlaying.value = false;
-    innerAudio.destroy();
-    if (activeAudio === innerAudio) activeAudio = null;
-  });
-  innerAudio.onStop(() => {
-    isAudioPlaying.value = false;
-    innerAudio.destroy();
-    if (activeAudio === innerAudio) activeAudio = null;
+  currentPlayingWord.value = wordToPlay;
+
+  playPronunciation(wordToPlay, {
+    onPlay: () => {
+      isAudioPlaying.value = true;
+      currentPlayingWord.value = wordToPlay;
+    },
+    onEnded: () => {
+      isAudioPlaying.value = false;
+      if (currentPlayingWord.value === wordToPlay) {
+        currentPlayingWord.value = "";
+      }
+    },
+    onError: () => {
+      isAudioPlaying.value = false;
+      if (currentPlayingWord.value === wordToPlay) {
+        currentPlayingWord.value = "";
+      }
+    },
+    onStop: () => {
+      isAudioPlaying.value = false;
+      if (currentPlayingWord.value === wordToPlay) {
+        currentPlayingWord.value = "";
+      }
+    },
   });
 }
 
@@ -237,13 +276,7 @@ onHide(() => {
 
 onUnmounted(() => {
   uni.offThemeChange(onSystemThemeChange);
-  if (activeAudio) {
-    try {
-      activeAudio.stop();
-      activeAudio.destroy();
-    } catch {}
-    activeAudio = null;
-  }
+  stopAudio();
 });
 
 // 计算正文字体样式 (针对文学原著优化字号与行高黄金比例)
@@ -257,20 +290,51 @@ const fontSizeStyle = computed(() => {
   }
 });
 
-// 处理单词点击弹出轻量气泡 (全量统一走词典接口与本地双层缓存)
-function handleWordTap(event: any, rawWord: string) {
+// 方案 A 自然分词（将文本按空白符、破折号 Em/En-dash、双连字符及斜杠切分为单词和标点空格流，无缝还原排版并支持独立单词点击）
+const SPLIT_PUNCTUATION_REGEX = /(\s+|—|–|―|--+|\/)/;
+
+function tokenizeParagraph(text: string): TokenItem[] {
+  if (!text) return [];
+  const rawTokens = text.split(SPLIT_PUNCTUATION_REGEX).filter((t) => t.length > 0);
+  return rawTokens.map((token, index) => {
+    const isSpace = /^\s+$/.test(token);
+    if (isSpace) {
+      return { raw: token, isWord: false, cleanWord: "", tokenIndex: index };
+    }
+    const cleanWord = token.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, "");
+    return {
+      raw: token,
+      isWord: !!cleanWord,
+      cleanWord,
+      tokenIndex: index,
+    };
+  });
+}
+
+// 处理单词点击弹出轻量气泡 (全量统一走词典接口与本地双层缓存，并全自动嗅探语境词组)
+function handleWordTap(event: any, rawWord: string, tokenIndex?: number) {
   if (preventClick.value) return;
   const cleaned = rawWord.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, "");
   if (!cleaned) return;
 
   // 若已激活当前词，再次点击则收起
-  if (bubbleVisible.value && activeWord.value.toLowerCase() === cleaned.toLowerCase()) {
+  if (bubbleVisible.value && activeTokenIndex.value === tokenIndex) {
     closeBubble();
     return;
   }
 
-  // 统一所有单词的点击气泡查词：
-  // 均走统一词典接口 + 本地双层缓存机制，确保释义风格与排版规范全局一致
+  activeTokenIndex.value = typeof tokenIndex === "number" ? tokenIndex : -1;
+  activeWord.value = cleaned;
+
+  // 1. 全自动智能嗅探当前段落语境下的词组搭配 (0ms 离线匹配)
+  if (typeof tokenIndex === "number" && currentParagraph.value?.en) {
+    const allTokens = tokenizeParagraph(currentParagraph.value.en);
+    activePhrase.value = detectContextPhrase(allTokens, tokenIndex);
+  } else {
+    activePhrase.value = null;
+  }
+
+  // 2. 统一单词点击气泡查词：走统一词典接口 + 本地双层缓存机制
   const cached = getCachedMeaning(cleaned);
 
   if (cached) {
@@ -278,6 +342,7 @@ function handleWordTap(event: any, rawWord: string) {
       word: cleaned,
       meaning: cached,
     };
+    checkBubbleScrollOverflow();
   } else {
     selectedWordData.value = {
       word: cleaned,
@@ -287,12 +352,12 @@ function handleWordTap(event: any, rawWord: string) {
     fetchWordMeaning(cleaned).then((result) => {
       if (activeWord.value.toLowerCase() === queryTarget.toLowerCase() && selectedWordData.value) {
         selectedWordData.value.meaning = result ?? "暂未收录该词释义";
+        checkBubbleScrollOverflow();
       }
     });
   }
-  activeWord.value = cleaned;
 
-  // 获取视口尺寸并精确计算气泡位置
+  // 3. 获取视口尺寸并精确计算气泡位置
   const sysInfo = uni.getSystemInfoSync();
   const screenWidth = sysInfo.windowWidth || 375;
   const screenHeight = sysInfo.windowHeight || 667;
@@ -308,7 +373,8 @@ function handleWordTap(event: any, rawWord: string) {
   const touchX = Math.round(rawX);
   const touchY = Math.round(rawY);
 
-  const bubbleW = 242;
+  // 命中词组时气泡宽度适度拓展以容纳词组释义 (256px vs 242px)
+  const bubbleW = activePhrase.value ? 256 : 242;
   let left = Math.round(touchX - bubbleW / 2);
   if (left < 16) left = 16;
   if (left + bubbleW > screenWidth - 16) left = screenWidth - bubbleW - 16;
@@ -317,9 +383,9 @@ function handleWordTap(event: any, rawWord: string) {
   // 箭头中心严格对齐触点 X，且限制在圆角安全范围内 (16px ~ bubbleW - 26px)
   bubbleArrowLeft.value = Math.max(16, Math.min(bubbleW - 26, touchX - left - 5));
 
-  // 垂直方向判断：若触点距离视口顶部大于等于 180px，则在上方弹出 (placement-top)
-  // 关键：placement-top 使用 bottom 锚定！气泡内容无论是 1 行还是多行，底部和箭头永远紧贴单词上方 12px，绝不跑偏压字
-  if (touchY >= 180) {
+  // 垂直方向判断：命中词组时卡片略高，触发高度阈值适度调整为 210px
+  const triggerTopHeight = activePhrase.value ? 210 : 180;
+  if (touchY >= triggerTopHeight) {
     bubblePlacement.value = "placement-top";
     bubbleBottom.value = Math.max(16, screenHeight - touchY + 12);
   } else {
@@ -344,22 +410,6 @@ function handleDetailScroll(e: any) {
 function handleNextParagraph() {
   closeBubble();
   nextParagraph();
-}
-
-// 自然分词（将文本按空白符切分为单词和标点空格流，纯净优雅零干扰）
-function tokenizeParagraph(text: string) {
-  const tokens = text.split(/(\s+)/);
-  return tokens.map((token) => {
-    const isSpace = /^\s+$/.test(token);
-    if (isSpace) {
-      return { raw: token, isWord: false };
-    }
-    const cleanWord = token.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, "");
-    return {
-      raw: token,
-      isWord: !!cleanWord,
-    };
-  });
 }
 
 function handleGearClick() {
@@ -574,14 +624,15 @@ onShow(() => {
               <!-- 空格与标点 -->
               <text v-if="!token.isWord">{{ token.raw }}</text>
 
-              <!-- 单词节点：轻触弹出气泡 -->
+              <!-- 单词节点：轻触弹出气泡 (支持单字与语境词组联动) -->
               <text
                 v-else
                 class="word-token"
                 :class="{
-                  'is-active': activeWord && activeWord.toLowerCase() === token.raw.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, '').toLowerCase()
+                  'is-active': activeTokenIndex === tIdx,
+                  'is-phrase-companion': activePhrase && tIdx >= activePhrase.startIndex && tIdx <= activePhrase.endIndex && activeTokenIndex !== tIdx
                 }"
-                @tap.stop="handleWordTap($event, token.raw)"
+                @tap.stop="handleWordTap($event, token.raw, tIdx)"
               >
                 {{ token.raw }}
               </text>
@@ -687,24 +738,26 @@ onShow(() => {
     <view
       v-if="bubbleVisible && selectedWordData"
       class="word-bubble-popover"
-      :class="[bubblePlacement]"
+      :class="[bubblePlacement, { 'has-phrase': !!activePhrase }]"
       :style="bubbleStyle"
-      hover-class="word-bubble-hover"
-      :hover-stay-time="80"
-      @tap.stop="handlePlayBubbleAudio"
+      @tap.stop
     >
       <!-- 指向触点的三角指针 -->
       <view class="bubble-arrow" :style="{ left: bubbleArrowLeft + 'px' }" />
 
       <view class="bubble-content">
-        <!-- 单词头部行：单词 + 动效喇叭 (统一纯净结构，不展示音标) -->
+        <!-- 头部行：短语优先呈现为标题 (无短语时展示单字) + 动态发音喇叭 -->
         <view class="bubble-header">
-          <view class="bubble-word-group">
-            <text class="bubble-word">{{ selectedWordData.word }}</text>
+          <view
+            class="bubble-word-group"
+            @tap.stop="handlePlayBubbleAudio(activePhrase ? activePhrase.phrase : selectedWordData.word)"
+          >
+            <text class="bubble-word">{{ activePhrase ? activePhrase.phrase : selectedWordData.word }}</text>
           </view>
           <view
             class="phonetic-speaker-box"
-            :class="{ playing: isAudioPlaying }"
+            :class="{ playing: isAudioPlaying && (currentPlayingWord === (activePhrase ? activePhrase.phrase : selectedWordData.word)) }"
+            @tap.stop="handlePlayBubbleAudio(activePhrase ? activePhrase.phrase : selectedWordData.word)"
           >
             <text class="speaker-horn"></text>
             <text class="speaker-arc arc-1"></text>
@@ -712,10 +765,41 @@ onShow(() => {
           </view>
         </view>
 
-        <!-- 释义行 -->
-        <view class="bubble-meaning">
-          <text class="bubble-meaning-text">{{ selectedWordData.meaning }}</text>
-        </view>
+        <!-- 场景 A：命中语境词组 (主标题已展示短语，此处直接呈现释义，彻底去重) -->
+        <template v-if="activePhrase">
+          <!-- 1. 词组释义 -->
+          <view class="flow-phrase-section" @tap.stop="handlePlayBubbleAudio(activePhrase.phrase)">
+            <text class="flow-phrase-meaning">{{ activePhrase.meaning }}</text>
+          </view>
+
+          <!-- 词典微细分割线 -->
+          <view class="flow-divider" />
+
+          <!-- 2. 下方紧随单字原义对照 -->
+          <scroll-view
+            scroll-y
+            class="flow-word-section"
+            :class="{ 'has-overflow': hasScrollableContent }"
+            @tap.stop="handlePlayBubbleAudio(selectedWordData.word)"
+          >
+            <text class="flow-word-label">{{ selectedWordData.word }}：</text>
+            <text class="flow-word-meaning">{{ selectedWordData.meaning }}</text>
+            <view v-if="hasScrollableContent" class="bubble-bottom-spacer" />
+          </scroll-view>
+        </template>
+
+        <!-- 场景 B：未命中词组 (纯净极简单字模式) -->
+        <template v-else>
+          <scroll-view
+            scroll-y
+            class="bubble-meaning"
+            :class="{ 'has-overflow': hasScrollableContent }"
+            @tap.stop="handlePlayBubbleAudio(selectedWordData.word)"
+          >
+            <text class="bubble-meaning-text">{{ selectedWordData.meaning }}</text>
+            <view v-if="hasScrollableContent" class="bubble-bottom-spacer" />
+          </scroll-view>
+        </template>
       </view>
     </view>
 
@@ -1161,6 +1245,14 @@ button.card-btn-half::after {
   border-radius: 4px;
 }
 
+/* 语境词组伴生词高亮 (更柔和的半透明背景与下点线，提示词组边界) */
+.word-token.is-phrase-companion {
+  background-color: var(--ej-color-brand-light);
+  opacity: 0.9;
+  border-radius: 3px;
+  border-bottom: 1.5px dashed var(--ej-color-brand);
+}
+
 /* 单词气泡透明点击关闭遮罩 (完全不遮挡阅读视线) */
 .bubble-backdrop {
   position: fixed;
@@ -1186,6 +1278,10 @@ button.card-btn-half::after {
   box-sizing: border-box;
   cursor: pointer;
   transition: transform 0.12s ease;
+}
+
+.word-bubble-popover.has-phrase {
+  width: 256px;
 }
 
 .word-bubble-hover {
@@ -1393,13 +1489,125 @@ button.card-btn-half::after {
 
 .bubble-meaning {
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 1.55;
   color: #334155;
   word-break: break-word;
+  white-space: pre-line;
+  max-height: 180px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bubble-meaning::-webkit-scrollbar,
+.flow-word-section::-webkit-scrollbar {
+  width: 3px;
+}
+
+.bubble-meaning::-webkit-scrollbar-thumb,
+.flow-word-section::-webkit-scrollbar-thumb {
+  background-color: rgba(148, 163, 184, 0.4);
+  border-radius: 3px;
 }
 
 .dark .bubble-meaning,
 .page-container.dark .bubble-meaning {
   color: #E4E4E7;
+}
+
+/* 语境词组微徽标 */
+.bubble-phrase-badge {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--ej-color-brand);
+  background-color: var(--ej-color-brand-light);
+  border-radius: 4px;
+  padding: 1px 5px;
+  line-height: 1.3;
+  margin-right: 5px;
+  flex-shrink: 0;
+}
+
+/* 方案三：流式高阶词典排版 (去内嵌框，纯净一体化，零重复) */
+.flow-phrase-section {
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.flow-phrase-meaning {
+  font-size: 13px;
+  line-height: 1.45;
+  color: #0F172A;
+  font-weight: 500;
+  word-break: break-word;
+  display: block;
+}
+
+.dark .flow-phrase-meaning,
+.page-container.dark .flow-phrase-meaning {
+  color: #F4F4F5;
+}
+
+/* 典雅的词典微细分割线 */
+.flow-divider {
+  height: 1px;
+  background-color: #E2E8F0;
+  margin: 7px 0 6px 0;
+  opacity: 0.85;
+}
+
+.dark .flow-divider,
+.page-container.dark .flow-divider {
+  background-color: #3F3F46;
+  opacity: 0.7;
+}
+
+.flow-word-section {
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: #64748B;
+  word-break: break-word;
+  white-space: pre-line;
+  max-height: 120px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  cursor: pointer;
+}
+
+.dark .flow-word-section,
+.page-container.dark .flow-word-section {
+  color: #94A3B8;
+}
+
+.flow-word-label {
+  font-weight: 600;
+  color: #475569;
+}
+
+.dark .flow-word-label,
+.page-container.dark .flow-word-label {
+  color: #CBD5E1;
+}
+
+.flow-word-meaning {
+  color: #64748B;
+}
+
+.dark .flow-word-meaning,
+.page-container.dark .flow-word-meaning {
+  color: #94A3B8;
+}
+
+/* 对齐设置抽屉与正文的底部渐隐淡化遮罩 (-webkit-mask-image 纯净自然渐变) */
+.bubble-meaning.has-overflow,
+.flow-word-section.has-overflow {
+  -webkit-mask-image: linear-gradient(to bottom, #000000 0%, #000000 calc(100% - 24px), rgba(0, 0, 0, 0.35) calc(100% - 8px), transparent 100%);
+  mask-image: linear-gradient(to bottom, #000000 0%, #000000 calc(100% - 24px), rgba(0, 0, 0, 0.35) calc(100% - 8px), transparent 100%);
+}
+
+/* 气泡底部缓冲空间，确保滚动到底部时末行释义完全滚出遮罩区、字字清晰 */
+.bubble-bottom-spacer {
+  height: 22px;
+  width: 100%;
+  flex-shrink: 0;
 }
 </style>
