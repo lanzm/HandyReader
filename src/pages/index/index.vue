@@ -565,9 +565,7 @@ onShow(() => {
           <!-- 方案 A：阅读进度指示模块 (可开启/关闭，直接绑定底层卡片自身的段落序号) -->
           <view v-if="showReadingProgress && bgParagraph" class="reading-progress-block">
             <view class="progress-meta-row flex justify-between items-center mb-1.5">
-              <text class="progress-label-index">
-                {{ bgParagraph.isChapterHeader ? (bgParagraph.chapterNum || '章节扉页') : `段落 ${bgParagraph.index} / ${totalParagraphs}` }}
-              </text>
+              <text class="progress-label-index">段落 {{ bgParagraph.index }} / {{ totalParagraphs }}</text>
               <text class="progress-label-percent">{{ getProgressPercent(bgParagraph.index) }}% · {{ getRemainingMinutesText(bgParagraph.index) }}</text>
             </view>
             <view class="progress-track">
@@ -723,9 +721,7 @@ onShow(() => {
           <!-- 方案 A：阅读进度指示模块 (可开启/关闭，直接绑定顶层卡片自身的段落序号) -->
           <view v-if="showReadingProgress && currentParagraph" class="reading-progress-block">
             <view class="progress-meta-row flex justify-between items-center mb-1.5">
-              <text class="progress-label-index">
-                {{ currentParagraph.isChapterHeader ? (currentParagraph.chapterNum || '章节扉页') : `段落 ${currentParagraph.index} / ${totalParagraphs}` }}
-              </text>
+              <text class="progress-label-index">段落 {{ currentParagraph.index }} / {{ totalParagraphs }}</text>
               <text class="progress-label-percent">{{ getProgressPercent(currentParagraph.index) }}% · {{ getRemainingMinutesText(currentParagraph.index) }}</text>
             </view>
             <view class="progress-track">
@@ -1187,16 +1183,13 @@ view, text, button, image, scroll-view, movable-area, movable-view {
 
 .chapter-badge {
   font-family: ui-monospace, monospace;
-  font-size: 24rpx;
+  font-size: 26rpx;
   font-weight: 700;
-  letter-spacing: 4rpx;
+  letter-spacing: 6rpx;
   text-transform: uppercase;
-  color: #C84B31;
-  background: rgba(200, 75, 49, 0.08);
-  border: 1px solid rgba(200, 75, 49, 0.2);
-  padding: 8rpx 28rpx;
-  border-radius: 9999px;
-  margin-bottom: 36rpx;
+  color: var(--ej-text-secondary);
+  opacity: 0.85;
+  margin-bottom: 24rpx;
 }
 
 .chapter-title-en {
