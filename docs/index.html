@@ -531,8 +531,8 @@
           <p class="text-sm text-ink-muted dark:text-stone-400 mt-2.5 font-sans" data-i18n="contrast_sub">少一点商业干扰，多一点真正读进心里的名著。</p>
         </div>
 
-        <!-- 3 列表格 (极简风格) -->
-        <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl shadow-paper dark:shadow-none overflow-hidden text-xs sm:text-sm">
+        <!-- 模式 A：电脑/平板端 3 列表格 (Desktop Only) -->
+        <div class="hidden md:block bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl shadow-paper dark:shadow-none overflow-hidden text-xs sm:text-sm">
           <table class="w-full text-left border-collapse">
             <thead>
               <tr class="border-b border-paper-border dark:border-darkbg-border bg-paper-100 dark:bg-darkbg-surface text-xs font-mono text-ink-muted dark:text-stone-400 uppercase tracking-wider">
@@ -579,6 +579,121 @@
               </tr>
             </tbody>
           </table>
+        </div>
+
+        <!-- 模式 B：手机端自适应精致对比卡片流 (Mobile Only · 彻底解决挤压与截断) -->
+        <div class="block md:hidden space-y-3.5">
+          
+          <!-- Card 1 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl p-4 shadow-paper dark:shadow-none space-y-2.5">
+            <div class="flex items-center justify-between pb-2 border-b border-paper-border dark:border-darkbg-border">
+              <span class="font-serif font-bold text-ink-pure dark:text-white text-sm" data-i18n="c1_name">开屏体验</span>
+              <span class="font-mono text-[11px] text-terracotta-500 font-semibold">01 / 05</span>
+            </div>
+            <div class="space-y-1.5 text-xs">
+              <div class="bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-100 dark:border-emerald-900/60 rounded-xl p-2.5">
+                <div class="font-bold text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5 mb-0.5">
+                  <span>✓</span> <span data-i18n="th_handyreader">随手读本 (HandyReader)</span>
+                </div>
+                <p class="text-emerald-700 dark:text-emerald-400 pl-4" data-i18n="c1_good">0秒开屏即读，纯粹沉浸</p>
+              </div>
+              <div class="bg-paper-100/70 dark:bg-darkbg-surface/50 border border-paper-border dark:border-darkbg-border rounded-xl p-2.5">
+                <div class="font-medium text-stone-500 dark:text-stone-400 flex items-center gap-1.5 mb-0.5">
+                  <span>✗</span> <span data-i18n="th_traditional">传统商业阅读 App</span>
+                </div>
+                <p class="text-stone-500 dark:text-stone-400 pl-4" data-i18n="c1_bad">5 秒开屏商业广告、弹窗引流不断</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl p-4 shadow-paper dark:shadow-none space-y-2.5">
+            <div class="flex items-center justify-between pb-2 border-b border-paper-border dark:border-darkbg-border">
+              <span class="font-serif font-bold text-ink-pure dark:text-white text-sm" data-i18n="c2_name">隐私授权</span>
+              <span class="font-mono text-[11px] text-terracotta-500 font-semibold">02 / 05</span>
+            </div>
+            <div class="space-y-1.5 text-xs">
+              <div class="bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-100 dark:border-emerald-900/60 rounded-xl p-2.5">
+                <div class="font-bold text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5 mb-0.5">
+                  <span>✓</span> <span data-i18n="th_handyreader">随手读本 (HandyReader)</span>
+                </div>
+                <p class="text-emerald-700 dark:text-emerald-400 pl-4" data-i18n="c2_good">免登录、免注册，开箱即用</p>
+              </div>
+              <div class="bg-paper-100/70 dark:bg-darkbg-surface/50 border border-paper-border dark:border-darkbg-border rounded-xl p-2.5">
+                <div class="font-medium text-stone-500 dark:text-stone-400 flex items-center gap-1.5 mb-0.5">
+                  <span>✗</span> <span data-i18n="th_traditional">传统商业阅读 App</span>
+                </div>
+                <p class="text-stone-500 dark:text-stone-400 pl-4" data-i18n="c2_bad">强制手机号验证码、读取设备信息</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl p-4 shadow-paper dark:shadow-none space-y-2.5">
+            <div class="flex items-center justify-between pb-2 border-b border-paper-border dark:border-darkbg-border">
+              <span class="font-serif font-bold text-ink-pure dark:text-white text-sm" data-i18n="c3_name">离线能力</span>
+              <span class="font-mono text-[11px] text-terracotta-500 font-semibold">03 / 05</span>
+            </div>
+            <div class="space-y-1.5 text-xs">
+              <div class="bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-100 dark:border-emerald-900/60 rounded-xl p-2.5">
+                <div class="font-bold text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5 mb-0.5">
+                  <span>✓</span> <span data-i18n="th_handyreader">随手读本 (HandyReader)</span>
+                </div>
+                <p class="text-emerald-700 dark:text-emerald-400 pl-4" data-i18n="c3_good">多部名著全打包，飞行模式畅读</p>
+              </div>
+              <div class="bg-paper-100/70 dark:bg-darkbg-surface/50 border border-paper-border dark:border-darkbg-border rounded-xl p-2.5">
+                <div class="font-medium text-stone-500 dark:text-stone-400 flex items-center gap-1.5 mb-0.5">
+                  <span>✗</span> <span data-i18n="th_traditional">传统商业阅读 App</span>
+                </div>
+                <p class="text-stone-500 dark:text-stone-400 pl-4" data-i18n="c3_bad">强依赖服务器章节加载，断网报错</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl p-4 shadow-paper dark:shadow-none space-y-2.5">
+            <div class="flex items-center justify-between pb-2 border-b border-paper-border dark:border-darkbg-border">
+              <span class="font-serif font-bold text-ink-pure dark:text-white text-sm" data-i18n="c4_name">查词体验</span>
+              <span class="font-mono text-[11px] text-terracotta-500 font-semibold">04 / 05</span>
+            </div>
+            <div class="space-y-1.5 text-xs">
+              <div class="bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-100 dark:border-emerald-900/60 rounded-xl p-2.5">
+                <div class="font-bold text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5 mb-0.5">
+                  <span>✓</span> <span data-i18n="th_handyreader">随手读本 (HandyReader)</span>
+                </div>
+                <p class="text-emerald-700 dark:text-emerald-400 pl-4" data-i18n="c4_good">原位轻气泡 + 真人原声发音</p>
+              </div>
+              <div class="bg-paper-100/70 dark:bg-darkbg-surface/50 border border-paper-border dark:border-darkbg-border rounded-xl p-2.5">
+                <div class="font-medium text-stone-500 dark:text-stone-400 flex items-center gap-1.5 mb-0.5">
+                  <span>✗</span> <span data-i18n="th_traditional">传统商业阅读 App</span>
+                </div>
+                <p class="text-stone-500 dark:text-stone-400 pl-4" data-i18n="c4_bad">跳转巨型弹窗，严重打断阅读心流</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="bg-white dark:bg-darkbg-card border border-paper-border dark:border-darkbg-border rounded-2xl p-4 shadow-paper dark:shadow-none space-y-2.5">
+            <div class="flex items-center justify-between pb-2 border-b border-paper-border dark:border-darkbg-border">
+              <span class="font-serif font-bold text-ink-pure dark:text-white text-sm" data-i18n="c5_name">应用体积</span>
+              <span class="font-mono text-[11px] text-terracotta-500 font-semibold">05 / 05</span>
+            </div>
+            <div class="space-y-1.5 text-xs">
+              <div class="bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-100 dark:border-emerald-900/60 rounded-xl p-2.5">
+                <div class="font-bold text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5 mb-0.5">
+                  <span>✓</span> <span data-i18n="th_handyreader">随手读本 (HandyReader)</span>
+                </div>
+                <p class="text-emerald-700 dark:text-emerald-400 pl-4" data-i18n="c5_good">主包仅 0.62MB，即开即读</p>
+              </div>
+              <div class="bg-paper-100/70 dark:bg-darkbg-surface/50 border border-paper-border dark:border-darkbg-border rounded-xl p-2.5">
+                <div class="font-medium text-stone-500 dark:text-stone-400 flex items-center gap-1.5 mb-0.5">
+                  <span>✗</span> <span data-i18n="th_traditional">传统商业阅读 App</span>
+                </div>
+                <p class="text-stone-500 dark:text-stone-400 pl-4" data-i18n="c5_bad">按章付费 / 会员连续订阅收费</p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
