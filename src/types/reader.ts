@@ -9,6 +9,10 @@ export interface Paragraph {
   en: string;
   zh: string;
   keyWords?: KeyWord[];
+  isChapterHeader?: boolean;
+  chapterNum?: string;
+  chapterTitleEn?: string;
+  chapterTitleZh?: string;
 }
 
 export interface Story {

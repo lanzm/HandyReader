@@ -505,8 +505,25 @@ onShow(() => {
 
       <!-- 普通段落底层预览 -->
       <template v-else-if="bgParagraph">
-        <!-- 中间正文内容 (静态预览 · 自然排版) -->
-        <view class="card-scroll-view px-6 flex-1 w-full box-border">
+        <!-- 场景 A：独立章节扉页（垂直水平居中排版） -->
+        <view
+          v-if="bgParagraph.isChapterHeader"
+          class="chapter-cover-view"
+        >
+          <view class="chapter-badge">
+            {{ bgParagraph.chapterNum }}
+          </view>
+          <text class="chapter-title-en">
+            {{ bgParagraph.chapterTitleEn }}
+          </text>
+          <view class="chapter-decor-line" />
+          <text class="chapter-title-zh">
+            {{ bgParagraph.chapterTitleZh }}
+          </text>
+        </view>
+
+        <!-- 场景 B：中间正文内容 (静态预览 · 自然排版) -->
+        <view v-else class="card-scroll-view px-6 flex-1 w-full box-border">
           <view class="en-text-box" :style="fontSizeStyle">
             <template v-for="(token, tIdx) in tokenizeParagraph(bgParagraph.en)" :key="tIdx">
               <text v-if="!token.isWord">{{ token.raw }}</text>
@@ -548,7 +565,9 @@ onShow(() => {
           <!-- 方案 A：阅读进度指示模块 (可开启/关闭，直接绑定底层卡片自身的段落序号) -->
           <view v-if="showReadingProgress && bgParagraph" class="reading-progress-block">
             <view class="progress-meta-row flex justify-between items-center mb-1.5">
-              <text class="progress-label-index">段落 {{ bgParagraph.index }} / {{ totalParagraphs }}</text>
+              <text class="progress-label-index">
+                {{ bgParagraph.isChapterHeader ? (bgParagraph.chapterNum || '章节扉页') : `段落 ${bgParagraph.index} / ${totalParagraphs}` }}
+              </text>
               <text class="progress-label-percent">{{ getProgressPercent(bgParagraph.index) }}% · {{ getRemainingMinutesText(bgParagraph.index) }}</text>
             </view>
             <view class="progress-track">
@@ -557,7 +576,9 @@ onShow(() => {
           </view>
 
           <view class="w-full">
-            <view class="card-btn btn-primary w-full text-base">下一段</view>
+            <view class="card-btn btn-primary w-full text-base">
+              {{ bgParagraph.isChapterHeader ? '开启本章 ›' : '下一段' }}
+            </view>
           </view>
         </view>
       </template>
@@ -610,8 +631,26 @@ onShow(() => {
 
       <!-- 正常段落卡片内容 -->
       <template v-else-if="currentParagraph">
-        <!-- 卡片可滚动正文内容区 (card-scroll-view) -->
+        <!-- 场景 A：独立章节扉页（垂直水平居中排版） -->
+        <view
+          v-if="currentParagraph.isChapterHeader"
+          class="chapter-cover-view"
+        >
+          <view class="chapter-badge">
+            {{ currentParagraph.chapterNum }}
+          </view>
+          <text class="chapter-title-en">
+            {{ currentParagraph.chapterTitleEn }}
+          </text>
+          <view class="chapter-decor-line" />
+          <text class="chapter-title-zh">
+            {{ currentParagraph.chapterTitleZh }}
+          </text>
+        </view>
+
+        <!-- 场景 B：卡片可滚动正文内容区 (card-scroll-view) -->
         <scroll-view
+          v-else
           scroll-y
           class="card-scroll-view px-6 flex-1 w-full box-border"
           :show-scrollbar="false"
@@ -684,7 +723,9 @@ onShow(() => {
           <!-- 方案 A：阅读进度指示模块 (可开启/关闭，直接绑定顶层卡片自身的段落序号) -->
           <view v-if="showReadingProgress && currentParagraph" class="reading-progress-block">
             <view class="progress-meta-row flex justify-between items-center mb-1.5">
-              <text class="progress-label-index">段落 {{ currentParagraph.index }} / {{ totalParagraphs }}</text>
+              <text class="progress-label-index">
+                {{ currentParagraph.isChapterHeader ? (currentParagraph.chapterNum || '章节扉页') : `段落 ${currentParagraph.index} / ${totalParagraphs}` }}
+              </text>
               <text class="progress-label-percent">{{ getProgressPercent(currentParagraph.index) }}% · {{ getRemainingMinutesText(currentParagraph.index) }}</text>
             </view>
             <view class="progress-track">
@@ -700,7 +741,7 @@ onShow(() => {
               :hover-stay-time="100"
               @tap.stop="handleNextParagraph"
             >
-              {{ currentIndex === totalParagraphs - 1 ? '完成本篇' : '下一段' }}
+              {{ currentParagraph.isChapterHeader ? '开启本章 ›' : (currentIndex === totalParagraphs - 1 ? '完成本篇' : '下一段') }}
             </view>
           </view>
         </view>
@@ -1129,6 +1170,61 @@ view, text, button, image, scroll-view, movable-area, movable-view {
 .btn-secondary-hover {
   background-color: var(--ej-bg-sub);
   transform: scale(0.985);
+}
+
+/* 章节独立居中扉页卡片 */
+.chapter-cover-view {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 48rpx;
+  box-sizing: border-box;
+}
+
+.chapter-badge {
+  font-family: ui-monospace, monospace;
+  font-size: 24rpx;
+  font-weight: 700;
+  letter-spacing: 4rpx;
+  text-transform: uppercase;
+  color: #C84B31;
+  background: rgba(200, 75, 49, 0.08);
+  border: 1px solid rgba(200, 75, 49, 0.2);
+  padding: 8rpx 28rpx;
+  border-radius: 9999px;
+  margin-bottom: 36rpx;
+}
+
+.chapter-title-en {
+  font-family: "Noto Serif SC", Georgia, "Times New Roman", serif;
+  font-size: 44rpx;
+  font-weight: 700;
+  color: var(--ej-text-primary);
+  line-height: 1.35;
+  margin-bottom: 32rpx;
+  max-width: 90%;
+  word-break: break-word;
+}
+
+.chapter-decor-line {
+  width: 96rpx;
+  height: 2rpx;
+  background-color: var(--ej-border, #E7E4DC);
+  margin-bottom: 32rpx;
+  opacity: 0.8;
+}
+
+.chapter-title-zh {
+  font-family: "Noto Serif SC", "Songti SC", STSong, serif;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--ej-text-secondary);
+  letter-spacing: 1rpx;
+  max-width: 90%;
 }
 
 /* 完读成就卡片 (高级极简留白、沉静书香质感) */
