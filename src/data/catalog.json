@@ -423,5 +423,22 @@
     "estimatedMinutes": 90,
     "summary": "世界悬疑与心理惊悚小说的开山鼻祖，‘双重人格’的代名词。伦敦德高望重、慈善温雅的名医杰基尔博士，为了摆脱世俗道德束缚，研制出一种能将自身恶念具象化的神秘药剂，化身为丑陋残暴的海德先生夜行作恶。然而邪恶的人格随着放纵逐渐失控反噬，最终走向了同归于尽的毁灭深渊。",
     "hasFullText": true
+  },
+  {
+    "id": "alice_in_wonderland",
+    "title": "Alice's Adventures in Wonderland",
+    "titleZh": "爱丽丝梦游仙境 (全十二卷)",
+    "author": "Lewis Carroll (刘易斯·卡罗尔)",
+    "coverBg": "linear-gradient(145deg, #1E1B4B 0%, #312E81 100%)",
+    "coverAccent": "#C084FC",
+    "coverBorder": "#A855F7",
+    "tagline": "DOWN THE RABBIT-HOLE",
+    "difficulty": "advanced",
+    "difficultyLabel": "挑战级 · 全本名著/六级+",
+    "difficultyColor": "#F43F5E",
+    "wordCount": 26356,
+    "estimatedMinutes": 130,
+    "summary": "世界奇幻与荒诞文学开山鼻祖。无聊午后，一只穿着背心、掏出怀表的白兔飞奔而过。好奇的爱丽丝追随跳入兔子洞，漫游在泪水池塘、疯狂下午茶、假海龟与红桃王后的法庭审判中……全本 12 章完整收录。",
+    "hasFullText": true
   }
 ]
