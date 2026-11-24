@@ -70,3 +70,20 @@ export function setFontSize(size: FontSizeLevel): void {
     console.error("Failed to save font size:", error);
   }
 }
+
+/**
+ * 全局统一难度等级三色体系（经典交通灯递进）
+ * - 入门级 (Beginner): 翡翠绿 (#10B981)
+ * - 进阶级 (Intermediate): 琥珀黄 (#F59E0B)
+ * - 挑战级 (Advanced): 玫瑰红 (#F43F5E)
+ */
+export const DIFFICULTY_COLORS: Record<string, string> = {
+  beginner: "#10B981",
+  intermediate: "#F59E0B",
+  advanced: "#F43F5E",
+};
+
+export function getDifficultyColor(diff?: string): string {
+  if (!diff) return "#10B981";
+  return DIFFICULTY_COLORS[diff] || "#10B981";
+}

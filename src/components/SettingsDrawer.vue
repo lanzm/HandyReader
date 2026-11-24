@@ -4,6 +4,7 @@ import type { ThemeMode, FontSizeLevel, CatalogItem } from "@/types/reader";
 import catalogData from "@/data/catalog.json";
 import BookCover from "@/components/BookCover.vue";
 import { getStoryProgress } from "@/utils/readingProgress";
+import { getDifficultyColor } from "@/utils/theme";
 import commonUtil from "@/utils/commonUtil";
 
 interface Props {
@@ -136,7 +137,7 @@ function handleCopyGithub() {
                     <text class="story-title truncate">{{ currentStory.title }}</text>
                     <text class="story-subtitle truncate">《{{ currentStory.titleZh }}》· {{ commonUtil.formatAuthorZh(currentStory.author) }}</text>
                     <view class="flex items-center gap-2 text-[11px] text-[var(--ej-text-muted)] mt-0.5">
-                      <text class="font-medium text-[var(--ej-color-brand)]">{{ currentStory.difficultyLabel.split('·')[0].trim() }}</text>
+                      <text class="font-medium" :style="{ color: getDifficultyColor(currentStory.difficulty) }">{{ currentStory.difficultyLabel.split('·')[0].trim() }}</text>
                       <text>·</text>
                       <text>{{ currentStory.wordCount }} 词</text>
                       <text>·</text>
