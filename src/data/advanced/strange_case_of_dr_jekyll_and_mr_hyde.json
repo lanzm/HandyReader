@@ -12,76 +12,86 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "Strange Case of Dr Jekyll and Mr Hyde",
+      "titleZh": "化身博士",
+      "author": "Robert Louis Stevenson (史蒂文森)",
+      "tagline": "THE DUALITY OF MAN",
+      "en": "Strange Case of Dr Jekyll and Mr Hyde\nRobert Louis Stevenson (史蒂文森)",
+      "zh": "《化身博士》 · Robert Louis Stevenson (史蒂文森)"
+    },
+    {
+      "index": 2,
       "en": "Mr. Utterson the lawyer was a man of a rugged countenance, that was never lighted by a smile; cold, scanty and embarrassed in discourse; backward in sentiment; lean, long, dusty, dreary, and yet somehow lovable. At friendly meetings, and when the wine was to his taste, something eminently human beaconed from his eye. He was austere with himself; drank gin when he was alone, to mortify a taste for vintages; and though he enjoyed the theatre, had not crossed the doors of one for twenty years.",
       "zh": "厄特森律师生就一副冷峻坚毅的面容，嘴角向来难见半点笑意；言辞枯涩简慢，不善吐露柔情；身材高瘦阴郁、满面风尘，可眉宇间不知怎的却又透出一股令人信赖的亲和魅力。在至交好友的小聚微醺之际，他那深沉的眼眸深处常会闪烁出格外温厚的人性光芒。他待己极苛：独处时宁喝杜松子苦酒以克制对上乘佳酿的贪恋；尽管平日颇好戏曲，却已足足二十年未曾踏进过戏院大门半步。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "It was his custom to walk on Sunday with Mr. Richard Enfield, his distant kinsman, a well-known man about town. It chanced on one of these rambles that their way led them down a by-street in a busy quarter of London. Two doors from one corner, a sinister, windowless structure thrust forward its gable upon the street, blind and discoloured, showing every mark of prolonged and sordid negligence.",
       "zh": "每逢周日，他向来习惯与远房表弟——伦敦城里颇有声望的名流理查德·恩菲尔德先生结伴散步。某次漫步途中，两人拐进了一条喧嚣都会深处的僻静小巷。在距街角两道门处，赫然矗立着一座通体无窗、阴森可怖的怪异宅邸，山墙突兀地横插街前，墙面灰暗褪色，处处流露出年深日久、荒废破败的肮脏污迹。"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "'Did you ever remark that door?' asked Enfield. 'It is connected in my mind with a very odd story. I was coming home from some place at the end of the world, about three o'clock of a black winter morning, when my eye was caught by two figures: one a little man who was stumping along eastward, and the other a girl of eight or ten who was running as hard as she could across a doctor's court. Well, sir, the two ran into one another at the corner, and then came the horrible part of the thing; for the man trampled calmly over the child's body and left her screaming on the ground.'",
       "zh": "“你留意过那扇破旧的侧门吗？”恩菲尔德忽然止步问道，“在我的心头，它死死维系着一段离奇至极的骇人往事。某个阴风呼啸的漆黑冬夜凌晨三点，我刚自天涯海角归家，路口迎面撞见两道身影：一个是矮小粗壮、迈着碎步向东疾走的小汉子，另一个则是八九岁急匆匆飞奔去请大夫的女童。老兄啊，两人在拐弯处狠狠撞在了一起，然而灭绝人性的惨剧随之上演了：那侏儒汉子竟然从容不迫地一脚脚踩踏过倒地女童的娇躯，任由孩子在地上发出撕心裂肺的惨嚎扬长而去！”"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "'It was not like a man; it was like some damned Juggernaut,' continued Enfield. 'I gave a view halloa, took to my heels, collared my gentleman, and brought him back. A crowd gathered, and the child's family and the doctor threatened to make such a scandal of it as should make his name stink from one end of London to the other. The creature looked so ugly, so demonic, that we all loathed him at sight. Finally, to settle it, he took out a key, entered that very door, and came out with ten pounds in gold and a cheque for ninety pounds drawn on the credit of a very reputable gentleman.'",
       "zh": "“那根本算不上一个人，简直是一尊毫无人性的地狱凶神！”恩菲尔德义愤填膺道，“我一声断喝飞奔上前，一把揪住他的衣领将他扭送回来。群情激愤的街坊与赶来的大夫扬言要把这丑闻捅得天下皆知，让他的恶名臭遍整座伦敦城！那畜生相貌丑陋可憎、浑身散发着纯粹的恶魔气息，凡是目睹他的人无不作呕生厌！最终为了私了赔偿，他掏出一柄钥匙拧开眼前这扇侧门，不多时竟捧出了十镑纯金，外加一张支取九十英镑、赫然由伦敦一位德高望重的顶级绅士亲笔开具的现金支票！”"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "Utterson walked on in silence for some moments. 'What was this man's name?' he asked at length. 'He called himself Hyde,' said Enfield. 'And the gentleman who signed the cheque?' 'I promised not to reveal it,' replied Enfield, 'but it is one of the most respected names in London.' 'You need not tell me,' said Utterson quietly. 'The man who signed it is Henry Jekyll.'",
       "zh": "厄特森面色凝重，默默步行了良久。“那凶徒姓甚名谁？”他终于低声问道。“他自称叫海德，”恩菲尔德回答。“那么支票的真正签署人呢？”“我曾立誓守口如瓶绝不外传，”恩菲尔德为难道，“但他可是全伦敦屈指可数的道德君子啊。”“你不必说了，”厄特森神情肃穆地平静打断，“签署支票的人，正是我的挚友亨利·杰基尔。”"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "That evening Mr. Utterson came home to his bachelor house in sombre spirits and sat down to his dinner without relish. Afterwards, he opened his safe and drew out a document entitled 'Dr. Jekyll's Will.' It was written in the doctor's own hand, and stipulated that in case of the decease of Henry Jekyll, M.D., all his possessions were to pass into the hands of his 'friend and benefactor Edward Hyde'; and further, in case of Dr. Jekyll's 'disappearance or unexplained absence for any period exceeding three calendar months,' the said Edward Hyde should step into Henry Jekyll's shoes without delay.",
       "zh": "当晚厄特森失魂落魄地归家，索然无味地咽下晚餐。随后他拧开重型保险柜，抽出一份题为《杰基尔博士遗嘱》的私密绝密文书。遗嘱完全由博士亲笔手书，明文立誓：倘若医学博士亨利·杰基尔先生身故，其名下全部家私田产悉数由“挚友兼恩主爱德华·海德先生”全盘继承；更有甚者，倘若杰基尔博士“神秘失踪或无故离奇失联逾三个月”，则该海德先生应即刻毫无阻碍地全面接管杰基尔的一切身家！"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "This document had long been the lawyer's eyesore. He feared that Jekyll had fallen under the influence of some villainous blackmailer. Determined to see Hyde's face, Utterson began to haunt the by-street night after night. At last, on a frosty night, he heard odd, light footsteps approaching. A small, plainly dressed man slipped towards the door. Utterson stepped forward and touched him on the shoulder: 'Mr. Hyde, I think?'",
       "zh": "这份荒谬绝伦的遗嘱早已成了大律师心头挥之不去的眼中钉肉中刺。他极度怀疑纯良的杰基尔遭到了某个穷凶极恶恶棍的要挟勒索。为了亲眼看清海德的真容，厄特森夜复一夜在阴森小巷前暗中蹲守。终于，在一个寒霜刺骨的深夜，一阵轻巧短促的诡异脚步声自夜色深处逼近。一个身材矮小、衣着简陋的男子正欲拧开侧门。厄特森果断上前按住他的肩头：“想必是海德先生吧？”"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "The other shrank back with a hissing intake of the breath. But his fear was only momentary; he turned fiercely: 'That is my name. What do you want?' As they spoke under the street-lamp, Utterson gazed upon his face. Mr. Hyde was pale and dwarfish, he gave an impression of deformity without any nameable malformation, he had a displeasing smile, and he spoke with a husky, whispering voice. But beyond all this was the haunting sense of unexpressed, primordial evil that radiated from him.",
       "zh": "对方猛然一惊倒吸一口冷气，宛如毒蛇吐信般后撤；然而惊慌转瞬即逝，他凶相毕露地狞笑道：“正是我！你想怎样？！”在昏黄街灯的掩映下，厄特森借光细细逼视着他的面孔：海德面色惨白如僵尸，身形矮小如侏儒，周身散发着一种难以言喻、无从命名的畸形丑态；嘴角挂着令人作呕的狞笑，嗓音沙哑阴冷。而在这一切之上，更有一股如梦魇般纯粹的远古原罪邪恶恶念自他体内疯狂汹涌辐射！"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "Nearly a year later, in October, London was startled by a crime of singular ferocity. An old and venerable gentleman, Sir Danvers Carew, a member of Parliament, was brutally beaten to death in the street near the river by a small man armed with a heavy cane. The murderer trampled his victim under foot and hailed down a storm of blows, breaking the stick in half. A maidservant who had witnessed the horror from her window recognized the killer: it was Mr. Hyde. Half of the broken cane was found in the gutter; the other half was found in Hyde's lodgings—and Utterson recognized it as a cane he himself had presented to Henry Jekyll years before!",
       "zh": "近整整一年之后的十月，一桩残暴绝伦的惊天凶案震动了整座伦敦城！德高望重的老国会议员丹弗斯·卡鲁爵士，在泰晤士河畔街头惨遭一个手持粗重手杖的矮小暴徒活活乱棍打死！凶手将老人踩在脚下，狂风暴雨般砸下无数记重棍，竟将硬木手杖生生砸断成两截！一位在窗前目击惨剧的女仆当场认出了凶手：正是海德！半截断杖遗落在阴沟里，另一半则在海德的寓所搜获——而厄特森大惊失色地认出，那柄手杖正是他多年前亲手赠予亨利·杰基尔的贵重寿礼！"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "Dr. Jekyll swore solemnly that he was done with Hyde forever. 'Utterson, I swear to God I will never set eyes on him again,' cried the doctor in a fever of agony. 'I am done with him in this world. It is all at an end.' And indeed, for a few months, Jekyll seemed restored to his old, sunny, benevolent self. He entertained friends, did charitable work, and walked with God.",
       "zh": "杰基尔博士指天立誓宣布自己与海德早已一刀两断。“厄特森，我向全能的上帝起誓，我这辈子绝不会再多看他一眼！”博士在极度的煎熬痛苦中颤声哀求道，“我与他在人世间的一切瓜葛彻底了断了！全都结束了！”果不其然，在随后的几个月里，杰基尔仿佛脱胎换骨重归昔日温文尔雅、乐善好施的长者风范。他广宴宾朋、周济穷苦，重沐在神圣的光明之中。"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "Then suddenly, Jekyll shut his doors again. One evening, Poole, the doctor's faithful butler, came to Utterson's house in great terror. 'Mr. Utterson,' cried the man, 'there has been foul play! My master has been locked in his cabinet for a week, weeping and crying out for a certain drug which cannot be procured pure. And the voice that answers through the door is not my master's voice—it is the voice of Hyde!'",
       "zh": "然而平静未久，杰基尔再次深锁大门谢绝见客。一天深夜，博士的老忠仆普尔神色惨白、惊恐万状地飞奔叩响了厄特森的家门。“厄特森先生！”老仆痛哭流涕地惊呼道，“出大祸了！我家老爷把自己反锁在实验室密室里整整一周了，整夜痛哭悲号，四处搜寻一种无法买到纯品的古怪药剂！而那扇门后发出的回话声根本不是老爷的嗓音——那分明是海德的破锣恶魔嗓音啊！”"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "Utterson and Poole broke down the red baize door of the laboratory with an axe. On the floor, twitching in the death agony from self-administered poison, lay the body of Edward Hyde, dressed in clothes far too large for him—clothes of the doctor's bigness! But of Henry Jekyll there was not a trace, alive or dead. On the desk lay a thick packet addressed to Utterson, containing Dr. Jekyll's full confession.",
       "zh": "厄特森与普尔抄起利斧，轰然砸碎了实验室厚重的红毡暗门！在密室的地板上，正躺着一具服毒自尽、周身在垂死剧痛中抽搐僵死的尸体——正是恶魔爱德华·海德！他身上套着一件宽大无比、分明属于高大魁梧的杰基尔博士本人的衣服！然而环顾四壁，杰基尔博士本人却踪迹全无，生死不知。在书桌正中央，静静放着一只厚重的大信封，里面赫然是杰基尔博士临终的《自白手书》。"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "In this letter, Jekyll revealed his terrible secret. He had long been conscious of a profound duality in his nature: a noble, moral, social side, and a secret, sensual, wicked side. He discovered a drug that shook the very fortress of identity, separating the lower nature from the higher, and embodying it in the form of Edward Hyde. As Hyde, he could indulge in every vice without jeopardizing the honoured reputation of Dr. Jekyll.",
       "zh": "在这份惊世骇俗的遗书中，杰基尔道破了他穷极一生的恐怖秘辛：自青年起，他便敏锐察觉到人性深处不可调和的深刻分裂——一侧是高洁、克制、受世俗尊崇的光明法相，另一侧则是放荡、堕落、贪恋罪恶的黑暗欲望。凭借渊博的化学造诣，他研制出了一种动摇生命本源的神秘魔药，能将恶念彻底具象化为形体独立的“爱德华·海德”。化身海德，他便能在暗夜肆意享尽人间一切罪恶快感，而无需搭上杰基尔博士光彩夺目的崇高声誉。"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "At first, the return to Jekyll was easy. But gradually, the evil nature grew strong, usurping the seat of the soul. One morning, Jekyll went to sleep as himself and awoke to find his hands hairy, knuckled, and small—he had transformed into Hyde in his sleep without the drug! The power of the drug began to fail. Finally, the supply of the special salt required for the potion ran out, and all new supplies proved impure and ineffective.",
       "zh": "起初，重返杰基尔的光明之躯轻而易举。然而随着恶念的纵容，海德的力量狂暴滋长，反客为主开始疯狂蚕食灵魂的宝座！一个清晨，杰基尔安然入睡，醒来时却惊恐发现自己的双手变得毛发浓密、矮小枯瘪——他在睡梦中竟未服药便自行蜕变成了海德！魔药的效力彻底失控反噬。最终，配置解药必不可少的特种纯净晶盐彻底告罄，而全伦敦搜罗来的替代品皆因杂质而统统失效！"
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "As the last dose of the original salt was consumed, Jekyll wrote the final lines of his confession, knowing that within an hour Hyde would take permanent possession of his body, and that the gallows or suicide was his only end: 'Here then, as I lay down the pen and proceed to seal up my confession, I bring the life of that unhappy Henry Jekyll to an end.'",
       "zh": "在服下仅存的最后一星纯净药末维持清醒之际，杰基尔颤抖着提笔写下了绝笔手书的最后一行，心知肚明不出一个小时海德便将永久吞噬他的肉身，等待他的唯有断头绞架或服毒自戕：“当我就此搁下墨笔、封上这份自白书信之际，我亦亲手将可怜而不幸的亨利·杰基尔的一生，彻底推向了万劫不复的永恒终局。”"
     }

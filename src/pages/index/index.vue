@@ -505,20 +505,23 @@ onShow(() => {
 
       <!-- 普通段落底层预览 -->
       <template v-else-if="bgParagraph">
-        <!-- 场景 A：独立章节扉页（垂直水平居中排版） -->
+        <!-- 场景 A：独立封面页 / 章节扉页（垂直水平居中排版） -->
         <view
-          v-if="bgParagraph.isChapterHeader"
+          v-if="bgParagraph.isBookCover || bgParagraph.isChapterHeader"
           class="chapter-cover-view"
         >
-          <view class="chapter-badge">
-            {{ bgParagraph.chapterNum }}
+          <view v-if="bgParagraph.chapterNum || bgParagraph.tagline" class="chapter-badge">
+            {{ bgParagraph.chapterNum || bgParagraph.tagline }}
           </view>
           <text class="chapter-title-en">
-            {{ bgParagraph.chapterTitleEn }}
+            {{ bgParagraph.titleEn || bgParagraph.chapterTitleEn || bgParagraph.en }}
           </text>
           <view class="chapter-decor-line" />
           <text class="chapter-title-zh">
-            {{ bgParagraph.chapterTitleZh }}
+            {{ bgParagraph.titleZh ? `《${bgParagraph.titleZh}》` : (bgParagraph.chapterTitleZh || bgParagraph.zh) }}
+          </text>
+          <text v-if="bgParagraph.author" class="chapter-author">
+            {{ bgParagraph.author }}
           </text>
         </view>
 
@@ -574,9 +577,7 @@ onShow(() => {
           </view>
 
           <view class="w-full">
-            <view class="card-btn btn-primary w-full text-base">
-              {{ bgParagraph.isChapterHeader ? '开启本章 ›' : '下一段' }}
-            </view>
+            <view class="card-btn btn-primary w-full text-base">下一段</view>
           </view>
         </view>
       </template>
@@ -629,20 +630,23 @@ onShow(() => {
 
       <!-- 正常段落卡片内容 -->
       <template v-else-if="currentParagraph">
-        <!-- 场景 A：独立章节扉页（垂直水平居中排版） -->
+        <!-- 场景 A：独立封面页 / 章节扉页（垂直水平居中排版） -->
         <view
-          v-if="currentParagraph.isChapterHeader"
+          v-if="currentParagraph.isBookCover || currentParagraph.isChapterHeader"
           class="chapter-cover-view"
         >
-          <view class="chapter-badge">
-            {{ currentParagraph.chapterNum }}
+          <view v-if="currentParagraph.chapterNum || currentParagraph.tagline" class="chapter-badge">
+            {{ currentParagraph.chapterNum || currentParagraph.tagline }}
           </view>
           <text class="chapter-title-en">
-            {{ currentParagraph.chapterTitleEn }}
+            {{ currentParagraph.titleEn || currentParagraph.chapterTitleEn || currentParagraph.en }}
           </text>
           <view class="chapter-decor-line" />
           <text class="chapter-title-zh">
-            {{ currentParagraph.chapterTitleZh }}
+            {{ currentParagraph.titleZh ? `《${currentParagraph.titleZh}》` : (currentParagraph.chapterTitleZh || currentParagraph.zh) }}
+          </text>
+          <text v-if="currentParagraph.author" class="chapter-author">
+            {{ currentParagraph.author }}
           </text>
         </view>
 
@@ -737,7 +741,7 @@ onShow(() => {
               :hover-stay-time="100"
               @tap.stop="handleNextParagraph"
             >
-              {{ currentParagraph.isChapterHeader ? '开启本章 ›' : (currentIndex === totalParagraphs - 1 ? '完成本篇' : '下一段') }}
+              {{ currentIndex === totalParagraphs - 1 ? '完成本篇' : '下一段' }}
             </view>
           </view>
         </view>
@@ -1218,6 +1222,15 @@ view, text, button, image, scroll-view, movable-area, movable-view {
   color: var(--ej-text-secondary);
   letter-spacing: 1rpx;
   max-width: 90%;
+}
+
+.chapter-author {
+  font-family: "Noto Serif SC", "Songti SC", STSong, serif;
+  font-size: 26rpx;
+  color: var(--ej-text-secondary);
+  opacity: 0.75;
+  margin-top: 18rpx;
+  letter-spacing: 0.5rpx;
 }
 
 /* 完读成就卡片 (高级极简留白、沉静书香质感) */

@@ -12,86 +12,96 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "One Thousand Dollars",
+      "titleZh": "一千美元",
+      "author": "O. Henry (欧·亨利)",
+      "tagline": "ON ACCOUNT OF HAPPINESS",
+      "en": "One Thousand Dollars\nO. Henry (欧·亨利)",
+      "zh": "《一千美元》 · O. Henry (欧·亨利)"
+    },
+    {
+      "index": 2,
       "en": "'One thousand dollars,' said Lawyer Tolman, solemnly, 'and here is the money.' Young Gillian gave a small laugh as he took the thin package of fifty-dollar bills. 'It's such a confounded awkward amount,' he explained, genially, to the lawyer. 'If it had been ten thousand a chap might celebrate with a display. Even fifty dollars would have been less trouble.'",
       "zh": "“整整一千美元，”托尔曼律师神情庄重地宣布道，“这是款项。”年轻的吉利安接过那叠薄薄的五十美元面额钞票，发出一声轻笑。“这可真是一笔让人尴尬透顶的古怪数目，”他神情自若地向律师调侃道，“要是有一万美元，一个人倒能痛痛快快阔气挥霍一番；哪怕只有五十块钱，打发起来也不至于这么伤脑筋。”"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "'You heard the reading of your uncle's will,' said Lawyer Tolman, severely. 'I do not know if you paid much attention to its details. I may remind you of one. You are required to submit to us an account of the manner of expenditure of this one thousand dollars as soon as it is spent. I trust that you will comply with the late Mr. Gillian's wishes.'",
       "zh": "“想必你刚才已经听过宣读令叔的遗嘱了，”托尔曼律师严肃刻板地提醒道，“我不知道你是否留意了其中的细则。我有必要郑重提醒你一条：在这笔一千美元开销完毕后，你必须立刻向我们事务所呈交一份详尽的开支账目清单。我坚信你会恪守先叔老吉利安先生的遗愿。”"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "'You may depend upon it,' said the young man, politely. 'I may even provide receipts.' Gillian went to his club. He searched out his friend Bryson, who was forty years old, calm, cynical, and reading a book in a corner. 'Bryson,' said Gillian, 'what would you do with a thousand dollars?'",
       "zh": "“您大可放心，”年轻人彬彬有礼地回答，“我甚至乐意附上收据明细。”吉利安随后信步来到常去的俱乐部。他找到了四十岁的朋友布赖森——此人性格孤僻冷峻、玩世不恭，正窝在角落里捧着一本书。“布赖森，”吉利安问道，“如果你平白得了一千美元，你会拿来干什么？”"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "'A thousand dollars?' said Bryson, frowning. 'Why, buy a diamond pendant for a chorus girl, or take a trip to Idaho and buy sheep, or give it to an art student, or buy a motor-car. There are a thousand ways to spend a thousand dollars.' 'You don't understand the circumstances,' said Gillian. 'Uncle Septimus left me just that amount, with a stipulation that I must file a report on how I spent it.'",
       "zh": "“一千美元？”布赖森皱起眉头，“哼，给百老汇歌舞女郎买个钻石挂坠，或者跑去爱达荷州包个牧场买羊，要么施舍给穷酸艺术生，再不然买辆破汽车。花掉区区一千美元的法子少说有一千种。”“你根本没弄清前因后果，”吉利安叹道，“赛普提默斯叔叔临终就偏偏留给我这么点钱，还立下苛刻规矩，勒令我必须提交一份详细的消费汇报。”"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "'The rest of his vast wealth,' continued Gillian, 'went to establish a hospital, a library, and to his servants. Miss Hayden, a quiet ward who lived in his house, got only a seal ring and ten dollars. And I got this confounded packet.'",
       "zh": "“而他老人家的万贯家财，”吉利安接着说道，“全捐去修建了一座医院、一座图书馆，外加打发那些老仆人。至于一直寄宿在他宅邸里由他收养的海登小姐，除了一枚图章戒指和可怜的十块钱外一无所获。而我，就落得这么一小沓烦人的纸钞。”"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "Gillian called a cab. 'Drive to the stage entrance of the Columbine Theatre,' he ordered. There he found Miss Lotta Lauriere, an actress. 'Lotta,' said Gillian, 'what would you like as a present? Something worth about a thousand dollars?' 'Oh, a diamond necklace!' she cried. 'A Tiffany necklace at that price? Hardly,' said Gillian, and drove away.",
       "zh": "吉利安叫了辆马车。“去哥伦拜恩剧院的后台演员通道，”他吩咐道。在那里他见到了美艳的女演员洛塔·劳里埃。“洛塔，”吉利安问，“你想要什么礼物？价值大约一千美元左右的那种？”“噢，当然是一条大钻石项链啦！”她娇呼道。“蒂芙尼的钻石项链一千块可买不下来，”吉利安淡淡一笑，转身驾车离去。"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "He drove down Broadway. Near the corner of 23rd Street he saw a blind man sitting on a stool selling pencils. Gillian stepped out. 'Excuse me,' said he, 'do you mind telling me what you would do if you had a thousand dollars?'",
       "zh": "马车沿着百老汇大街前行。在第二十三街拐角处，他看见一个双目失明的盲人正坐在矮凳上叫卖铅笔。吉米跳下车。“打扰一下，”他客气地问道，“您能否行行好告诉我，如果您手里有一千美元，您会拿来做什么？”"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "The blind man took out a small bank-deposit book and showed it to Gillian. It showed a balance of $1,785 to the blind man's credit. Gillian returned the book, got into the cab, and said to the driver: 'Drive to Lawyer Tolman's office again.'",
       "zh": "盲人摸索着从怀里掏出一本银行存折递给吉利安。账页上赫然显示着一千七百八十五美元的存款余额！吉利安恭敬地归还存折，跨上马车对车夫说：“回托尔曼律师事务所。”"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "'Mr. Tolman,' said Gillian, upon entering, 'may I ask one question? Was Miss Hayden really left almost nothing by my uncle?' 'A seal ring and ten dollars,' repeated the lawyer. 'Thank you,' said Gillian. And he drove straight to his uncle's old country home.",
       "zh": "“托尔曼先生，”吉利安推门而入径直问道，“我可以向您请教一个问题吗？家叔真的几乎没有留给海登小姐任何体面的遗产吗？”“仅有一枚图章戒指和十美元，”律师冷冰冰地重复道。“十分感谢，”吉利安颔首致意。随即他命车夫直奔叔父那座幽静的乡间故居。"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "Miss Hayden was sitting in the library, dressed in black. She was small, pale, and quiet, with wonderful brown eyes. 'Miss Hayden,' said Gillian, 'I came on business. My uncle—well, there was an addendum to the will, a loose memorandum found among his papers. It directs that the sum of one thousand dollars be paid to you. I brought the money.'",
       "zh": "海登小姐正身着一袭黑裙静坐在书房里。她身材娇小、神情恬静苍白，一双棕褐色的秋眸动人非凡。“海登小姐，”吉利安开口道，“我为公事前来。家叔的遗嘱……呃，其实还有一份补充备忘录，是在他的私人遗物中搜寻出来的。备忘录明令拨出一千美元专款交由您继承。我特地将这笔钱给您送过来了。”"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "Miss Hayden turned white. 'Oh,' she said. 'Mr. Gillian was kind after all.' Gillian laid the money on the desk. He stood looking down at her. 'Is there—is there anything else I can do for you, Miss Hayden?' 'Nothing, thank you, Robert.' 'Because,' said Gillian, softly, 'I love you. You know that, don't you?' 'I am sorry,' she said.",
       "zh": "海登小姐脸色骤然泛白。“噢，”她轻声叹息，“吉利安老先生终究还是心怀仁善的。”吉利安将那叠厚厚的钞票轻轻放在书桌上。他伫立在桌前深深凝视着她：“海登小姐，还有什么……还有什么事情是我能效劳的吗？”“没有了，万分感谢你，罗伯特。”“因为，”吉利安深情而温柔地低语道，“我深爱着你。你一直都知道的，不是吗？”“我很抱歉，”姑娘轻咬嘴唇，歉疚地低下了头。"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "'It's all right,' said Gillian, cheerfully. 'No harm done. Could I write a line at the desk here?' He sat down, pulled out a sheet of paper, and wrote: 'Paid by Robert Gillian, one thousand dollars on account of eternal happiness, to the best and dearest woman on earth.'",
       "zh": "“没关系的，”吉利安立刻换上轻松宽慰的笑容，“没事的。我能借您的书桌写两行字吗？”他拉开椅子坐下，抽出一张信纸提笔写道：“罗伯特·吉利安已支出款项整整一千美元，全数奉献给世上最善良、最心爱的女士，以求她一生幸福安康。”"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "He sealed it in an envelope, said goodbye, and walked out. He returned to Lawyer Tolman's office. 'Here is the report on the expenditure of the thousand dollars,' said Gillian, tossing the sealed envelope onto the desk. Tolman looked at his partner, Sharp, and smiled a mysterious smile.",
       "zh": "他将信纸封入一只信封，微笑着道别离去。他再次大步跨入托尔曼律师事务所。“这是一千美元开销明细的终审汇报，”吉利安说着，将那只火漆信封随意甩在了桌上。托尔曼律师与合伙人夏普对视了一眼，脸上浮现出一抹耐人寻味的神秘微笑。"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "'Mr. Gillian,' said Tolman, 'there was a second codicil to your uncle's will, entrusted to us, not to be opened until you furnished this report. We will now open it.' Tolman broke the seal of a large document and read aloud:",
       "zh": "“吉利安先生，”托尔曼肃然说道，“令叔的遗嘱实际上还附有一份第二号绝密附录，由他老人家亲自委托我们保管，明令唯有在您提交了开支报告之后方可拆封。现在，我们当众宣读这份附录。”托尔曼郑重其事地启开一份加盖火漆的厚重大文件，朗声宣读道："
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "'If my nephew, Robert Gillian, has spent this one thousand dollars in a foolish, frivolous, or discreditable manner, let the remaining fifty thousand dollars of my estate in bonds be paid immediately to Miriam Hayden. But if he has disposed of the money wisely, prudently, or unselfishly, the whole fifty thousand dollars shall become his outright.'",
       "zh": "“‘倘若我的侄儿罗伯特·吉利安将这一千美元挥霍于愚不可及、荒唐轻浮或声名狼藉的下流勾当，那么我遗产中剩余的五万美元优质债券，应即刻全数转交米丽娅姆·海登小姐继承！反之，倘若他能将这笔钱妥善审慎、明智且无私地用于善行，则这整整五万美元债券悉数归他一人所有。’”"
     },
     {
-      "index": 16,
+      "index": 17,
       "en": "Tolman reached for the envelope containing Gillian's report. 'Now let us see how you spent the thousand, Mr. Gillian, and to whom the fifty thousand belongs.' Gillian reached out casually, snatched his envelope from the desk, and tore it into tiny shreds.",
       "zh": "托尔曼律师微笑着伸手去拿桌上那只装着吉利安开支汇报的信封：“那么，吉利安先生，现在就让我们拜读一下您究竟是如何花掉那一千块的吧，看看这五万美元巨款究竟花落谁家！”然而就在这一刹那，吉米若无其事地一扬手，一把抢过信封，当着两位大律师的面将信纸彻底撕成碎屑！"
     },
     {
-      "index": 17,
+      "index": 18,
       "en": "'It's no use bothering you gentlemen,' said Gillian, smiling delightfully. 'I lost that thousand dollars on the races. A total waste. The fifty thousand belongs to Miss Hayden.' And he strolled whistling out of the office, down the stairs to the street.",
       "zh": "“二位大律师不必白费功夫费心过目了，”吉利安嘴角漾起一抹无比爽朗灿烂的微笑，“那一千块钱早让我在赛马场上输了个精光，败家得彻头彻尾。那五万美元理所应当全归海登小姐所有。”说罢，他吹着欢快的口哨信步踱出办公室，迈着轻盈的步伐走下楼梯，步入了喧嚣繁华的阳光街头。"
     }

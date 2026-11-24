@@ -12,101 +12,111 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "The Million Pound Bank Note",
+      "titleZh": "百万英镑",
+      "author": "Mark Twain (马克·吐温)",
+      "tagline": "THE VEST-POCKET MILLIONAIRE",
+      "en": "The Million Pound Bank Note\nMark Twain (马克·吐温)",
+      "zh": "《百万英镑》 · Mark Twain (马克·吐温)"
+    },
+    {
+      "index": 2,
       "en": "When I was twenty-seven years old, I was a mining-broker's clerk in San Francisco, and an expert in all the details of stock traffic. I was alone in the world, and had nothing to depend upon but my wits and a clean reputation; but these were setting my feet in the road to eventual fortune, and I was satisfied with the prospect.",
       "zh": "二十七岁那年，我还是旧金山一家矿业经纪行的小职员，对股票买卖交易的各项门道早已烂熟于心。我在这世上孑然一身，除了聪颖的头脑与清白的名声外无依无靠；然而这两件法宝足以引领我迈向飞黄腾达的康庄大道，我对未来充满了笃定的期许。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "My salary was generous, but it was not enough to save on. Then came an accident. One Saturday afternoon, being fond of sailing, I ventured too far out into the bay in a small boat. When the fog lifted, I was far out at sea. Night came on, and the wind blew me further into the boundless ocean. Toward morning, when I had given up all hope, I was picked up by a British brig bound for London.",
       "zh": "我的薪水虽然颇为丰厚，但还谈不上有什么积蓄。然而一场离奇的意外改变了一切。某个周六午后，酷爱扬帆出海的我驾着一叶扁舟在海湾里漂得太远，待大雾散尽，我已身陷苍茫大海。夜幕降临，暴风将我越推越远。直到拂晓时分，正当我陷入万念俱灰之际，一艘开往伦敦的双桅英国货船将我搭救上岸。"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "My voyage was a long and rough one. I earned my passage by working as a common sailor before the mast. When I stepped ashore in London, my clothes were in rags, and all the money I had in the world was one solitary silver dollar. For twenty-four hours I went without food, walking the streets of the great city, feeling the bitter loneliness of poverty amidst vast wealth.",
       "zh": "漫长的航程颠簸劳苦，我靠在桅杆前充当苦力水手才抵充了船票。当我踏上伦敦码头的那一刻，浑身衣衫褴褛破烂不堪，口袋里仅存着一枚孤零零的一美元银币。在接下来的二十四小时里我粒米未进，饥肠辘辘地漫游在这座庞大帝都的街头，在万千浮华喧嚣中体会着贫病交加的彻骨凄凉。"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "By next morning my hunger was growing desperate. I was walking down Portland Place, eyeing a pear that a little boy had half-eaten and tossed into the gutter. Every time I turned to pick it up, someone passed and my pride restrained me. While I was thus engaged, a window in a large house was thrown open, and a gentleman called out: 'Step in here, please, young man.'",
       "zh": "到了次日早晨，饥饿已将我逼到了疯狂边缘。我正沿着波特兰街徘徊，眼巴巴地死死盯着一个小孩刚啃了半截扔进阴沟的烂梨。每当我弯腰企图捡拾，便有行人路过，残存的自尊心又硬生生逼我收回了手。正当我陷入这番羞惭交加的挣扎之际，一栋豪宅的窗户猛然推开，一位老绅士探出头喊道：“请进屋里来坐坐，小伙子。”"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "A footman led me into a sumptuous room, where two elderly gentlemen sat at breakfast. They dismissed the servant, and looked me all over. One of them said: 'You are an American, I take it?' 'Yes, sir, from San Francisco.' 'And you are a stranger here, and friendless, and without money?' 'I have not a penny, sir, nor a friend in England.'",
       "zh": "身穿华丽制服的男仆将我领进一间富丽堂皇的客厅，两位老绅士正围坐用早餐。他们挥退仆人，将我从头到脚细细打量了一番。其中一位开口道：“我猜你是一位美国人吧？”“是的先生，来自旧金山。”“而且你在伦敦举目无亲、囊中羞涩、身无分文？”“先生，我在全英格兰确实无亲无故，连一个便士都没有。”"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "The two gentlemen exchanged a glance of great satisfaction. 'Splendid!' said one. 'Couldn't be better!' They gave me a sealed envelope, and told me to take it away and open it only when I had reached my lodging. I thanked them, confused and bewildered, and took my leave.",
       "zh": "两位老绅士相视一眼，脸上流露出难以言表的极度满意之色。“太棒了！”一位眉飞色舞道，“再合适不过了！”他们递给我一只加盖火漆的厚重大信封，严正嘱咐我必须把它带走，直到抵达住处后方可拆封验看。我满腹狐疑与迷茫，千恩万谢之后告辞离去。"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "As soon as I was out of sight, I tore open the envelope. To my astonishment, I pulled out—not a five-pound note, not even a fifty-pound note—but a Bank of England note for ONE MILLION POUNDS! I thought I must be dreaming, or that they were madmen. I was terrified of being arrested for having it in my possession.",
       "zh": "刚一拐出他们的视线，我便迫不及待撕开了信封。然而抽出的东西令我彻底目瞪口呆——那既不是五英镑的钞票，也不是五十英镑的大钞——而是一张赫然印着大英帝国英格兰银行的一张面额整整“一百万英镑”的巨额钞票！我以为自己必定是在做梦，或者那两个老富翁纯粹是疯子。怀揣着这等骇人听闻的天文数字，我吓得心惊肉跳，唯恐被当场抓进牢狱。"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "I did not know then that these two brothers had entered into a whimsical wager. One argued that an honest and intelligent stranger, turned adrift in London with nothing but a million-pound note, would inevitably starve to death, because no one could break it; while the other argued that he could live like a prince for thirty days purely on the credit it commanded.",
       "zh": "当时我殊不知，这二位豪富亲兄弟不过是在进行一场旷世赌局：一个老头打赌说，一个诚实聪颖的异乡穷汉，怀揣一张无法找零的百万英镑大钞流落伦敦街头，必定会活活饿死，因为天底下绝无任何人能找得开这笔巨款；而另一位则坚称，哪怕分文不兑现，单凭这张天价钞票所产生的无上信誉，他便能在三十天内呼风唤雨、享受王子般的奢华待遇！"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "Starving as I was, I stepped into the first cheap eating-house I saw. I ate ravenously, piling my plate high with sausages and bread. When the bill was presented, amounting to one shilling and fourpence, I pulled out the million-pound note and handed it to the proprietor with an air of complete indifference. 'I'm sorry,' said I, 'I have nothing smaller.'",
       "zh": "饥肠辘辘的我一头扎进眼前能找到的第一家廉价小餐馆。我狼吞虎咽风卷残云，盘子里堆满了香肠与粗面包。当账单递到眼前——共计一先令四便士时，我若无其事地摸出那张百万英镑大钞，漫不经心地递给掌柜：“实在抱歉，”我云淡风轻地说道，“我手头没有零钱。”"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "The man looked at the note, and his eyes almost popped from his head. He grew pale, then purple, and finally bowed to the ground before me. 'Oh, sir! My lord! Don't mention it! Keep it, keep it, you may pay whenever you like—next week, next year! Take whatever you want, sir, all my shop is yours!'",
       "zh": "掌柜低头瞥了一眼那张钞票，两颗眼珠子险些从眼眶里当场弹爆出来！他面色先是一阵惨白，继而憋得通红，最终毕恭毕敬地对着我深深鞠躬到底：“噢，先生！大人！您千万别见外！算了吧，免单，您爱什么时候结算就什么时候结算——下周、明年都成！您看中店里什么只管拿，鄙店的一切全都是您的！”"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "Next I went into a fashionable tailor's shop in Regent Street to buy a suit of clothes. The clerks looked down upon my shabby garments and offered me the most cheap and vulgar secondhand coat. When I produced the note to pay for it, the proprietor came flying out of his private office, shoving his assistants aside.",
       "zh": "接着我信步迈入摄政街上一家顶级的裁缝华服铺购置衣装。伙计们对我寒酸的破烂衣衫冷嘲热讽，随手扔给我一套最劣质粗俗的廉价旧衣服。然而当我面不改色掏出大钞准备付款时，掌柜像旋风一样从内堂飞奔而出，一把将伙计们狠狠推开。"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "'Forgive these fools, sir!' cried the tailor. 'They know nothing of distinguished gentlemen! A man of your boundless fortune cannot buy off the peg! Allow me, sir, to measure you for a complete wardrobe—morning suits, dress suits, frock-coats, riding garments—thirty-five suits in all! And payment? Whenever it suits your convenience, sir, not a day sooner!'",
       "zh": "“大人，请宽恕这帮有眼无珠的蠢奴才吧！”大裁缝激动万分地高呼，“他们哪里懂得识辨真正的尊贵大人物！像您这般富甲天下的豪门贵胄怎能屈就现成俗衣！请容鄙人亲自为您量体裁衣——晨礼服、大礼服、常礼服、骑士盛装——全套共计三十五套！至于货款？随您的便，哪天您手头顺当了再付，提前一天鄙号都万不敢收！”"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "Within a week I was the talk of London. The newspapers published stories about the 'Vest-Pocket Millionaire' who went about town with a million-pound note. Hostesses invited me to their banquets, aristocrats sought my acquaintance, and the landlord of the best hotel in London insisted on giving me his most magnificent suite free of charge.",
       "zh": "不出短短一周，“身揣百万英镑的神秘口袋富豪”轰动了整座伦敦城，各大报章头条争相报道。豪门贵妇们争相邀请我出席晚宴，公卿显贵竞相结纳，伦敦最顶级的豪华大饭店老板更是死乞白赖硬要将最富丽堂皇的总统套房双手奉送供我免费下榻。"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "At a grand reception at the American Ambassador's, I met Portia Langham, a charming, beautiful English girl of twenty-two. We fell in love with each other at first sight. I told her the entire truth about my situation—that I had not a single penny of my own, that the million-pound note was merely a loan for a bet, and that in two weeks I would be a beggar again.",
       "zh": "在美国大使馆举办的盛大国宴上，我邂逅了二十二岁的波西娅·朗厄姆小姐——一位温婉动人、倾国倾城的英伦名媛。我们一见倾心。我毫无保留地向她坦白了一切真相：我本人其实分文没有，那张百万英镑巨钞不过是一场豪门赌局的短期借条，两周之后大限一到，我便将重归一无所有的流浪汉。"
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "Instead of being horrified, Portia laughed until the tears ran down her cheeks. 'Oh, you dear, clever boy!' she cried. 'It is the most delightful comedy I ever heard of!' And she promised that, whatever happened, she would stand by me.",
       "zh": "出乎意料的是，波西娅不仅没有惊骇嫌弃，反而乐得眼泪顺着绯红的脸颊滚滚滑落。“噢，我亲爱又聪明的小傻瓜！”她娇嗔着感叹道，“这真是我这辈子听过最妙趣横生的滑稽传奇了！”她深情地承诺，无论大限过后是贫是富，她都愿同我休戚与共、生死相依。"
     },
     {
-      "index": 16,
+      "index": 17,
       "en": "Meanwhile, an old friend from San Francisco, Hastings, turned up in London trying to sell options on the rich Gould and Curry gold mine. Nobody would buy from an unknown American. In desperation he came to me. 'Henry,' said he, 'if you will only endorse this mine, your credit will float it in twenty-four hours!'",
       "zh": "与此同时，我当年在旧金山的老同窗黑斯廷斯也辗转漂泊到了伦敦，正绝望地试图推销一座储量极其惊人的金矿开采权。然而伦敦金融界对这个籍籍无名的穷光蛋嗤之以鼻。走投无路之下他跑来向我求救：“亨利，”他热泪盈眶地苦求道，“只要你肯出面公开为这座金矿背书入股，单凭你的百万信用，一天之内股价便能一飞冲天！”"
     },
     {
-      "index": 17,
+      "index": 18,
       "en": "I consented. I announced that Hastings was my agent, and that I had invested heavily in the mine. The public went mad. People fought to buy shares. Within a fortnight, the mine was sold out for millions, and my share of the profits deposited in the bank amounted to two hundred thousand pounds in hard, cold cash!",
       "zh": "我答应了他的请求。我向金融界正式宣布黑斯廷斯是我的特许全权代理人，声称自己已在矿山重金注资入股。全伦敦的投资客顿时陷入狂热！人们为了争抢股票挤破了头。短短两周之内，金矿开采权被哄抢一空，而我名下实打实分得的现金纯利润，整整高达二十万英镑现大洋，稳稳躺在了我的银行个人存折里！"
     },
     {
-      "index": 18,
+      "index": 19,
       "en": "At the end of the thirty days, I took Portia with me and went to the great house in Portland Place to return the note to the two old gentlemen. When we arrived, they were eager to declare who had won the bet. 'Brother Abel,' said one, 'I have won! He has not only survived, but he has lived in luxury!'",
       "zh": "整整三十天的大限终于到期了。我挽着心爱的波西娅，从容迈入波特兰街的那座豪宅，归还那张改变命运的百万巨钞。两位老绅士正急不可耐地要当场揭晓赌局输赢。“阿贝尔老兄，”其中一位眉开眼笑地宣布，“是我赢了！他不仅活得好好的，而且享尽了人世间最顶级的荣华富贵！”"
     },
     {
-      "index": 19,
+      "index": 20,
       "en": "I produced the million-pound note and laid it on the table. 'Gentlemen,' said I, 'I thank you from the bottom of my heart. I return your note untouched.' Then Portia rushed forward and threw her arms around the neck of the gentleman who had won the bet. 'Papa!' she cried. It turned out that she was the daughter of the very man who had conceived the wager!",
       "zh": "我掏出那张毫发无损的百万英镑大钞，郑重放在红木桌面上：“二位长辈，”我由衷地鞠躬道，“晚辈感激二位的大恩大德。如今大钞原封奉还，分毫未动。”这时，身旁的波西娅却如燕投怀般径直扑向前去，一把搂住了赢下赌局的那位老绅士的脖颈娇呼道：“爸爸！”——原来，她竟正是这场奇葩赌局策划者的掌上明珠！"
     },
     {
-      "index": 20,
+      "index": 21,
       "en": "The King of the Bet burst into laughter and gave us his blessing. I had won a fortune of two hundred thousand pounds and the sweetest wife in England, all without spending a single copper of the famous note. The million-pound note was framed and hung on the wall of our drawing-room, a lasting monument to the greatest comedy of high finance.",
       "zh": "赢了赌局的老爵爷抚掌大笑，欣然为我们主持了订婚大礼。至此，在从未动用那张大钞一个铜板的前提下，我堂堂正正赢得了二十万英镑的清白巨富，并迎娶了全英格兰最美满温婉的娇妻。那张举世闻名的百万英镑大钞后来被装入精致画框，高悬在我们客厅最显眼的墙壁正中，成为现代金融幽默史上一座永恒的神奇丰碑。"
     }

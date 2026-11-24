@@ -12,101 +12,111 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "The Canterville Ghost",
+      "titleZh": "坎特维尔城堡的幽灵",
+      "author": "Oscar Wilde (王尔德)",
+      "tagline": "LOVE IS STRONGER THAN DEATH",
+      "en": "The Canterville Ghost\nOscar Wilde (王尔德)",
+      "zh": "《坎特维尔城堡的幽灵》 · Oscar Wilde (王尔德)"
+    },
+    {
+      "index": 2,
       "en": "When Mr. Hiram B. Otis, the American Minister, bought Canterville Chase, everyone told him he was doing a very foolish thing, as there was no doubt at all that the place was haunted. Indeed, Lord Canterville himself, who was a man of the most punctilious honour, had felt it his duty to mention the fact to Mr. Otis when they came to discuss terms.",
       "zh": "当美国公使海拉姆·B·奥蒂斯先生买下坎特维尔城堡时，所有人都警告他干了一件愚不可及的蠢事，因为人尽皆知那座庄园闹鬼闹得天下皆知。事实上，连向来极重荣誉信义的原庄园主坎特维尔勋爵本人，在商谈转让契约时也认为有责任向奥蒂斯先生坦白相告。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "'We have not cared to live in the place ourselves,' said Lord Canterville, 'ever since my grand-aunt, the Dowager Duchess of Bolton, was frightened into a fit, from which she never really recovered, by two skeleton hands being placed on her shoulders as she was dressing for dinner. The ghost has been seen by several living members of my family.'",
       "zh": "“自打我的姑祖母博尔顿遗孀公爵夫人出事后，我们全家就再不敢住在那座宅子里了，”坎特维尔勋爵心有余悸地说，“当年老人家正在更衣准备用晚膳，一双森森白骨的骷髅魔爪赫然搭在她的双肩上，吓得她当场痫风发作，自那以后就再没彻底痊愈过。我们家族好几位在世的宗亲都曾亲眼目睹过那厉鬼的身影。”"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "'My Lord,' answered the Minister, 'I will take the furniture and the ghost at a valuation. I come from a modern country, where we have everything that money can buy; and with all our brisk young fellows painting the Old World red, I reckon that if there were such a thing as a ghost in Europe, we'd have it at home in a museum or on the road as a show.'",
       "zh": "“勋爵大人，”公使先生泰然自若地回答，“宅子里的全副古董家具外加那只幽灵，全按市价作价评估转让给我便是！我来自一个讲求现代文明的新大陆，在那里凡是金钱能买得到的东西我们应有尽有；依我们那帮精力旺盛的年轻才俊把旧大陆搅得天翻地覆的魄力，倘若欧洲当真有‘鬼’这号稀罕物，我们早就把它买回国陈列在博物馆、或者租下马戏团大篷车巡回展出了！”"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "Lord Canterville smiled. 'I fear that the ghost exists,' said he, 'and it has made its appearance on every occasion before the death of any of my family.' 'Well, so does the family doctor for that matter, Lord Canterville. But there is no such thing, sir, as a ghost, and I guess the laws of Nature are not going to be suspended for the British aristocracy.'",
       "zh": "坎特维尔勋爵苦笑着摇摇头：“只恐那冤魂当真确凿存在，”他说，“每逢我们宗族中有人大限将至之前，它必会现形作祟。”“咳，照您这么说，家庭私人医生在临终前也必定会现身嘛，勋爵大人。世上本无神鬼，想必大自然的基本客观物理规律，也绝不至于单单为了大英帝国的贵族显贵而网开一面特意失效吧！”"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "A few weeks later the purchase was completed, and at the close of the season the Minister and his family went down to Canterville Chase. Mrs. Otis was a very handsome woman of middle age, with fine eyes and a superb profile. Her eldest son, Washington, was a fair-haired, good-looking young fellow; Miss Virginia E. Otis was a little girl of fifteen, lithe and lovely; and the family was completed by the Twins, usually called 'Stars and Stripes,' delightful boys whose sole occupation was mischief.",
       "zh": "数周之后，交割手续办妥停当。入秋社交季尾声之际，公使先生举家迁往坎特维尔庄园。奥蒂斯夫人是一位端庄雍容的中年丽人，秋波流转，侧颜极美。长子华盛顿生得金发碧眼、仪表堂堂；掌上明珠弗吉尼亚芳龄十五，身段轻盈娇美；此外便是被称为“星条旗”的淘气双胞胎男孩，两个机灵鬼整日唯一的营生便是变着法子恶作剧捣蛋。"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "As they drove up the avenue, the sky became overcast and a thunderstorm broke. On the steps stood an old woman in black silk, with a white cap and apron. This was Mrs. Umney, the housekeeper. As they entered the library, Mrs. Otis noticed a dull red stain on the floor just by the fireplace. 'I am afraid something has been spilt there,' she remarked.",
       "zh": "当马车驶入林荫大道时，天空阴云密布，雷雨骤至。大理石台阶前伫立着一位身着黑丝绒长裙、头戴白帽系着围裙的年长妇人——这便是掌管庄园内务几十年的老管家厄姆尼太太。一踏入书房，奥蒂斯夫人一眼瞥见壁炉旁地板上有一大团暗红色的陈年污迹。“这地方怕是泼洒过什么脏东西吧，”她随口说道。"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "'Yes, madam,' replied the old housekeeper, in a low voice, 'blood has been spilt on that spot.' 'How horrid!' cried Mrs. Otis; 'I don't at all care for blood-stains in a sitting-room. It must be removed at once.' The old woman smiled and answered: 'It is the blood of Lady Eleanore de Canterville, who was murdered on that very spot by her husband, Sir Simon de Canterville, in 1575. Sir Simon survived her nine years, and disappeared suddenly under very mysterious circumstances. The stain cannot be removed.'",
       "zh": "“是的，夫人，”老管家压低了嗓门幽幽答道，“那地方曾经溅落过鲜血。”“真恶心！”夫人皱眉嗔道，“我绝不容许客厅里留着污浊的血迹，必须立刻擦洗干净。”老妇人露出一抹诡异的冷笑：“那是埃莉诺·德·坎特维尔夫人的斑斑血迹。1575年，她被亲生丈夫西蒙·德·坎特维尔爵士在那处当场残杀害命。西蒙爵士苟活了九年后离奇神秘失踪，至今尸骨无存。这血迹受了怨灵诅咒，是无论如何也擦洗不掉的。”"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "'That is all nonsense,' cried Washington Otis; 'Pinkerton's Champion Stain Remover and Paragon Detergent will clean it up in no time.' And before the terrified housekeeper could interfere, he had fallen upon his knees and was rapidly scrubbing the floor with a small stick of what looked like a black cosmetic. In a few moments no trace of the blood-stain could be seen.",
       "zh": "“纯粹一派胡言！”长子华盛顿嗤之以鼻，“平克顿全能无敌去污膏外加极品洗洁精，保准一分钟内让它彻底绝迹！”还没等吓呆的老管家来得及阻拦，小伙子早已双膝跪地，用一根看似黑色唇膏的特制去污棒在地面上一阵疯狂猛擦。仅仅片刻功夫，地板光亮如新，血迹荡然无存！"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "The terrible night that followed convinced the family that the ghost was indeed real. At one o'clock in the morning, Mr. Otis was awakened by a curious noise in the corridor outside his room. It sounded like the clank of metal, and seemed to be coming nearer every moment. He put on his slippers, took a small oblong phial, and opened the door.",
       "zh": "然而随之而来的惊悚长夜，却让全家人确凿见识了幽灵的真身。凌晨一点整，奥蒂斯公使被走廊外一阵奇怪的刺耳响动猛然惊醒：那声音听起来宛如沉重金属铁链的撞击拖曳声，而且正一步步朝着房门逼近。公使泰然趿上拖鞋，从梳妆台上抄起一只长扁形的小药瓶，推开了房门。"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "Right in front of him stood an old man of terrible aspect. His eyes were as red as burning coals; long grey hair fell over his shoulders in matted coils; his garments, which were of antique cut, were soiled and ragged; and from his wrists and ankles hung heavy manacles and rusty gyves.",
       "zh": "赫然矗立在眼前的，是一个面目狰狞可怖的凶恶老厉鬼！他的双眼赤红如灼烧的火炭；蓬乱纠结的花白长发如蛇般披散在肩头；一身款式古老破烂的旧衣污秽不堪，而在他枯瘦的手腕与脚踝上，死死拴挂着粗重刺耳、锈迹斑斑的沉重铁镣！"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "'My dear sir,' said Mr. Otis, 'I really must insist on your oiling those chains, and have brought you for that purpose a small bottle of the Tammany Rising Sun Lubricator. It is said to be completely efficacious upon one application. I will leave it here for you by the bedroom candles, and will be happy to supply you with more should you require it.' With these words the United States Minister laid the phial on a marble table, and retired to rest.",
       "zh": "“我亲爱的大爷，”奥蒂斯公使和颜悦色地正色道，“我真心强烈建议您务必给那些链条好好上点润滑油，为此我特意给您拿来了这瓶‘塔曼尼旭日牌特效润滑油’。据称只要涂抹一次便能彻底根除摩擦杂音。我把它搁在烛台旁留给您，倘若不够用，改日我万分乐意再为您奉送几瓶。”说完这番话，这位美利坚合众国公使将油瓶轻轻搁在大理石桌面上，打了个哈欠回房安歇了！"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "For a moment the Canterville ghost stood quite motionless with natural indignation. Was this the way to treat a phantom who had terrified three generations of the British peerage? He hurled the bottle violently upon the polished floor and fled down the corridor, uttering hollow groans and emitting a ghastly green light.",
       "zh": "坎特维尔古堡的幽灵被这突如其来的奇耻大辱震得当场僵死在原地，怒火中烧！三百年来令大英帝国三代公卿贵族吓破苦胆的堂堂索命恶灵，何时受过这种侮辱轻慢？！他暴跳如雷地将润滑油瓶狠狠摔在地板上，发出一阵凄厉空洞的鬼嚎，周身喷射出惨绿色的磷火，向着走廊深处仓皇遁逃！"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "Just as he reached the top of the great oak staircase, a door flew open, two little white-robed figures appeared, and a large pillow whizzed past his head! The ghost plunged through the wall, vanished into the fourth dimension, and retired to his secret chamber, bruised, shaken, and utterly demoralized.",
       "zh": "然而当他刚刚狂奔到大橡木楼梯顶端时，一扇房门霍然撞开，两个身穿白睡袍的小小身影猛然窜出，一只沉重的大枕头呼啸着从他耳边擦过狠狠砸来！幽灵吓得魂不附体，一头扎穿墙壁遁入四维空间，狼狈不堪地逃回密室暗道，浑身挫败、神情恍惚、斗志尽丧！"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "During the following weeks the ghost made several elaborate preparations to terrify the Americans. He tried on his famous armour, but the heavy breastplate fell with a crash, spraining his knees. He disguised himself as 'Reckless Rupert, or the Headless Earl,' but when he entered the corridor he was confronted by a fake ghost made by the Twins out of a bed-curtain, a broom, and a hollow turnip with a candle inside! The poor old phantom was terrified and fled in horror.",
       "zh": "在随后的几周里，老幽灵煞费苦心策划了一系列精心编排的索命大案。他企图披挂当年威震一方的古锁子甲，却因胸甲太重轰然砸落在地扭伤了双膝；他精心乔装成“亡命鲁珀特，或无头伯爵”企图在深夜大开杀戒，不料刚踱进走廊，迎面撞见的竟然是双胞胎用床帘、扫帚外加一个插着蜡烛的掏空大芜菁伪造的假鬼！可怜的老冤魂反被吓得魂飞魄散仓皇抱头鼠窜！"
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "Finally, the ghost gave up all hope of frightening the Otis family. He slipped about the house in list slippers, avoiding the Twins with paranoid dread. One afternoon, Virginia Otis happened to enter the tapestry chamber, and saw someone sitting by the window looking the picture of utter despair. It was the Canterville Ghost.",
       "zh": "最终，坎特维尔幽灵彻底断绝了吓唬这帮蛮横美国人的所有指望。他整日穿着厚绒软拖鞋在宅子里蹑手蹑脚潜行，像躲瘟神一样提心吊胆躲避着那对双胞胎活阎王。一个阳光明媚的午后，小女儿弗吉尼亚无意间走进织锦密室，一眼瞥见窗前正倚坐着一个身形，流露出极度悲绝落寞的哀伤——那正是坎特维尔幽灵本尊。"
     },
     {
-      "index": 16,
+      "index": 17,
       "en": "'I am so sorry for you,' said Virginia gently. 'My brothers are going back to Eton tomorrow, and then, if you behave yourself, no one will annoy you.' 'It is absurd to ask me to behave myself,' answered the ghost, 'I must rattle my chains, and groan through keyholes, and walk about at night. It is my only reason for existing.' 'It is no reason at all for existing,' said Virginia; 'and you know you were very wicked. Mrs. Umney told us that you had killed your wife.'",
       "zh": "“我真替你感到难过，”弗吉尼亚温柔地轻声细语道，“我那两个顽皮的弟弟明早就动身回伊顿公学念书了；只要你日后安分守己，就再没人会找你麻烦了。”“让我安分守己简直荒谬透顶！”幽灵哀叹道，“我必须摇响铁链，必须从钥匙孔里吹阴风惨嚎，必须在深夜游荡作祟！这是我在这世间存在的唯一使命！”“这根本算不上什么正当使命，”少女说，“况且你当初做过太多伤天害理的恶事，厄姆尼太太告诉我们说你曾亲手杀害了自己的妻子。”"
     },
     {
-      "index": 17,
+      "index": 18,
       "en": "'Well, I admit that,' said the ghost petulantly, 'but it was a purely family matter, and concerned no one else.' 'It is very wrong to kill anyone,' said Virginia. 'Oh, you don't understand!' cried the phantom, in an agony of tears. 'I have not slept for three hundred years. I am so tired, so tired! I want to sleep, and I cannot. There is only one place where I can find peace: the Garden of Death, where the grass grows soft and deep, and the nightingale sings of love.'",
       "zh": "“好吧，我承认我干过，”幽灵有些赌气地咕哝道，“可那是纯粹的家族私事，与外人何干！”“杀害生灵无论如何都是天理不容的重罪，”少女神情严肃。“噢，你根本无法体会我的痛苦！”老冤魂失声痛哭起来，泪水纵横，“我已经整整三百年未曾合眼睡过一觉了！我太疲惫了，太累了！我只想合上双眼安睡，可我根本做不到！全天下唯有一处极乐之境能赐我永恒的安宁——那是死亡的花园，那里的青草柔软丰茂，那里的夜莺永远在歌唱真爱与宁谧。”"
     },
     {
-      "index": 18,
+      "index": 19,
       "en": "'You can open for me the portals of Death's house,' whispered the ghost, 'for Love is always with you, and Love is stronger than Death.' Virginia trembled, a cold shudder ran through her, but she looked into his sad eyes and took his hand. 'I will pray for you,' she said, simply.",
       "zh": "“唯独你能为我推开死亡殿堂的救赎之门，”老幽灵颤抖着低声哀求，“因为真爱常驻你纯洁的心头，而爱比死亡更加崇高磅礴。”弗吉尼亚浑身微微一颤，一阵刺骨的寒栗拂过背脊；然而凝视着那双饱含沧桑悔恨的凄苦眼眸，少女轻轻握住了他枯槁冰冷的白骨之手。“我愿为你虔诚祈祷，”少女平静而坚毅地轻语道。"
     },
     {
-      "index": 19,
+      "index": 20,
       "en": "The wall opened like a mist, and the ghost led her through into the great darkness. When the family discovered Virginia was missing, they searched the entire estate in a frenzy of terror. At midnight, as the clock struck twelve, a crash of thunder sounded, and the wall at the landing opened: out stepped Virginia, pale and white, bearing in her hand a casket of ancient jewels.",
       "zh": "冰冷的石墙如薄雾般向两侧缓缓融化，老幽灵牵引着她没入了无边无际的深邃幽冥。当全家人发觉弗吉尼亚失踪时，吓得魂飞魄散，发了疯似地搜遍整座庄园的每一个角落。直至子夜时分，十二声悠扬钟鸣回荡，半空中轰然炸响一阵沉雷，楼梯转角的巨石墙面徐徐洞开——弗吉尼亚款款步出，面色白皙圣洁，手中端着一只古朴沉甸甸的黄金珠宝匣！"
     },
     {
-      "index": 20,
+      "index": 21,
       "en": "'God has forgiven him,' she said, simply; 'and he gave me this box of jewels before he died.' She led them into a secret vaulted chamber, where chained to the wall lay a skeleton. Virginia knelt beside it, and folded her hands in silent prayer. Outside in the courtyard, the withered almond tree suddenly burst into delicate, fragrant blossoms. Sir Simon de Canterville was at rest at last.",
       "zh": "“上帝已经赦免了他的罪孽，”少女轻声宣告，“他在离世升天前，将这匣传家珍宝赠予了我。”她领着众人步入一间幽暗隐秘的拱形墓室，只见一具被铁链锁在墙壁上的白骨静静横卧。弗吉尼亚跪倒在旁，合十双掌默默祷告。就在这一刹那，庭院中枯死百年的古杏树，突然绽放出一树芳香四溢的娇艳繁花——西蒙·德·坎特维尔爵士，终于在三百年后得到了永恒的极乐安息。"
     }

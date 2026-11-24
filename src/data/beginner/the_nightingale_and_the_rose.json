@@ -12,141 +12,151 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "The Nightingale and the Rose",
+      "titleZh": "夜莺与玫瑰",
+      "author": "Oscar Wilde (王尔德)",
+      "tagline": "LOVE IS BETTER THAN LIFE",
+      "en": "The Nightingale and the Rose\nOscar Wilde (王尔德)",
+      "zh": "《夜莺与玫瑰》 · Oscar Wilde (王尔德)"
+    },
+    {
+      "index": 2,
       "en": "'She said that she would dance with me if I brought her red roses,' cried the young Student; 'but in all my garden there is no red rose.' From her nest in the holm-oak tree the Nightingale heard him, and she looked out through the leaves, and wondered.",
       "zh": "“她说只要我送她红玫瑰，她就愿意同我跳舞，”年轻的学生哭诉道，“可我的花园里连一朵红玫瑰都没有。”栖息在冬青栎树巢中的夜莺听见了他的叹息，透过树叶探出头来，若有所思。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "'No red rose in all my garden!' he cried, and his beautiful eyes filled with tears. 'Ah, on what little things does happiness depend! I have read all that the wise men have written, and all the secrets of philosophy are mine, yet for want of a red rose is my life made wretched.'",
       "zh": "“我偌大的花园里竟没有一朵红玫瑰！”他痛苦地喊道，美丽的双眸盈满了泪水，“啊，幸福竟然取决于如此微不足道的东西！我读遍了先贤智者的所有著作，通晓哲学的奥秘，却仅仅因为缺少一朵红玫瑰，生命便陷入无尽的凄苦。”"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "'Here at last is a true lover,' said the Nightingale. 'Night after night have I sung of him, though I knew him not: night after night have I told his story to the stars, and now I see him. His hair is dark as the hyacinth-blossom, and his lips are red as the rose of his desire; but passion has made his face like pale ivory, and sorrow has set her seal upon his brow.'",
       "zh": "“这儿终于有一位真正的深情恋人了，”夜莺轻声自语，“夜复一夜，我素不相识却始终在歌咏他；夜复一夜，我向群星倾诉他的故事，如今我终于见到了他。他的秀发如风信子般深邃，双唇如他期盼的玫瑰般绯红；然而热烈的激情使他的脸庞如象牙般苍白，忧伤也在他的眉间留下了沉重的印记。”"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "'The Prince gives a ball to-morrow night,' murmured the young Student, 'and my love will be of the company. If I bring her a red rose she will dance with me till dawn. If I bring her a red rose, I shall hold her in my arms, and she will lean her head upon my shoulder, and her hand will be clasped in mine.'",
       "zh": "“明晚王子将举办一场盛大舞会，”年轻的学生喃喃自语，“我的心上人也会去。只要我带给她一朵红玫瑰，她便会陪我翩翩起舞直到拂晓；只要我带给她一朵红玫瑰，我便能将她拥入怀中，看她把头枕在我的肩头，玉手紧扣在我的掌心。”"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "'But there is no red rose in my garden, so I shall sit lonely, and she will pass me by. She will have no heed of me, and my heart will break.' 'Here indeed is the true lover,' said the Nightingale. 'What I sing of, he suffers; what is joy to me, to him is pain. Surely Love is a wonderful thing. It is more precious than emeralds, and dearer than fine opals.'",
       "zh": "“可是我的花园里根本没有红玫瑰，我只能孤零零地坐在一隅，任由她与我擦肩而过。她绝不会看我一眼，而我的心也将彻底破碎。”“这的确是一位真正的忠诚恋人，”夜莺感叹道，“我所歌唱的一切，正是他所承受的苦痛；于我而言的欢愉，于他却是撕心裂肺的折磨。爱当真是一件无比神圣奇妙的事物，它比祖母绿更加珍罕，比璀璨的蛋白石更为高贵。”"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "'Why is he weeping?' asked a little Green Lizard, as he ran past him with his tail in the air. 'Why, indeed?' said a Butterfly, who was fluttering about after a sunbeam. 'Why, indeed?' whispered a Daisy to his neighbour, in a soft, low voice. 'He is weeping for a red rose,' said the Nightingale.",
       "zh": "“他哭什么呢？”一只小绿蜥蜴翘着尾巴从他身旁跑过，好奇地问。“对啊，究竟哭什么呢？”一只在阳光下翩翩起舞的蝴蝶也问道。“是啊，到底为什么哭呢？”一朵雏菊用轻柔低微的声音向身边的邻伴耳语。“他正在为一朵红玫瑰痛哭呢，”夜莺轻叹着回答。"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "'For a red rose!' they cried; 'how very ridiculous!' and the little Lizard, who was something of a cynic, laughed outright. But the Nightingale understood the secret of the Student's sorrow, and she sat silent in the oak-tree, and thought on the mystery of Love.",
       "zh": "“为了一朵红玫瑰！”大家纷纷叫嚷起来，“真是荒唐可笑！”那只颇有冷嘲热讽习气的小蜥蜴更是忍不住放声大笑。然而夜莺深切懂得学生心中的悲伤奥秘，她默默停栖在橡树枝头，沉思着爱的神秘莫测。"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "Suddenly she spread her brown wings for flight, and soared into the air. She passed through the grove like a shadow, and like a shadow she sailed across the garden. In the centre of the grass-plot was standing a beautiful Rose-tree, and when she saw it she flew over to it, and lit upon a spray.",
       "zh": "突然间，夜莺展动她棕褐色的双翼腾空而起。她宛如一道幽影掠过树丛，宛如一道微风滑过花园。在草坪中央伫立着一株美丽的玫瑰树，夜莺一见到它便展翅飞落在一根纤细的枝条上。"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "'Give me a red rose,' she cried, 'and I will sing you my sweetest song.' But the Tree shook its head. 'My roses are white,' it answered; 'as white as the foam of the sea, and whiter than the snow upon the mountain. But go to my brother who grows round the old sun-dial, and perhaps he will give you what you want.'",
       "zh": "“请给我一朵红玫瑰吧，”夜莺恳求道，“我将为你唱出我最婉转动听的歌谣。”然而玫瑰树摇了摇头回答道：“我的玫瑰都是纯白色的；白如大海翻腾的浪花，白过皑皑雪山之巅的积雪。你去那座古旧日晷旁的玫瑰树兄弟那儿吧，或许他能给你所盼望的。”"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "So the Nightingale flew over to the Rose-tree that was growing round the old sun-dial. 'Give me a red rose,' she cried, 'and I will sing you my sweetest song.' But the Tree shook its head. 'My roses are yellow,' it answered; 'as yellow as the hair of the mermaiden, and yellower than the daffodil. But go to my brother who grows beneath the Student's window.'",
       "zh": "于是夜莺飞向那株环绕着古老日晷生长的玫瑰树。“请给我一朵红玫瑰吧，”她啼鸣道，“我将为你献上我最甜美的歌声。”然而这株树也摇了摇头：“我的玫瑰尽是金黄色的；黄如海妖美人鱼的金发，黄过水仙花的娇瓣。你去学生窗下的那位玫瑰树兄弟那里问问吧。”"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "So the Nightingale flew over to the Rose-tree that was growing beneath the Student's window. 'Give me a red rose,' she cried, 'and I will sing you my sweetest song.' But the Tree shook its head. 'My roses are red,' it answered, 'as red as the feet of the dove, and redder than the great fans of coral. But the winter has chilled my veins, and the frost has nipped my buds, and the storm has broken my branches, and I shall have no roses at all this year.'",
       "zh": "于是夜莺飞到学生窗下的那株玫瑰树前。“请赐我一朵红玫瑰吧，”她呼唤道，“我愿唱出我最心醉神迷的旋律。”树木深深叹息着摇头：“我的玫瑰的确是红色的，红如白鸽娇嫩的双足，红过海底广袤的珊瑚红扇。可残酷的严冬冰封了我的血脉，寒霜扼杀了我的花蕾，暴风摧折了我的枝干，今年我再也结不出一朵玫瑰了。”"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "'One red rose is all I want,' cried the Nightingale, 'only one red rose! Is there no way by which I can get it?' 'There is a way,' answered the Tree; 'but it is so terrible that I dare not tell it to you.' 'Tell it to me,' said the Nightingale, 'I am not afraid.'",
       "zh": "“我只要一朵红玫瑰就够了，”夜莺哭求道，“仅仅一朵红玫瑰！难道真的没有任何办法让我得到它吗？”“办法倒有一个，”玫瑰树低语道，“但那太可怕了，我甚至不敢对你提起。”“告诉我吧，”夜莺坚定地说，“我毫不畏惧。”"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "'If you want a red rose,' said the Tree, 'you must build it out of music by moonlight, and stain it with your own heart's-blood. You must sing to me with your breast against a thorn. All night long you must sing to me, and the thorn must pierce your heart, and your life-blood must flow into my veins, and become mine.'",
       "zh": "“如果你决意要一朵红玫瑰，”树木说道，“你就必须在月光下用歌声将它编织成型，并用你自己的心头热血将它彻底染红。你必须将自己的胸膛紧抵着尖锐的荆棘向我歌唱。整整一夜你都不能停歇，荆棘必须刺穿你的心脏，你生命的鲜血必须源源不断流淌进我的脉管，化为我的生机。”"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "'Death is a great price to pay for a red rose,' cried the Nightingale, 'and Life is very dear to all. It is pleasant to sit in the green wood, and to watch the Sun in his chariot of gold, and the Moon in her chariot of pearl. Sweet is the scent of the hawthorn, and sweet are the bluebells that hide in the valley. Yet Love is better than Life, and what is the heart of a bird compared to the heart of a man?'",
       "zh": "“为了一朵红玫瑰而付出生命的代价未免太昂贵了，”夜莺惊呼道，“生命对世间万物都是何其宝贵。停歇在郁郁葱葱的林间，仰望金车般的太阳与珍珠般的皓月是何等惬意；山楂花的馨香与深谷风信子的幽香又是何等芬芳。然而，真爱终究胜过生命，区区一只鸟雀的心脏，比起人类充满爱意的心灵，又算得了什么呢？”"
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "So she spread her brown wings for flight, and soared into the air. She swept over the garden like a shadow, and like a shadow she sailed through the grove. The young Student was still lying on the grass, where she had left him, and the tears were not yet dry in his beautiful eyes.",
       "zh": "于是她再次展开棕褐色的双翼飞向高空。她如幽影般拂过花园，如微风般穿过树林。年轻的学生依然无助地瘫倒在青草丛中，一如她离开时的模样，他那双动人的眸子里泪痕未干。"
     },
     {
-      "index": 16,
+      "index": 17,
       "en": "'Be happy,' cried the Nightingale, 'be happy; you shall have your red rose. I will build it out of music by moonlight, and stain it with my own heart's-blood. All that I ask of you in return is that you will be a true lover, for Love is wiser than Philosophy, though she is wise, and mightier than Power, though he is mighty.'",
       "zh": "“开心起来吧，”夜莺清脆地呼唤道，“振作起来！你将拥有你的红玫瑰。我将在月光下用歌声筑就它，用我自己的心血将它染红。我向你祈求的唯一回报，就是请你做一位至死不渝的真情恋人；因为爱比聪慧的哲学更睿智，比强大的权柄更崇高雄浑。”"
     },
     {
-      "index": 17,
+      "index": 18,
       "en": "The Student looked up from the grass, and listened, but he could not understand what the Nightingale was saying to him, for he only knew the things that are written down in books. But the Oak-tree understood, and felt sad, for he was very fond of the little Nightingale who had built her nest in his branches.",
       "zh": "学生从草地上抬起头静静聆听，但他根本听不懂夜莺究竟在对他说些什么，因为他脑海里只装得下那些书本里白纸黑字的条文。然而老橡树听懂了，他悲伤难抑，因为他深深喜爱着这只在自己枝桠间筑巢安家的小夜莺。"
     },
     {
-      "index": 18,
+      "index": 19,
       "en": "And when the Moon shone in the heavens the Nightingale flew to the Rose-tree, and set her breast against the thorn. All night long she sang with her breast against the thorn, and the cold crystal Moon leaned down and listened. All night long she sang, and the thorn went deeper and deeper into her breast, and her life-blood ebbed away from her.",
       "zh": "当皎洁的明月升上苍穹，夜莺飞到了玫瑰树前，将胸膛深深抵向了尖利的荆棘。整整一夜，她胸口抵着尖刺纵情歌唱，冰清玉洁的月亮俯下身来倾听这绝世悲歌。整整一夜，她婉转啼鸣，荆棘刺得越来越深、越来越痛，生命的鲜血自她的胸膛汹涌流逝。"
     },
     {
-      "index": 19,
+      "index": 20,
       "en": "She sang first of the birth of love in the heart of a boy and a girl. And on the topmost spray of the Rose-tree there blossomed a marvellous rose, petal following petal, as song followed song. Pale was it, at first, as the mist that hangs over the river—pale as the feet of the morning, and silver as the wings of the dawn.",
       "zh": "她首先歌唱少男少女心灵深处萌动的最初爱意。在玫瑰树最顶端的枝头，一朵奇迹般的玫瑰悄然绽放，花瓣一片片舒展，宛如乐章一段段流淌。起初它是苍白的，苍白如笼罩江面的薄雾，苍白如清晨幽微的步履，银白如黎明破晓的晨曦羽翼。"
     },
     {
-      "index": 20,
+      "index": 21,
       "en": "'Press closer, little Nightingale,' cried the Tree, 'or the Day will come before the rose is finished.' So the Nightingale pressed closer against the thorn, and louder and louder grew her song, for she sang of the birth of passion in the soul of a man and a maid.",
       "zh": "“再贴紧些，小夜莺！”玫瑰树急促地催促道，“否则天亮前玫瑰就来不及盛开了！”于是夜莺把胸脯更紧地压向荆棘，她的歌声愈发高亢嘹亮，因为她正在歌唱热烈激情在恋人灵魂中的破茧与燃烧。"
     },
     {
-      "index": 21,
+      "index": 22,
       "en": "And a delicate flush of pink came into the leaves of the rose, like the flush in the face of the bridegroom when he kisses the lips of the bride. But the thorn had not yet reached her heart, so the rose's heart remained white, for only a Nightingale's heart's-blood can crimson the heart of a rose.",
       "zh": "一抹娇嫩柔和的粉红渐渐浮上了玫瑰的花瓣，恰似新郎深情亲吻新娘双唇时脸颊漾起的绯红。然而荆棘尚未触及夜莺的心脏，因此玫瑰的心房依旧是一片惨白，因为唯有夜莺的心头血，方能染红玫瑰炽热的心。"
     },
     {
-      "index": 22,
+      "index": 23,
       "en": "'Press closer, little Nightingale,' cried the Tree, 'or the Day will come before the rose is finished.' So the Nightingale pressed closer against the thorn, and the thorn touched her heart, and a fierce pang of shoot through her. Bitter, bitter was the pain, and wilder and wilder grew her song, for she sang of the Love that is perfected by Death, of the Love that dies not in the tomb.",
       "zh": "“再贴紧些，小夜莺！”玫瑰树呼唤道，“否则黎明一到玫瑰就功亏一篑了！”于是夜莺拼尽全力将胸膛撞向荆棘，尖刺狠狠扎透了她的心脏，一阵撕心裂肺的剧痛席卷全身。痛彻心扉，苦不堪言，而她的歌声却越发如狂如醉，因为她唱的是由死亡而臻至圆满的爱，是在坟墓深处亦永不熄灭的永恒之爱。"
     },
     {
-      "index": 23,
+      "index": 24,
       "en": "And the marvellous rose became crimson, like the rose of the eastern sky. Crimson was the girdle of petals, and crimson as a ruby was the heart. But the Nightingale's voice grew fainter, and her little wings began to beat, and a film came over her eyes. Fainter and fainter grew her song, and she felt something choking her in her throat.",
       "zh": "刹那间，那朵绝世玫瑰变成了深邃浓烈的绯红，宛如东方天际喷薄而出的绚烂朝霞。层层花瓣赤红如火，花芯宛若一颗燃烧的血色红宝石。然而，夜莺的声音却渐渐虚弱低沉，纤弱的翅膀开始微弱地颤动，一层灰翳蒙上了她的双眸。歌声越来越细微，她感到一股鲜血哽住了喉头。"
     },
     {
-      "index": 24,
+      "index": 25,
       "en": "Then she gave one last burst of music. The white Moon heard it, and she forgot the dawn, and lingered on in the sky. The red rose heard it, and it trembled all over with ecstasy, and opened its petals to the cold morning air. 'Look, look!' cried the Tree, 'the rose is finished now'; but the Nightingale made no answer, for she was lying dead in the long grass, with the thorn in her heart.",
       "zh": "就在这弥留之际，她迸发出生命中最后一声惊天动地的绝唱。皓月听闻驻足，忘却了黎明而久久徘徊；红玫瑰听闻战栗，沉醉于这无上狂喜，迎着清冽的晨风霍然怒放。“看啊，快看啊！”玫瑰树欣喜若狂地呼喊，“玫瑰终于完成了！”可小夜莺再也没有回应——她静静横卧在长长的草丛深处，胸口插着冰冷的荆棘，早已气绝身亡。"
     },
     {
-      "index": 25,
+      "index": 26,
       "en": "And at noon the Student opened his window and looked out. 'Why, what a wonderful piece of luck!' he cried; 'here is a red rose! I have never seen any rose like it in all my life. It is so beautiful that I am sure it has a long Latin name'; and he leaned down and plucked it.",
       "zh": "正午时分，学生推开窗户朝外看去。“天哪，这是多么不可思议的奇迹与大运！”他兴奋地惊呼起来，“这儿竟然有一朵红玫瑰！我这辈子从未见过如此完美的玫瑰，它美得这般超凡，肯定有一个冗长高深的拉丁文名字！”说着，他俯身将玫瑰一把摘下。"
     },
     {
-      "index": 26,
+      "index": 27,
       "en": "Then he put on his hat, and ran up to the Professor's house with the rose in his hand. The daughter of the Professor was sitting in the doorway winding blue silk on a reel, and her little dog was lying at her feet. 'You said that you would dance with me if I brought you a red rose,' cried the Student. 'Here is the reddest rose in all the world. You will wear it to-night next your heart, and as we dance together it will tell you how I love you.'",
       "zh": "接着，他戴上帽子，手里紧握着玫瑰飞奔向教授的府邸。教授的女儿正端坐在门前把玩着一卷蓝丝线，她的小狗卧在脚边。“你说过只要我送你红玫瑰，你就同我跳舞，”学生急切地喊道，“瞧，这是全天下最红艳夺目的玫瑰！今晚你可以把它佩戴在贴近心房的胸前，当我们翩翩起舞时，它会向你倾诉我对你有多么深情。”"
     },
     {
-      "index": 27,
+      "index": 28,
       "en": "But the girl frowned. 'I am afraid it will not go with my dress,' she answered; 'and, besides, the Chamberlain's nephew has sent me some real jewels, and everybody knows that jewels cost far more than flowers.' 'Well, upon my word, you are very ungrateful,' said the Student angrily; and he threw the rose into the street, where it fell into the gutter, and a cart-wheel went over it.",
       "zh": "然而少女却不悦地蹙起了眉头：“我担心它跟我的礼服颜色一点都不搭，”她冷漠地回答，“况且，宫廷御前大臣的侄子送了我真正的贵重珠宝，谁都知道珠宝可比这些花花草草值钱多了。”“哼，实话实说，你真是个不知感恩的轻浮女人！”学生愤懑地斥责道。他扬手将那朵红玫瑰狠狠掷进街道，花朵滚入了泥泞污秽的阴沟，随即被一辆轰隆驶过的马车车轮碾成烂泥。"
     },
     {
-      "index": 28,
+      "index": 29,
       "en": "'What a silly thing Love is,' said the Student as he walked away. 'It is not half as useful as Logic, for it does not prove anything, and it is always telling one of things that are not going to happen, and making one believe things that are not true. In fact, it is quite unpractical, and, as in this age to be practical is everything, I shall go back to Philosophy and study Metaphysics.' So he returned to his room and pulled out a great dusty book, and began to read.",
       "zh": "“爱情当真是一件愚蠢透顶的荒唐事，”学生一边悻悻离去一边自言自语，“它连逻辑学一半的实用性都没有，既不能证明任何真理，还净给人虚妄缥缈的承诺，让人轻信毫无根据的假象。它根本毫无实际用途。在这个务实即一切的时代，我还是回去钻研我的哲学与形而上学吧。”于是，他回到自己的书房，抽出一本落满灰尘的厚重大书，心不在焉地埋头读了起来。"
     }

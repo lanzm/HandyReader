@@ -12,146 +12,156 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "How Much Land Does a Man Need?",
+      "titleZh": "一个人需要多少土地？",
+      "author": "Leo Tolstoy (托尔斯泰)",
+      "tagline": "SIX FEET OF EARTH",
+      "en": "How Much Land Does a Man Need?\nLeo Tolstoy (托尔斯泰)",
+      "zh": "《一个人需要多少土地？》 · Leo Tolstoy (托尔斯泰)"
+    },
+    {
+      "index": 2,
       "en": "An elder sister came to visit her younger sister in the country. The elder was married to a tradesman in town, the younger to a peasant in the village. As the sisters drank tea, the elder began to boast of the advantages of town life: how comfortably she lived, what fine clothes her children wore, and how she went to the theatre.",
       "zh": "大姐进村来探望出嫁到乡下的妹妹。大姐嫁给了城里的富商，妹妹则嫁给了村里的农夫。姐妹俩围坐饮茶叙旧，大姐开始得意洋洋地夸耀起城里生活的优越尊荣：生活何等养尊处优、孩子们穿戴何等华贵体面、自己平日如何经常出入戏院剧场享受上流消遣。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "The younger sister was piqued, and defended peasant life. 'Though our life is rough, we know no anxiety. You live in better style, but you might lose all you have. As the proverb says: 'Loss has a larger brother called Gain.' Our peasant life is secure. We shall never grow rich, but we shall always have enough.'",
       "zh": "妹妹听了心里颇不是滋味，便极力为庄稼人的日子辩白：“我们乡下人的日子固然粗粝辛劳，可我们一不欠债二不担惊受怕。你们城里人虽然排场体面，可说不定哪天就倾家荡产血本无归。俗话说得好：‘祸兮福所倚，福兮祸所伏。’我们当农夫的脚踏实地，虽说大富大贵无缘，可一辈子温饱知足、心安理得。”"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "Pahom, the master of the house, was lying on top of the oven and listening to the women's talk. 'It is perfectly true,' thought he. 'Busy as we are from childhood with mother earth, we have no time to let nonsense settle in our heads. Our only trouble is that we haven't land enough. If I had plenty of land, I wouldn't fear the Devil himself!'",
       "zh": "房主人帕霍姆正躺在火炉顶上纳凉，将这番妇人间的闲话听得一清二楚。“这话说得一点不假，”他暗自寻思，“咱们打小就面朝黄土背朝天，哪有闲心胡思乱想。咱们唯一的命门，就是手头的土地太少啦！只要老子手里有大把大把的肥沃土地，我连魔鬼本尊都毫不发怵！”"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "The Devil had been sitting behind the oven, and had heard all. He was pleased that the peasant's wife had led her husband into boastfulness, and that he had said that if he had plenty of land he would not fear the Devil. 'All right,' thought the Devil. 'We will have a tussle. I will give you land enough; and by means of land I will get you into my power.'",
       "zh": "殊不知魔鬼此刻正潜伏在灶台后头，将一切听得真真切切。魔鬼心花怒放，暗喜这妇人的口舌之争终于引逗得庄稼汉口出狂言，甚至狂妄地宣称只要土地充足便不惧魔鬼。“好啊，”魔鬼暗自冷笑，“咱们且较量一番。我就成全你，给你足够广袤的土地；而我也要借着这泥土的欲望，将你彻底玩弄于股掌之间！”"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "Close to the village there lived a lady, a small landowner. She decided to sell her estate of three hundred acres. The peasants bargained for it, but could not agree to buy it in common. So each decided to buy as much as his means allowed. Pahom managed to buy forty acres. He scraped together money, borrowed from his brother-in-law, sold a colt, and pledged his wages.",
       "zh": "村子附近住着一位拥有一座三百英亩庄园的小地主太太。有一年她决意变卖庄园田产。村里的农户们纷纷前去讲价，但大伙儿无法达成合资共买的协议，于是决定各凭家底自掏腰包认购。帕霍姆咬紧牙关倾其所有，东拼西凑、甚至向姐夫借贷、卖掉了心爱的小马驹并预支工钱，总算买下了四十英亩地。"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "So now Pahom had land of his own. When he ploughed his fields, his heart filled with joy. The grass that grew there and the flowers that bloomed there seemed to him unlike any that grew elsewhere. Formerly, when he had passed by that land, it had seemed like any other land; now it seemed quite different.",
       "zh": "如今帕霍姆终于拥有了完全属于自己的土地。每当他在自己的田垄上扬鞭犁地，他的一颗心就盈满了难以言喻的狂喜。长在地里的青草与盛开的野花，在他眼里仿佛比天底下任何地方都要娇艳动人。往昔路过这片土地时平淡无奇，如今凝望它，却处处散发着金子般的神圣光泽。"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "One day Pahom was sitting at home, when a peasant, passing through the village, happened to call in. Pahom asked him whence he came. The stranger said that he had come from beyond the Volga, where he had been working. There was vast land there, he said, so fertile that the rye grew as high as a horse, and so thick that five cuts of a sickle made a sheaf. A man could get as much land as he could cultivate.",
       "zh": "有一天，帕霍姆正坐在家中，一位途经此地的过路行脚农夫敲门借宿。帕霍姆便向他打听那人的来历。行客说自己刚从伏尔加河对岸的边陲归来，在那儿打工揽活。他说那里的原野辽阔无垠，土地肥沃得流油，黑麦长得足有一人一马那么高，麦穗沉甸甸密不透风，镰刀割上五刀就能捆成一大捆。只要肯干，任何庄稼汉想占多少土地就能拥有多少土地！"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "Pahom's heart kindled with desire. 'Why should I suffer in this narrow hole,' thought he, 'if one can live so well elsewhere? I will sell my land and my homestead here, and go there and buy fresh land.' He sold all he had, and set out with his family for the new settlement beyond the Volga.",
       "zh": "帕霍姆心底的欲望之火瞬间被彻底点燃了。“既然旁的地方有这般神仙洞天，我何苦窝在这个憋仄狭窄的穷窟窿里受窝囊气呢？”他暗自琢磨，“我非把这里的田宅家当全盘变卖干净，举家迁往大河那头购置万顷沃野不可！”说干就干，他将家产席卷一空，领着妻儿老小浩浩荡荡奔赴伏尔加河对岸的新拓居点。"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "As the stranger had said, land was indeed plentiful. Pahom was accepted into the commune, and was allotted five shares of communal land—about one hundred and twenty-five acres. He built a homestead and bought cattle. He had three times as much land as he had before, and arable land that was very fertile. At first he was well contented.",
       "zh": "果不其然，那里的土地多得望不到边。帕霍姆被接纳加入了当地公社，一家分到了五份公田——整整一百二十五英亩！他盖起了气派的住宅，添置了大批牲口。他坐拥的土地比原先翻了整整三倍，全是膏腴之地。起初，他感到心满意足、春风得意。"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "But as he grew used to it, he began to think that even here he hadn't enough land. He wanted to grow more wheat, but the communal land was not enough, and he had to rent land from merchants at heavy prices. 'If only I could buy freehold land of my own,' thought Pahom, 'I should be independent, and there would be no more inconvenience.'",
       "zh": "然而好景不长，日子一久，他又开始嫌这里的土地远远不够用。他渴望种植更多的小麦攫取暴利，可公社划拨的地块有限，他不得不每年斥重金向商贩租种私田。“要是我能自掏腰包买下完全属于自己的无税私田，”帕霍姆终日寝食难安地盘算道，“那我就能彻底独立自主，再也不必看任何人的脸色了！”"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "Then a passing dealer told him that he had just bought thirteen thousand acres of land from the Bashkirs for only a thousand roubles. 'All one needs to do is to make friends with the chiefs,' said the dealer. 'I gave away about a hundred roubles' worth of dressing-gowns and tea, and got the land for less than a copeck an acre.'",
       "zh": "恰在此时，一位路过的行商悄悄向他透露：自己刚刚在遥远的巴什基尔游牧草原，仅用一千卢布的区区代价就买下了一万三千英亩辽阔肥沃的天然牧场！“只要你懂得讨好那帮蛮族酋长，”客商挤眉弄眼地传授秘诀，“我不过送了他们价值一百卢布的丝绸长袍与各色茶叶，折合下来每英亩地连半个戈比都不到！”"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "'There now,' thought Pahom, 'out there I can get more than ten times as much land for the same money!' So Pahom left his home and took his servant with him. They travelled for seven days, and on the eighth day they came to the camp of the Bashkirs.",
       "zh": "“我的天爷啊！”帕霍姆的心脏疯狂乱跳，“在那蛮荒地界，我花同样的银子能买到比这儿大十倍不止的万顷良田啊！”于是帕霍姆安顿好家室，带上一名贴身仆役，赶着大车日夜兼程狂奔了整整七天七夜，在第八天终于抵达了巴什基尔游牧部落的聚居草原。"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "As soon as they saw Pahom, the Bashkirs came out of their tents and gathered round him. Pahom took out his presents: tea, wine, and handsome dressing-gowns. The Bashkirs were delighted, and seated Pahom in the best place. Then their chief arrived, wearing a fox-fur cap. Pahom gave him the finest dressing-gown and five pounds of tea.",
       "zh": "巴什基尔牧民们一见到帕霍姆，纷纷走出毡帐将他团团围住。帕霍姆连忙奉上精心筹备的厚礼：名茶、烈酒与华美的丝缎长袍。牧民们欣喜若狂，恭敬地将帕霍姆请上上座。不久，头戴狐皮毡帽的大酋长驾临，帕霍姆当即献上了最名贵的长袍和整整五磅顶级名茶。"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "The chief accepted the gifts, thanked him, and said through an interpreter: 'We are pleased to welcome you. Tell us what you desire of ours, and we will give it to you.' 'What I desire,' answered Pahom, 'is your land. There is a great deal of it here, and much of it is untilled. In our country land is scarce, and exhausted.'",
       "zh": "酋长欣然笑纳了贡礼，通过通事传话道：“远方的贵客，我们热烈欢迎您的造访。您看中了我们草原上的什么物什，但说无妨，我们定当满足您的心愿。”“我梦寐以求的，”帕霍姆急切地开门见山道，“唯有贵邦这片广袤无垠的土地！这里的原野辽阔丰腴，大多处于荒芜闲置；而在我们的家乡，田地逼仄短缺，地力也早已耗尽。”"
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "'Well,' said the chief, 'take what you like; we have plenty of land.' 'How will you sell it?' asked Pahom. 'Our price is always the same: one thousand roubles a day.' 'A day? What measure is that? How many acres would that be?' 'We do not know how to reckon it,' said the chief. 'We sell it by the day. As much as you can go round on your feet in a day is yours, and the price is one thousand roubles a day.'",
       "zh": "“这有何难，”酋长哈哈大笑，“你相中哪块就挑哪块，我们的土地多得无边无际。”“不知您开价几何？”帕霍姆急不可耐地追问。“我们的开价自古一成不变：一天一千卢布。”“一天？！这是什么计量法？折合多少英亩呢？”“我们草原游牧人不懂这些繁复算计，”酋长说，“我们按天买卖：从日出到日落，你靠双脚一天所能圈绕回来的全部土地全归你所有，价钱就是一天一千卢布！”"
     },
     {
-      "index": 16,
+      "index": 17,
       "en": "Pahom was surprised and delighted. 'A man can go round a huge quantity of land in a day!' he thought. 'There is only one condition,' the chief added: 'if you do not return on the same day to the spot as you started from, your money is lost.' 'I will do it!' said Pahom, joyfully.",
       "zh": "帕霍姆简直喜出望外、受宠若惊。“一个人拼力快跑一天，能圈出多大一片汪洋般的浩瀚土地啊！”他心中狂吼。“不过唯独有一条铁律，”酋长意味深长地补充道，“倘若你在日落的那一刻，未能准时返回清晨出发的原点，那么你的一千卢布本钱便彻底没收罚没，分毫不退！”“一言为定！”帕霍姆激动得浑身战栗。"
     },
     {
-      "index": 17,
+      "index": 18,
       "en": "They agreed to start early the next morning. That night Pahom could not sleep. He thought of all the land he would enclose. 'I will do thirty-five miles easily,' thought he. 'I will put the best of it into arable land, and the rest into pasture.' And towards morning he fell into a slumber and had a dream.",
       "zh": "双方约定次日黎明破晓正式开跑。当晚帕霍姆在毡帐里翻来覆去彻夜难眠。他满脑子都在勾勒明日圈地的恢弘蓝图：“我一天轻松走下三十五英里绝无问题！”他盘算着，“把最肥沃的辟为麦田，其余的当私家牧场！”直到破晓时分，他才迷迷糊糊打了个盹，做了一个极其诡异的梦。"
     },
     {
-      "index": 18,
+      "index": 19,
       "en": "In his dream he saw the chief laughing, holding his sides. And as he looked closer, it was not the chief, but the Devil himself, with hoofs and horns, sitting there and laughing. And before the Devil lay a man, barefoot, prostrate on the ground, with only trousers and a shirt on. And Pahom looked closer at the dead man and saw that it was himself! He awoke in horror.",
       "zh": "在梦境中，他看见那位大酋长正捧腹大笑，笑得前仰后合。当他揉眼凑近细瞧，那人根本不是酋长，而是长着羊蹄与利角的魔鬼本尊！在魔鬼脚前，直挺挺地横卧着一个赤足、仅穿衬衣裤衩的尸首。帕霍姆定睛俯瞰那具死尸的脸孔——天哪！那具面无血色的死尸，赫然竟是他自己！他吓得浑身冷汗暴起，自噩梦中惊醒。"
     },
     {
-      "index": 19,
+      "index": 20,
       "en": "Dawn was breaking. He roused his man and went to call the Bashkirs. They rode out to a small hillock, called a shikhan, rising above the prairie. The chief placed his fox-fur cap on the top of the hill. 'This is the starting point,' he said. 'Put your money here. You will return here before the sun goes down, and all the land you have encompassed will be yours.'",
       "zh": "东方天际已现出一抹鱼肚白。他一把推醒仆人，叫集了巴什基尔人。众人策马来到草原上一座隆起的高耸土岗前。大酋长取下头顶厚重的狐皮毡帽，庄重地放置在土岗最顶峰。“这里便是出发的起点，”酋长宣布，“把你的千元现钞放在帽中。在红日彻底落山前你必须重返此地，凡你足迹圈绕之处，便尽归你手！”"
     },
     {
-      "index": 20,
+      "index": 21,
       "en": "Pahom took out his money and placed it on the cap. He took off his outer coat, remaining in his shirt and trousers. He strapped a flask of water to his belt, tucked a piece of bread into his bosom, and tied up his boot-laces. When the first rim of the sun appeared, Pahom stepped out into the prairie.",
       "zh": "帕霍姆掏出沉甸甸的千元钞票郑重押在皮帽里。他甩脱厚重的外袍，仅留轻便的衬衣与长裤，腰间系上一只皮水囊，怀里揣上一块硬面包，勒紧皮靴绳扣。当一轮火红的初阳刚刚跃出地平线的那一刹那，帕霍姆迈开大步，霍然冲入了辽阔无垠的大草原！"
     },
     {
-      "index": 21,
+      "index": 22,
       "en": "He walked neither slowly nor quickly. He went on, mile after mile. The morning was cool, and the walking was easy. 'Another three miles,' thought he, 'and then I will turn to the left. This spot is too fine to lose!' The further he went, the better the land seemed. He took out his spade and dug a hole, piling up sods to mark the boundary.",
       "zh": "他步伐沉稳，既不徐缓也不过急，一步紧接一步，踏过一英里又一英里。清晨的原野凉风习习，脚下极其轻快自如。“再往前冲三英里，”他暗忖，“然后再向左拐弯。眼前的土地实在太肥沃了，放弃任何一寸都是暴殄天物！”他越往前奔，脚下的草地似乎就越发膏腴。他抽出短铲挖开坑洞，堆起草皮作为边界路标。"
     },
     {
-      "index": 22,
+      "index": 23,
       "en": "By midday the sun began to grow hot. Pahom looked toward the hillock: it was scarcely visible, with the people on it like ants. 'Well,' thought Pahom, 'I have gone far enough. I must turn.' He turned to the left, and walked on. It grew very hot; his shirt was soaked with sweat, and his feet were beginning to feel tired.",
       "zh": "到了正午时分，骄阳似火、酷热难耐。帕霍姆回首眺望起点的高岗：土岗已模糊得宛如一粒细沙，上面的人影渺小得恰似爬行的蚂蚁。“好吧，”帕霍姆心想，“这一侧冲得够远了，我得转弯了。”他果断折向左侧大步前行。骄阳炙烤大地，他的汗水彻底浸透了衬衫，双腿也开始泛起沉重的酸痛。"
     },
     {
-      "index": 23,
+      "index": 24,
       "en": "Still he pressed on. He saw a damp hollow where flax would grow well; he could not bear to leave it outside his boundary. So he went around it too. 'One side must not be too long,' he thought. He dug another pit and turned a second corner, making the third side. He drank some water, but did not sit down, fearing he would fall asleep.",
       "zh": "然而他依然舍不得停步。他瞥见前方有一处水草丰美的洼地，是种植亚麻的绝品宝地，若把它排除在圈外简直比割他的肉还痛！于是他硬咬着牙将洼地也一并兜了进来。“这一边绝不能拖得太长，”他心头警铃大作。他迅速掘坑筑标，完成了第二处拐角，开始踏上第三条边。他仰头灌了几口水，却绝不敢坐下歇息半秒，唯恐自己精疲力竭昏睡过去。"
     },
     {
-      "index": 24,
+      "index": 25,
       "en": "The sun was already sloping toward the west. Pahom had walked nearly ten miles along the third side. He looked at the sun. It was sinking fast. And he was still ten miles from the starting point! 'Alas!' thought he, 'I have grasped too much! If only I am not too late!' He threw away his flask, his hat, his boots, and began to run.",
       "zh": "烈日已然开始向西方斜倾。帕霍姆在第三边上足足狂奔了将近十英里。他抬头看天，太阳正疾速坠向地平线，而他距离起点的土岗却至少还有整整十英里的漫长险途！“天哪！”帕霍姆心胆俱裂地抱头哀鸣，“我太贪婪了！我把圈子画得太大了！但愿千万不要迟到啊！”他一把扯下水囊狠狠甩飞，扔掉了帽子，甩脱了皮靴，赤足狂奔起来！"
     },
     {
-      "index": 25,
+      "index": 26,
       "en": "His naked feet were cut and bruised; his heart beat like a hammer in his chest; his breath came in short gasps. He ran on, his soaked shirt clinging to his body. 'What if I should be too late?' The fear of death seized him, but he could not stop. 'After having run all that way, if I stop now they will call me a fool!'",
       "zh": "他赤裸的双脚被碎石与荆棘割得鲜血淋漓，心脏在胸膛里像巨锤般疯狂轰鸣，喉咙干渴如火烧，大口喘着粗气。他拼命狂奔，湿漉漉的单衣死死贴在抽搐的躯体上。“万一迟到了怎么办？！”死亡的巨大阴影瞬间攫住了他的灵魂，可他绝不敢放慢脚步：“狂奔了整整一天，如果此刻放弃，天下人都会耻笑我是个天大的蠢才！”"
     },
     {
-      "index": 26,
+      "index": 27,
       "en": "He ran on and on. He could see the hillock now. The Bashkirs were waving their arms and shouting to him to hurry. The sun was touching the horizon, huge and red as blood. Pahom gathered his last ounce of strength, bent his body forward, and threw himself on toward the hill. The sun sank beneath the rim of the earth.",
       "zh": "他发了疯似地狂奔、狂奔！他终于能看清土岗的身影了！土岗上的牧民们正在拼命向他挥舞双臂、声嘶力竭地呼喊催促。血红硕大的夕阳已然触碰到了大地的边缘，宛如一滩刺目的鲜血。帕霍姆榨干了体内最后每一丝残存的生命力，身躯前倾如离弦之箭，拼死朝土岗做最后的冲刺。突然，最后一抹日轮彻底没入了地平线之下！"
     },
     {
-      "index": 27,
+      "index": 28,
       "en": "'All is lost!' thought Pahom. But he remembered that from the hillock the sun would still be visible. He rushed up the slope. There was the cap, and the money on it! And there sat the chief, laughing and holding his sides. Pahom's knees gave way beneath him; his legs collapsed, and he fell forward, touching the cap with his hands.",
       "zh": "“全完了！”帕霍姆的心沉入万丈深渊。然而就在这一瞬，他猛然记起土岗地势高拔，在岗顶太阳必定尚未落尽！他用尽最后的意志扑上斜坡——只见那顶狐皮毡帽与整整齐齐的钞票就静静横在眼前！大酋长正端坐一旁，双手叉腰捧腹大笑！帕霍姆的双膝陡然一软，两腿瘫痪失控，身躯轰然向前栽倒，颤抖的双手结结实实触碰到了那顶毡帽！"
     },
     {
-      "index": 28,
+      "index": 29,
       "en": "'Ah, that's a fine fellow!' shouted the chief. 'He has gained much land!' Pahom's servant came running up and tried to raise him, but he saw that blood was flowing from his mouth. Pahom was dead.",
       "zh": "“哈！当真是一条顶天立地的好汉！”大酋长击掌赞叹，“他赢得了何等辽阔的一片万顷沃野啊！”帕霍姆的仆役连滚带爬飞奔上前企图将主人扶起，然而只见一股股黑红的鲜血正自帕霍姆嘴角汩汩狂涌——帕霍姆早已心脉尽断，气绝身亡。"
     },
     {
-      "index": 29,
+      "index": 30,
       "en": "The Bashkirs clicked their tongues in pity. The servant picked up the spade and dug a grave long enough for Pahom to lie in, and buried him in it. Six feet from his head to his heels was all he needed.",
       "zh": "巴什基尔人们纷纷咂舌叹息，面露怜悯之色。仆人捡起刚才那把短铲，在草地上挖了一座刚好能容下帕霍姆躯体的狭长土坑，将主人的遗骸草草掩埋。从头顶到脚跟，不多不少，整整六尺泥土——这便是一个人毕生最终所真正需要的全部土地。"
     }

@@ -12,71 +12,81 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "The Legend of Sleepy Hollow",
+      "titleZh": "沉睡谷传奇",
+      "author": "Washington Irving (华盛顿·欧文)",
+      "tagline": "THE HEADLESS HORSEMAN",
+      "en": "The Legend of Sleepy Hollow\nWashington Irving (华盛顿·欧文)",
+      "zh": "《沉睡谷传奇》 · Washington Irving (华盛顿·欧文)"
+    },
+    {
+      "index": 2,
       "en": "In the bosom of one of those spacious coves which indent the eastern shore of the Hudson, there lies a small market-town called Tarry Town. Not far from this village, perhaps about two miles, there is a little valley, or rather lap of land, among high hills, which is one of the quietest places in the whole world. A small brook glides through it, with just murmur enough to lull one to repose, and the valley is known by the name of Sleepy Hollow.",
       "zh": "在哈得逊河东岸纵深曲折的宽阔水湾深处，坐落着一座名为塔利敦的繁华集镇。离这村镇不远、大约两英里开外的崇山峻岭环抱之中，隐匿着一片幽深静谧的小山谷——堪称全天下最与世无争的安详净土。一条清澈见底的溪流款款流淌其间，潺潺的呢喃流水声足以催人入眠，而这片世外桃源般的幽谷，世人皆称之为“沉睡谷”。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "A drowsy, dreamy influence seems to hang over the land, and to pervade the very atmosphere. The place was bewitched by a high German doctor, during the early days of the settlement; certain it is, the place still continues under the sway of some witching power. The dominant spirit that haunts this enchanted region is the apparition of a figure on horseback without a head. It is said by some to be the ghost of a Hessian trooper, whose head had been carried away by a cannon-ball in some nameless battle during the Revolutionary War.",
       "zh": "整片山野仿佛永远笼罩在一层醉生梦死的恍惚迷雾之中。相传早在拓荒开拓初期，一位得道的高人便在此施下了巫术；可以断定的是，直至今日这片土地依然受制于某种摄人心魄的神秘魔力。而在这片鬼魅天地里最威名赫赫、出没最频繁的恶灵，则是一具骑着高头大马的“无头骑士”。坊间传闻那是独立战争中被一颗无情炮弹轰飞头颅的黑森骑兵幽魂，夜复一夜在风声鹤唳中纵马狂飙寻觅他失落的首级。"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "In this by-place of nature, there abode, in a remote period of American history, a worthy wight of the name of Ichabod Crane; who 'tarried' in Sleepy Hollow, for the purpose of instructing the children of the vicinity. The cognomen of Crane was not inapplicable to his person. He was tall, but exceedingly lank, with narrow shoulders, long arms and legs, hands that dangled a mile out of his sleeves, feet that might have served for shovels, and his whole frame most loosely hung together.",
       "zh": "在这方远离尘嚣的幽僻天地里，曾寓居着一位名叫伊卡博德·克莱恩的乡村小学教师，在此逗留专司教化邻近乡里的蒙童幼齿。“克莱恩”（意为仙鹤）这个姓氏同他本人的尊容可谓贴切至极：他身形极高，却干瘪消瘦如柴，两肩窄小如削，四肢细长如竹竿，一对大手伸出袖口悬在半空宛如飘荡了一英里，两只硕大的脚板俨然能充作铁锹，浑身上下骨骼松松垮垮拼凑在一处，恰似田埂间被暴风吹得东倒西歪的稻草人。"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "His head was small, and flat at top, with huge ears, large green glassy eyes, and a long snipe nose, so that it looked like a weather-cock perched upon his spindle neck to tell which way the wind blew. To see him striding along the profile of a hill on a windy day, with his clothes bagging and fluttering about him, one might have mistaken him for the genius of famine descending upon the earth.",
       "zh": "他的脑袋小巧而头顶扁平，生着招风大耳、一对绿莹莹的呆滞玻璃大眼，以及一只尖长如鹬鸟嘴的瘦长鼻子，整个人活像一只蹲踞在麻秆脖颈上探视风向的风向标。每逢狂风大作之日，瞧见他衣衫褴褛、猎猎作响地大踏步穿过山岗山脊，外人定会将他误认作是降临凡尘专司饥荒与灾厄的瘟神法相。"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "Among the musical disciples who assembled, one evening in each week, to receive his instructions in psalmody, was Katrina Van Tassel, the daughter and only child of a substantial Dutch farmer. She was a blooming lass of fresh eighteen; plump as a partridge; ripe and melting and rosy-cheeked as one of her father's peaches, and universally famed, not merely for her beauty, but her vast expectations. Ichabod Crane had a soft and foolish heart towards the sex; and he soon set his sights upon this vast golden inheritance.",
       "zh": "在每周聚集于教堂随他研习赞美诗圣乐的少男少女信徒中，有一位名叫卡特琳娜·凡·塔塞尔的千金小姐——她是当地一位富甲一方的荷兰裔大农场主的独生爱女。姑娘年方二九十八岁，娇艳欲滴如枝头初绽的桃花；丰腴标致宛如一只肥美的鹧鸪，两腮绯红多汁宛如她父亲果园里熟透的水蜜桃。她的美名不仅在于绝色姿容，更在于那笔富可敌国的庞大遗产。伊卡博德本就是个对红颜软玉毫无免疫力之徒，很快便对这尊移动的黄金宝库垂涎三尺。"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "From the moment Ichabod laid his eyes upon Katrina, the peace of his mind was at an end. But he had a formidable rival in the person of Abraham Van Brunt, commonly known as 'Brom Bones.' Brom was the hero of the country round, famed for great strength and hardihood of body. He was broad-shouldered and double-jointed, with short curly black hair, and a bluff, but not unpleasant countenance, having a mingled air of fun and arrogance. He had three or four boisterous boon companions, who regarded him as their model, and at the head of whom he scoured the country, attending every frolic.",
       "zh": "自打伊卡博德的双眼落在这位千金身上，他内心的安宁便彻底烟消云散了。然而在这条求爱之路上，他却遭遇了一个令全乡闻风丧胆的强横情敌——亚伯拉罕·凡·布伦特，人送绰号“壮汉布朗姆”。布朗姆是方圆百里的草莽英雄，以膂力过人、勇猛强悍而威名远播。他虎背熊腰、骨节粗壮，顶着一头黑卷短发，神情粗豪却并不惹人厌，浑身散发着狂野不羁的傲气与混不吝的喜感。他麾下聚集着一帮唯他马首是瞻的混世魔王弟兄，呼啸乡里，所到之处鸡飞狗跳。"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "On a fine autumnal afternoon, Ichabod received an invitation to attend a merry-making, or 'quilting frolic,' to be held that evening at Mynheer Van Tassel's. He borrowed a horse from the farmer with whom he was domiciliated—a broken-down plow-horse named Gunpowder, who had outlived almost everything but his viciousness. Gunpowder was gaunt and shagged, with a ewe neck and a head like a hammer; but there was still a lurking devil in his one remaining eye.",
       "zh": "在一个晴朗干爽的深秋午后，伊卡博德意外收到了凡·塔塞尔庄园盛大晚宴与跳舞狂欢的烫金请柬。他连忙向借宿农家借了一匹坐骑——那是一匹名叫“火药”的退役老耕马，虽然年迈体衰、浑身骨瘦嶙峋、长着羊颈锤子头，但在那只尚能视物的独眼里，依然潜藏着老匹夫特有的狡黠恶毒凶光。"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "It was toward evening that Ichabod arrived at the castle of the Heer Van Tassel, which he found thronged with the pride and flower of the adjacent country. Brom Bones was the hero of the scene, having come to the gathering on his favourite steed, Daredevil, a creature like himself, full of mettle and mischief, and which no one but himself could manage. The feast was magnificent: plates of cakes, crullers, sweet cakes and short cakes, and peach pies and pumpkin pies, and bowls of spiced cider.",
       "zh": "薄暮时分，伊卡博德终于赶到了凡·塔塞尔庄园的城堡豪宅，整座大宅早已名流云集、冠盖满堂。壮汉布朗姆无疑是全场最瞩目的焦点——他骑着他心爱的烈马“天不怕”威风凛凛驾临，那畜生同主人一样野性难驯，全天下唯有布朗姆一人能够驾驭。晚宴盛况空前：堆积如山的大炸糕、甜酥饼、香桃派、南瓜派，以及盛在大木桶里热气腾腾的肉桂苹果香甜烈酒。"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "After the dance, the guests gathered around the fire to tell ghost stories. They spoke of the Headless Horseman, who had been heard several times of late, patrolling the country, and how he tethered his horse nightly among the graves in the churchyard. Brom Bones affirmed that, on returning one night from the neighboring village, he had been overtaken by this midnight trooper; that he had offered to race with him for a bowl of punch, and should have won, too, but just as they came to the church bridge, the Hessian bolted, and vanished in a flash of fire.",
       "zh": "舞会狂欢落幕之后，宾客们围拢在熊熊壁炉前烤火畅谈起乡野神鬼奇谈。众人交口谈论起近来频频在夜幕下出没巡视的无头骑士，声称他夜夜将坐骑拴在教堂墓园的十字架墓碑之间。壮汉布朗姆更是拍案赌咒发誓：称自己某夜自邻村纵马归家途中，曾与这名深夜恶鬼狭路相逢，他当场叫阵要与恶鬼飙马豪赌一碗潘趣烈酒，而且原本胜券在握；不料刚狂飙到老教堂木桥前，那黑森恶鬼突然虚晃一枪，在一阵刺目的烈焰青烟中凭空蒸发！"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "The revel broke up, and Ichabod stayed behind to have a tête-à-tête with Katrina. Something went wrong—what, none ever knew—but when he came out, he was pale and crestfallen. It was the very witching time of night that Ichabod, heavy-hearted and crestfallen, pursued his travel homewards. The hour was as dismal as himself. Far below him the Hudson spread its dusky and grimy wastes of waters, and all the stories of ghosts and goblins he had heard came crowding upon his recollection.",
       "zh": "狂欢散席客散灯残，伊卡博德故意赖在最后，企图与心爱的卡特琳娜私定终身互诉衷肠。然而不知何故——外人终究无从勘破详情——当他步出大门时，整个人面如死灰、失魂落魄。正是万籁俱寂、百鬼夜行的子夜魔鬼时分，心碎神伤的伊卡博德骑上老马，踏上了归家的凄凉险途。幽暗的荒野正如他此刻的心境般阴森惨淡，方才在炉火前听闻的万千鬼魅传说潮水般疯狂涌入脑海。"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "As he approached the stream where Major André had been captured, his heart began to thump. Suddenly, in the dark shadow of the trees, he beheld something huge, misshapen, black, and towering. It stirred not, but seemed crouching in the gloom, like some gigantic monster ready to spring upon the traveller. Ichabod's hair rose upon his head with terror. 'Who are you?' he stammered. He received no reply. He spurred Gunpowder forward, but the shadowy figure sprang into motion, and fell into a trot by his side.",
       "zh": "当他骑马行至当年安德烈少校被俘的那条阴森小溪旁时，一颗心如擂鼓般狂跳不止！蓦地，在道路旁繁茂盘虬的树影阴蔽处，他惊骇地瞥见一个硕大无朋、奇形怪状、如铁塔般黑黢黢矗立的庞然大物！那怪物纹丝不动地盘踞在黑暗之中，宛如一头即将暴起择人而噬的荒古凶兽！伊卡博德吓得毛发根根倒竖，结结巴巴战栗道：“你……你是谁？！”四下死寂毫无回应。他猛夹马腹企图夺路而逃，不料那具黑影霍然纵马跃上大道，并驾齐驱地小跑跟在他身侧！"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "On mounting a rising ground, Ichabod beheld against the sky the gigantic form of the rider, muffled in a cloak. But horror of horrors! The rider was headless! And horror upon horror! His head, which should have rested on his shoulders, was carried before him on the pommel of his saddle! Ichabod rained a shower of kicks and blows upon Gunpowder, and dashed down the hollow in desperate flight. The spectre galloped close behind him, the sparks flying at every bound of his coal-black steed.",
       "zh": "冲上一处缓坡迎着微弱的天光，伊卡博德终于看清了这位黑斗篷骑手的身形：然而这简直是天下最骇人听闻的灭顶噩梦——那骑手竟然没有脑袋！更令人毛骨悚然的是，那颗原本理应长在双肩上的狰狞头颅，此刻竟赫然被他捧在马鞍前桥之上！伊卡博德如中邪般死命对老马拳打脚踢疯狂狂奔，而身后的无头恶灵亦策马死死咬住不放，漆黑战马的铁蹄每落一步都在泥石路上溅射出刺目的火星！"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "'If I can but reach that bridge,' thought Ichabod, 'I am safe.' For he remembered that the goblin could not cross the church bridge. He dashed onto the bridge, and turned to see if the pursuer vanished in flash of fire. But just then, the gigantic rider rose in his stirrups, and hurled his head straight at Ichabod! The horrible missile struck Ichabod's skull with a tremendous crash—he tumbled headlong into the dust, and Gunpowder and the black steed galloped past.",
       "zh": "“只要我能冲上老教堂木桥，”伊卡博德在狂风中尖叫，“我就得救了！”因为他深记布朗姆的话：恶灵绝跨不过那座受过祝福的神圣木桥！老马铁蹄狂轰踏上桥板，伊卡博德惊魂未定猛然回头，指望能瞧见恶鬼在烈焰中灰飞烟灭；不料就在这一刹那，那具庞然巨骑猛然在马镫上腾身而起，抡起怀中的那颗“头颅”，朝着伊卡博德面门狠狠砸来！沉重的飞行巨物轰然砸中了他的天灵盖——伊卡博德一头栽入泥泞尘土不省人事，而战马狂奔的轰鸣渐渐消散在夜幕深处。"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "The next morning old Gunpowder was found grazing on the grass near the tavern, without a saddle. Ichabod did not make his appearance at breakfast; dinner-hour came, but no Ichabod. An inquiry was set on foot. On the road near the bridge they found the trampled saddle; further on, by the deep part of the brook, was found the hat of the unfortunate Ichabod, and close beside it, a shattered pumpkin. The schoolmaster was never seen in Sleepy Hollow again; and not long after, Brom Bones led the blooming Katrina to the altar as his bride.",
       "zh": "次日清晨，老耕马“火药”在酒馆附近的草地上悠闲吃草，身上的马鞍已荡然无存。伊卡博德并未现身用早膳；午饭时分依然不见踪影。全乡立刻展开大搜寻：在通往木桥的泥泞大路上，人们发现了被践踏变形的马鞍；在靠近深潭的溪水畔，找到了不幸教师落下的三角软帽，而在软帽正身旁，静静躺着一只被砸得粉碎稀烂的大南瓜。自那以后，伊卡博德·克莱恩再也未曾踏足过沉睡谷；而不久之后，春风得意的壮汉布朗姆便风光迎娶了娇艳动人的卡特琳娜步入了神圣的婚礼殿堂。"
     }

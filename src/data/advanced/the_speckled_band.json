@@ -12,101 +12,111 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "The Adventure of the Speckled Band",
+      "titleZh": "斑点带子案",
+      "author": "Conan Doyle (柯南·道尔)",
+      "tagline": "THE DEADLIEST INVASION",
+      "en": "The Adventure of the Speckled Band\nConan Doyle (柯南·道尔)",
+      "zh": "《斑点带子案》 · Conan Doyle (柯南·道尔)"
+    },
+    {
+      "index": 2,
       "en": "On glancing over my notes of the seventy odd cases in which I have studied the methods of my friend Sherlock Holmes, I find many tragic, some comic, a large number merely strange, but none which struck me as more singular than that which was associated with the well-known family of the Roylotts of Stoke Moran.",
       "zh": "在翻阅我记录下的七十余桩追随挚友歇洛克·福尔摩斯探案的私家笔记时，我见识过诸多惨绝人寰的悲剧、若干滑稽荒诞的闹剧、大量离奇诡谲的悬案；然而无一桩案件能像斯托克莫兰庄园罗伊洛特豪门惨剧这般，令我感到毛骨悚然且匪夷所思。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "It was in early April in the year '83 that I woke one morning to see Sherlock Holmes standing, fully dressed, by the side of my bed. He was a late riser, as a rule, and as the clock on the mantelpiece showed me that it was only a quarter-past seven, I blinked up at him in surprise. 'Very sorry to knock you up, Watson,' said he, 'but it's the common lot this morning. Mrs. Hudson has been knocked up, she retorted upon me, and I on you.'",
       "zh": "那是1883年4月上旬的一个清晨，我自睡梦中睁开双眼，赫然看见福尔摩斯早已衣冠齐整地伫立在我床榻之旁。他向来是个晚起的习惯，而壁炉台上的座钟分明才指向七点一刻，我诧异地眨巴着双眼仰视着他。“万分抱歉搅了你的清梦，华生，”他说，“不过今晨大家同病相怜。哈德森太太被门铃震醒，她转头叫醒了我，而我又不得不来叩醒你。”"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "'What is it, then—a fire?' 'No; a client. It seems that a young lady has arrived in a considerable state of excitement, who insists upon seeing me. She is waiting now in the sitting-room. Now, when young ladies wander about the metropolis at this hour of the morning, and knock sleepy people up out of their beds, I presume that it is something very pressing which they have to communicate.'",
       "zh": "“怎么了，失火了吗？”“非也，来了一位紧急委托人。似乎有一位年轻小姐情绪极其激动惶恐，执意要立刻面晤鄙人。她此刻正焦急候在客厅。倘若一位妙龄女郎胆敢在清晨这个时辰只身穿过喧嚣都会、将睡梦中的人从床榻上唤醒，依我推断，必定是有惊天动地的燃眉之急亟待相告。”"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "I dressed quickly and followed Holmes into the sitting-room. A lady dressed in black and heavily veiled, who had been sitting by the window, rose as we entered. 'Good-morning, madam,' said Holmes cheerily. 'My name is Sherlock Holmes. This is my intimate friend and associate, Dr. Watson. Ha! I am glad to see that Mrs. Hudson has had the good sense to light the fire. Pray draw up to it, for you are shivering.'",
       "zh": "我飞快披挂衣衫，随同福尔摩斯跨入客厅。一位身裹深黑长裙、戴着厚厚面纱的女郎原本正局促端坐在窗前，见我们进门霍然起立。“早安，夫人，”福尔摩斯语气温和愉悦道，“鄙人便是歇洛克·福尔摩斯，这位是我的挚友兼密友华生医生。哈！幸好哈德森太太明智地生起了壁炉。劳驾快请移步到火炉旁暖暖身子吧，您正冻得浑身发抖呢。”"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "'It is not cold which makes me shiver,' said the woman in a low voice, changing her seat as requested. 'What, then?' 'It is fear, Mr. Holmes. It is terror.' She raised her veil as she spoke, and we could see that she was indeed in a pitiable state of agitation, her face all drawn and grey, with restless, frightened eyes, like those of some hunted animal.",
       "zh": "“令我浑身战栗的并非寒冷，”年轻女子声音低微暗哑，依言移步落座。“那究竟所为何事？”“是恐惧，福尔摩斯先生，是深入骨髓的彻骨恐惧！”说着她缓缓掀起了黑色面纱：我们倒吸了一口凉气——只见她面容憔悴灰败，深陷的双眸充斥着难以名状的惶恐与绝望，宛如一只濒临绝境被猎犬围追堵截的受伤小鹿。"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "Her hair had prematurely turned grey in patches, though she could not have been more than thirty. Holmes ran her over with one of his quick, all-comprehensive glances. 'You must not fear,' said he soothingly, bending forward and patting her forearm. 'We shall soon set matters right, I have no doubt. You have come in by train this morning, I see.' 'You know me, then?' 'No, but I observe the second half of a return ticket in the palm of your left glove.'",
       "zh": "尽管她的芳龄绝超不过三十岁，两鬓却已过早生出斑斑白发。福尔摩斯用他那锐利入微的审视目光迅速将她扫量了一遍。“切莫惊慌，”他身体前倾，轻抚着她的手臂柔声宽慰道，“我坚信我们很快便能荡平迷雾。我瞧您今晨是搭乘早班火车进城的吧？”“莫非先生认得我？！”“未曾谋面，但我分明瞧见您左手手套掌心还紧攥着半截往返火车票呢。”"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "'My name is Helen Stoner,' she began, 'and I am living with my stepfather, Dr. Grimesby Roylott, of Stoke Moran. He is the last survivor of one of the oldest Saxon families in England. But the family fortunes were squandered, and my stepfather went out to India, where he established a large medical practice. In a fit of anger, however, he beat his native butler to death and narrowly escaped a capital sentence. He returned to England a morose and disappointed man.'",
       "zh": "“我名叫海伦·斯托纳，”姑娘开口倾诉，“我与继父格里姆斯比·罗伊洛特医生共同幽居在斯托克莫兰庄园。他是全英格兰最古老的撒克逊贵族名门仅存的独苗遗胄。然而家道中落田产挥霍殆尽，继父早年远赴印度行医发迹。可在一场暴怒之下，他竟将当地的印度仆人活活殴打致死，险遭绞刑极刑，出狱后悻悻归国，成了一个性格孤僻凶戾、怨天尤人的暴君。”"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "'My mother was the young widow of an officer in the Bengal Artillery. She had a considerable sum of money—about a thousand pounds a year—which she bequeathed to Dr. Roylott entirely, with a provision that an annual sum of two hundred and fifty pounds should be paid to each of my sister Julia and myself in the event of our marriage. Shortly after our return to England, my mother died, leaving us in his care.'",
       "zh": "“先母当年是孟加拉炮兵部队一位军官的少妇遗孀，名下坐拥一大笔巨额家资——每年有近一千英镑的丰厚进项。她立下遗嘱将财产悉数交由罗伊洛特医生支配，但明文条款规定：倘若我和我的孪生姐姐朱莉娅日后婚嫁出阁，每人每年将从信托收益中分得整整二百五十英镑的年金。回国后不久先母不幸病逝，将我们姐妹俩托付给了继父抚养。”"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "'He shut himself up in the ancestral hall, quarrelling with everyone. He has a passion for Indian animals, and keeps a cheetah and a baboon wandering loose about his grounds. Two years ago, my twin sister Julia became engaged to a half-pay naval officer. My stepfather offered no opposition. But within a fortnight of the wedding, the terrible catastrophe occurred.'",
       "zh": "“他在祖传的大宅里深居简出，与全乡里邻居老死不相往来，稍不顺心便大打出手。他酷爱豢养印度奇珍异兽，庄园里甚至纵容一头猎豹和一只巨型狒狒四处游荡伤人。整整两年前，我的孪生姐姐朱莉娅同休假的退役海军中尉订婚结盟，继父表面上未加阻拦。然而就在婚期大典前夕短短两周之内，一场灭顶之灾骤然降临了！”"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "'It was a terrible night,' Helen Stoner continued, shuddering. 'The wind was howling outside. Julia could not sleep, and came to my room. She asked me if I had ever heard a low, clear whistle in the dead of the night. I had heard nothing. She laughed, returned to her room, and locked herself in, as she always did for fear of the cheetah and the baboon.'",
       "zh": "“那真是一个令人胆寒的长夜，”海伦·斯托纳浑身剧颤地回忆道，“窗外狂风凄厉呼啸。姐姐辗转反侧难以成眠，溜进我的卧室谈心。她忽然问我：‘海伦，在夜深人静的三更半夜，你可曾听到过一阵低微却异常清脆的奇特口哨声？’我回答从未听闻。她自嘲地笑了笑，转身回房，并按照平日惧怕猎豹与狒狒夜袭的惯例，从里面将门锁死。”"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "'At about three in the morning, a wild shriek broke through the house! It was my sister's voice. I rushed into the corridor. As I reached her door, the lock turned and it swung slowly open. My sister appeared in the doorway, her face blanched with terror, her hands groping for help, her whole frame swaying like one who is drunk. As I caught her in my arms, she shrieked out these words, which I shall never forget: 'O, Helen! It was the band! The speckled band!''",
       "zh": "“凌晨三点左右，一声划破夜空的绝望惨叫震碎了整栋大宅！那是姐姐的声音！我披衣冲进走廊。刚扑到她门前，门锁嘎吱转动，房门徐徐开启——姐姐摇摇晃晃出现在门廊下，脸色煞白、瞳孔放大，双手在空中绝望地抓挠求救，整个身躯宛如醉汉般剧烈摇晃！当我一把将她搂进怀里时，她发出了一声我毕生至死也无法忘却的凄厉绝叫：‘噢，海伦！是带子！那条带斑点的带子！’！”"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "'She pointed into the air toward the doctor's room, and then convulsed and fell to the floor. By the time my stepfather arrived with brandy, she was dead. The coroner examined the body, but could find no mark of poison, no wound, no violence. Her door was locked from the inside, and the windows had heavy iron shutters fastened from within. It was a complete mystery.'",
       "zh": "“她用颤抖的手指绝望地指向继父卧房的方向，随即周身剧烈抽搐昏死过去。待继父端着白兰地赶到时，她已彻底气绝身亡。验尸官详尽勘验了尸首，却寻不到半点服毒迹象，周身毫无伤痕撕打痕迹。房门自内反锁，窗户装有内侧铁栓加固的坚实厚百叶窗，外人绝无潜入可能！这成了一桩无从破解的悬案。”"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "'And now, Mr. Holmes,' she whispered, 'I myself am engaged to be married. Two days ago repairs were begun in my room, and I was forced to move into the very room where Julia died. And last night, as I lay awake, I suddenly heard in the dead stillness the same low, gentle whistle which had heralded my sister's death! I sprang out of bed, lit the lamp, and dressed. As soon as dawn broke, I slipped out and took the first train to London.'",
       "zh": "“而如今，福尔摩斯先生，”姑娘的声音颤抖得几乎微不可闻，“我本人亦已订婚即将出嫁！就在两天前，继父突然宣称我的卧房外墙需要修葺，强行逼我搬进了姐姐当年惨死的那间不祥闺房！而昨夜，正当我辗转反侧之际，在万籁俱寂的死寂之中，我耳畔猛然响起了当年预示姐姐死期的一模一样的微弱哨音！我魂飞魄散跃下床铺，点上蜡烛穿好衣物，天刚蒙蒙亮便偷偷潜出庄园，搭乘头班列车直奔伦敦！”"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "'You have done wisely,' said Holmes. 'Now, Watson and I must examine the rooms before your stepfather returns. Be in your room at Stoke Moran this afternoon, and leave the shutters open. When the doctor goes to bed, place a lamp in the window as a signal, and we shall come to your assistance.' Helen Stoner thanked him with tears of gratitude, and departed.",
       "zh": "“您此举万分英明，”福尔摩斯面色凝重，“如今趁您继父尚未察觉，华生与我必须亲赴现场查勘这几间密室。午后您先返回斯托克莫兰庄园，将窗户百叶窗留出一条缝隙。待深夜继父安歇之后，在窗台点上一盏马灯为号，我们便即刻潜入施援！”海伦·斯托纳热泪盈眶地千恩万谢，辞别离去。"
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "Hardly had she left when the door was dashed open, and a huge man framed himself in the aperture. It was Dr. Grimesby Roylott himself. His face was yellow, his eyes bile-shot, and he held a hunting crop in his hand. 'Which of you is Holmes?' he snarled. 'I am a dangerous man to fall foul of! I followed my stepdaughter here. Keep out of my business!' To show his strength, he seized the iron poker from the hearth and bent it double with his huge brown hands, then hurled it into the fireplace and strode out.",
       "zh": "她前脚刚踏出房门，门扉猛然被人一脚踹开，一个庞然巨汉如铁塔般堵在了门口——正是格里姆斯比·罗伊洛特医生本人！他面呈病态的蜡黄，双眼布满血丝，手中倒拎着一根沉重的马鞭。“你们哪一个是福尔摩斯？！”他如野兽般低吼，“招惹我的人向来没有好下场！我一路尾随我继女到了这里，少管我的家事！”为了震慑示威，他随手从壁炉旁抓起一根粗铁通条，用两只棕黑的铁掌生生将其掰成对折，恶狠狠砸进炉坑，扬长而去！"
     },
     {
-      "index": 16,
+      "index": 17,
       "en": "Holmes laughed heartily. 'I am not quite so bulky, but my grip is not feeble,' said he, picking up the steel poker and with one sudden effort straightening it out again. 'Now, Watson, we have a dangerous opponent. We must lose no time.'",
       "zh": "福尔摩斯爽朗地开怀大笑：“我身板固然不及他魁梧，可鄙人的腕力倒也未必逊色。”说着他捡起那根弯折的铁通条，双臂陡然发力，竟硬生生将其重新掰得笔直！“华生，我们撞上了一个极其凶残狡诈的劲敌。事不宜迟，立刻动身！”"
     },
     {
-      "index": 17,
+      "index": 18,
       "en": "That afternoon Holmes and I inspected the fatal bedroom at Stoke Moran. Holmes examined every detail with his magnifying glass. He discovered three curious anomalies: first, a dummy bell-rope which was not attached to any wire or bell, but hung down onto the pillow of the bed; second, a ventilator above the bed which opened, not into the outside air, but into the doctor's bedroom next door; third, the bed was clamped to the floor so that it could never be moved.",
       "zh": "当天下午，福尔摩斯与我暗中潜入了斯托克莫兰庄园的那间凶案卧室。福尔摩斯举着放大镜仔细搜寻每一寸角落，赫然勘破了三处匪夷所思的致命破绽：其一，床头悬挂的一根刺绣拉铃绳根本未连接任何警铃机括，而是一截纯粹的摆设，下端端正正垂在床枕上方；其二，床头正上方的通风孔既不通室外新鲜空气，而是诡异地直通隔壁继父的卧房；其三，整张大铁床被角铁死死用螺栓铆死在木地板上，永远无法挪移半寸！"
     },
     {
-      "index": 18,
+      "index": 19,
       "en": "'The bell-rope is a bridge,' whispered Holmes; 'the ventilator is the passage; and the bed is anchored so that the victim must always lie directly beneath it.' He examined the doctor's room next door, and found an iron safe, a saucer of milk on a table, and a small dog whip with the lash tied into a running loop. 'It is as I thought,' murmured Holmes.",
       "zh": "“拉铃绳是桥梁，”福尔摩斯倒吸一口凉气低语道，“通风孔是暗道；而焊死的大床则确保了受害人永远只能躺在正下方！”他又潜入隔壁继父的卧房，在房中发现了一座沉重的大铁保险柜、桌上一小碟鲜牛奶，以及一根皮条被打成活套结的驯兽小马鞭。“果然不出我所料，”福尔摩斯眼神凌厉如鹰隼。"
     },
     {
-      "index": 19,
+      "index": 20,
       "en": "That night Holmes and I waited in the dark bedroom. Helen Stoner had retired to her old room. Not a sound was heard for hours, save the solemn chiming of the church clock. At three o'clock a tiny gleam of light appeared at the ventilator, followed by the softest, gentlest hissing sound, like that of a tiny jet of steam. In an instant Holmes sprang from the bed, struck a match, and lashed furiously with his cane at the bell-pull, yelling: 'Do you see it, Watson? Do you see it?'",
       "zh": "当夜，福尔摩斯与我荷枪实弹在漆黑的卧室里屏息埋伏。海伦已被安置回了旧居。在漫长难熬的死寂中，除了远方教堂深沉的敲钟声，四下万籁俱寂。凌晨三点整，通风孔处闪过一缕微不可查的幽光，紧接着，传来了一阵极轻柔、极其细微的“咝咝”吐信声，恰似蒸汽壶喷出的细细白雾！刹那间，福尔摩斯如猎豹般自床头弹射而起，点燃火柴，挥舞着手杖向着拉铃绳疯狂狂抽猛打，厉声断喝：“华生，看清了吗？！看清了没有？！”"
     },
     {
-      "index": 20,
+      "index": 21,
       "en": "I saw nothing, but from the doctor's room next door there broke the most horrible cry that ever chilled my blood—a yell of pain and fear and fury. We dashed into the room. Dr. Roylott sat in his wooden armchair, his eyes fixed in an awful stare upon the ceiling, and round his brow was wound a peculiar yellow band, with brownish speckles, that seemed to be bound tight around his head. It was a swamp adder, the deadliest snake in India! The creature, driven back by Holmes's blows, had turned upon its master. The biter was bit, and the wicked doctor was dead within ten seconds.",
       "zh": "我尚未看清异样，隔壁继父卧房内却骤然爆发出一声撕心裂肺、惨绝人寰的凄厉嚎叫——交织着无边的剧痛、惊骇与狂怒！我们踹门冲入室内：只见罗伊洛特医生僵死在木扶手椅上，双眼暴凸死死盯着天花板，而在他的额头上，正死死缠绕着一条带有褐色斑点的黄褐色带子——那是沼泽蝰蛇，全印度最致命的剧毒死神！被福尔摩斯乱杖抽打折返的毒蛇，在暴怒之下反噬了它的主人。害人者终害己，仅仅十秒钟内，恶贯满盈的恶医便毒发身亡气绝毙命。"
     }

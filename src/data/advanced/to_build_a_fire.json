@@ -12,91 +12,101 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "To Build a Fire",
+      "titleZh": "点火",
+      "author": "Jack London (杰克·伦敦)",
+      "tagline": "THE STRUGGLE IN ARCTIC COLD",
+      "en": "To Build a Fire\nJack London (杰克·伦敦)",
+      "zh": "《点火》 · Jack London (杰克·伦敦)"
+    },
+    {
+      "index": 2,
       "en": "Day had broken cold and grey, exceedingly cold and grey, when the man turned aside from the main Yukon trail and climbed the high earth-bank, where a dim and little-travelled trail led eastward through the fat spruce timberland. It was a steep bank, and he paused for breath at the top, excusing the act to himself by looking at his watch. It was nine o'clock. There was no sun nor hint of sun, though there was not a cloud in the sky.",
       "zh": "天色破晓之际，极寒而阴沉，苍穹灰蒙一片。那男子偏离了育空主干道，爬上一处高耸陡峭的土坡，一条隐约荒芜的小径穿过繁茂的云杉林向东方延伸。坡度陡峭，他在坡顶稍作驻足喘息，借着低头看表的动作掩饰自己的乏力。此刻正是上午九点整。空中虽万里无云，却不见半点红日，亦无丝毫日影初升的迹象。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "It was a clear day, and yet there seemed an intangible pall over the face of things, a subtle gloom that made the day dark, and that was due to the absence of sun. The man took no notice of this. He was a newcomer in the land, a chechaquo, and this was his first winter. The trouble with him was that he was without imagination. He was quick and alert in the things of life, but only in the things, and not in the significances.",
       "zh": "天朗气清，然而天地万物之间仿佛笼罩着一层不可捉摸的阴霾寿衣，因缺少阳光而显得格外阴森压抑。男子对这凶兆漠不关心。他是初涉这片极北之地的雏鸟新客，这是他在此熬过的第一个严冬。他的致命软肋，在于极度匮乏想象力。他对尘世诸事反应敏捷果决，但也仅仅止步于事物表象，从未体悟过其背后潜藏的残酷深意。"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "Fifty degrees below zero meant eighty-odd degrees of frost. Such fact impressed him as being cold and uncomfortable, and that was all. It did not lead him to meditate upon his frailty as a creature of temperature, and upon man's frailty in general, able only to live within certain narrow limits of heat and cold; and from there on it did not lead him into the field of immortality and man's place in the universe.",
       "zh": "零下五十华氏度，意味着严霜酷寒高达八十余度。这一严酷事实在他脑海里不过等同于“刺骨严寒、浑身难受”，仅此而已。这并未引诱他去反躬自省：作为一种温血生灵，人在浩瀚自然面前是何等脆弱不堪，生命仅能在狭隘狭窄的温度区间内苟延残喘；更未能引领他去参悟宇宙洪荒中人类的卑微宿命。"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "At the man's heels trotted a dog, a big native husky, the proper wolf-dog, grey-coated and without any obvious difference from its brother, the wild wolf. The animal was depressed by the tremendous cold. It knew that it was no time for travelling. Its instinct told it a truer tale than was told to the man by the man's judgment. In reality, it was not merely fifty below zero; it was colder than sixty below, colder than seventy below. It was seventy-five below zero.",
       "zh": "在男子脚后跟旁小跑着一条大狗——那是一条当地纯种的爱斯基摩灰毛哈士奇巨犬，浑身上下同荒原野狼毫无二致。这头畜生被这灭顶酷寒压得萎靡不振。它深知绝非出门远行的良辰。它的野兽本能，远比男子的狂妄理智更洞悉这片冰原的死亡底色。事实上，气温何止零下五十度；那远比零下六十度、七十度还要酷烈——那是整整零下七十五度！"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "The man pushed on. At twelve o'clock the day was at its brightest. He arrived at the forks of the creek and sat on a snow-covered log to eat his lunch. He pulled off his mitten, and was startled by the instant numbness of his fingers. He had forgotten to build a fire to thaw out. Laughing at his heedlessness, he struck a match and fed the dry grasses with twigs until a roar of flame warmed his hands.",
       "zh": "男子毫不顾忌地向前迈进。正午时分是一天之中光线最明朗的时刻。他抵达了溪流的分岔口，坐在一截覆满厚雪的倒木上吃午餐。当他摘下厚厚的连指手套时，十指瞬间陷入麻木失去知觉，令他猛吃一惊。他竟忘了先生火烤手。他为自己的疏忽失笑自嘲，擦亮火柴，以枯草和细枝喂养火苗，直到熊熊烈焰升腾而起烤暖了双手。"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "He ate his biscuits, enjoyed the fire, and then, having packed up, set out again along the left fork. The dog trotted along behind, reluctantly leaving the warmth of the fire. The frozen creek was treacherous: beneath the white snow lay hidden springs of running water that never froze, fed by the deep warmth of the earth. To break through the snow and step into water meant death unless one could immediately build a fire.",
       "zh": "他咽下饼干，尽情享受了片刻篝火的温存，随后收拾行囊，沿着溪流左支再次启程。猎犬恋恋不舍地离开温暖的火堆，垂头丧气地跟在身后。这条冰封的小溪暗藏杀机：在厚厚的白雪掩盖之下，潜藏着永不结冰的暗涌泉眼，吞吐着地底深处的涌泉。一旦踏穿薄雪踩入冰水，若不能在顷刻之间成功点火烤干，便意味着死路一条！"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "At a place where the snow was soft, the disaster happened. The man broke through. It was not deep. He wet himself halfway to the knees before he flinched back to the firm crust. He was angry, and cursed his luck. It would delay him an hour, for he would have to build a fire and dry out his foot-gear. This was imperative at that low temperature he knew.",
       "zh": "在一段积雪松软的险滩处，灭顶之灾骤然降临了！男子一脚踏穿了薄冰！水并不深，然而还没等他惊叫缩回坚固的雪壳，刺骨的冰水已淹没了他的小腿肚半截！他又惊又怒，破口咒骂自己的倒霉晦气。这势必将耽搁他至少一个小时行程，因为在如此酷烈的低温之下，他必须立刻筑火烘干鞋袜，这是无可违逆的铁律。"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "He turned to the bank and climbed it. On top, tangled in the underbrush, was a large spruce tree, loaded with snow. The man worked rapidly. He gathered dry twigs and grasses from under the boughs. He remembered the advice of the old-timer on Sulphur Creek, who had told him that no man must travel alone in the Klondike when the temperature was fifty below. But he had laughed at the old man then. Well, here he had had the accident, and he was alone, and he would save himself.",
       "zh": "他攀上岸坡。在坡顶灌木丛掩映处，挺立着一株枝头挂满积雪的高大云杉。男子手脚极其麻利，争分夺秒从枝桠下方捡拾干枯的细枝与枯草。他脑海中浮现出硫磺溪那位老猎手当初的严正告诫：当温度骤降至零下五十度以下时，绝无任何人敢孤身一人在这蛮荒极地独行！可他当时对老叟的忠告嗤之以鼻。好吧，如今自己确实遭遇了不测，确实孤立无援，但他坚信自己定能自力更生脱险生还！"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "He knelt in the snow and struck his match. The dry grass caught. He fed it carefully with the smallest twigs, nurturing the flame like a precious babe. The fire grew, crackling merrily. He began to unlace his moccasins. He was safe! He was safe!",
       "zh": "他跪倒在雪地里擦亮了火柴。枯草瞬间窜起火苗。他屏息凝神，用最纤细的树枝小心翼翼地喂养火星，宛如悉心呵护娇嫩的婴儿。火势渐长，欢快地劈啪作响。他终于长舒一口气，开始解开鹿皮长靴的鞋带。他得救了！他安全了！"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "It was his own fault, or rather his mistake. He should not have built the fire under the spruce tree. High up in the branches the snow was piled thick, and each time he pulled a twig he disturbed the equilibrium. Now, without warning, the tree shook. A high branch shed its load of snow. It fell upon the branches below, cascading down like an avalanche. It fell upon the man and the fire, and the fire was smothered out!",
       "zh": "这完全怪他自己，或者说是他犯下的致命大错：他根本不该将篝火设在繁茂的云杉树正下方！在高高的树冠枝头积雪堆积如山，他每次拽扯枯枝都在悄悄破坏着平衡。蓦地，毫无半点预兆，大树猛烈一颤！高处的枝丫骤然抖落大片积雪，如雪崩般层层坠落，轰然倾泻而下，正正落在了男子与火堆上方——烈火瞬间被彻底掐灭砸平！"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "The man was shocked. It was as though he had just heard his own sentence of death. For a moment he sat and stared at the spot where the fire had been. Then he set to work again. He must build a new fire, and this time he must make no mistake. But his fingers were nearly dead. He could not feel them when he touched them together.",
       "zh": "男子如遭雷击般僵死在原地。那一瞬间，他仿佛听闻了死神向他宣读的死刑判决书！足足有几秒钟，他呆滞地凝视着刚才火堆所在的雪坑。接着他再度发狂般动起手来：他必须重新筑起一堆救命火，而且这一回绝容不得半点差池！然而他的十指几乎已彻底冻僵坏死，指尖碰在一起时连一丝知觉都没有了。"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "He gathered another batch of twigs, working frantically. He could not open his pocket-knife to shave kindling, for his fingers would not bend. He seized the bunch of seventy sulfur matches between his palms, and scraped the whole cluster along his leg. They flamed into a sudden blaze! Seventy sulfur matches at once! He held them to the birch-bark, enduring the agony of his burning flesh as the flame caught his hands.",
       "zh": "他发疯般搜集着又一批枯枝。他企图掏出折叠小刀削细木屑，可手指早已僵直无法弯曲。他孤注一掷，用双掌死死夹住一整捆整整七十根硫磺火柴，沿着裤管狠狠一蹭——火光冲天！七十根火柴同时轰然引燃！他将熊熊燃烧的火球死死按在桦树皮上，任由烈焰无情灼烧着自己毫无知觉的皮肉，拼死护住这唯一的火苗。"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "The bark caught fire. But as he tried to feed it with a larger twig, his shivering, frozen hands fumbled. A large piece of green moss dropped from his numb fingers straight onto the tiny flame. He tried to poke it away, but his twitching fingers scattered the burning embers, and in a wisp of smoke the second fire expired.",
       "zh": "树皮终于燃起来了！然而当他颤抖着企图添入一截稍粗的树枝时，早已失去控制的冻僵双手笨拙地打滑了——一块沉重的湿绿苔藓从他麻木的手掌中滑落，端端正正砸在了微弱的火苗上！他发狂地想要拨开苔藓，可抽搐的手指却将火炭彻底扫散，伴随着一缕青烟，第二堆救命之火再度熄灭了。"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "A dull fear came over him. He looked at the dog, which was watching him with a wistful, watchful gaze. A wild idea came into his head: he would kill the dog, slit its belly, and thrust his frozen hands into the warm carcass until the feeling returned, then he could build another fire! He lunged at the dog.",
       "zh": "一阵绝望的死寂恐惧笼罩了他。他猛然抬头逼视着蹲坐在一旁的猎犬，那畜生正用机警哀怨的眼神打量着他。一个疯狂凶残的念头如闪电般劈进他的脑海：杀了这条狗！剖开它的肚膛，把冻僵的双臂深深插进它温热的内脏里暖手，待知觉恢复后便能重新点火！他咆哮着扑向猎犬！"
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "The animal sensed danger and backed away, ears flattened. The man scrambled forward and caught the dog in his arms. But he realized with horror that he could not kill it: his hands were powerless, he could neither draw his knife nor strangle the beast. He released it, and the dog bounded away forty feet and turned to look at him.",
       "zh": "灵敏的野兽本能察觉到了致命杀气，耳朵警惕地压低后退。男子连滚带爬猛扑上去，将狗死死揽在怀里。然而他惊恐万状地发觉自己根本杀不了它：他的双手毫无力气，既拔不出怀中的猎刀，也扼不死眼前的大犬。他力竭松开手臂，猎犬一跃跳出四十英尺开外，转过身冷冷地凝视着他。"
     },
     {
-      "index": 16,
+      "index": 17,
       "en": "Then the man ran. He ran blindly down the frozen trail in a desperate effort to restore his circulation by running. He ran until his lungs were burning, until he stumbled and fell headlong into the snow. He tried to rise, but his legs refused to obey. He sat up and knew that he was freezing to death.",
       "zh": "绝望之中，男子开始狂奔！他沿着冰封的小径盲目狂奔，企图凭借奔跑的血液循环唤醒垂死的机体。他一路狂奔，直到肺腑如火烧般剧痛，直到一个踉跄面朝下狠狠栽倒在冰雪之中。他拼死企图爬起身来，可双腿已彻底瘫痪拒不听从使唤。他跌坐在雪堆里，心知肚明自己正在一步一步冻死。"
     },
     {
-      "index": 17,
+      "index": 18,
       "en": "A drowsiness came over him. It seemed to him that he saw the old-timer on Sulphur Creek sitting by a warm stove and smoking a pipe. 'You were right, old hoss; you were right,' the man murmured aloud. Then he drifted into the most comfortable and satisfying sleep he had ever known.",
       "zh": "一阵甜美宁谧的困意潮水般涌上心头。在迷离的幻觉中，他仿佛亲眼看见硫磺溪那位老猎手正端坐在暖烘烘的大火炉旁悠闲地吞云吐雾。“老哥，你是对的；你当初说得一点没错……”男子喃喃低语道。随后，他沉入了毕生所经历过最舒适、最惬意甜美的深沉睡梦之中。"
     },
     {
-      "index": 18,
+      "index": 19,
       "en": "The dog sat facing him and waiting. The brief day drew to a close in a long, slow twilight. The dog whined, crept closer, and scented the smell of death. It bristled and backed away. A little longer it delayed, howling under the stars that leaped and danced in the frost-bitten sky. Then it turned and trotted away down the trail in the direction of the camp where were the other food-providers and fire-providers.",
       "zh": "猎犬静静坐在对面凝视等候着他。短暂的极昼在漫长幽暗的暮色中徐徐落幕。猎犬发出一声低微的呜咽，小心翼翼凑近，嗅到了死亡那冰冷无声的气息。它浑身毛发倒竖，惊恐后退。它久久伫立在夜空下悲鸣哀号，向着在严霜苍穹中跳跃狂舞的寒星长嚎。随后它转身跃入风雪，沿着荒原小径小跑而去，奔向那座充满食物与温暖篝火的营地。"
     }

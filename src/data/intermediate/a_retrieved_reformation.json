@@ -12,146 +12,156 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "A Retrieved Reformation",
+      "titleZh": "改邪归正",
+      "author": "O. Henry (欧·亨利)",
+      "tagline": "REBORN IN LOVE",
+      "en": "A Retrieved Reformation\nO. Henry (欧·亨利)",
+      "zh": "《改邪归正》 · O. Henry (欧·亨利)"
+    },
+    {
+      "index": 2,
       "en": "A guard came to the prison shoe-shop, where Jimmy Valentine was assiduously stitching uppers, and escorted him to the front office. There the warden handed Jimmy his pardon, which had been signed that morning by the governor. Jimmy took it in a tired kind of way. He had served nearly ten months of a four years' sentence.",
       "zh": "狱警走进监狱制鞋车间，吉米·瓦伦丁正全神贯注地缝合着鞋帮。狱警将他押送至前台办公室。典狱长将州长当天清晨特批签署的赦免令递到吉米手中。吉米有些倦怠地接了过来。在四年刑期中，他已经服刑了将近十个月。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "'Now, Valentine,' said the warden, 'you'll go out in the morning. Brace up, and make a man of yourself. You're not a bad fellow at heart. Stop cracking safes, and live straight.' 'Me?' said Jimmy, in surprise. 'Why, I never cracked a safe in my life.' 'Oh, no,' laughed the warden. 'Of course not. Better think over my advice, boy.'",
       "zh": "“好了，瓦伦丁，”典狱长语重心长地说，“明早你就能重获自由了。振作起来，堂堂正正做个正派人吧。你的心地其实并不坏，别再去撬保险箱了，本本分分过日子。”“我？”吉米故作惊讶地耸耸肩，“哎呀，我这辈子可从没撬过什么保险柜呀。”“噢，得了，”典狱长哈哈大笑，“当然没有啦！好好琢磨琢磨我的劝告吧，小伙子。”"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "At a quarter past seven on the next morning Jimmy stood in the warden's outer office. He had on a suit of the villainously fitting, ready-made clothes and a pair of the stiff, squeaky shoes that state furnishes its discharged guests. The clerk handed him a railroad ticket and the five-dollar bill with which the law expected him to rehabilitate himself into citizenship.",
       "zh": "次日清晨七点一刻，吉米站在典狱长的外间办公室。他穿上一套州政府特供刑满释放人员的现成囚犯出狱套装，尺寸拙劣松垮，脚踩一双硬邦邦、走起路来嘎吱作响的粗制皮鞋。狱吏递给他一张火车票和一张五美元钞票——法律指望他靠这区区五块钱重新脱胎换骨做个良民。"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "Jimmy walked into the sunshine. Disregarding the song of the birds, the waving green trees, and the smell of the flowers, he headed straight for a restaurant. There he tasted the first sweet joys of liberty in the shape of a broiled chicken and a bottle of white wine, followed by a cigar of a better grade than one he had had in prison.",
       "zh": "吉米迈步踏入明媚的阳光中。他顾不上欣赏雀鸟的清啼、摇曳的绿树与馥郁的花香，径直钻进了一家餐馆。在那里，他以一只金黄的烤童子鸡、一瓶清冽的白葡萄酒，外加一根比狱中高级得多的雪茄，品尝到了重归自由的最初甜美。"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "From there he proceeded leisurely to the depot. He tossed a quarter into the hat of a blind man sitting by the door, and boarded his train. Three hours later he was in a little town near the state line. He went to the cafe of one Mike Dolan and shook hands with Mike, who was alone behind the bar.",
       "zh": "随后他迈着从容悠闲的步伐走向火车站。他随手朝门口盲人乞丐的破帽子里扔了枚两毛五分钱的硬币，登上了列车。三小时后，他抵达了靠近州边界的一座小镇，走进迈克·多兰的咖啡馆，同独自在吧台后的迈克热情握手。"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "'Sorry we couldn't make it sooner, Jimmy, my boy,' said Mike. 'Got your key?' Jimmy got his key and went upstairs, unlocking the door of a room at the rear. Everything was just as he had left it. Jimmy slid back a panel in the wall and dragged out a dust-covered suitcase.",
       "zh": "“很抱歉没能早点把你捞出来，吉米老弟，”迈克说，“钥匙还在吧？”吉米摸出钥匙走上楼，拧开了后侧一间隐秘暗室的房门。屋里的一切陈设与他当年离开时分毫不差。吉米推开墙壁上一处暗格移门，拖出了一只落满灰尘的厚重提箱。"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "He opened this and gazed fondly at the finest set of burglar's tools in the East. It was a complete set, made of specially tempered steel, the latest designs in drills, punches, clamps, augers, and two or three novelties invented by Jimmy himself. Over nine hundred dollars they had cost him to have them made.",
       "zh": "他揭开箱盖，深情凝视着这套全美东部最顶级的保险柜开锁工具。这套全副行头由特种淬火精钢精心锻造，配备最新款的钻孔机、冲子、大力钳、特制开孔螺旋钻，以及两三件由吉米本人匠心独运发明的独门秘器。当年单是定制这些工具就耗费了他九百多美元巨款。"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "A week after the release of Valentine, 9762, there was a neat job of safe-burglary done in Richmond, Indiana, with no clue to the author. Two weeks after that a patented, improved, burglar-proof safe in Logansport was opened like a cheese. That began to wake up the police. Then an old-fashioned bank-safe in Jefferson City was cleaned out.",
       "zh": "在9762号囚犯瓦伦丁获释整整一周后，印第安纳州的里士满发生了一起干净利落的保险柜盗窃大案，作案现场未留下半点蛛丝马迹。又过了两周，洛根斯波特一座号称拥有防盗专利的先进金库被人像切奶酪般轻而易举开膛破肚。警界终于如梦初醒。紧接着，杰斐逊城一座老牌银行金库也被洗劫一空。"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "The losses were now high enough to bring the matter within the class of Ben Price's investigation. By comparing notes, a remarkable similarity in the methods of the burglaries was noticed. Ben Price investigated the scenes of the robberies, and was heard to remark: 'That's Dandy Jim Valentine's autograph. He's resumed business.'",
       "zh": "累计涉案巨款终于惊动并移交给了王牌名探本·普莱斯负责侦办。在细致比对案情档案后，几起失窃案手法的惊人相似性浮出水面。本·普莱斯亲自勘验了犯罪现场，胸有成竹地断言：“这正是‘潇洒吉米’瓦伦丁如假包换的亲笔签名！他又重操旧业了。”"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "'He's got the only clamps that can ruffle out those new patents. And he never drills more than one hole. He knows how to be quiet, and he makes quick getaways. I'll take Mr. Valentine myself. He's got to do his whole sentence this time.'",
       "zh": "“只有他手里那些独家特制钳具能轻而易举剥开那些新型防盗锁；而且他作案向来只钻一个孔。此人神出鬼没、作案快如闪电。这次我必须亲自会会瓦伦丁先生，这一回他得把上回免掉的牢底彻彻底底坐穿才行！”"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "One afternoon Jimmy Valentine and his suitcase climbed out of the mail-hack in Elmore, a little town five miles off the railroad down in the black-walnut country of Arkansas. Jimmy, looking like an athletic young collegiate, came sauntering down the sidewalk toward the hotel.",
       "zh": "一天午后，吉米·瓦伦丁拎着手提箱，从阿肯色州黑核桃产区一座距离铁路线五英里开外、名为埃尔莫尔的偏僻宁静小镇邮车上走下。吉米看起来宛如一位体格健硕的年轻名校大学生，踏着悠闲的碎步沿着人行道朝旅店走去。"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "A young lady crossed the street, passed him at the corner and entered a door over which was the sign, 'The Elmore Bank.' Jimmy Valentine looked into her eyes, forgot what he was, and became another man. She lowered her eyes and blushed slightly. Young men of Jimmy's style and looks were scarce in Elmore.",
       "zh": "一位年轻貌美的姑娘款款穿过街道，在街角与他擦肩而过，步入了一扇挂着“埃尔莫尔银行”招牌的大门。吉米·瓦伦丁迎上了姑娘清澈的眼眸，那一瞬间，他彻底忘却了自己的过往罪恶，蜕变成了另一个人。姑娘娇羞地垂下眼帘，两腮微红——在偏远的埃尔莫尔，吉米这般俊朗挺拔的气派青年向来打着灯笼都难得一见。"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "Jimmy collared a boy that was loafing on the steps of the bank, and began to ask him questions about the town, feeding him dimes at intervals. By and by the young lady came out, looking prepossessingly stately, and went her way. 'Isn't that young lady Miss Polly Simpson?' asked Jimmy, with specious guile.",
       "zh": "吉米随手拉住一个在银行台阶上闲逛的毛头小孩，一边隔三差五塞给他一枚一毛钱银币，一边向他打听镇上的情况。不多时，那位端庄秀丽的年轻姑娘步出大门远去。“那位年轻小姐难道不是波莉·辛普森小姐吗？”吉米装出一副毫无心机的模样试探道。"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "'Naw,' said the boy. 'She's Annabel Adams. Her pa owns this bank. What'd you come to town for, mister?' 'I came to see about opening a business,' said Jimmy. Jimmy went to the Planters' Hotel, registered as Ralph D. Spencer, and engaged a room.",
       "zh": "“才不是呢，”男孩嚷道，“她是安娜贝尔·亚当斯小姐。她父亲就是开这家银行的老板！先生，你来我们镇上是干什么的？”“我来看看有没有合适做买卖的行当，”吉米微笑道。随后吉米来到种植园旅馆，在旅客登记簿上龙飞凤舞地签下了“拉尔夫·D·斯宾塞”，租下了一间客房。"
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "Mr. Ralph Spencer, the phoenix that arose from Jimmy Valentine's ashes—ashes left by the sudden flame of love—remained in Elmore, and prospered. He opened a shoe-store and secured a good run of trade. Socially he was also a success, and made many friends. And he accomplished the wish of his heart: he met Miss Annabel Adams, and became more and more captivated by her charms.",
       "zh": "拉尔夫·斯宾塞先生——这只在突如其来的爱情烈焰中自吉米·瓦伦丁灰烬深处浴火重生的不死凤凰——在埃尔莫尔扎下了根，并且生意蒸蒸日上。他开了一家鞋店，客源络绎不绝。在社交场上他也颇有斩获，广结良友。更重要的是，他实现了心底唯一的夙愿：他正式结识了安娜贝尔·亚当斯小姐，彻底沦陷于她的如兰气质。"
     },
     {
-      "index": 16,
+      "index": 17,
       "en": "At the end of a year the situation of Mr. Ralph Spencer was this: he had won the respect of the community, his shoe-store was flourishing, and he and Annabel were to be married in two weeks. Mr. Adams, the typical, plodding country banker, approved of Spencer. Annabel's pride in him almost equalled her affection.",
       "zh": "一年过去后，拉尔夫·斯宾塞先生的境遇已然大变：他赢得了全镇居民的由衷敬重，鞋店生意红红火火，而且两周后他便将迎娶安娜贝尔喜结连理。亚当斯老先生——这位典型的务实小镇银行家——对斯宾塞这位未来女婿器重有加；而安娜贝尔对他的自豪感丝毫不亚于心中的深情爱恋。"
     },
     {
-      "index": 17,
+      "index": 18,
       "en": "One day Jimmy sat down in his room and wrote this letter, which he mailed to the safe address of one of his old friends in St. Louis: 'Dear Old Pal: I want you to be at Sullivan's place next Wednesday night. I want to make you a present of my kit of tools. I know you'll be glad to get them; you couldn't duplicate the lot for a thousand dollars. Billy, I've quit the old business a year ago. I've got a nice store. I'm making an honest living, and I'm going to marry the finest girl on earth two weeks from now. I wouldn't touch a dollar of another man's money now for a million. After I marry I'm going to sell out and go West. Be sure to be at Sully's, for I must see you. I'll bring the tools along myself. Your old chum, Ralph.'",
       "zh": "一天，吉米在房中提笔写下了这样一封信，寄给圣路易斯一位老搭档的安全联络点：“亲爱的老伙计：下周三晚上请务必到苏利文的小店等我。我想把我这整套开锁家当赠予你做礼物。我知道你定会爱不释手，哪怕花上一千美元也休想配齐这样一套极品工具。比利，我早在一年前就彻底金盆洗手了。我开了一家体面的鞋店，清清白白自食其力，而且两周后我便要同全天下最完美的姑娘喜结连理了。哪怕给我一百万，我也绝不会再碰别人一个铜板！婚后我打算盘掉店铺举家迁往西部。下周三务必在苏利那里碰头，我有要事见你，我会亲自把家伙带过去。你的老挚友，拉尔夫。”"
     },
     {
-      "index": 18,
+      "index": 19,
       "en": "On the Monday night after Jimmy wrote this letter, Ben Price jogged unobtrusively into Elmore in a livery buggy. He walked down the streets leisurely until he found what he wanted. He loitered about the town until he learned all that he needed to know. From across the street he saw Ralph Spencer walk into his store. 'Going to marry the banker's daughter are you, Jimmy?' said Ben to himself, softly. 'Well, I don't know!'",
       "zh": "在吉米寄出信件后的那个周一傍晚，本·普莱斯乘着一辆租来的轻便马车，悄无声息地晃悠进了埃尔莫尔镇。他闲庭信步地在街头漫步，直到掌握了所需要的一切情报。隔着街道，他一眼瞥见拉尔夫·斯宾塞从容走进鞋店。“准备迎娶银行家的千金小姐了是吗，吉米？”本·普莱斯喃喃自语，“嘿嘿，那可难说得很呢！”"
     },
     {
-      "index": 19,
+      "index": 20,
       "en": "The next morning Jimmy was up and full of zest. He was to start for Little Rock that day to order his wedding-suit and buy something nice for Annabel. That morning the whole family party—Mr. Adams, Annabel, Jimmy, and Annabel's married sister with her two little girls, aged five and nine—went down to the bank together.",
       "zh": "第二天清晨，吉米容光焕发、精神饱满。他打算当天动身前往小石城去定做新婚礼服，并给安娜贝尔挑选精美的结婚礼物。那天上午，整整一大家子人——老亚当斯先生、安娜贝尔、吉米，以及安娜贝尔已婚的姐姐和她两个年仅五岁与九岁的小女儿——一同欢声笑语地来到了银行。"
     },
     {
-      "index": 20,
+      "index": 21,
       "en": "Jimmy carried his dust-covered suitcase with him, intending to catch the train directly from the bank. Mr. Adams was very proud of the new safe and vault that had just been installed in the bank. It had a new patented time-lock. He beamed upon everybody, and insisted on explaining its workings to Mr. Spencer. Ralph showed a polite but courteous lack of interest.",
       "zh": "吉米随身拎着那只厚重提箱，打算参观完银行后直接奔赴火车站乘车。亚当斯老行长对他刚刚重金引进并安装在银行里的全新防盗金库与保险门自豪万分。那座金库配备了最新的专利定时锁。老人满面春风，执意要向斯宾塞先生详细阐述其巧夺天工的运作机械原理。拉尔夫出于礼貌客气地倾听着，却流露出一副对此一窍不通的淡然神情。"
     },
     {
-      "index": 21,
+      "index": 22,
       "en": "The two children, May and Agatha, were delighted by the shining metal and funny clockwork. While they were thus engaged, Ben Price sauntered in and leaned on his elbow, looking casually inside between the railings. He told the teller that he didn't want anything; he was just waiting for a man he knew.",
       "zh": "两个小女孩梅和阿加莎对锃亮夺目的金属大门与古怪精巧的发条机械欣喜不已。正当大人们谈笑风生之际，本·普莱斯悄然踱入银行大厅，单肘倚在柜台栏杆上，装作漫不经心地朝里间打量。他告诉出纳员自己不办业务，只是在等一位相识的朋友。"
     },
     {
-      "index": 22,
+      "index": 23,
       "en": "Suddenly there was a scream or two from the women, and a commotion. Unperceived by the elders, May, the nine-year-old girl, in a spirit of play, had shut Agatha in the vault. She had then shot the bolts and turned the knob of the combination as she had seen Mr. Adams do. The great door was shut tight, and the time-lock had not been wound nor the combination set!",
       "zh": "突然间，女人们发出了几声凄厉的尖叫，现场一片混乱！原来大人们稍不留神，九岁的小女孩梅闹着玩，把五岁的阿加莎反锁进了金库深处！她学着亚当斯先生先前的样子，猛然推紧大门，扳动了沉重的插销并乱拧了一通密码转盘。厚重的金属金库门严丝合缝地彻底咬死，而定时锁甚至还根本没有上发条，密码也未曾设定！"
     },
     {
-      "index": 23,
+      "index": 24,
       "en": "The old banker sprang to the handle and tugged at it for a moment. 'The door can't be opened,' he groaned, in a voice of trembling terror. 'The clock haven't been wound nor the combination set. My God! Spencer, what shall we do? That child—she can't stand it long in there. There isn't enough air, and besides, she'll go into convulsions from fright!'",
       "zh": "老行长惊恐万分地扑向门把手死命拽拉。“门开不了了！”他发出绝望颤抖的悲鸣，“发条还没拧上，密码根本没设！上帝啊！斯宾塞，我们该怎么办啊？！那孩子在里面撑不了多久的！里面根本没有足够的空气，而且孩子肯定会吓得抽搐惊厥的啊！”"
     },
     {
-      "index": 24,
+      "index": 25,
       "en": "Agatha's mother screamed again, hysterically. 'Hush!' said Mr. Adams, raising a trembling hand. 'All be quiet for a moment. Agatha!' he called as loudly as he could. 'Listen to me!' During the following silence they could hear the faint sound of the child wildly shrieking in the dark vault in a panic of terror.",
       "zh": "阿加莎的母亲再次歇斯底里地尖叫痛哭。“安静！”亚当斯先生颤抖着举起双手，“大家肃静片刻！阿加莎！”他扯开嗓子拼命朝门缝呼喊，“听外公说！”在随之而来的死寂中，门缝里传来了小女孩在漆黑密闭的金库中因极度恐慌而发出的微弱哭喊。"
     },
     {
-      "index": 25,
+      "index": 26,
       "en": "'There isn't a man nearer than Little Rock who can open that door,' said Mr. Adams, in a shaky voice. 'My God! Spencer, what shall we do?' Annabel turned to Jimmy, her large eyes full of anguish, but not despairing. To a woman nothing seems quite impossible to the man she loves. 'Can't you do something, Ralph—try, won't you?'",
       "zh": "“除了小石城，方圆百里之内根本没有一个人能破开这扇门！”亚当斯先生声音打颤。“天哪！斯宾塞，我们该如何是好？！”安娜贝尔猛地转向吉米，美丽的双眸盈满了悲戚，却未曾绝望——在一个陷入深爱的女人眼中，心爱的男人无所不能。“拉尔夫，你想想办法救救孩子吧——求求你试一试好吗？！”"
     },
     {
-      "index": 26,
+      "index": 27,
       "en": "He looked at her with a queer, soft smile on his lips and in his keen eyes. 'Annabel,' he said, 'give me that rose you are wearing, will you?' Hardly believing that she heard him aright, she unpinned the bud from the bosom of her dress, and placed it in his hand. Jimmy stuffed it into his vest-pocket, threw off his coat and pulled up his shirt-sleeves. With that act Ralph D. Spencer passed away and Jimmy Valentine took his place.",
       "zh": "吉米深深地凝视着她，嘴唇与犀利的双眸泛起一抹奇异而温柔的笑意。“安娜贝尔，”他轻声说，“把你胸前别着的那朵玫瑰花送给我，好吗？”安娜贝尔几乎不敢相信自己的耳朵，但还是顺从地解下胸前的花苞，轻轻放在他的掌心。吉米将玫瑰妥帖塞入背心贴身的口袋，甩手脱掉外套，挽起了衬衫衣袖——伴随着这决绝的一举，拉尔夫·D·斯宾塞彻底死去了，而神偷吉米·瓦伦丁破茧而出！"
     },
     {
-      "index": 27,
+      "index": 28,
       "en": "'Get away from the door, all of you,' he commanded, shortly. He set his suitcase on the table, and opened it out flat. From that time on he seemed to be unconscious of the presence of anyone else. He laid out the shining, strange implements swiftly and orderly. In a minute Jimmy's pet drill was biting smoothly into the steel door.",
       "zh": "“全都退后，离开大门！”吉米威严简短地命令道。他将提箱重重放在桌上霍然展开。从那一刻起，他仿佛浑然忘却了身旁所有人的存在。他以闪电般娴熟的手法依次排开那些冰冷锃亮的奇特器具。不到一分钟，吉米最心爱的那柄特制钻头便已如热刀切黄油般深深咬入了坚硬的钢门！"
     },
     {
-      "index": 28,
+      "index": 29,
       "en": "In ten minutes—breaking his own burglary record—he threw back the bolts and opened the door. Agatha, almost collapsed, was gathered into her mother's arms. Jimmy Valentine put on his coat, picked up his suitcase and walked toward the front door. As he went he thought he heard a far-away voice that he once knew call 'Ralph!' But he never hesitated.",
       "zh": "仅仅十分钟——打破了他毕生盗窃生涯的最快纪录——他霍然拉开粗重的保险插销，大门轰然开启！濒临窒息的阿加莎被一把搂进了痛哭流涕的母亲怀中。吉米·瓦伦丁从容穿上外套，拎起沉重的提箱朝大门走去。在迈步离去的那一瞬，他仿佛隐约听见身后传来一声熟悉的呼唤“拉尔夫！”可他的脚步未曾有半点迟疑。"
     },
     {
-      "index": 29,
+      "index": 30,
       "en": "At the door a big man stood somewhat in his way. 'Hello, Ben!' said Jimmy, still with his strange smile. 'Got around at last, have you? Well, let's go. I don't know that it makes much difference, now.' And then Ben Price acted rather strangely. 'Guess you're mistaken, Mr. Spencer,' he said. 'Don't believe I recognize you. Your buggy's waiting for you, ain't it?' And Ben Price turned and strolled down the street.",
       "zh": "在大门口，一个魁梧的身影挡住了去路。“嗨，本！”吉米驻足，嘴角依然挂着那抹淡然而奇异的微笑，“到底还是让你给堵上了，是吧？好吧，咱们走吧。对我来说，如今其实也没什么大分别了。”然而此刻，王牌警探本·普莱斯的举止却出奇古怪。“我想您八成是认错人了吧，斯宾塞先生，”警官平淡地说道，“我不记得我在哪儿见过您。您的马车还在外头候着您呢，不是吗？”说罢，本·普莱斯整了整衣领，转身悠闲地消失在了小镇街道的尽头。"
     }

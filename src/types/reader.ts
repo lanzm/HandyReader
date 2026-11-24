@@ -10,6 +10,11 @@ export interface Paragraph {
   zh: string;
   keyWords?: KeyWord[];
   isChapterHeader?: boolean;
+  isBookCover?: boolean;
+  titleEn?: string;
+  titleZh?: string;
+  author?: string;
+  tagline?: string;
   chapterNum?: string;
   chapterTitleEn?: string;
   chapterTitleZh?: string;

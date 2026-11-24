@@ -12,302 +12,672 @@
   "paragraphs": [
     {
       "index": 1,
-      "en": "In a little district west of Washington Square the streets have run crazy and broken themselves into small strips called 'places.' These 'places' make strange angles and curves. One Street crosses itself a time or two. An artist once discovered a valuable possibility in this street. Suppose a collector with a bill for paints, paper and canvas should, in traversing this route, suddenly meet himself coming back, without a cent having been paid on account!",
-      "zh": "在华盛顿广场西边的一小片街区里，街道错综复杂，支离破碎地散落成一条条被称为'胡同'的狭窄小道。这些小巷拐出稀奇古怪的角度与弧线，甚至一条街会自我交叉一两次。曾有一位画家在这条街上发现了一种妙不可言的可能性：设想一位手持颜料、纸张和画布账单的催债人，在这条迷宫般的路线上转悠时，突然迎面撞见折返回来的自己，而账单上连一分钱都还没收回来！",
-      "keyWords": [
-        { "word": "district", "phonetic": "ˈdɪstrɪkt", "meaning": "街区；行政区" },
-        { "word": "traversing", "phonetic": "trəˈvɜːsɪŋ", "meaning": "横贯；穿过；走过" },
-        { "word": "canvas", "phonetic": "ˈkænvəs", "meaning": "画布；帆布" }
-      ]
+      "isBookCover": true,
+      "titleEn": "The Last Leaf",
+      "titleZh": "最后一片叶子",
+      "author": "O. Henry (欧·亨利)",
+      "tagline": "HOPE IN THE COLD NIGHT",
+      "en": "The Last Leaf\nO. Henry (欧·亨利)",
+      "zh": "《最后一片叶子》 · O. Henry (欧·亨利)"
     },
     {
       "index": 2,
-      "en": "So, to quaint old Greenwich Village the art people soon came prowling, hunting for north windows and eighteenth-century gables and Dutch attics and low rents. Then they imported some pewter mugs and a chafing dish or two from Sixth Avenue, and became a 'colony.'",
-      "zh": "于是，艺术圈的人们很快就悄然涌入古色古香的格林威治村，四处探寻朝北开的采光窗户、18世纪的山墙、荷兰式的尖顶阁楼以及低廉的房租。接着，他们从第六大道淘来几只白蜡杯和一两只酒精小火锅，便在这里扎根聚居成了一处'艺术区'。",
+      "en": "In a little district west of Washington Square the streets have run crazy and broken themselves into small strips called 'places.' These 'places' make strange angles and curves. One Street crosses itself a time or two. An artist once discovered a valuable possibility in this street. Suppose a collector with a bill for paints, paper and canvas should, in traversing this route, suddenly meet himself coming back, without a cent having been paid on account!",
+      "zh": "在华盛顿广场西边的一小片街区里，街道错综复杂，支离破碎地散落成一条条被称为'胡同'的狭窄小道。这些小巷拐出稀奇古怪的角度与弧线，甚至一条街会自我交叉一两次。曾有一位画家在这条街上发现了一种妙不可言的可能性：设想一位手持颜料、纸张和画布账单的催债人，在这条迷宫般的路线上转悠时，突然迎面撞见折返回来的自己，而账单上连一分钱都还没收回来！",
       "keyWords": [
-        { "word": "quaint", "phonetic": "kweɪnt", "meaning": "古色古香的；别致的" },
-        { "word": "prowling", "phonetic": "ˈpraʊlɪŋ", "meaning": "四处探寻；潜行搜寻" },
-        { "word": "gables", "phonetic": "ˈɡeɪblz", "meaning": "山墙；人字形山形墙" },
-        { "word": "pewter", "phonetic": "ˈpjuːtə(r)", "meaning": "白蜡；白镴器皿" }
+        {
+          "word": "district",
+          "phonetic": "ˈdɪstrɪkt",
+          "meaning": "街区；行政区"
+        },
+        {
+          "word": "traversing",
+          "phonetic": "trəˈvɜːsɪŋ",
+          "meaning": "横贯；穿过；走过"
+        },
+        {
+          "word": "canvas",
+          "phonetic": "ˈkænvəs",
+          "meaning": "画布；帆布"
+        }
       ]
     },
     {
       "index": 3,
-      "en": "At the top of a squatty, three-story brick house Sue and Johnsy had their studio. 'Johnsy' was familiar for Joanna. One was from Maine; the other from California. They had met at the table d'hôte of an Eighth Street 'Delmonico's,' and found their tastes in art, chicory salad and bishop sleeves so congenial that the joint studio resulted.",
-      "zh": "苏和琼茜的画室设在一栋矮墩墩的三层砖房顶楼。'琼茜'是乔安娜的昵称。她们一个来自缅因州，另一个来自加利福尼亚州。两人在第八街一家小餐馆的普通客饭餐桌上相识，发现彼此在艺术、菊苣沙拉以及主教式灯笼袖上的品味如此投缘，于是便合租开起了这间画室。",
+      "en": "So, to quaint old Greenwich Village the art people soon came prowling, hunting for north windows and eighteenth-century gables and Dutch attics and low rents. Then they imported some pewter mugs and a chafing dish or two from Sixth Avenue, and became a 'colony.'",
+      "zh": "于是，艺术圈的人们很快就悄然涌入古色古香的格林威治村，四处探寻朝北开的采光窗户、18世纪的山墙、荷兰式的尖顶阁楼以及低廉的房租。接着，他们从第六大道淘来几只白蜡杯和一两只酒精小火锅，便在这里扎根聚居成了一处'艺术区'。",
       "keyWords": [
-        { "word": "squatty", "phonetic": "ˈskwɒti", "meaning": "矮胖的；低矮笨拙的" },
-        { "word": "chicory", "phonetic": "ˈtʃɪkəri", "meaning": "菊苣（一种沙拉蔬菜）" },
-        { "word": "congenial", "phonetic": "kənˈdʒiːniəl", "meaning": "志趣相投的；合意的" }
+        {
+          "word": "quaint",
+          "phonetic": "kweɪnt",
+          "meaning": "古色古香的；别致的"
+        },
+        {
+          "word": "prowling",
+          "phonetic": "ˈpraʊlɪŋ",
+          "meaning": "四处探寻；潜行搜寻"
+        },
+        {
+          "word": "gables",
+          "phonetic": "ˈɡeɪblz",
+          "meaning": "山墙；人字形山形墙"
+        },
+        {
+          "word": "pewter",
+          "phonetic": "ˈpjuːtə(r)",
+          "meaning": "白蜡；白镴器皿"
+        }
       ]
     },
     {
       "index": 4,
-      "en": "That was in May. In November a cold, unseen stranger, whom the doctors called Pneumonia, stalked about the colony, touching one here and there with his icy fingers. Over on the east side this ravager strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown 'places.'",
-      "zh": "那是五月里的事。到了十一月，一个冰冷而看不见形体的陌生不速之客悄然潜入艺术区，医生们称他为'肺炎'。他迈着幽灵般的步子，用冰凉的手指东戳一个、西碰一个。在东区，这个肆虐的恶魔迈着大步横冲直撞，数十人成批地倒在他的魔爪之下；但在这片逼仄狭长、苔藓斑驳的迷宫小巷里，他的脚步才稍微放慢了些。",
+      "en": "At the top of a squatty, three-story brick house Sue and Johnsy had their studio. 'Johnsy' was familiar for Joanna. One was from Maine; the other from California. They had met at the table d'hôte of an Eighth Street 'Delmonico's,' and found their tastes in art, chicory salad and bishop sleeves so congenial that the joint studio resulted.",
+      "zh": "苏和琼茜的画室设在一栋矮墩墩的三层砖房顶楼。'琼茜'是乔安娜的昵称。她们一个来自缅因州，另一个来自加利福尼亚州。两人在第八街一家小餐馆的普通客饭餐桌上相识，发现彼此在艺术、菊苣沙拉以及主教式灯笼袖上的品味如此投缘，于是便合租开起了这间画室。",
       "keyWords": [
-        { "word": "pneumonia", "phonetic": "njuːˈməʊniə", "meaning": "肺炎" },
-        { "word": "ravager", "phonetic": "ˈrævɪdʒə(r)", "meaning": "肆虐者；毁灭者" },
-        { "word": "smiting", "phonetic": "ˈsmaɪtɪŋ", "meaning": "重击；击倒；击倒致病" }
+        {
+          "word": "squatty",
+          "phonetic": "ˈskwɒti",
+          "meaning": "矮胖的；低矮笨拙的"
+        },
+        {
+          "word": "chicory",
+          "phonetic": "ˈtʃɪkəri",
+          "meaning": "菊苣（一种沙拉蔬菜）"
+        },
+        {
+          "word": "congenial",
+          "phonetic": "kənˈdʒiːniəl",
+          "meaning": "志趣相投的；合意的"
+        }
       ]
     },
     {
       "index": 5,
-      "en": "Mr. Pneumonia was not what you would call a chivalric old gentleman. A mite of a little woman with blood thinned by California zephyrs was hardly fair game for the red-fisted, short-breathed old duffer. But he smote her; and she lay, scarcely moving, on her painted iron bedstead, looking through the small Dutch window-panes at the blank side of the next brick house.",
-      "zh": "肺炎先生可称不上是一位彬彬有礼的骑士绅士。一位被加利福尼亚微风熏得血气单薄的弱女子，对这位拳头通红、上气不接下气的粗鲁老暴徒来说，实在算不上什么旗鼓相当的猎物。但他还是将她击倒了；琼茜动弹不得地躺在那张油漆剥落的铁架床上，透过荷兰式的小玻璃窗，出神地望着隔壁砖房那堵空荡荡的死墙。",
+      "en": "That was in May. In November a cold, unseen stranger, whom the doctors called Pneumonia, stalked about the colony, touching one here and there with his icy fingers. Over on the east side this ravager strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown 'places.'",
+      "zh": "那是五月里的事。到了十一月，一个冰冷而看不见形体的陌生不速之客悄然潜入艺术区，医生们称他为'肺炎'。他迈着幽灵般的步子，用冰凉的手指东戳一个、西碰一个。在东区，这个肆虐的恶魔迈着大步横冲直撞，数十人成批地倒在他的魔爪之下；但在这片逼仄狭长、苔藓斑驳的迷宫小巷里，他的脚步才稍微放慢了些。",
       "keyWords": [
-        { "word": "chivalric", "phonetic": "ʃɪˈvælrɪk", "meaning": "骑士风度的；侠义的" },
-        { "word": "zephyrs", "phonetic": "ˈzefəz", "meaning": "和煦微风；轻拂的西风" },
-        { "word": "duffer", "phonetic": "ˈdʌfə(r)", "meaning": "笨拙之人；老朽" },
-        { "word": "bedstead", "phonetic": "ˈbedsted", "meaning": "床架；木或铁床铺" }
+        {
+          "word": "pneumonia",
+          "phonetic": "njuːˈməʊniə",
+          "meaning": "肺炎"
+        },
+        {
+          "word": "ravager",
+          "phonetic": "ˈrævɪdʒə(r)",
+          "meaning": "肆虐者；毁灭者"
+        },
+        {
+          "word": "smiting",
+          "phonetic": "ˈsmaɪtɪŋ",
+          "meaning": "重击；击倒；击倒致病"
+        }
       ]
     },
     {
       "index": 6,
-      "en": "One morning the busy doctor invited Sue into the hallway with a shaggy, gray eyebrow. 'She has one chance in—let us say, ten,' he said, as he shook down the mercury in his clinical thermometer. 'And that chance is for her to want to live. This way people have of lining-upping on the side of the undertaker makes the entire pharmacopoeia look foolish. Your little lady has made up her mind that she's not going to get well.'",
-      "zh": "一天清晨，忙碌的医生抖了抖浓密灰白的眉毛，示意苏走到走廊里。'她只有十分之一的生还几率，'他一边甩着体温计里的水银柱一边说，'而这仅有的几率，全看她自己是否想活下去。人们一旦自己主动站到了殡仪馆老板那一队，整座药典里的灵丹妙药都成了摆设。你的这位小朋友已经认定自己好不起来了。'",
+      "en": "Mr. Pneumonia was not what you would call a chivalric old gentleman. A mite of a little woman with blood thinned by California zephyrs was hardly fair game for the red-fisted, short-breathed old duffer. But he smote her; and she lay, scarcely moving, on her painted iron bedstead, looking through the small Dutch window-panes at the blank side of the next brick house.",
+      "zh": "肺炎先生可称不上是一位彬彬有礼的骑士绅士。一位被加利福尼亚微风熏得血气单薄的弱女子，对这位拳头通红、上气不接下气的粗鲁老暴徒来说，实在算不上什么旗鼓相当的猎物。但他还是将她击倒了；琼茜动弹不得地躺在那张油漆剥落的铁架床上，透过荷兰式的小玻璃窗，出神地望着隔壁砖房那堵空荡荡的死墙。",
       "keyWords": [
-        { "word": "shaggy", "phonetic": "ˈʃæɡi", "meaning": "浓密的；蓬乱的" },
-        { "word": "undertaker", "phonetic": "ˈʌndəteɪkə(r)", "meaning": "殡仪业者；丧葬承办人" },
-        { "word": "pharmacopoeia", "phonetic": "ˌfɑːməkəˈpiːə", "meaning": "药典；备用药品目录" }
+        {
+          "word": "chivalric",
+          "phonetic": "ʃɪˈvælrɪk",
+          "meaning": "骑士风度的；侠义的"
+        },
+        {
+          "word": "zephyrs",
+          "phonetic": "ˈzefəz",
+          "meaning": "和煦微风；轻拂的西风"
+        },
+        {
+          "word": "duffer",
+          "phonetic": "ˈdʌfə(r)",
+          "meaning": "笨拙之人；老朽"
+        },
+        {
+          "word": "bedstead",
+          "phonetic": "ˈbedsted",
+          "meaning": "床架；木或铁床铺"
+        }
       ]
     },
     {
       "index": 7,
-      "en": "'Has she anything on her mind?' asked the doctor. 'She—she wanted to paint the Bay of Naples some day,' said Sue. 'Paint?—bosh! Has she anything on her mind worth thinking twice—a man, for instance?' 'A man?' said Sue, with a jew's-harp twang in her voice. 'Is a man worth—but, no, doctor; there is nothing of the kind.'",
-      "zh": "'她心里有什么牵挂吗？'医生问。'她……她一直想有朝一日能画一幅那不勒斯海湾的油画，'苏回答。'画画？——胡说八道！她心里难道就没有什么值得魂牵梦萦的事吗——比如一个男人？''一个男人？'苏的声音里带着金属般的尖锐反弹声，'男人值得……不过算了，医生，绝没有那种事。'",
+      "en": "One morning the busy doctor invited Sue into the hallway with a shaggy, gray eyebrow. 'She has one chance in—let us say, ten,' he said, as he shook down the mercury in his clinical thermometer. 'And that chance is for her to want to live. This way people have of lining-upping on the side of the undertaker makes the entire pharmacopoeia look foolish. Your little lady has made up her mind that she's not going to get well.'",
+      "zh": "一天清晨，忙碌的医生抖了抖浓密灰白的眉毛，示意苏走到走廊里。'她只有十分之一的生还几率，'他一边甩着体温计里的水银柱一边说，'而这仅有的几率，全看她自己是否想活下去。人们一旦自己主动站到了殡仪馆老板那一队，整座药典里的灵丹妙药都成了摆设。你的这位小朋友已经认定自己好不起来了。'",
       "keyWords": [
-        { "word": "bosh", "phonetic": "bɒʃ", "meaning": "胡说；废话；胡扯" },
-        { "word": "twang", "phonetic": "twæŋ", "meaning": "带有鼻音的尖锐颤音" }
+        {
+          "word": "shaggy",
+          "phonetic": "ˈʃæɡi",
+          "meaning": "浓密的；蓬乱的"
+        },
+        {
+          "word": "undertaker",
+          "phonetic": "ˈʌndəteɪkə(r)",
+          "meaning": "殡仪业者；丧葬承办人"
+        },
+        {
+          "word": "pharmacopoeia",
+          "phonetic": "ˌfɑːməkəˈpiːə",
+          "meaning": "药典；备用药品目录"
+        }
       ]
     },
     {
       "index": 8,
-      "en": "'Well, it is the weakness, then,' said the doctor. 'I will do all that science, so far as it may filter through the efforts of my practice, can accomplish. But whenever my patient begins to count the carriages in her funeral train I subtract 50 per cent from the curative power of medicines. If you will get her to ask one question about the new winter styles in cloak sleeves I will promise you a one-in-five chance for her, instead of one in ten.'",
-      "zh": "'好吧，那看来就是纯粹身体衰竭了，'医生叹道，'在我的诊治能力范围之内，只要医学能企及的，我都会竭尽全力。但只要病人开始默数出殡车队里有几辆马车，我就得把药物的疗效大打对折。要是你能让她开口打听哪怕一句今年冬季斗篷衣袖的新款样式，我向你保证，她的生还率就能从十分之一提升到五分之一。'",
+      "en": "'Has she anything on her mind?' asked the doctor. 'She—she wanted to paint the Bay of Naples some day,' said Sue. 'Paint?—bosh! Has she anything on her mind worth thinking twice—a man, for instance?' 'A man?' said Sue, with a jew's-harp twang in her voice. 'Is a man worth—but, no, doctor; there is nothing of the kind.'",
+      "zh": "'她心里有什么牵挂吗？'医生问。'她……她一直想有朝一日能画一幅那不勒斯海湾的油画，'苏回答。'画画？——胡说八道！她心里难道就没有什么值得魂牵梦萦的事吗——比如一个男人？''一个男人？'苏的声音里带着金属般的尖锐反弹声，'男人值得……不过算了，医生，绝没有那种事。'",
       "keyWords": [
-        { "word": "curative", "phonetic": "ˈkjʊərətɪv", "meaning": "具疗效的；治愈性的" },
-        { "word": "subtract", "phonetic": "səbˈtrækt", "meaning": "减去；扣除" },
-        { "word": "cloak", "phonetic": "kləʊk", "meaning": "斗篷；披风" }
+        {
+          "word": "bosh",
+          "phonetic": "bɒʃ",
+          "meaning": "胡说；废话；胡扯"
+        },
+        {
+          "word": "twang",
+          "phonetic": "twæŋ",
+          "meaning": "带有鼻音的尖锐颤音"
+        }
       ]
     },
     {
       "index": 9,
-      "en": "After the doctor had gone Sue went into the workroom and cried a Japanese napkin to a pulp. Then she swaggered into Johnsy's room with her drawing board, whistling ragtime. Johnsy, lying with her face toward the window, barely made a ripple under the bedclothes. Sue stopped whistling, thinking she was asleep.",
-      "zh": "医生走后，苏一头钻进工作室，把一张日式纸巾哭成了一团湿烂的纸浆。随后，她强作欢颜，一手抱着画板，大摇大摆地吹着轻快的雷格泰姆爵士小调踱进琼茜的房间。琼茜面向窗户躺着，薄被下的身躯几乎看不出一丝起伏的呼吸。苏以为她睡着了，赶紧止住了口哨。",
+      "en": "'Well, it is the weakness, then,' said the doctor. 'I will do all that science, so far as it may filter through the efforts of my practice, can accomplish. But whenever my patient begins to count the carriages in her funeral train I subtract 50 per cent from the curative power of medicines. If you will get her to ask one question about the new winter styles in cloak sleeves I will promise you a one-in-five chance for her, instead of one in ten.'",
+      "zh": "'好吧，那看来就是纯粹身体衰竭了，'医生叹道，'在我的诊治能力范围之内，只要医学能企及的，我都会竭尽全力。但只要病人开始默数出殡车队里有几辆马车，我就得把药物的疗效大打对折。要是你能让她开口打听哪怕一句今年冬季斗篷衣袖的新款样式，我向你保证，她的生还率就能从十分之一提升到五分之一。'",
       "keyWords": [
-        { "word": "pulp", "phonetic": "pʌlp", "meaning": "浆状物；纸浆" },
-        { "word": "swaggered", "phonetic": "ˈswæɡəd", "meaning": "大摇大摆地走；昂首阔步" },
-        { "word": "ragtime", "phonetic": "ˈræɡtaɪm", "meaning": "拉格泰姆音乐（早期欢快爵士乐）" }
+        {
+          "word": "curative",
+          "phonetic": "ˈkjʊərətɪv",
+          "meaning": "具疗效的；治愈性的"
+        },
+        {
+          "word": "subtract",
+          "phonetic": "səbˈtrækt",
+          "meaning": "减去；扣除"
+        },
+        {
+          "word": "cloak",
+          "phonetic": "kləʊk",
+          "meaning": "斗篷；披风"
+        }
       ]
     },
     {
       "index": 10,
-      "en": "She arranged her board and began a pen-and-ink drawing to illustrate a magazine story. Young artists must pave their way to Art by drawing pictures for magazine stories that young authors write to pave their way to Literature. As Sue was sketching a pair of elegant horseshow riding trousers and a monocle of the hero, an Idaho cowboy, she heard a low sound, several times repeated. She went quickly to the bedside.",
-      "zh": "她架好画板，开始为一篇杂志连载故事绘制钢笔插画。年轻的画家们总得靠给杂志画插画来开辟通往艺术殿堂的道路，就像初出茅庐的青年作家们得靠给杂志投稿来敲开文学的大门一样。正当苏在画稿上勾勒一位爱达荷牛仔男主角优雅的马术骑行裤和单片眼镜时，她忽然听见一阵低微而反复的细语。她快步走到了床边。",
+      "en": "After the doctor had gone Sue went into the workroom and cried a Japanese napkin to a pulp. Then she swaggered into Johnsy's room with her drawing board, whistling ragtime. Johnsy, lying with her face toward the window, barely made a ripple under the bedclothes. Sue stopped whistling, thinking she was asleep.",
+      "zh": "医生走后，苏一头钻进工作室，把一张日式纸巾哭成了一团湿烂的纸浆。随后，她强作欢颜，一手抱着画板，大摇大摆地吹着轻快的雷格泰姆爵士小调踱进琼茜的房间。琼茜面向窗户躺着，薄被下的身躯几乎看不出一丝起伏的呼吸。苏以为她睡着了，赶紧止住了口哨。",
       "keyWords": [
-        { "word": "illustrate", "phonetic": "ˈɪləstreɪt", "meaning": "为……作插图；阐明" },
-        { "word": "sketching", "phonetic": "ˈsketʃɪŋ", "meaning": "素描；勾勒草图" },
-        { "word": "monocle", "phonetic": "ˈmɒnəkl", "meaning": "单片眼镜" }
+        {
+          "word": "pulp",
+          "phonetic": "pʌlp",
+          "meaning": "浆状物；纸浆"
+        },
+        {
+          "word": "swaggered",
+          "phonetic": "ˈswæɡəd",
+          "meaning": "大摇大摆地走；昂首阔步"
+        },
+        {
+          "word": "ragtime",
+          "phonetic": "ˈræɡtaɪm",
+          "meaning": "拉格泰姆音乐（早期欢快爵士乐）"
+        }
       ]
     },
     {
       "index": 11,
-      "en": "Johnsy's eyes were open wide. She was looking out the window and counting—counting backward. 'Twelve,' she said, and a little later 'eleven'; and then 'ten,' and 'nine'; and then 'eight' and 'seven', almost together. Sue looked solicitously out of the window. What was there to count? There was only a bare, dreary yard to be seen, and the blank side of the brick house twenty feet away.",
-      "zh": "琼茜的眼睛睁得大大的。她正凝视着窗外，在倒数着数。'十二，'她轻声说，过了一会儿又说'十一'；接着是'十'，'九'；然后是'八'和'七'，几乎连在了一起。苏关切而焦灼地朝窗外望去。外面究竟有什么好数的？映入眼帘的只有一片光秃秃、凄凉阴沉的小院，以及二十英尺外隔壁砖房那面光秃秃的泥墙。",
+      "en": "She arranged her board and began a pen-and-ink drawing to illustrate a magazine story. Young artists must pave their way to Art by drawing pictures for magazine stories that young authors write to pave their way to Literature. As Sue was sketching a pair of elegant horseshow riding trousers and a monocle of the hero, an Idaho cowboy, she heard a low sound, several times repeated. She went quickly to the bedside.",
+      "zh": "她架好画板，开始为一篇杂志连载故事绘制钢笔插画。年轻的画家们总得靠给杂志画插画来开辟通往艺术殿堂的道路，就像初出茅庐的青年作家们得靠给杂志投稿来敲开文学的大门一样。正当苏在画稿上勾勒一位爱达荷牛仔男主角优雅的马术骑行裤和单片眼镜时，她忽然听见一阵低微而反复的细语。她快步走到了床边。",
       "keyWords": [
-        { "word": "solicitously", "phonetic": "səˈlɪsɪtəsli", "meaning": "关切地；热心体贴地" },
-        { "word": "dreary", "phonetic": "ˈdrɪəri", "meaning": "沉闷凄凉的；萧条的" }
+        {
+          "word": "illustrate",
+          "phonetic": "ˈɪləstreɪt",
+          "meaning": "为……作插图；阐明"
+        },
+        {
+          "word": "sketching",
+          "phonetic": "ˈsketʃɪŋ",
+          "meaning": "素描；勾勒草图"
+        },
+        {
+          "word": "monocle",
+          "phonetic": "ˈmɒnəkl",
+          "meaning": "单片眼镜"
+        }
       ]
     },
     {
       "index": 12,
-      "en": "An old, old ivy vine, gnarled and decayed at the roots, climbed half way up the brick wall. The cold breath of autumn had stricken its leaves from the vine until its skeleton branches clung, almost bare, to the crumbling bricks. 'What is it, dear?' asked Sue. 'Six,' said Johnsy, in almost a whisper. 'They're falling faster now. Three days ago there were almost a hundred. It made my head ache to count them. But now it's easy. There goes another one. There are only five left now.'",
-      "zh": "一株极老极老的常春藤，根部早已粗粝斑驳、枯朽衰老，沿着砖墙攀爬到半腰。凄厉的秋风早已吹散了藤蔓上的叶片，只留下骨骼般嶙峋的枯枝，几乎赤裸裸地紧抠着剥落颓败的砖块。'怎么了，亲爱的？'苏问。'六，'琼茜近乎耳语般说道，'现在它们落得越来越快了。三天前差不多还有上百片。数得我头都疼了。不过现在容易多了。瞧，又落了一片。现在只剩下五片了。'",
+      "en": "Johnsy's eyes were open wide. She was looking out the window and counting—counting backward. 'Twelve,' she said, and a little later 'eleven'; and then 'ten,' and 'nine'; and then 'eight' and 'seven', almost together. Sue looked solicitously out of the window. What was there to count? There was only a bare, dreary yard to be seen, and the blank side of the brick house twenty feet away.",
+      "zh": "琼茜的眼睛睁得大大的。她正凝视着窗外，在倒数着数。'十二，'她轻声说，过了一会儿又说'十一'；接着是'十'，'九'；然后是'八'和'七'，几乎连在了一起。苏关切而焦灼地朝窗外望去。外面究竟有什么好数的？映入眼帘的只有一片光秃秃、凄凉阴沉的小院，以及二十英尺外隔壁砖房那面光秃秃的泥墙。",
       "keyWords": [
-        { "word": "ivy", "phonetic": "ˈaɪvi", "meaning": "常春藤" },
-        { "word": "gnarled", "phonetic": "nɑːld", "meaning": "多瘤节的；粗糙盘结的" },
-        { "word": "decayed", "phonetic": "dɪˈkeɪd", "meaning": "枯朽腐坏的" },
-        { "word": "crumbling", "phonetic": "ˈkrʌmblɪŋ", "meaning": "崩裂碎落的；碎裂的" }
+        {
+          "word": "solicitously",
+          "phonetic": "səˈlɪsɪtəsli",
+          "meaning": "关切地；热心体贴地"
+        },
+        {
+          "word": "dreary",
+          "phonetic": "ˈdrɪəri",
+          "meaning": "沉闷凄凉的；萧条的"
+        }
       ]
     },
     {
       "index": 13,
-      "en": "'Five what, dear? Tell your Sudie.' 'Leaves. On the ivy vine. When the last one falls I must go, too. I've known that for three days. Didn't the doctor tell you?' 'Oh, I never heard of such nonsense,' complained Sue, with magnificent scorn. 'What have old ivy leaves to do with your getting well? And you used to love that vine so, you naughty girl. Don't be a goosey. Try to take a little broth now, and let Sudie go back to her drawing.'",
-      "zh": "'五片什么，亲爱的？快跟苏迪说。''叶子。常春藤上的叶子。当最后一片叶子掉落的时候，我也必须走了。三天前我就知道了。医生难道没告诉你吗？''噢，我从没听过这么荒谬透顶的胡话！'苏装出一副豪迈不屑的神气埋怨道，'几片老常春藤叶子跟你身体好转有什么相干？你以前不是最喜欢那株藤蔓的吗，你这个淘气的坏丫头。别犯傻了。乖乖喝两口肉汤，好让苏迪赶快回去画画。'",
+      "en": "An old, old ivy vine, gnarled and decayed at the roots, climbed half way up the brick wall. The cold breath of autumn had stricken its leaves from the vine until its skeleton branches clung, almost bare, to the crumbling bricks. 'What is it, dear?' asked Sue. 'Six,' said Johnsy, in almost a whisper. 'They're falling faster now. Three days ago there were almost a hundred. It made my head ache to count them. But now it's easy. There goes another one. There are only five left now.'",
+      "zh": "一株极老极老的常春藤，根部早已粗粝斑驳、枯朽衰老，沿着砖墙攀爬到半腰。凄厉的秋风早已吹散了藤蔓上的叶片，只留下骨骼般嶙峋的枯枝，几乎赤裸裸地紧抠着剥落颓败的砖块。'怎么了，亲爱的？'苏问。'六，'琼茜近乎耳语般说道，'现在它们落得越来越快了。三天前差不多还有上百片。数得我头都疼了。不过现在容易多了。瞧，又落了一片。现在只剩下五片了。'",
       "keyWords": [
-        { "word": "magnificent", "phonetic": "mæɡˈnɪfɪsnt", "meaning": "豪迈的；宏大的；堂皇的" },
-        { "word": "scorn", "phonetic": "skɔːn", "meaning": "轻蔑；鄙视" },
-        { "word": "broth", "phonetic": "brɒθ", "meaning": "肉汤；浓汤" }
+        {
+          "word": "ivy",
+          "phonetic": "ˈaɪvi",
+          "meaning": "常春藤"
+        },
+        {
+          "word": "gnarled",
+          "phonetic": "nɑːld",
+          "meaning": "多瘤节的；粗糙盘结的"
+        },
+        {
+          "word": "decayed",
+          "phonetic": "dɪˈkeɪd",
+          "meaning": "枯朽腐坏的"
+        },
+        {
+          "word": "crumbling",
+          "phonetic": "ˈkrʌmblɪŋ",
+          "meaning": "崩裂碎落的；碎裂的"
+        }
       ]
     },
     {
       "index": 14,
-      "en": "'You needn't get any more broth,' said Johnsy, keeping her eyes fixed out the window. 'There goes another. No, I don't want any broth. That leaves just four. I want to see the last one fall before it gets dark. Then I'll go, too.' 'Johnsy, dear,' said Sue, bending over her, 'will you promise me to keep your eyes closed, and not look out the window until I am done working? I must hand those drawings in by to-morrow.'",
-      "zh": "'不用再弄肉汤了，'琼茜的目光依旧死死盯住窗外，'瞧，又掉了一片。不，我什么汤也不喝。现在只剩下四片了。我想在天黑前看着最后一片叶子掉落。然后，我也该走了。''琼茜，好宝贝，'苏俯身凑近她轻声劝道，'你能不能答应我，闭上眼睛，在我画完之前别往窗外看？我明天必须把这几幅插画交出去。'",
+      "en": "'Five what, dear? Tell your Sudie.' 'Leaves. On the ivy vine. When the last one falls I must go, too. I've known that for three days. Didn't the doctor tell you?' 'Oh, I never heard of such nonsense,' complained Sue, with magnificent scorn. 'What have old ivy leaves to do with your getting well? And you used to love that vine so, you naughty girl. Don't be a goosey. Try to take a little broth now, and let Sudie go back to her drawing.'",
+      "zh": "'五片什么，亲爱的？快跟苏迪说。''叶子。常春藤上的叶子。当最后一片叶子掉落的时候，我也必须走了。三天前我就知道了。医生难道没告诉你吗？''噢，我从没听过这么荒谬透顶的胡话！'苏装出一副豪迈不屑的神气埋怨道，'几片老常春藤叶子跟你身体好转有什么相干？你以前不是最喜欢那株藤蔓的吗，你这个淘气的坏丫头。别犯傻了。乖乖喝两口肉汤，好让苏迪赶快回去画画。'",
       "keyWords": [
-        { "word": "fixed", "phonetic": "fɪkst", "meaning": "定睛的；紧盯不放的" },
-        { "word": "bending", "phonetic": "ˈbendɪŋ", "meaning": "俯身；倾身" }
+        {
+          "word": "magnificent",
+          "phonetic": "mæɡˈnɪfɪsnt",
+          "meaning": "豪迈的；宏大的；堂皇的"
+        },
+        {
+          "word": "scorn",
+          "phonetic": "skɔːn",
+          "meaning": "轻蔑；鄙视"
+        },
+        {
+          "word": "broth",
+          "phonetic": "brɒθ",
+          "meaning": "肉汤；浓汤"
+        }
       ]
     },
     {
       "index": 15,
-      "en": "'Tell me as soon as you have finished,' said Johnsy, closing her eyes, and lying white and still as a fallen statue, 'because I want to see the last one fall. I'm tired of waiting. I'm tired of thinking. I want to turn loose my hold on everything, and go sailing down, down, just like one of those poor, tired leaves.' 'Try to sleep,' said Sue. 'I must call Behrman up to be my model for the old hermit miner. I'll not be gone a minute.'",
-      "zh": "'你画完了马上叫我，'琼茜合上了双眼，面色苍白、静若倒卧的雕像，'因为我想看着最后一片叶子落下来。我已经等得好累了。我想事情想得好累了。我想放开对这世上一切的牵念，就那么飘啊，飘啊，一直往下沉，就像那些疲惫不堪的可怜树叶一样。''先试着睡会儿，'苏安慰道，'我得去楼下叫贝尔曼老头上楼来，给我当隐士老矿工的模特。我离开一分钟就回来。'",
+      "en": "'You needn't get any more broth,' said Johnsy, keeping her eyes fixed out the window. 'There goes another. No, I don't want any broth. That leaves just four. I want to see the last one fall before it gets dark. Then I'll go, too.' 'Johnsy, dear,' said Sue, bending over her, 'will you promise me to keep your eyes closed, and not look out the window until I am done working? I must hand those drawings in by to-morrow.'",
+      "zh": "'不用再弄肉汤了，'琼茜的目光依旧死死盯住窗外，'瞧，又掉了一片。不，我什么汤也不喝。现在只剩下四片了。我想在天黑前看着最后一片叶子掉落。然后，我也该走了。''琼茜，好宝贝，'苏俯身凑近她轻声劝道，'你能不能答应我，闭上眼睛，在我画完之前别往窗外看？我明天必须把这几幅插画交出去。'",
       "keyWords": [
-        { "word": "statue", "phonetic": "ˈstætʃuː", "meaning": "雕像；塑像" },
-        { "word": "hermit", "phonetic": "ˈhɜːmɪt", "meaning": "隐士；独居修道者" }
+        {
+          "word": "fixed",
+          "phonetic": "fɪkst",
+          "meaning": "定睛的；紧盯不放的"
+        },
+        {
+          "word": "bending",
+          "phonetic": "ˈbendɪŋ",
+          "meaning": "俯身；倾身"
+        }
       ]
     },
     {
       "index": 16,
-      "en": "Old Behrman was a painter who lived on the ground floor beneath them. He was past sixty and had a Michael Angelo's Moses beard curling down from the head of a satyr along the body of an imp. Behrman was a failure in art. Forty years he had wielded the brush without getting near enough to her to touch the hem of her garment. He had been always about to paint a masterpiece, but had never yet begun it.",
-      "zh": "老贝尔曼是住在她们楼下底层的画家。他年过花甲，留着一部米开朗基罗的摩西式浓密大胡子，从那副酷似半人半羊森林之神的脑门上，沿着矮小精灵般的躯干垂挂下来。贝尔曼在艺术上是个彻头彻尾的失意者。他挥舞画笔四十年，却连艺术女神衣裙的裙边都不曾触碰到分毫。他嘴里总念叨着要画一幅传世杰作，却始终未曾动过一笔。",
+      "en": "'Tell me as soon as you have finished,' said Johnsy, closing her eyes, and lying white and still as a fallen statue, 'because I want to see the last one fall. I'm tired of waiting. I'm tired of thinking. I want to turn loose my hold on everything, and go sailing down, down, just like one of those poor, tired leaves.' 'Try to sleep,' said Sue. 'I must call Behrman up to be my model for the old hermit miner. I'll not be gone a minute.'",
+      "zh": "'你画完了马上叫我，'琼茜合上了双眼，面色苍白、静若倒卧的雕像，'因为我想看着最后一片叶子落下来。我已经等得好累了。我想事情想得好累了。我想放开对这世上一切的牵念，就那么飘啊，飘啊，一直往下沉，就像那些疲惫不堪的可怜树叶一样。''先试着睡会儿，'苏安慰道，'我得去楼下叫贝尔曼老头上楼来，给我当隐士老矿工的模特。我离开一分钟就回来。'",
       "keyWords": [
-        { "word": "satyr", "phonetic": "ˈsætə(r)", "meaning": "萨提尔（希腊神话中好色山林半人羊神）" },
-        { "word": "imp", "phonetic": "ɪmp", "meaning": "小淘气；矮小精灵" },
-        { "word": "wielded", "phonetic": "ˈwiːldɪd", "meaning": "挥舞；执掌（画笔、武器）" },
-        { "word": "garment", "phonetic": "ˈɡɑːmənt", "meaning": "衣服；服装" }
+        {
+          "word": "statue",
+          "phonetic": "ˈstætʃuː",
+          "meaning": "雕像；塑像"
+        },
+        {
+          "word": "hermit",
+          "phonetic": "ˈhɜːmɪt",
+          "meaning": "隐士；独居修道者"
+        }
       ]
     },
     {
       "index": 17,
-      "en": "For several years he had painted nothing except now and then a daub in the line of commerce or advertising. He earned a little by serving as a model to those young artists in the colony who could not pay the price of a professional. He drank gin to excess, and still talked of his coming masterpiece. For the rest he was a fierce little old man, who scoffed terribly at softness in any one, and who regarded himself as especial mastiff-in-waiting to protect the two young artists in the studio above.",
-      "zh": "好些年来，除了偶尔涂抹几张商业广告劣作，他什么正经画作也没画过。他靠给艺术区那些请不起专业模特的青年艺术家充当人体模特，挣一点微薄的糊口钱。他嗜杜松子酒如命，醉醺醺时仍在大吹大擂他的绝世杰作。而在其他时候，他是个脾气暴躁的老倔头，极度鄙弃任何人身上的软弱伤感，却又自命为一条时刻守卫在侧的凶猛看门獒犬，暗中庇护着楼上工作室里的这两位年轻女孩。",
+      "en": "Old Behrman was a painter who lived on the ground floor beneath them. He was past sixty and had a Michael Angelo's Moses beard curling down from the head of a satyr along the body of an imp. Behrman was a failure in art. Forty years he had wielded the brush without getting near enough to her to touch the hem of her garment. He had been always about to paint a masterpiece, but had never yet begun it.",
+      "zh": "老贝尔曼是住在她们楼下底层的画家。他年过花甲，留着一部米开朗基罗的摩西式浓密大胡子，从那副酷似半人半羊森林之神的脑门上，沿着矮小精灵般的躯干垂挂下来。贝尔曼在艺术上是个彻头彻尾的失意者。他挥舞画笔四十年，却连艺术女神衣裙的裙边都不曾触碰到分毫。他嘴里总念叨着要画一幅传世杰作，却始终未曾动过一笔。",
       "keyWords": [
-        { "word": "daub", "phonetic": "dɔːb", "meaning": "乱涂乱画的作品；拙劣画作" },
-        { "word": "scoffed", "phonetic": "skɒft", "meaning": "嘲弄；冷嘲热讽" },
-        { "word": "mastiff", "phonetic": "ˈmæstɪf", "meaning": "大獒；猛犬" }
+        {
+          "word": "satyr",
+          "phonetic": "ˈsætə(r)",
+          "meaning": "萨提尔（希腊神话中好色山林半人羊神）"
+        },
+        {
+          "word": "imp",
+          "phonetic": "ɪmp",
+          "meaning": "小淘气；矮小精灵"
+        },
+        {
+          "word": "wielded",
+          "phonetic": "ˈwiːldɪd",
+          "meaning": "挥舞；执掌（画笔、武器）"
+        },
+        {
+          "word": "garment",
+          "phonetic": "ˈɡɑːmənt",
+          "meaning": "衣服；服装"
+        }
       ]
     },
     {
       "index": 18,
-      "en": "Sue found Behrman smelling strongly of juniper berries in his dimly lighted den below. In one corner was a blank canvas on an easel that had been waiting there for twenty-five years to receive the first line of the masterpiece. She told him of Johnsy's fancy, and how she feared she would, indeed, light and fragile as a leaf herself, float away, when her slight hold upon the world grew weaker.",
-      "zh": "苏在底层那间光线幽暗的阴冷陋室里找到了贝尔曼，满屋子弥漫着浓烈的杜松子酒味。角落里的画架上孤零零地架着一块空白画布，它在那里静静等待了整整二十五年，却始终没能迎来杰作落下的第一道笔触。苏向他诉说了琼茜古怪绝望的幻想，并忧心忡忡地提到，琼茜自身就像叶子一样轻盈虚弱，一旦对尘世微弱的眷恋渐渐消散，她恐怕真的会随风飘散离去。",
+      "en": "For several years he had painted nothing except now and then a daub in the line of commerce or advertising. He earned a little by serving as a model to those young artists in the colony who could not pay the price of a professional. He drank gin to excess, and still talked of his coming masterpiece. For the rest he was a fierce little old man, who scoffed terribly at softness in any one, and who regarded himself as especial mastiff-in-waiting to protect the two young artists in the studio above.",
+      "zh": "好些年来，除了偶尔涂抹几张商业广告劣作，他什么正经画作也没画过。他靠给艺术区那些请不起专业模特的青年艺术家充当人体模特，挣一点微薄的糊口钱。他嗜杜松子酒如命，醉醺醺时仍在大吹大擂他的绝世杰作。而在其他时候，他是个脾气暴躁的老倔头，极度鄙弃任何人身上的软弱伤感，却又自命为一条时刻守卫在侧的凶猛看门獒犬，暗中庇护着楼上工作室里的这两位年轻女孩。",
       "keyWords": [
-        { "word": "juniper", "phonetic": "ˈdʒuːnɪpə(r)", "meaning": "杜松子（酿制金酒的原料）" },
-        { "word": "easel", "phonetic": "ˈiːzl", "meaning": "画架" },
-        { "word": "fragile", "phonetic": "ˈfrædʒaɪl", "meaning": "脆弱的；易碎的" }
+        {
+          "word": "daub",
+          "phonetic": "dɔːb",
+          "meaning": "乱涂乱画的作品；拙劣画作"
+        },
+        {
+          "word": "scoffed",
+          "phonetic": "skɒft",
+          "meaning": "嘲弄；冷嘲热讽"
+        },
+        {
+          "word": "mastiff",
+          "phonetic": "ˈmæstɪf",
+          "meaning": "大獒；猛犬"
+        }
       ]
     },
     {
       "index": 19,
-      "en": "Old Behrman, with his red eyes plainly streaming, shouted his contempt and derision for such idiotic imaginings. 'Vass!' he cried. 'Is dere people in de world mit der foolishness to die because leafs dey fall off from a confounded vine? I haf not heard of such a ding. No, I will not bose as a model for your fool hermit-dunderhead. Vy do you allow dot silly business to come in der brain of her? Ach, dot poor leetle Miss Yohnsy!'",
-      "zh": "老贝尔曼通红的双眼里分明泛起了滚滚泪水，但他却暴跳如雷，大声咆哮着发泄对这种荒唐胡思乱想的鄙夷与嘲弄。'什么！'他操着浓重的德语口音尖叫道，'这世上难道真有蠢到因为该死的藤蔓落叶就想去死的笨蛋吗？我活这么大就没听过这种鬼话！不，我才不给你那个糊涂蠢蛋老隐士当模特！你干嘛由着这种荒谬念头钻进她的脑壳？哎呀，可怜的琼茜小姑娘！'",
+      "en": "Sue found Behrman smelling strongly of juniper berries in his dimly lighted den below. In one corner was a blank canvas on an easel that had been waiting there for twenty-five years to receive the first line of the masterpiece. She told him of Johnsy's fancy, and how she feared she would, indeed, light and fragile as a leaf herself, float away, when her slight hold upon the world grew weaker.",
+      "zh": "苏在底层那间光线幽暗的阴冷陋室里找到了贝尔曼，满屋子弥漫着浓烈的杜松子酒味。角落里的画架上孤零零地架着一块空白画布，它在那里静静等待了整整二十五年，却始终没能迎来杰作落下的第一道笔触。苏向他诉说了琼茜古怪绝望的幻想，并忧心忡忡地提到，琼茜自身就像叶子一样轻盈虚弱，一旦对尘世微弱的眷恋渐渐消散，她恐怕真的会随风飘散离去。",
       "keyWords": [
-        { "word": "contempt", "phonetic": "kənˈtempt", "meaning": "鄙视；蔑视" },
-        { "word": "derision", "phonetic": "dɪˈrɪʒn", "meaning": "嘲弄；嘲笑" },
-        { "word": "confounded", "phonetic": "kənˈfaʊndɪd", "meaning": "该死的；可恶的" }
+        {
+          "word": "juniper",
+          "phonetic": "ˈdʒuːnɪpə(r)",
+          "meaning": "杜松子（酿制金酒的原料）"
+        },
+        {
+          "word": "easel",
+          "phonetic": "ˈiːzl",
+          "meaning": "画架"
+        },
+        {
+          "word": "fragile",
+          "phonetic": "ˈfrædʒaɪl",
+          "meaning": "脆弱的；易碎的"
+        }
       ]
     },
     {
       "index": 20,
-      "en": "'She is very ill and weak,' said Sue, 'and the fever has made her mind morbid and full of strange fancies. Very well, Mr. Behrman, if you do not care to pose for me, you needn't. But I think you are a horrid old—old flibbertigibbet.' 'You are just like a woman!' yelled Behrman. 'Who said I vill not bose? Go on. I come mit you. For half an hour I haf peen trying to say dot I am ready to bose. Gott! dis is not any blace in which one so goot as Miss Yohnsy shall lie sick. Some day I vill baint a masterpiece, and ve shall all go avay. Gott! yes.'",
-      "zh": "'她病得很重，身体太虚弱了，'苏叹息道，'高烧让她的神智变得病态脆弱，充斥着各种怪异的妄想。好吧，贝尔曼先生，要是你不想给我做模特，就算了。可我觉得你真是一个讨厌至极的老……老嘴碎鬼！''你们女人就是这副德行！'贝尔曼大吼道，'谁说我不做模特了？走啊，我跟你上去！我整整半个小时都在想法子告诉你我已经准备好了！上帝啊，像琼茜小姐这么好的姑娘，绝不该躺在这破地方受病痛折磨！总有一天我要画出一幅绝世杰作，咱们大家就能一起搬去大好前程的地方了！上帝作证，一定会的！'",
+      "en": "Old Behrman, with his red eyes plainly streaming, shouted his contempt and derision for such idiotic imaginings. 'Vass!' he cried. 'Is dere people in de world mit der foolishness to die because leafs dey fall off from a confounded vine? I haf not heard of such a ding. No, I will not bose as a model for your fool hermit-dunderhead. Vy do you allow dot silly business to come in der brain of her? Ach, dot poor leetle Miss Yohnsy!'",
+      "zh": "老贝尔曼通红的双眼里分明泛起了滚滚泪水，但他却暴跳如雷，大声咆哮着发泄对这种荒唐胡思乱想的鄙夷与嘲弄。'什么！'他操着浓重的德语口音尖叫道，'这世上难道真有蠢到因为该死的藤蔓落叶就想去死的笨蛋吗？我活这么大就没听过这种鬼话！不，我才不给你那个糊涂蠢蛋老隐士当模特！你干嘛由着这种荒谬念头钻进她的脑壳？哎呀，可怜的琼茜小姑娘！'",
       "keyWords": [
-        { "word": "morbid", "phonetic": "ˈmɔːbɪd", "meaning": "病态的；消极晦暗的" },
-        { "word": "horrid", "phonetic": "ˈhɒrɪd", "meaning": "讨厌的；可怕的" },
-        { "word": "flibbertigibbet", "phonetic": "ˌflɪbətiˈdʒɪbɪt", "meaning": "轻浮话多的人；怪里怪气的人" }
+        {
+          "word": "contempt",
+          "phonetic": "kənˈtempt",
+          "meaning": "鄙视；蔑视"
+        },
+        {
+          "word": "derision",
+          "phonetic": "dɪˈrɪʒn",
+          "meaning": "嘲弄；嘲笑"
+        },
+        {
+          "word": "confounded",
+          "phonetic": "kənˈfaʊndɪd",
+          "meaning": "该死的；可恶的"
+        }
       ]
     },
     {
       "index": 21,
-      "en": "Johnsy was sleeping when they went upstairs. Sue pulled the shade down to the window-sill, and motioned Behrman into the other room. In there they peered out the window fearfully at the ivy vine. Then they looked at each other for a moment without speaking. A persistent, cold rain was falling, mingled with snow. Behrman, in his old blue shirt, took his seat as the hermit miner on an upturned kettle for a rock.",
-      "zh": "等他们爬上楼时，琼茜已经睡熟了。苏把窗帘拉低至窗台边，招手示意贝尔曼走到隔壁另一间屋里。在那里，他们神色惶恐地透过窗户凝视着那株残破的常春藤。两人对视了良久，谁也没有开口说话。窗外，冰冷刺骨的冬雨夹杂着湿雪，正无休无止地下着。贝尔曼穿着那件破旧的蓝衬衫，把一只倒扣的水壶当作嶙峋山岩，端坐下来扮作隐士矿工。",
+      "en": "'She is very ill and weak,' said Sue, 'and the fever has made her mind morbid and full of strange fancies. Very well, Mr. Behrman, if you do not care to pose for me, you needn't. But I think you are a horrid old—old flibbertigibbet.' 'You are just like a woman!' yelled Behrman. 'Who said I vill not bose? Go on. I come mit you. For half an hour I haf peen trying to say dot I am ready to bose. Gott! dis is not any blace in which one so goot as Miss Yohnsy shall lie sick. Some day I vill baint a masterpiece, and ve shall all go avay. Gott! yes.'",
+      "zh": "'她病得很重，身体太虚弱了，'苏叹息道，'高烧让她的神智变得病态脆弱，充斥着各种怪异的妄想。好吧，贝尔曼先生，要是你不想给我做模特，就算了。可我觉得你真是一个讨厌至极的老……老嘴碎鬼！''你们女人就是这副德行！'贝尔曼大吼道，'谁说我不做模特了？走啊，我跟你上去！我整整半个小时都在想法子告诉你我已经准备好了！上帝啊，像琼茜小姐这么好的姑娘，绝不该躺在这破地方受病痛折磨！总有一天我要画出一幅绝世杰作，咱们大家就能一起搬去大好前程的地方了！上帝作证，一定会的！'",
       "keyWords": [
-        { "word": "peered", "phonetic": "pɪəd", "meaning": "凝视；探看；窥视" },
-        { "word": "mingled", "phonetic": "ˈmɪŋɡld", "meaning": "混杂；夹杂" },
-        { "word": "persistent", "phonetic": "pəˈsɪstənt", "meaning": "持续不歇的；坚持的" }
+        {
+          "word": "morbid",
+          "phonetic": "ˈmɔːbɪd",
+          "meaning": "病态的；消极晦暗的"
+        },
+        {
+          "word": "horrid",
+          "phonetic": "ˈhɒrɪd",
+          "meaning": "讨厌的；可怕的"
+        },
+        {
+          "word": "flibbertigibbet",
+          "phonetic": "ˌflɪbətiˈdʒɪbɪt",
+          "meaning": "轻浮话多的人；怪里怪气的人"
+        }
       ]
     },
     {
       "index": 22,
-      "en": "When Sue awoke from an hour's sleep the next morning she found Johnsy with dull, wide-open eyes staring at the drawn green shade. 'Pull it up; I want to see,' she ordered, in a whisper. Wearily Sue obeyed. But, lo! after the driving rain and fierce gusts of wind that had had eddied through the long night, there—yet stood out against the brick wall one ivy leaf. It was the last one on the vine.",
-      "zh": "次日清晨，苏睡了一个小时醒来，发现琼茜睁着毫无光彩的空洞大眼，正死死盯着那面拉下的绿色窗帘。'拉上去，我想看，'琼茜用虚弱的声音命令道。苏精疲力竭地照办了。然而，看哪！在漫漫长夜肆虐的滂沱风雨和凛冽呼啸的怒号寒风之后，在砖墙上——居然还孤零零地贴立着一片常春藤叶！那是藤蔓上仅存的最后一片叶子。",
+      "en": "Johnsy was sleeping when they went upstairs. Sue pulled the shade down to the window-sill, and motioned Behrman into the other room. In there they peered out the window fearfully at the ivy vine. Then they looked at each other for a moment without speaking. A persistent, cold rain was falling, mingled with snow. Behrman, in his old blue shirt, took his seat as the hermit miner on an upturned kettle for a rock.",
+      "zh": "等他们爬上楼时，琼茜已经睡熟了。苏把窗帘拉低至窗台边，招手示意贝尔曼走到隔壁另一间屋里。在那里，他们神色惶恐地透过窗户凝视着那株残破的常春藤。两人对视了良久，谁也没有开口说话。窗外，冰冷刺骨的冬雨夹杂着湿雪，正无休无止地下着。贝尔曼穿着那件破旧的蓝衬衫，把一只倒扣的水壶当作嶙峋山岩，端坐下来扮作隐士矿工。",
       "keyWords": [
-        { "word": "dull", "phonetic": "dʌl", "meaning": "暗淡无光的；迟钝的" },
-        { "word": "eddied", "phonetic": "ˈedid", "meaning": "旋转呼啸；打着旋疾走" },
-        { "word": "gusts", "phonetic": "ɡʌsts", "meaning": "阵风；狂风" }
+        {
+          "word": "peered",
+          "phonetic": "pɪəd",
+          "meaning": "凝视；探看；窥视"
+        },
+        {
+          "word": "mingled",
+          "phonetic": "ˈmɪŋɡld",
+          "meaning": "混杂；夹杂"
+        },
+        {
+          "word": "persistent",
+          "phonetic": "pəˈsɪstənt",
+          "meaning": "持续不歇的；坚持的"
+        }
       ]
     },
     {
       "index": 23,
-      "en": "Still dark green near its stem, with its serrated edges tinted with the yellow of dissolution and decay, it hung bravely from the branch some twenty feet above the ground. 'It is the last one,' said Johnsy. 'I thought it would surely fall during the night. I heard the wind. It will fall to-day, and I shall die at the same time.'",
-      "zh": "靠近叶柄处依然泛着深邃苍劲的暗绿，而锯齿状的边缘已被衰亡腐朽的焦黄悄然浸染；它就这般倔强孤勇地悬挂在离地二十英尺高的一根枯枝上。'那是最后一片了，'琼茜喃喃道，'我原以为它昨晚一定会掉落的。我整夜都听见了呼啸的风声。它今天肯定会落下来的，而我也会在同一时刻死去。'",
+      "en": "When Sue awoke from an hour's sleep the next morning she found Johnsy with dull, wide-open eyes staring at the drawn green shade. 'Pull it up; I want to see,' she ordered, in a whisper. Wearily Sue obeyed. But, lo! after the driving rain and fierce gusts of wind that had had eddied through the long night, there—yet stood out against the brick wall one ivy leaf. It was the last one on the vine.",
+      "zh": "次日清晨，苏睡了一个小时醒来，发现琼茜睁着毫无光彩的空洞大眼，正死死盯着那面拉下的绿色窗帘。'拉上去，我想看，'琼茜用虚弱的声音命令道。苏精疲力竭地照办了。然而，看哪！在漫漫长夜肆虐的滂沱风雨和凛冽呼啸的怒号寒风之后，在砖墙上——居然还孤零零地贴立着一片常春藤叶！那是藤蔓上仅存的最后一片叶子。",
       "keyWords": [
-        { "word": "serrated", "phonetic": "səˈreɪtɪd", "meaning": "锯齿状的" },
-        { "word": "dissolution", "phonetic": "ˌdɪsəˈluːʃn", "meaning": "解体；衰亡；溶解" },
-        { "word": "decay", "phonetic": "dɪˈkeɪ", "meaning": "腐朽；衰败" }
+        {
+          "word": "dull",
+          "phonetic": "dʌl",
+          "meaning": "暗淡无光的；迟钝的"
+        },
+        {
+          "word": "eddied",
+          "phonetic": "ˈedid",
+          "meaning": "旋转呼啸；打着旋疾走"
+        },
+        {
+          "word": "gusts",
+          "phonetic": "ɡʌsts",
+          "meaning": "阵风；狂风"
+        }
       ]
     },
     {
       "index": 24,
-      "en": "'Dear, dear!' said Sue, leaning her worn face down to the pillow, 'think of me, if you won't think of yourself. What would I do?' But Johnsy did not answer. The lonesomest thing in all the world is a soul when it is making ready to go on its mysterious, far journey. The fancy seemed to possess her more strongly as one by one the ties that bound her to friendship and to earth were loosed.",
-      "zh": "'好姑娘，亲爱的！'苏将疲惫苍白的面庞贴近枕头，'就算你不为自己想想，也为我想想啊。你走了我该怎么办？'但琼茜没有回答。这世上最令人心碎的孤寂，莫过于一个灵魂正默默整装，准备踏上那段神秘而遥远的未知长途。随着将她系于人间情谊与这片土地的丝缕纽带一根根脱落松开，那种荒凉诡异的念头便愈发牢固地霸占了她的全部心智。",
+      "en": "Still dark green near its stem, with its serrated edges tinted with the yellow of dissolution and decay, it hung bravely from the branch some twenty feet above the ground. 'It is the last one,' said Johnsy. 'I thought it would surely fall during the night. I heard the wind. It will fall to-day, and I shall die at the same time.'",
+      "zh": "靠近叶柄处依然泛着深邃苍劲的暗绿，而锯齿状的边缘已被衰亡腐朽的焦黄悄然浸染；它就这般倔强孤勇地悬挂在离地二十英尺高的一根枯枝上。'那是最后一片了，'琼茜喃喃道，'我原以为它昨晚一定会掉落的。我整夜都听见了呼啸的风声。它今天肯定会落下来的，而我也会在同一时刻死去。'",
       "keyWords": [
-        { "word": "lonesomest", "phonetic": "ˈləʊnsəmmɪst", "meaning": "最孤寂的；最凄凉的" },
-        { "word": "mysterious", "phonetic": "mɪˈstɪəriəs", "meaning": "神秘莫测的" }
+        {
+          "word": "serrated",
+          "phonetic": "səˈreɪtɪd",
+          "meaning": "锯齿状的"
+        },
+        {
+          "word": "dissolution",
+          "phonetic": "ˌdɪsəˈluːʃn",
+          "meaning": "解体；衰亡；溶解"
+        },
+        {
+          "word": "decay",
+          "phonetic": "dɪˈkeɪ",
+          "meaning": "腐朽；衰败"
+        }
       ]
     },
     {
       "index": 25,
-      "en": "The day wore away, and even through the twilight they could see the lone ivy leaf clinging to its stem against the wall. And then, with the coming of the night the north wind was again loosed, while the rain still beat against the windows and pattered down from the low Dutch eaves. When it was light enough next morning Johnsy, the merciless, commanded that the shade be raised.",
-      "zh": "白昼悄无声息地流逝，即便在朦胧暮色中，她们依旧能辨认出那片孤独的常春藤叶，顽强依附在紧贴墙壁的细细叶柄上。随后，夜幕降临，凄厉的北风再度肆虐呼啸，雨水依然敲击着窗棂，顺着荷兰式的低矮屋檐滴滴答答地坠落。翌日清晨天色刚蒙蒙亮，冷酷无情的琼茜便再次命令拉起窗帘。",
+      "en": "'Dear, dear!' said Sue, leaning her worn face down to the pillow, 'think of me, if you won't think of yourself. What would I do?' But Johnsy did not answer. The lonesomest thing in all the world is a soul when it is making ready to go on its mysterious, far journey. The fancy seemed to possess her more strongly as one by one the ties that bound her to friendship and to earth were loosed.",
+      "zh": "'好姑娘，亲爱的！'苏将疲惫苍白的面庞贴近枕头，'就算你不为自己想想，也为我想想啊。你走了我该怎么办？'但琼茜没有回答。这世上最令人心碎的孤寂，莫过于一个灵魂正默默整装，准备踏上那段神秘而遥远的未知长途。随着将她系于人间情谊与这片土地的丝缕纽带一根根脱落松开，那种荒凉诡异的念头便愈发牢固地霸占了她的全部心智。",
       "keyWords": [
-        { "word": "twilight", "phonetic": "ˈtwaɪlaɪt", "meaning": "暮光；黄昏黄昏" },
-        { "word": "pattered", "phonetic": "ˈpætəd", "meaning": "啪嗒作响；淅淅沥沥地拍打" },
-        { "word": "merciless", "phonetic": "ˈmɜːsɪləs", "meaning": "无情的；残忍的" }
+        {
+          "word": "lonesomest",
+          "phonetic": "ˈləʊnsəmmɪst",
+          "meaning": "最孤寂的；最凄凉的"
+        },
+        {
+          "word": "mysterious",
+          "phonetic": "mɪˈstɪəriəs",
+          "meaning": "神秘莫测的"
+        }
       ]
     },
     {
       "index": 26,
-      "en": "The ivy leaf was still there. Johnsy lay for a long time looking at it. And then she called to Sue, who was stirring her chicken broth over the gas stove. 'I've been a bad girl, Sudie,' said Johnsy. 'Something has made that last leaf stay there to show me how wicked I was. It is a sin to want to die. You may bring me a little broth now, and some milk with a little port in it, and—no; bring me a hand-mirror first, and then pack some pillows about me, and I will sit up and watch you cook.'",
-      "zh": "常春藤叶依然屹立在那里！琼茜躺在床上，凝视了它许久许久。接着，她轻声唤来正在煤气灶旁搅动鸡汤的苏。'我之前太不乖了，苏迪，'琼茜动情地说，'冥冥中有什么力量让那最后一片叶子留在那里，就是为了让我看清自己过去是多么罪过。一心求死是一种不可饶恕的罪孽。现在你可以给我端一点鸡汤来了，再热一点加了少许波特酒的牛奶……不，先给我拿一面手镜来，再在我背后垫几个枕头，我要坐起来看你做饭！'",
+      "en": "The day wore away, and even through the twilight they could see the lone ivy leaf clinging to its stem against the wall. And then, with the coming of the night the north wind was again loosed, while the rain still beat against the windows and pattered down from the low Dutch eaves. When it was light enough next morning Johnsy, the merciless, commanded that the shade be raised.",
+      "zh": "白昼悄无声息地流逝，即便在朦胧暮色中，她们依旧能辨认出那片孤独的常春藤叶，顽强依附在紧贴墙壁的细细叶柄上。随后，夜幕降临，凄厉的北风再度肆虐呼啸，雨水依然敲击着窗棂，顺着荷兰式的低矮屋檐滴滴答答地坠落。翌日清晨天色刚蒙蒙亮，冷酷无情的琼茜便再次命令拉起窗帘。",
       "keyWords": [
-        { "word": "stirring", "phonetic": "ˈstɜːrɪŋ", "meaning": "搅动；搅拌" },
-        { "word": "wicked", "phonetic": "ˈwɪkɪd", "meaning": "邪恶的；极不道德的" },
-        { "word": "sin", "phonetic": "sɪn", "meaning": "罪过；罪孽" },
-        { "word": "port", "phonetic": "pɔːt", "meaning": "波特酒（一种强化红葡萄酒）" }
+        {
+          "word": "twilight",
+          "phonetic": "ˈtwaɪlaɪt",
+          "meaning": "暮光；黄昏黄昏"
+        },
+        {
+          "word": "pattered",
+          "phonetic": "ˈpætəd",
+          "meaning": "啪嗒作响；淅淅沥沥地拍打"
+        },
+        {
+          "word": "merciless",
+          "phonetic": "ˈmɜːsɪləs",
+          "meaning": "无情的；残忍的"
+        }
       ]
     },
     {
       "index": 27,
-      "en": "An hour later she said: 'Sudie, some day I hope to paint the Bay of Naples.' The doctor came in the afternoon, and Sue had an excuse to go into the hallway as he left. 'Even chances,' said the doctor, taking Sue's thin, shaking hand in his. 'With good nursing you'll win. And now I must see another case I have down stairs. Behrman, his name is—some kind of an artist, I believe. Pneumonia, too. He is an old, weak man, and the attack is acute. There is no hope for him; but he goes to the hospital to-day to be made more comfortable.'",
-      "zh": "一个小时后，琼茜轻快地说：'苏迪，我希望有朝一日能画一幅那不勒斯海湾的画。'下午医生来了，在医生离开时，苏找了个由头陪他走到走廊里。'几率各占一半了，'医生握住苏颤抖瘦削的手，欣慰地说，'只要精心照料，你一定能打赢这场仗。现在我还得去楼下看另一个病人。他叫贝尔曼——听说也是个画家。同样是急性肺炎。他年纪太大了，身子骨太弱，发病又急又烈。他已经没指望了，但今天会送他去医院，让他走得稍微舒服一些。'",
+      "en": "The ivy leaf was still there. Johnsy lay for a long time looking at it. And then she called to Sue, who was stirring her chicken broth over the gas stove. 'I've been a bad girl, Sudie,' said Johnsy. 'Something has made that last leaf stay there to show me how wicked I was. It is a sin to want to die. You may bring me a little broth now, and some milk with a little port in it, and—no; bring me a hand-mirror first, and then pack some pillows about me, and I will sit up and watch you cook.'",
+      "zh": "常春藤叶依然屹立在那里！琼茜躺在床上，凝视了它许久许久。接着，她轻声唤来正在煤气灶旁搅动鸡汤的苏。'我之前太不乖了，苏迪，'琼茜动情地说，'冥冥中有什么力量让那最后一片叶子留在那里，就是为了让我看清自己过去是多么罪过。一心求死是一种不可饶恕的罪孽。现在你可以给我端一点鸡汤来了，再热一点加了少许波特酒的牛奶……不，先给我拿一面手镜来，再在我背后垫几个枕头，我要坐起来看你做饭！'",
       "keyWords": [
-        { "word": "nursing", "phonetic": "ˈnɜːsɪŋ", "meaning": "看护；精心照料" },
-        { "word": "acute", "phonetic": "əˈkjuːt", "meaning": "（疾病）急性的；剧烈的" }
+        {
+          "word": "stirring",
+          "phonetic": "ˈstɜːrɪŋ",
+          "meaning": "搅动；搅拌"
+        },
+        {
+          "word": "wicked",
+          "phonetic": "ˈwɪkɪd",
+          "meaning": "邪恶的；极不道德的"
+        },
+        {
+          "word": "sin",
+          "phonetic": "sɪn",
+          "meaning": "罪过；罪孽"
+        },
+        {
+          "word": "port",
+          "phonetic": "pɔːt",
+          "meaning": "波特酒（一种强化红葡萄酒）"
+        }
       ]
     },
     {
       "index": 28,
-      "en": "The next day the doctor said to Sue: 'She's out of danger. You've won. Nutrition and care now—that's all.' And that afternoon Sue came to the bed where Johnsy lay, contentedly knitting a very blue and very useless woolen shoulder scarf, and put one arm around her, pillows and all.",
-      "zh": "第二天，医生对苏说：'她已经脱离生命危险了。你们赢了。接下来只要补充营养、静心调养就全好了。'那天下午，苏走到琼茜床边，琼茜正心满意足地织着一条湛蓝却毫无用处的羊毛披肩；苏伸出一条胳膊，将琼茜连同身后的枕头一同温柔地拥入怀中。",
+      "en": "An hour later she said: 'Sudie, some day I hope to paint the Bay of Naples.' The doctor came in the afternoon, and Sue had an excuse to go into the hallway as he left. 'Even chances,' said the doctor, taking Sue's thin, shaking hand in his. 'With good nursing you'll win. And now I must see another case I have down stairs. Behrman, his name is—some kind of an artist, I believe. Pneumonia, too. He is an old, weak man, and the attack is acute. There is no hope for him; but he goes to the hospital to-day to be made more comfortable.'",
+      "zh": "一个小时后，琼茜轻快地说：'苏迪，我希望有朝一日能画一幅那不勒斯海湾的画。'下午医生来了，在医生离开时，苏找了个由头陪他走到走廊里。'几率各占一半了，'医生握住苏颤抖瘦削的手，欣慰地说，'只要精心照料，你一定能打赢这场仗。现在我还得去楼下看另一个病人。他叫贝尔曼——听说也是个画家。同样是急性肺炎。他年纪太大了，身子骨太弱，发病又急又烈。他已经没指望了，但今天会送他去医院，让他走得稍微舒服一些。'",
       "keyWords": [
-        { "word": "nutrition", "phonetic": "njuːˈtrɪʃn", "meaning": "营养；滋养" },
-        { "word": "contentedly", "phonetic": "kənˈtentɪdli", "meaning": "心满意足地；怡然自得地" },
-        { "word": "woolen", "phonetic": "ˈwʊlən", "meaning": "羊毛的；毛织的" }
+        {
+          "word": "nursing",
+          "phonetic": "ˈnɜːsɪŋ",
+          "meaning": "看护；精心照料"
+        },
+        {
+          "word": "acute",
+          "phonetic": "əˈkjuːt",
+          "meaning": "（疾病）急性的；剧烈的"
+        }
       ]
     },
     {
       "index": 29,
-      "en": "'I have something to tell you, white mouse,' she said. 'Mr. Behrman died of pneumonia to-day in the hospital. He was ill only two days. The janitor found him on the morning of the first day in his room downstairs helpless with pain. His shoes and clothing were wet through and icy cold. They couldn't imagine where he had been on such a dreadful night.'",
-      "zh": "'我有件事必须告诉你，小白鼠，'苏轻柔地说道，'贝尔曼先生今天在医院里因肺炎去世了。他只病了两天。第一天早晨，看门人在底楼他的房间里发现他时，他已痛苦得不能动弹。他的鞋子和衣服全湿透了，冰凉刺骨。大家谁也想不出，在那样狂风肆虐、雨雪交加的恐怖夜晚，他究竟跑到了哪里去。'",
+      "en": "The next day the doctor said to Sue: 'She's out of danger. You've won. Nutrition and care now—that's all.' And that afternoon Sue came to the bed where Johnsy lay, contentedly knitting a very blue and very useless woolen shoulder scarf, and put one arm around her, pillows and all.",
+      "zh": "第二天，医生对苏说：'她已经脱离生命危险了。你们赢了。接下来只要补充营养、静心调养就全好了。'那天下午，苏走到琼茜床边，琼茜正心满意足地织着一条湛蓝却毫无用处的羊毛披肩；苏伸出一条胳膊，将琼茜连同身后的枕头一同温柔地拥入怀中。",
       "keyWords": [
-        { "word": "janitor", "phonetic": "ˈdʒænɪtə(r)", "meaning": "看门人；门卫；物业管理员" },
-        { "word": "dreadful", "phonetic": "ˈdredfl", "meaning": "可怕的；极其糟糕的" }
+        {
+          "word": "nutrition",
+          "phonetic": "njuːˈtrɪʃn",
+          "meaning": "营养；滋养"
+        },
+        {
+          "word": "contentedly",
+          "phonetic": "kənˈtentɪdli",
+          "meaning": "心满意足地；怡然自得地"
+        },
+        {
+          "word": "woolen",
+          "phonetic": "ˈwʊlən",
+          "meaning": "羊毛的；毛织的"
+        }
       ]
     },
     {
       "index": 30,
+      "en": "'I have something to tell you, white mouse,' she said. 'Mr. Behrman died of pneumonia to-day in the hospital. He was ill only two days. The janitor found him on the morning of the first day in his room downstairs helpless with pain. His shoes and clothing were wet through and icy cold. They couldn't imagine where he had been on such a dreadful night.'",
+      "zh": "'我有件事必须告诉你，小白鼠，'苏轻柔地说道，'贝尔曼先生今天在医院里因肺炎去世了。他只病了两天。第一天早晨，看门人在底楼他的房间里发现他时，他已痛苦得不能动弹。他的鞋子和衣服全湿透了，冰凉刺骨。大家谁也想不出，在那样狂风肆虐、雨雪交加的恐怖夜晚，他究竟跑到了哪里去。'",
+      "keyWords": [
+        {
+          "word": "janitor",
+          "phonetic": "ˈdʒænɪtə(r)",
+          "meaning": "看门人；门卫；物业管理员"
+        },
+        {
+          "word": "dreadful",
+          "phonetic": "ˈdredfl",
+          "meaning": "可怕的；极其糟糕的"
+        }
+      ]
+    },
+    {
+      "index": 31,
       "en": "'And then they found a lantern, still lighted, and a ladder that had been dragged from its place, and some scattered brushes, and a palette with green and yellow colors mixed on it, and—look out the window, dear, at the last ivy leaf on the wall. Didn't you wonder why it never fluttered or moved when the wind blew? Ah, darling, it is Behrman's masterpiece—he painted it there the night that the last leaf fell.'",
       "zh": "'后来，他们在地上发现了一盏还亮着的提灯，一把从原处拖拽出来的梯子，几支散落满地的画笔，还有一块调色板，上面调和着绿色与黄色的颜料……然后——看着窗外吧，亲爱的，看那墙上最后的一片常春藤叶。难道你从不觉得奇怪，为什么风刮得那么大，它却从未随风颤动或飘摇过分毫？啊，傻姑娘，那就是贝尔曼毕生梦寐以求的传世杰作啊——正是在最后一片叶子飘落的那个凄风苦雨的深夜，他把它画在了那面冰冷的墙上。'",
       "keyWords": [
-        { "word": "lantern", "phonetic": "ˈlæntən", "meaning": "提灯；手提式灯" },
-        { "word": "ladder", "phonetic": "ˈlædə(r)", "meaning": "梯子" },
-        { "word": "palette", "phonetic": "ˈpælət", "meaning": "调色板" },
-        { "word": "fluttered", "phonetic": "ˈflʌtəd", "meaning": "飘动；振翅抖动" },
-        { "word": "masterpiece", "phonetic": "ˈmɑːstəpiːs", "meaning": "杰作；代表作；传世名作" }
+        {
+          "word": "lantern",
+          "phonetic": "ˈlæntən",
+          "meaning": "提灯；手提式灯"
+        },
+        {
+          "word": "ladder",
+          "phonetic": "ˈlædə(r)",
+          "meaning": "梯子"
+        },
+        {
+          "word": "palette",
+          "phonetic": "ˈpælət",
+          "meaning": "调色板"
+        },
+        {
+          "word": "fluttered",
+          "phonetic": "ˈflʌtəd",
+          "meaning": "飘动；振翅抖动"
+        },
+        {
+          "word": "masterpiece",
+          "phonetic": "ˈmɑːstəpiːs",
+          "meaning": "杰作；代表作；传世名作"
+        }
       ]
     }
   ]

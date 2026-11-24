@@ -12,101 +12,111 @@
   "paragraphs": [
     {
       "index": 1,
+      "isBookCover": true,
+      "titleEn": "The Ransom of Red Chief",
+      "titleZh": "红毛酋长的赎金",
+      "author": "O. Henry (欧·亨利)",
+      "tagline": "THE TERROR OF THE PLAINS",
+      "en": "The Ransom of Red Chief\nO. Henry (欧·亨利)",
+      "zh": "《红毛酋长的赎金》 · O. Henry (欧·亨利)"
+    },
+    {
+      "index": 2,
       "en": "It looked like a good thing: but wait till I tell you. We were down South, in Alabama—Bill Driscoll and myself—when this kidnapping idea struck us. It was, as Bill afterwards expressed it, 'during a moment of temporary mental aberration'; but we didn't find that out till later.",
       "zh": "当时看来这绝对是宗稳赚不赔的好买卖——不过且听我慢慢道来。那阵子我和比尔·德里斯科尔正在南方的亚拉巴马州转悠，突然就萌生了绑架捞票的歪脑筋。用比尔事后心有余悸的话说，那纯粹是“脑子一时短路中了邪”；可惜我们直到大难临头才痛悟这一点。"
     },
     {
-      "index": 2,
+      "index": 3,
       "en": "There was a town down there, as flat as a flannel-cake, and called Summit, of course. It contained inhabitants of as undeleterious and self-satisfied a class of peasantry as ever clustered around a Maypole. Bill and me had a joint capital of about six hundred dollars, and we needed just two thousand dollars more to pull off a fraudulent town-lot scheme in Western Illinois.",
       "zh": "山脚下有座像煎饼一样平坦的小镇，当然却荒谬地叫作“山顶镇”。那里的居民是我见过最安分守己、自得其乐的一帮乡巴佬。我和比尔手头凑了六百块本钱，急需再讹上两千美元，好去伊利诺伊州西部搞一场炒卖地皮的暴利骗局。"
     },
     {
-      "index": 3,
+      "index": 4,
       "en": "We selected for our victim the only child of a prominent citizen named Ebenezer Dorset. The father was respectable and tight, a mortgage fancier and a stern, upright collection-plate passer. The kid was a boy of ten, with freckles and hair the colour of the cover of the magazine you buy at the news-stand when you want to catch a train.",
       "zh": "我们精挑细选的绑架猎物，是镇上一位显赫乡绅埃比尼泽·多塞特的独生子。老爹是个放高利贷抵押贷款、为人吝啬精明、在教堂募捐盘前道貌岸然的铁公鸡。儿子是个十岁的小混球，满脸雀斑，顶着一头你在火车站书报摊随手买的廉价杂志封面那样扎眼的乱蓬蓬红发。"
     },
     {
-      "index": 4,
+      "index": 5,
       "en": "Bill and me figured that Ebenezer would melt down for a ransom of two thousand dollars to a silver dollar. But wait till I tell you. About two miles from Summit was a little mountain, covered with cedar trees. On the rear of this mountain was a cave. There we stored provisions.",
       "zh": "我和比尔盘算着，老多塞特准会心急如焚地掏出两千块白花花的现大洋来赎儿子，一分钱都不会少。但是且慢！离山顶镇两英里外有座长满雪松的小石山，山后背藏着一个天然隐秘的石洞，我们在那儿囤积了干粮被褥。"
     },
     {
-      "index": 5,
+      "index": 6,
       "en": "One evening after sundown, we drove in a buggy past old Dorset's house. The kid was in the street, throwing rocks at a kitten on the opposite fence. 'Hey, little boy!' says Bill, 'would you like to have a bag of candy and a nice ride?' The boy catches Bill neatly in the eye with a piece of brick.",
       "zh": "一天傍晚日落后，我们赶着马车从老多塞特家门前悄悄路过。那小子正站在街边，朝对面篱笆上的一只小猫疯狂扔石块。“嗨，小盆友！”比尔探出头诱哄道，“想不想要一包香喷喷的糖果，顺便坐马车去兜兜风呀？”那小恶魔抬手便是一块碎砖头，结结实实拍在了比尔的一只眼眶上！"
     },
     {
-      "index": 6,
+      "index": 7,
       "en": "That boy put up a fight like a welter-weight cinnamon bear; but, at last, we got him down in the bottom of the buggy and drove away. We took him up to the cave. The boy was putting two buzzard tail-feathers in his red hair. He points a stick at me and says: 'Ha! cursed paleface, do you dare to enter the camp of Red Chief, the terror of the plains?'",
       "zh": "那小浑蛋像只发了疯的中量级棕熊一样拼命抓挠撕咬；费了九牛二虎之力，我们总算把他按倒在马车底板上狂奔而去。我们把他押进山洞。谁料这小子立刻将两根秃鹫尾羽插在自己的红发里，挥舞着一根木棍指向我的鼻尖咆哮：“哈！该死的白皮狗，竟敢擅闯‘红毛酋长’威震草原的大营！”"
     },
     {
-      "index": 7,
+      "index": 8,
       "en": "'He's all right now,' says Bill, rolling up his trousers and examining some bruised shins. 'We're playing Indian. I'm Old Hank, the trapper, Red Chief's captive, and I'm to be scalped at daybreak. By Geronimo! that kid can kick hard.'",
       "zh": "“他现在可来劲了，”比尔卷起裤管查看着被踢得青一块紫一块的小腿哀嚎道，“我们正在玩印第安人战俘游戏呢。我扮演被红毛酋长俘虏的老猎人汉克，黎明破晓时要被他活剥头皮。我的老天爷啊，这小崽子下死脚踹人可真够狠的！”"
     },
     {
-      "index": 8,
+      "index": 9,
       "en": "Yes, sir, that boy seemed to be having the time of his life. The fun of camping out in a cave had made him forget that he was a captive himself. He immediately christened me Snake-eye, the Spy, and announced that I was to be broiled at the stake at the rising of the sun.",
       "zh": "可不是嘛，这浑小子简直过上了这辈子最快活的神仙日子！在山洞里野营露宿的新奇劲儿，让他彻底忘光了自己是个肉票人质。他当场给我赐名“间谍蛇眼”，并威严宣布待红日东升之际要把我绑在火刑柱上活活烤熟。"
     },
     {
-      "index": 9,
+      "index": 10,
       "en": "At three o'clock in the morning I was awakened by a series of awful screams from Bill. They weren't yells, or shouts, or whoops—they were simply the most terrifying, humiliating shrieks that ever came from a full-grown man. I jumped up to see what the matter was. Red Chief was sitting on Bill's chest, with one hand twined in Bill's hair. In the other he had the sharp case-knife we used for slicing bacon, and he was industriously trying to scalp Bill.",
       "zh": "凌晨三点钟，我被比尔一阵撕心裂肺的凄厉惨叫猛然惊醒。那绝不是呼喊或怒吼，而是一个五大三粗的老爷们发出的天下最屈辱、最惊悚的绝望哀嚎！我一跃而起冲过去：只见红毛酋长正死死骑在比尔的胸膛上，一手揪住比尔的头发，另一手握着我们切培根的锋利快刀，正全神贯注、极其卖力地企图活剥比尔的头皮！"
     },
     {
-      "index": 10,
+      "index": 11,
       "en": "I got the knife away from the kid and made him lie down again. But, from that moment, Bill's spirit was broken. He laid down on his side of the bed, but he never closed an eye again in sleep as long as that boy was with us.",
       "zh": "我死命夺下快刀，逼着那小子重新躺下。然而从那一刻起，比尔那钢铁般的意志被彻底击垮了。他在铺位上侧身躺着，可只要那小霸王在洞里一天，他就再也不敢合眼睡过半秒钟觉。"
     },
     {
-      "index": 11,
+      "index": 12,
       "en": "'Sam,' says Bill to me, 'do you think anybody will pay out money to get a little imp like that back home?' 'Sure,' said I. 'A rowdy kid like that is just the kind that parents dote on. Now, you and the Chief get up and cook breakfast, while I go up on the top of the mountain and reconnoitre.'",
       "zh": "“山姆，”比尔哆嗦着问我，“你真觉得天底下会有人肯花大把银子把这么个小活阎王赎回家去？”“那当然，”我说，“这种无法无天的小祖宗，当爹妈的才最疼爱宝贝呢。好了，你跟酋长起来做早饭，我去山顶侦察侦察小镇的风吹草动。”"
     },
     {
-      "index": 12,
+      "index": 13,
       "en": "I climbed to the little mountain and looked around toward Summit. I expected to see the sturdy yeomanry of the village armed with scythes and pitchforks searching the countryside. But what I saw was a peaceful landscape with one man plowing with a dun mule. 'Perhaps,' says I to myself, 'it has not yet been discovered that the wolves have borne away the tender lambkin from the fold.'",
       "zh": "我爬上石山眺望山顶镇，本指望能看见民团乡绅们手持草叉猎枪满山遍野搜寻营救少爷；然而映入眼帘的却是一派宁谧安详的田园风光，只有一个老农赶着一头灰骡子在慢悠悠犁地。“或许，”我嘀咕道，“他们还没发觉凶残的恶狼已经把这只稚嫩娇弱的小羊羔叼走了吧。”"
     },
     {
-      "index": 13,
+      "index": 14,
       "en": "When I got back to the cave I found Bill backed up against the wall of the cave, breathing hard, and the boy threatening to smash him with a rock half as big as a cocoanut. 'He put a red-hot boiled potato down my back,' explained Bill, 'and then mashed it with his foot; and I boxed his ears. Have you got a gun about you, Sam?'",
       "zh": "当我回到山洞时，只见比尔正死死贴在岩壁上粗重地喘着粗气，而那小子正高举着一块椰子般硕大的岩石威胁要把他砸成肉泥。“他把一个滚烫的刚出锅的烂土豆直接塞进了我后脖领里！”比尔欲哭无泪地控诉道，“还隔着衣服用脚狠命踩烂！我气不过扇了他一个耳光。山姆，你身上带手枪了没有？！”"
     },
     {
-      "index": 14,
+      "index": 15,
       "en": "I took the rock away from the boy and kind of patched up the argument. 'I'll fix you,' says the kid to Bill. 'No man ever yet struck the Red Chief but what got paid for it.' We sat down and wrote our letter to old Dorset, demanding fifteen hundred dollars—we had reduced the amount by five hundred dollars, fearing the two thousand might be too steep for an all-round nuisance like the kid.",
       "zh": "我夺过大石头，勉强平息了纷争。“你给我走着瞧，”小霸王恶狠狠地指着比尔咬牙切齿，“敢动红毛酋长一根汗毛的人，还从没有一个能活着逃过报应！”我和比尔坐下来给老多塞特写勒索信，信中开价一千五百美元——我们私下把赎金主动砍掉了五百，唯恐两千块对于这么个祸害来说价格叫得太离谱。"
     },
     {
-      "index": 15,
+      "index": 16,
       "en": "I walked over to Poplar Cove, three miles away, and mailed the letter. When I got back to the cave, Bill was gone. In a few minutes he came stumbling through the bushes, looking pale and exhausted. 'Sam,' says he, 'I'm sorry, but I couldn't help it. I've sent that boy home. I couldn't stand another hour of it. He rode me ninety miles like a hoss, fed me sand for oats, and drove me mad.'",
       "zh": "我徒步赶到三英里外的杨树湾将勒索信投递寄出。当我返回山洞时，洞里空无一人。几分钟后，只见比尔面色惨白、步履蹒跚地从灌木丛里跌跌撞撞爬了回来。“山姆，”他气若游丝地忏悔道，“对不住你，我实在受不了了！我……我把那小畜生赶回家了！我一分钟也熬不下去了！他把我当烈马骑着跑了九十里路，逼我吃沙子当燕麦，我快被他折磨疯了！”"
     },
     {
-      "index": 16,
+      "index": 17,
       "en": "'Bill,' says I, 'there isn't any heart disease in your family, is there?' 'No,' says Bill, 'nothing chronic, except malaria and accidents. Why?' 'Then you might turn around,' says I, 'and have a look behind you.' Bill turned and saw the boy, and he just sat down flat on the ground and began to pluck feebly at the grass.",
       "zh": "“比尔，”我神色凝重地看着他，“你们家族里没人得过突发性心脏病吧？”“没有啊，”比尔一愣，“除了偶尔打摆子和意外伤残，没啥遗传病。怎么了？”“那你最好慢慢转过身去，”我指了指后方，“看看你屁股后头。”比尔回头一瞅，只见那小红毛正大摇大摆跟着他呢！比尔双腿一软，当场瘫坐在泥地上，眼神空洞呆滞地薅着身旁的杂草。"
     },
     {
-      "index": 17,
+      "index": 18,
       "en": "That night we got a reply from old Dorset, delivered by a messenger: 'Two Desperate Men. Gentlemen: I received your letter. I think you are a little high in your demands, and I have a counter-proposition. You bring Johnny home and pay me two hundred and fifty dollars in cash, and I agree to take him off your hands. You had better come at night, for the neighbours believe he is lost, and I couldn't be responsible for what they would do to anybody they saw bringing him back. Very respectfully, Ebenezer Dorset.'",
       "zh": "当晚，信使送来了老多塞特的亲笔回信：“致二位铤而走险的好汉：尊函敬悉。依我看二位开出的赎金未免要价过高，为此本人提出一项反向交易提议：只要二位亲自把约翰尼送回家，并当面向我支付两百五十美元现金，本人便勉为其难同意把这逆子从二位手里接盘领回。建议二位最好趁夜深人静送来，因为四邻坊间都以为这祸害彻底失踪了，若叫街坊瞧见有人敢把他送回来，暴怒的邻居会做出什么过激举动，本人概不负责。顺颂商祺，埃比尼泽·多塞特谨启。”"
     },
     {
-      "index": 18,
+      "index": 19,
       "en": "'Great pirates of Penzance!' says I; 'of all the impudent—' But I glanced at Bill, and hesitated. He had the most appealing look in his eyes I ever saw on the face of a dumb or a talking brute. 'Sam,' says he, 'what's two hundred and fifty dollars, after all? We've got the money. One more night in this cave with that kid will send me to the bedlam. Please, Sam!'",
       "zh": "“天杀的彭赞斯海盗啊！”我怒不可遏地破口大骂，“世上竟有如此厚颜无耻——”然而我转头瞥了比尔一眼，后面的话硬生生噎了回去。比尔那双绝望的眼睛流露出的乞求眼神，是我这辈子在任何会喘气的活物脸上见过最可怜的。“山姆，”他痛哭流涕地苦苦哀求，“区区两百五十块钱算得了什么啊？！咱们兜里有钱！要是再跟这活阎王在山洞里熬过哪怕一宿，我非被逼进疯人院不可！求求你了，山姆，掏钱吧！”"
     },
     {
-      "index": 19,
+      "index": 20,
       "en": "We told the boy that his father had bought a silver-mounted rifle and a pair of moccasins for him, and that we were going to hunt bears with him next day. That night at twelve o'clock we took him home. We paid the money to Dorset. When the kid found out we were going to leave him at home he started up a howl like a calliope and fastened himself as tight as a leech to Bill's leg.",
       "zh": "我们骗那小浑球说他老爹给他买了一支镀银猎枪和一双印第安鹿皮靴，明早要带他进山猎熊。当晚午夜十二点，我们偷偷摸摸将他押送到了家门口，老老实实把两百五十美元现钞双手奉送到了老多塞特手里。当小霸王发觉我们要弃他而去时，顿时爆发出汽笛般的嚎啕大哭，像水蛭一样死死缠在比尔的大腿上死不撒手！"
     },
     {
-      "index": 20,
+      "index": 21,
       "en": "His father peeled him away gradually, like a porous plaster. 'How long can you hold him?' asks Bill. 'I'm not as strong as I used to be,' says old Dorset, 'but I think I can promise you ten minutes.' 'Enough,' says Bill. 'In ten minutes I shall cross the Central, Southern and Middle Western States, and be sprinting for the Canadian border.' And as dark as it was, and as fat as Bill was, and as good a runner as I was, he was a good mile and a half ahead of me before I could catch up with him.",
       "zh": "当爹的像撕一张老膏药似的，一点一点把儿子从比尔腿上狠狠扒下来。“你能按住他多久？！”比尔惊恐万状地尖叫。“我年纪大了身子骨不比当年，”老多塞特咬牙死死按住扑腾的儿子，“不过我向你们保证撑住十分钟！”“足够了！”比尔狂吼一声，“十分钟之内我就能横跨中部各州，直奔加拿大边境狂飙！”尽管夜黑风高，尽管比尔肥硕如猪，尽管我向来是长跑健将，但在我能追上他之前，那胖子早已一路绝尘，狂奔在了一英里半开外的夜幕深处！"
     }
