@@ -11,6 +11,7 @@ import { useParagraphDeck } from "@/composables/useParagraphDeck";
 import { fetchWordMeaning, getCachedMeaning } from "@/utils/dictionary";
 import { detectContextPhrase, type DetectedPhrase, type TokenItem } from "@/utils/phraseDetector";
 import { playPronunciation, stopAudio } from "@/utils/audioPlayer";
+import commonUtil from "@/utils/commonUtil";
 
 const CURRENT_STORY_STORAGE_KEY = "handy_reader_current_story_id";
 
@@ -58,22 +59,22 @@ const nextReadCount = computed(() => (readCount.value || 0) + 1);
 // 微信小程序一键转发分享卡片
 onShareAppMessage(() => {
   const isFin = isFinished.value;
-  const count = readCount.value || 1;
   const title = isFin
-    ? `🎉 我刚精读读完了《${currentStory.value.titleZh}》（${currentStory.value.wordCount}词），快来一起读名著！`
-    : `📖 正在精读英文原著《${currentStory.value.titleZh}》，与你共读经典`;
+    ? "用碎片时间读完了一本英文原著，原来这么轻松"
+    : "每天几分钟，用碎片时间读英文原著";
   return {
     title,
     path: `/pages/index/index?storyId=${currentStory.value.id}`,
-    imageUrl: "/static/share-cover.jpg",
+    imageUrl: commonUtil.getShareCoverPath(),
   };
 });
 
 // 微信小程序朋友圈分享
 onShareTimeline(() => {
   return {
-    title: `📖 英语名著精读《${currentStory.value.titleZh}》· HandyReader`,
+    title: "每天几分钟，利用碎片时间轻松读完英文原著",
     query: `storyId=${currentStory.value.id}`,
+    imageUrl: commonUtil.getShareCoverPath(),
   };
 });
 

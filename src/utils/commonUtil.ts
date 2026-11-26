@@ -64,6 +64,49 @@ export const commonUtil = {
       return match[1].trim();
     }
     return raw;
+  },
+  /**
+   * 获取离线分享卡片封面路径
+   * 解决微信开发者工具模拟器及部分微信版本无法解析代码包相对路径导致裂图的问题
+   */
+  getShareCoverPath(): string {
+    // #ifdef MP-WEIXIN
+    try {
+      if (typeof wx !== 'undefined' && wx.getFileSystemManager && wx.env && wx.env.USER_DATA_PATH) {
+        const fs = wx.getFileSystemManager();
+        const targetPath = `${wx.env.USER_DATA_PATH}/handyreader_share_cover_v1.jpg`;
+        let existingSize = -1;
+        try {
+          const stat = fs.statSync(targetPath);
+          existingSize = stat?.size ?? -1;
+        } catch {
+          existingSize = -1;
+        }
+
+        const candidatePaths = ['static/share-cover.jpg', '/static/share-cover.jpg'];
+        for (const p of candidatePaths) {
+          try {
+            const buf = fs.readFileSync(p);
+            if (buf) {
+              if (existingSize !== buf.byteLength) {
+                fs.writeFileSync(targetPath, buf);
+              }
+              return targetPath;
+            }
+          } catch {
+            // try next
+          }
+        }
+
+        if (existingSize > 0) {
+          return targetPath;
+        }
+      }
+    } catch (e) {
+      console.warn('[commonUtil] getShareCoverPath fail:', e);
+    }
+    // #endif
+    return '/static/share-cover.jpg';
   }
 };
 

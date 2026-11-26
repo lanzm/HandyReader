@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, nextTick, onMounted, onUnmounted } from "vue";
-import { onShow, onLoad } from "@dcloudio/uni-app";
+import { onShow, onLoad, onShareAppMessage, onShareTimeline } from "@dcloudio/uni-app";
 import type { CatalogItem } from "@/types/reader";
 import catalogData from "@/data/catalog.json";
 import BookCover from "@/components/BookCover.vue";
@@ -28,6 +28,24 @@ const currentStoryId = ref<string>(
 
 // 全局书籍阅读进度字典
 const progressMap = ref<Record<string, StoryProgressData>>({});
+
+// 微信小程序胶囊分享（好友/微信群）
+onShareAppMessage(() => {
+  return {
+    title: "每天几分钟，用碎片时间读英文原著",
+    path: "/pages/bookshelf/index",
+    imageUrl: commonUtil.getShareCoverPath(),
+  };
+});
+
+// 微信小程序朋友圈分享
+onShareTimeline(() => {
+  return {
+    title: "每天几分钟，利用碎片时间轻松读完英文原著",
+    query: "",
+    imageUrl: commonUtil.getShareCoverPath(),
+  };
+});
 
 // 详情弹窗所选书籍
 const previewBook = ref<CatalogItem | null>(null);
